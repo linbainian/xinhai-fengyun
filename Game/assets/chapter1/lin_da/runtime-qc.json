@@ -1,0 +1,168 @@
+{
+  "sampling": "nearest",
+  "source": "assets/chapter1/lin_da_raw.png",
+  "cell_size": 48,
+  "frames": [
+    {
+      "index": 0,
+      "bbox": [
+        15,
+        6,
+        32,
+        45
+      ],
+      "height": 39
+    },
+    {
+      "index": 1,
+      "bbox": [
+        15,
+        6,
+        33,
+        45
+      ],
+      "height": 39
+    },
+    {
+      "index": 2,
+      "bbox": [
+        15,
+        6,
+        32,
+        45
+      ],
+      "height": 39
+    },
+    {
+      "index": 3,
+      "bbox": [
+        15,
+        6,
+        33,
+        45
+      ],
+      "height": 39
+    },
+    {
+      "index": 4,
+      "bbox": [
+        15,
+        6,
+        32,
+        45
+      ],
+      "height": 39
+    },
+    {
+      "index": 5,
+      "bbox": [
+        15,
+        6,
+        33,
+        45
+      ],
+      "height": 39
+    },
+    {
+      "index": 6,
+      "bbox": [
+        15,
+        6,
+        33,
+        45
+      ],
+      "height": 39
+    },
+    {
+      "index": 7,
+      "bbox": [
+        15,
+        6,
+        33,
+        45
+      ],
+      "height": 39
+    },
+    {
+      "index": 8,
+      "bbox": [
+        15,
+        5,
+        33,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 9,
+      "bbox": [
+        14,
+        5,
+        33,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 10,
+      "bbox": [
+        15,
+        5,
+        33,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 11,
+      "bbox": [
+        14,
+        5,
+        33,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 12,
+      "bbox": [
+        16,
+        6,
+        32,
+        45
+      ],
+      "height": 39
+    },
+    {
+      "index": 13,
+      "bbox": [
+        15,
+        6,
+        33,
+        45
+      ],
+      "height": 39
+    },
+    {
+      "index": 14,
+      "bbox": [
+        16,
+        6,
+        32,
+        45
+      ],
+      "height": 39
+    },
+    {
+      "index": 15,
+      "bbox": [
+        15,
+        6,
+        33,
+        45
+      ],
+      "height": 39
+    }
+  ],
+  "passed": true
+}

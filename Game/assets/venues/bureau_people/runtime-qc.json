@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "source": "assets/venues/bureau_people_raw.png",
+  "binary_alpha": true,
+  "palette_colors": 48,
+  "frames": [
+    {
+      "index": 0,
+      "bbox": [
+        34,
+        18,
+        62,
+        89
+      ]
+    },
+    {
+      "index": 1,
+      "bbox": [
+        29,
+        13,
+        67,
+        89
+      ]
+    },
+    {
+      "index": 2,
+      "bbox": [
+        32,
+        20,
+        64,
+        89
+      ]
+    },
+    {
+      "index": 3,
+      "bbox": [
+        31,
+        16,
+        65,
+        89
+      ]
+    }
+  ],
+  "shared_scale": 0.95,
+  "body_height_cv": 0.035792665857400006,
+  "feet_y_std": 0.0,
+  "world_footprint": [
+    48,
+    48
+  ]
+}

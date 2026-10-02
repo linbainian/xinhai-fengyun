@@ -1,0 +1,15 @@
+Reusable pixel-art architectural MODULE ATLAS for the modern university assembly hall whose roof is shown in the style reference. The other reference is a layout guide only: use its TWO columns, FOUR rows and eight WIDE cells, but never draw the guide boxes, labels or lines. Every cell is twice as wide as tall. Each architectural piece needs a wide cell; do NOT squeeze structures into tiny square decorative-prop cells.
+
+Match crisp ivory limestone, brushed silver alloy and restrained deep teal glass, bold stepped pixel outlines and clean limited color clusters. Orthographic top-down JRPG camera looking downward35 degrees, all front faces screen-down. No isometric horizontal diamond angles, people, ground scenery, text or logos. Pure flat #FF00FF magenta background, generous margins around each isolated piece. Same architectural scale/material/perspective across ALL eight cells.
+
+Exact row-major order:
+1 plain MAIN EXTERNAL WALL segment with flat ivory front, shallow metal cornice, lower stone trim. Flat vertical ends suitable for horizontal repetition. Front not a floor tile.
+2 matching EXTERNAL WALL with one tall recessed arched teal glass window. Same total height, cornice and trim as piece1; flat ends for repetition.
+3 PODIUM LEFT END: low ivory/alloy elevated stage with teal front trim, flat seam on its right, rounded/capped left end.
+4 PODIUM MIDDLE: exactly same height, depth, front trim and top plane, straight flat ends for repeatable horizontal stage assembly.
+5 PODIUM RIGHT END: mirror-compatible stage cap with seam on left and finished right end. Same height/depth as3and4.
+6 THREE-STEP UPSTAGE STAIRS, broad front-facing centered stair run, three clearly separated silver/ivory treads and risers, no railings or elevated platform attached.
+7 repeatable THREE-TIER BLEACHER STAND, three long horizontal ascending stone/alloy seat/tread tiers; straight flat vertical ends, no people or attached railing.
+8 one long horizontal STAND RAILING segment, thin dark steel uprights and two horizontal silver rails, on its own, no stand attached.
+
+All pieces wholly within their own wide cell, no overlap or crop. Leave transparent-key magenta separation and same horizontal baseline in each cell. The final game assembles them into editable objects with separate collision; this is NOT a scene screenshot or a baked facade.

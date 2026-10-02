@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="PackedScene" path="res://scenes/battle/battle_rules_sandbox.tscn" id="1"]
+[node name="BreakthroughSandbox" instance=ExtResource("1")]
+encounter_path = "res://data/battle/m1_c_encounter.tres"

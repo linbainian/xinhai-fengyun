@@ -1,0 +1,7 @@
+Production top-down pixel-art GROUND TILE ATLAS for a modern Chinese university campus, exactly TWO columns by THREE rows, six square full-bleed tiles, equal cell dimensions, perfectly straight grid cuts with no gaps or borders. Flat orthographic straight-down ground, no perspective, depth, side faces, buildings, props, people or shadows. Crisp 16-bit square pixel blocks, large quiet color clusters, no blur, gradients or antialiasing. Each tile is meant to reduce to native48x48 pixels.
+
+Row1: two seamless IVORY GRAY STONE BRICK pavement variants, same warm-gray brightness, regular rectangular brick pattern and discreet darker grout; second variant has subtle color variation, not cracked ruins.
+Row2: two seamless tidy muted TEAL-GREEN GRASS variants, same brightness and hue, short sparse pixel tufts, no bushes, dirt or flowers.
+Row3: two seamless STONE PATH pavement variants, slightly darker slate-gray square pavers, even regular grid, second variant has subtle alternate paver tones. Both share material and tile-edge pattern so neighbors join.
+
+Each material fills its entire square cell edge to edge. NO MAGENTA, no transparent gaps, no labels, letters, decorative frames or grid overlay. Calm backgrounds keep 96px character silhouettes readable at the exploration camera. Texture variation is gentle and does not form distracting giant motifs.

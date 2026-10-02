@@ -1,0 +1,46 @@
+{
+  "source": "actual Godot GPU screenshots",
+  "captures": [
+    {
+      "path": "docs/previews/chapter2-academy.png",
+      "source": ".dev/chapter2-desk-hall.png",
+      "sha256": "4eda003dc50cd111021b88e0a58bb01672f00ae4c236a03403c96ffd640271f1"
+    },
+    {
+      "path": "docs/previews/chapter2-bureau.png",
+      "source": ".dev/chapter2-desk-cbd.png",
+      "sha256": "aa5abf6891f0012cdfc7c5eef67d8b3574b3a9d4ce4e535a63ff2466286708a1"
+    },
+    {
+      "path": "docs/previews/chapter2-battle.png",
+      "source": ".dev/chapter2-battle-entry.png",
+      "sha256": "e98932162ce2a610d1cb66054ee0bf1148fcbf245d753038abc89cd38e8ea210"
+    },
+    {
+      "path": "docs/previews/chapter2-ending.png",
+      "source": ".dev/chapter2-ending.png",
+      "sha256": "38756e7df1b32c815a3f4945f8614b3c540c9f4969555a0ce84fccd27fe3540b"
+    },
+    {
+      "path": "docs/previews/chapter2-rift.png",
+      "source": ".dev/chapter2-overview-c2_rift.png",
+      "sha256": "4486088d08241c19ac30fe0c3a22d2eddeca18f25e8d7e572b1ac602921a6d69"
+    },
+    {
+      "path": "docs/previews/chapter2-port.png",
+      "source": ".dev/chapter2-port.png",
+      "sha256": "f0c0b7b2e549f67cb663b4c048a4e65fdff8d391d1082f49fce475d79133dcb1"
+    },
+    {
+      "path": "docs/previews/chapter2-bar.png",
+      "source": ".dev/chapter2-hunter-bar.png",
+      "sha256": "905aa4ea79786f44e0fbb18da7c75e24d4ed982b7c8955ee4d2b46a6484b40e6"
+    },
+    {
+      "path": "docs/previews/chapter2-qin.png",
+      "source": ".dev/chapter2-qin-arrival.png",
+      "sha256": "c9ef98189683027fe4c05c93f330f5c6d6c1666f93f01a5dff0d254c73f87863"
+    }
+  ],
+  "comparison": "two nearest-neighbor 960x540 screenshot thumbnails side by side"
+}

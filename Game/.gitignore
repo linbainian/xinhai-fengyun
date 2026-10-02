@@ -1,0 +1,10 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+.dev/
+builds/
+
+# Local Python/tool caches
+__pycache__/
+*.pyc
+*.pyo

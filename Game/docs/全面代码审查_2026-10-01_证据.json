@@ -1,0 +1,450 @@
+{
+  "review_date": "2026-10-01",
+  "project": "C:\\Users\\l\\Downloads\\新海风云\\Game",
+  "environment": {
+    "engine": "4.7.2-stable (official)",
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "debug_build": true,
+    "renderer": "gl_compatibility",
+    "max_fps": 60,
+    "warmup_seconds_per_steady_sample": 2.5,
+    "steady_sample_frames": 180,
+    "formal_player_save_used": false
+  },
+  "headless_regressions": [
+    {
+      "suite": "m1_b_rules_smoke",
+      "passed": 93,
+      "total": 93
+    },
+    {
+      "suite": "m1_c_breakthrough_smoke",
+      "passed": 58,
+      "total": 58
+    },
+    {
+      "suite": "m1_d_tutorial_smoke",
+      "passed": 68,
+      "total": 68
+    },
+    {
+      "suite": "chapter1_smoke",
+      "passed": 210,
+      "total": 210
+    },
+    {
+      "suite": "chapter2_smoke",
+      "passed": 625,
+      "total": 625
+    },
+    {
+      "suite": "cultivation_smoke",
+      "passed": 81,
+      "total": 81
+    },
+    {
+      "suite": "encounter_smoke",
+      "passed": 161,
+      "total": 161
+    }
+  ],
+  "runtime_observations": {
+    "C100_scope_message": {
+      "rank": "C",
+      "remark": "觉醒度达到100后，可在安全环境尝试D→C突破。",
+      "slot": 0
+    },
+    "breakthrough_entry": {
+      "D100_day_enabled": true,
+      "D100_night_disabled": true,
+      "disabled_tooltip": "",
+      "roam_tab_has_button": false
+    },
+    "display_1000x900": {
+      "fills_window": true,
+      "logical_ui": "(1920.0, 1728.0)",
+      "window": "(1000, 900)",
+      "world_draw_area": "(1000.0, 900.0)"
+    },
+    "display_1280x720": {
+      "fills_window": true,
+      "logical_ui": "(1920.0, 1080.0)",
+      "window": "(1280, 720)",
+      "world_draw_area": "(1280.0, 720.0)"
+    },
+    "display_1440x810": {
+      "fills_window": true,
+      "logical_ui": "(1920.0, 1080.0)",
+      "window": "(1440, 810)",
+      "world_draw_area": "(1440.0, 810.0)"
+    },
+    "display_1920x1080": {
+      "fills_window": true,
+      "logical_ui": "(1920.0, 1080.0)",
+      "window": "(1920, 1080)",
+      "world_draw_area": "(1920.0, 1080.0)"
+    },
+    "display_2560x1080": {
+      "fills_window": true,
+      "logical_ui": "(2560.0, 1080.0)",
+      "window": "(2560, 1080)",
+      "world_draw_area": "(2560.0, 1080.0)"
+    },
+    "display_960x540": {
+      "fills_window": true,
+      "logical_ui": "(1920.0, 1080.0)",
+      "window": "(960, 540)",
+      "world_draw_area": "(960.0, 540.0)"
+    },
+    "insufficient_coupon_native_click": {
+      "choice_cards": 1,
+      "choices": 3,
+      "coupon": 0,
+      "mode": "choice",
+      "money": 0
+    },
+    "keyboard_menu": {
+      "initial_focus": "none",
+      "menu_visible": true,
+      "save_signals_after_enter": 1,
+      "save_signals_after_space": 0
+    },
+    "manual_save_is_overwritten": {
+      "slot_after_action_then_F9": 1.0,
+      "slot_at_F5": 0
+    },
+    "new_game_discards_previous_campaign": {
+      "backup_keeps_original": false,
+      "backup_phase": "arrival",
+      "backup_room": "gate",
+      "backup_valid": true,
+      "main_keeps_original": false,
+      "main_phase": "arrival",
+      "main_room": "auditorium",
+      "main_valid": true
+    },
+    "third_skill_overlap": {
+      "breakthrough_rect": "[P: (1144.0, 904.0), S: (240.0, 74.0)]",
+      "overlap": true,
+      "third_skill_rect": "[P: (1144.0, 904.0), S: (288.0, 74.0)]",
+      "third_skill_visible": true
+    }
+  },
+  "synchronous_operation_cpu_ms": {
+    "load_room_cpu_ms": {
+      "max": 36.491,
+      "mean": 19.40825,
+      "p50": 17.679,
+      "p95": 36.491,
+      "samples": 12
+    },
+    "panel_rebuild_ms": {
+      "max": 25.624,
+      "mean": 24.2903333333333,
+      "p50": 24.716,
+      "p95": 25.624,
+      "samples": 12
+    },
+    "save_ms": {
+      "max": 16.757,
+      "mean": 12.83975,
+      "p50": 12.082,
+      "p95": 16.757,
+      "samples": 12
+    }
+  },
+  "warmed_performance": {
+    "HUD_refresh_CPU_ms": {
+      "max": 0.137,
+      "mean": 0.0325444444444444,
+      "p50": 0.029,
+      "p95": 0.047,
+      "samples": 180
+    },
+    "battle_hidden_world_baseline": {
+      "actual_seconds": 2.999806,
+      "draw_calls": {
+        "max": 282.0,
+        "mean": 282.0,
+        "p50": 282.0,
+        "p95": 282.0,
+        "samples": 180
+      },
+      "fps_monitor": {
+        "max": 60.0,
+        "mean": 60.0,
+        "p50": 60.0,
+        "p95": 60.0,
+        "samples": 180
+      },
+      "physics_ms": {
+        "max": 0.273,
+        "mean": 0.158638888888889,
+        "p50": 0.141,
+        "p95": 0.273,
+        "samples": 180
+      },
+      "process_ms": {
+        "max": 4.622,
+        "mean": 3.72733333333333,
+        "p50": 3.463,
+        "p95": 4.622,
+        "samples": 180
+      },
+      "wall_frame_ms": {
+        "max": 16.701,
+        "mean": 16.6648055555555,
+        "p50": 16.666,
+        "p95": 16.681,
+        "samples": 180
+      }
+    },
+    "battle_hidden_world_suspended": {
+      "actual_seconds": 2.999676,
+      "draw_calls": {
+        "max": 282.0,
+        "mean": 282.0,
+        "p50": 282.0,
+        "p95": 282.0,
+        "samples": 180
+      },
+      "fps_monitor": {
+        "max": 60.0,
+        "mean": 60.0,
+        "p50": 60.0,
+        "p95": 60.0,
+        "samples": 180
+      },
+      "physics_ms": {
+        "max": 0.519,
+        "mean": 0.384111111111111,
+        "p50": 0.422,
+        "p95": 0.519,
+        "samples": 180
+      },
+      "process_ms": {
+        "max": 5.568,
+        "mean": 4.3768611111111,
+        "p50": 4.178,
+        "p95": 5.568,
+        "samples": 180
+      },
+      "wall_frame_ms": {
+        "max": 16.898,
+        "mean": 16.6642222222222,
+        "p50": 16.665,
+        "p95": 16.81,
+        "samples": 180
+      }
+    },
+    "hall_HUD_and_idle_player_updates_disabled": {
+      "actual_seconds": 2.999875,
+      "draw_calls": {
+        "max": 494.0,
+        "mean": 494.0,
+        "p50": 494.0,
+        "p95": 494.0,
+        "samples": 180
+      },
+      "fps_monitor": {
+        "max": 60.0,
+        "mean": 60.0,
+        "p50": 60.0,
+        "p95": 60.0,
+        "samples": 180
+      },
+      "physics_ms": {
+        "max": 0.151,
+        "mean": 0.136633333333333,
+        "p50": 0.136,
+        "p95": 0.151,
+        "samples": 180
+      },
+      "process_ms": {
+        "max": 9.563,
+        "mean": 6.42007777777779,
+        "p50": 5.362,
+        "p95": 9.563,
+        "samples": 180
+      },
+      "wall_frame_ms": {
+        "max": 16.757,
+        "mean": 16.6651666666667,
+        "p50": 16.666,
+        "p95": 16.685,
+        "samples": 180
+      }
+    },
+    "hall_baseline": {
+      "actual_seconds": 2.99944,
+      "draw_calls": {
+        "max": 494.0,
+        "mean": 494.0,
+        "p50": 494.0,
+        "p95": 494.0,
+        "samples": 180
+      },
+      "fps_monitor": {
+        "max": 60.0,
+        "mean": 60.0,
+        "p50": 60.0,
+        "p95": 60.0,
+        "samples": 180
+      },
+      "physics_ms": {
+        "max": 0.315,
+        "mean": 0.237533333333333,
+        "p50": 0.255,
+        "p95": 0.315,
+        "samples": 180
+      },
+      "process_ms": {
+        "max": 12.263,
+        "mean": 6.67486666666666,
+        "p50": 4.962,
+        "p95": 12.263,
+        "samples": 180
+      },
+      "wall_frame_ms": {
+        "max": 16.86,
+        "mean": 16.6627333333333,
+        "p50": 16.665,
+        "p95": 16.698,
+        "samples": 180
+      }
+    },
+    "nameplates_CPU_ms": {
+      "max": 0.111,
+      "mean": 0.0509388888888889,
+      "p50": 0.046,
+      "p95": 0.074,
+      "samples": 180
+    },
+    "natural_long_campaign_save": {
+      "bytes": 273254,
+      "day": 260,
+      "events": 1554,
+      "journal": 41,
+      "save_cpu_ms": {
+        "max": 55.365,
+        "mean": 51.8298333333333,
+        "p50": 51.763,
+        "p95": 55.365,
+        "samples": 6
+      },
+      "valid_snapshot": true
+    }
+  },
+  "physics": {
+    "30fps": {
+      "can_stand_after": true,
+      "can_stand_before": true,
+      "front_waypoint": "(630.0, 600.0)",
+      "positions_x": [
+        603.200012207031,
+        609.600036621094,
+        616.000061035156,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0,
+        620.0
+      ],
+      "seconds_per_step": 0.0333333333333333,
+      "trail_remaining": 5
+    },
+    "60fps": {
+      "can_stand_after": true,
+      "can_stand_before": true,
+      "front_waypoint": "(630.0, 600.0)",
+      "positions_x": [
+        603.200012207031,
+        606.400024414063,
+        609.600036621094,
+        612.800048828125,
+        616.000061035156,
+        619.200073242188,
+        619.200073242188,
+        619.200073242188,
+        619.200073242188,
+        619.200073242188,
+        619.200073242188,
+        619.200073242188,
+        619.200073242188,
+        619.200073242188,
+        619.200073242188,
+        619.200073242188,
+        619.200073242188,
+        619.200073242188,
+        619.200073242188,
+        619.200073242188
+      ],
+      "seconds_per_step": 0.0166666666666667,
+      "trail_remaining": 5
+    },
+    "follower_thin_obstacle": {
+      "barrier": [
+        633,
+        580,
+        2,
+        60
+      ],
+      "end": "(644.0, 600.0)",
+      "frame_delta": 0.125,
+      "start": "(620.0, 600.0)",
+      "start_and_end_free": true,
+      "swept_body_detects_collision": true
+    },
+    "interaction_through_obstacle": {
+      "distance": 40,
+      "fixture_only": true,
+      "swept_body_detects_collision": true,
+      "target": "review_target"
+    }
+  },
+  "builder_order": {
+    "isolated": true,
+    "production_data_untouched": true,
+    "lost_chapter2_cutscenes": [
+      "c2_corridor_to_dorm",
+      "c2_dorm_to_corridor"
+    ],
+    "lost_dorm_interactions": [
+      "dorm_exit"
+    ],
+    "dorm_camera_region_before": [
+      480.0,
+      412.0,
+      480.0,
+      298.0
+    ],
+    "dorm_camera_region_after": null,
+    "requires_encounter_builder_after": true
+  },
+  "method_notes": [
+    "Input checks use real InputEvent dispatch to an instantiated chapter scene.",
+    "New-game and quick-save checks use isolated .dev save paths.",
+    "Third-skill overlap uses an additional valid skill in the isolated battle instance; production skill data is untouched.",
+    "Follower tunnelling uses a 2-pixel synthetic blocker and a 0.125-second frame; it is a stress fixture.",
+    "Long-save timing uses 35 weeks of the actual calendar/story model, not the player save or a manual playthrough.",
+    "The initial short-warmup runtime monitor samples are excluded; only the separately warmed performance run supports steady-state conclusions.",
+    "The builder test redirects its ROOT to an isolated metadata copy.",
+    "Window coverage checks establish world-layer extent, not every HUD layout."
+  ],
+  "captures": [
+    "review-breakthrough-night.png",
+    "review-third-skill.png"
+  ]
+}

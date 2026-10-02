@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="TutorialLesson" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/battle/tutorial_lesson.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"lesson_1"
+title = "野兔群：普攻与克制"
+encounter_path = "res://data/battle/tutorial/m1_d_encounter_1.tres"
+introduction = "先看顺序和目标预览。\n普攻不增加负荷；相同的招式对不同系别，效果会不同。"
+opening_hint = "点击敌人或Tab换目标。\n看克制倍率，再用A普攻。"
+attack_hint = "普攻不收费。\n看看两种目标的倍率，选择下一只。"
+skill_hint = "技能也能用。\n先记住普攻与克制的差别。"
+defense_hint = "防御会回血、降低负荷。\n本段可自行选择攻击顺序。"
+goals = PackedStringArray("target", "attack")

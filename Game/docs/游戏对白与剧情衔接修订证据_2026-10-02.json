@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-02",
+  "engine": "Godot 4.7.2 / Compatibility",
+  "plot_version": "v0.3.10",
+  "scope": [
+    "chapter1",
+    "chapter2",
+    "all 11 cultivation encounters"
+  ],
+  "artifacts": [
+    {
+      "author": "C:\\Users\\l\\Downloads\\新海风云\\策划与剧情\\第1章实装台词脚本_v0.1.md",
+      "author_sha256": "c74a0f066868aac20416d4b585f0138eb5003d4c5383d41ba4511b2a3f2246dc",
+      "runtime": "C:\\Users\\l\\Downloads\\新海风云\\Game\\data\\chapter1\\dialogues.json",
+      "runtime_sha256": "51ec9fa37118c9e14fcada2fc4217a846f79dc6419522c76cf65d06ed5339a46",
+      "blocks": 61,
+      "lines": 296
+    },
+    {
+      "author": "C:\\Users\\l\\Downloads\\新海风云\\策划与剧情\\第2章实装台词脚本_v0.1.md",
+      "author_sha256": "9486017d5ecc98914b91ccc7480a79465f5d591d344004d95a8e7ef0ae3c0974",
+      "runtime": "C:\\Users\\l\\Downloads\\新海风云\\Game\\data\\chapter2\\dialogues.json",
+      "runtime_sha256": "334a628272466211ec46587b9c100d9b7dbffbe1ab2a4a07497707aff80a7594",
+      "blocks": 113,
+      "lines": 394
+    },
+    {
+      "author": "C:\\Users\\l\\Downloads\\新海风云\\策划与剧情\\养成人物奇遇实装台词_v0.1.md",
+      "author_sha256": "bd5ebf4f0239f303f6b72273ae913599c44b5f3b931a99090efc812b1efabc2b",
+      "runtime": "C:\\Users\\l\\Downloads\\新海风云\\Game\\data\\cultivation\\dialogues.json",
+      "runtime_sha256": "11636651cb3f5d2b5a052c6179097719ea8a400ceacee06429a1501051e2e301",
+      "blocks": 19,
+      "lines": 126
+    }
+  ],
+  "regression": [
+    {
+      "suite": "chapter1_smoke",
+      "passed": 210,
+      "total": 210
+    },
+    {
+      "suite": "chapter2_smoke",
+      "passed": 625,
+      "total": 625
+    },
+    {
+      "suite": "cultivation_smoke",
+      "passed": 81,
+      "total": 81
+    },
+    {
+      "suite": "encounter_smoke",
+      "passed": 161,
+      "total": 161
+    }
+  ],
+  "additional_validation": {
+    "new_runtime": {
+      "passed": 97,
+      "total": 97
+    },
+    "integrity": {
+      "passed": 140,
+      "total": 140
+    },
+    "scene_preview": {
+      "passed": 1764,
+      "total": 1764,
+      "inspected_lines": 1632,
+      "captures": [
+        "res://docs/previews/dialogue_20261002/notes-intro.png",
+        "res://docs/previews/dialogue_20261002/notes-choice-reply.png",
+        "res://docs/previews/dialogue_20261002/library-intro.png",
+        "res://docs/previews/dialogue_20261002/dialogue-event_library_arrival.png",
+        "res://docs/previews/dialogue_20261002/library-carry.png",
+        "res://docs/previews/dialogue_20261002/dialogue-event_library_carry.png",
+        "res://docs/previews/dialogue_20261002/su-visit.png",
+        "res://docs/previews/dialogue_20261002/rescreen.png",
+        "res://docs/previews/dialogue_20261002/contact-bureau.png",
+        "res://docs/previews/dialogue_20261002/contact-mutual.png"
+      ]
+    },
+    "final_text_layout": {
+      "passed": 1632,
+      "total": 1632,
+      "inspected_lines": 1632
+    }
+  },
+  "presentation_additions": {
+    "original_event_endings": 12,
+    "companion_replies": 6
+  },
+  "isolated_save_files": true,
+  "gameplay_event_fields_equal_to_baseline": true,
+  "maps_cutscenes_settings_unchanged": true
+}

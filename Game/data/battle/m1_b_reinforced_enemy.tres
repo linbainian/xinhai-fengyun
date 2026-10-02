@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CombatantDefinition" load_steps=4 format=3]
+[ext_resource type="Script" path="res://scripts/battle/combatant_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/battle/skill_definition.gd" id="2"]
+[ext_resource type="Resource" path="res://data/battle/skills/reinforced_strike.tres" id="3"]
+[resource]
+script = ExtResource("1")
+id = &"reinforced_dummy"
+display_name = "强化靶"
+data_version = "m1-b.1"
+awakening_rank = "D"
+affinity = "强化"
+body_color = Color(0.8, 0.5, 0.38, 1)
+skills = Array[ExtResource("2")]([ExtResource("3")])
+max_hp = 150
+attack = 18.0
+defense = 10.0
+speed = 14
+accuracy = 95.0

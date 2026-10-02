@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="TutorialLesson" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/battle/tutorial_lesson.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"lesson_3"
+title = "野兔王：防御与资源规划"
+encounter_path = "res://data/battle/tutorial/m1_d_encounter_3.tres"
+introduction = "这只更耐打。\n防御可降SL15并回复10%HP；满槽突破有概率与失败代价。"
+opening_hint = "先检查血量和负荷。\nD可以降压回血，突破前看概率。"
+attack_hint = "打持久战别只盯着伤害。\n还有多少HP、负荷是否过高？"
+skill_hint = "用技能后留意负荷。\n还要留出防御与冷却的空档。"
+defense_hint = "已经调整过状态。\n看看下降后的负荷，再决定下一招。"
+goals = PackedStringArray("defend")

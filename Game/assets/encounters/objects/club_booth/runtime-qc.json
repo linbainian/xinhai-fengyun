@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "binary_alpha": true,
+  "source": "assets/encounters/club_booth_raw.png",
+  "source_cell": [
+    0,
+    0
+  ],
+  "source_bbox": [
+    357,
+    98,
+    1477,
+    760
+  ],
+  "size": [
+    240,
+    142
+  ],
+  "edge_touch": false
+}

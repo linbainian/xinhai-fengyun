@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "source": "assets/venues/academy_people_raw.png",
+  "binary_alpha": true,
+  "palette_colors": 48,
+  "frames": [
+    {
+      "index": 0,
+      "bbox": [
+        33,
+        17,
+        63,
+        89
+      ]
+    },
+    {
+      "index": 1,
+      "bbox": [
+        31,
+        16,
+        64,
+        89
+      ]
+    },
+    {
+      "index": 2,
+      "bbox": [
+        31,
+        14,
+        65,
+        89
+      ]
+    },
+    {
+      "index": 3,
+      "bbox": [
+        29,
+        13,
+        66,
+        89
+      ]
+    }
+  ],
+  "shared_scale": 0.95,
+  "body_height_cv": 0.021366740947083646,
+  "feet_y_std": 0.0,
+  "world_footprint": [
+    48,
+    48
+  ]
+}

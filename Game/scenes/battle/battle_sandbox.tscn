@@ -1,0 +1,61 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/battle/battle_sandbox.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/battle/battle_controller.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/battle/battle_arena.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/battle/battle_hud.gd" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/battle/combatant.tscn" id="5"]
+
+[node name="BattleSandbox" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="BattleController" type="Node" parent="."]
+script = ExtResource("2")
+
+[node name="EnemyTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="PresentationTimer" type="Timer" parent="."]
+one_shot = true
+
+[node name="WorldContainer" type="SubViewportContainer" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_right = 960.0
+offset_bottom = 540.0
+mouse_filter = 2
+stretch = true
+
+[node name="WorldViewport" type="SubViewport" parent="WorldContainer"]
+canvas_item_default_texture_filter = 0
+snap_2d_transforms_to_pixel = true
+snap_2d_vertices_to_pixel = true
+size = Vector2i(960, 540)
+render_target_update_mode = 4
+
+[node name="Arena" type="Node2D" parent="WorldContainer/WorldViewport"]
+script = ExtResource("3")
+
+[node name="Ally" parent="WorldContainer/WorldViewport/Arena" instance=ExtResource("5")]
+position = Vector2(304, 286)
+
+[node name="Enemy" parent="WorldContainer/WorldViewport/Arena" instance=ExtResource("5")]
+position = Vector2(656, 286)
+
+[node name="UI" type="CanvasLayer" parent="."]
+layer = 10
+
+[node name="LogicalUI" type="Control" parent="UI"]
+texture_filter = 2
+offset_right = 1920.0
+offset_bottom = 1080.0
+scale = Vector2(0.5, 0.5)
+mouse_filter = 2
+script = ExtResource("4")

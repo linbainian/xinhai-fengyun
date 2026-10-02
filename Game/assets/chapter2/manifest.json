@@ -1,0 +1,347 @@
+{
+  "source": "OpenAI built-in ImageGen",
+  "sampling": "nearest",
+  "third_party_downloads": [],
+  "sources": [
+    {
+      "id": "jiang",
+      "path": "assets/chapter2/jiang_raw.png",
+      "sha256": "6d686972db9856dab802c70f5802e0ba929b8813263050d52f21f67e2af75f04",
+      "prompt": "assets/chapter2/prompts/jiang.prompt.txt",
+      "prompt_sha256": "fb12cbcde64a756275c6a15e121e67b6272794de4d84da76dd0a7c6b393ce4c1"
+    },
+    {
+      "id": "han",
+      "path": "assets/chapter2/han_raw.png",
+      "sha256": "4ea8df849327bc1e7c2c1d86f17f1968a662be6c18cd3cd4420755ed3b5d808d",
+      "prompt": "assets/chapter2/prompts/han.prompt.txt",
+      "prompt_sha256": "a7f700a2dd5b4727cb8f7586d5cabf6e20d40d65603c84a500e38c3bcf31934f"
+    },
+    {
+      "id": "qin",
+      "path": "assets/chapter2/qin_raw.png",
+      "sha256": "e6cd2313133dcd734914a0dc7c47b0d5e55e7184435f42c5749b0d1daa20417a",
+      "prompt": "assets/chapter2/prompts/qin.prompt.txt",
+      "prompt_sha256": "cb0a351c28cbd8ff73c23a714bb44c6ad13897a4c358c173d8d03c9aac175598"
+    },
+    {
+      "id": "bar_people",
+      "path": "assets/chapter2/bar_people_raw.png",
+      "sha256": "0e67e2d86439b66616c756ec66c2d4fcc9980423fdd4fb43bbe51c2b78bcd02c",
+      "prompt": "assets/chapter2/prompts/bar_people.prompt.txt",
+      "prompt_sha256": "4522b2a9468b4a28c3abe17b9a232a03bfafcd41d32a2ecaf53e88c7567d937e"
+    },
+    {
+      "id": "creatures",
+      "path": "assets/chapter2/creatures_raw.png",
+      "sha256": "242a5101a78985e9a1e80a66c4b67edfeba0124cc3558c535573f64447f441a7",
+      "prompt": "assets/chapter2/prompts/creatures.prompt.txt",
+      "prompt_sha256": "b2ebe8a0ff96085dc0db2afa150aed5e0d768b41b7c65e86fd04801e7bbbb264"
+    },
+    {
+      "id": "rift_gate",
+      "path": "assets/chapter2/rift_gate_raw.png",
+      "sha256": "2e2da56c29248001ceb39317f8e7e1673cd13a437a99682a7206b320459bfb0d",
+      "prompt": "assets/chapter2/prompts/rift_gate.prompt.txt",
+      "prompt_sha256": "6bae55a33f84f2503ed310eed9ae2f7318606e13e13b34e9b7e12591495d1e26"
+    },
+    {
+      "id": "rift_terrain",
+      "path": "assets/chapter2/rift_terrain_raw.png",
+      "sha256": "487c6e15e217f792ba77475f1df116d1b39900609bcb2df2cdd00e2ae1ebeca7",
+      "prompt": "assets/chapter2/prompts/rift_terrain.prompt.txt",
+      "prompt_sha256": "cdcfd0afc308aa20dd40b4191c2de5c77c49a922c43e99c286fd35df4cc386bb"
+    },
+    {
+      "id": "expedition_props",
+      "path": "assets/chapter2/expedition_props_raw.png",
+      "sha256": "cf502fe9ac33c317687318bee5b405d3caa0b227f63d7ab305862f6f7862c893",
+      "prompt": "assets/chapter2/prompts/expedition_props.prompt.txt",
+      "prompt_sha256": "c6245805e34029e1c7e40b909ff0fac9854ef60551166832390fb8efd52e7297"
+    }
+  ],
+  "runtime": [
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_000.png",
+      "sha256": "3b7285845c706ffcddb9166a20e4e0b1b18de6c67885bea1718fe494f0610890"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_001.png",
+      "sha256": "5c154ff989e38272e4ea37a4a0bb0e1edec8af4202974a4500b0d323fa1948ed"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_002.png",
+      "sha256": "483be4b3bcdb45bfa092d312746f1d5afe158be31242b99d48ca190b03f4d952"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_003.png",
+      "sha256": "dbc70c17401415f0cac949cdd3b286baa2a4be92fbf3417d06f3bc5c31291dda"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_004.png",
+      "sha256": "af4f565de0c177bc2912a4a559373f0f4cb042194e0e41ce38cac6ba8200fccc"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_005.png",
+      "sha256": "cf0cbe9bb4857113da4976a5c8af53d170fca782d815ac52da542683ea9fccd1"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_006.png",
+      "sha256": "7bdf3eb72bd8af04920110dbe8ec1cca9bc8f690ffcdb4c81eaf4b73195f58a1"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_007.png",
+      "sha256": "adc7590c70dca96abb92694743705ffc3c0db122243ba47cd4ce9b3418cba176"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_008.png",
+      "sha256": "51c763ebfb80ea2122a95cce550011736125293b5ae7da7030459e6216831304"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_009.png",
+      "sha256": "91d638c52955824c2bcd857ee12a86c7e17f727e449292729f2500a125d4fffc"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_010.png",
+      "sha256": "d9f01ae6a84d27cf7362a76f43dbf1fcf06381b215f0e3d6e4793df822f26af4"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_011.png",
+      "sha256": "6d22e58260241c01cfbd518e450b6ff1dde1e873403c797c706b9d5b39df8f55"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_012.png",
+      "sha256": "bc0779b0fd56a3bc952d820d1784f481b0db679b5bf880353bd2cff60e90cfa5"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_013.png",
+      "sha256": "ad484d134b0f921244ebc997ebd7d37b3b41f58e1c6512a17199d1fa87219535"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_014.png",
+      "sha256": "3a340e0a89f8c0a0450ebdd0fd3e26d7325dc8ee1a23b5fe7d687780ce8ee989"
+    },
+    {
+      "path": "assets/chapter2/actors/jiang/frames/frame_015.png",
+      "sha256": "cca23b07368e2d48a051905b2aba425dd1bd68a50ca24fa9bcb7e4a4f1085b42"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_000.png",
+      "sha256": "84b8bdfef30deb3782d519ca379d6524a691ebb9d4ffd93e48ca9b65ca658445"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_001.png",
+      "sha256": "f2176829c77fb88b10d5f5ab6495f4d624ccfee118fd2f4d4a1002a2d3aacf69"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_002.png",
+      "sha256": "2f51b2e48db0fdcf2ccccd9675ba509edf572c92be54bfc3c545fd48f6a569c4"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_003.png",
+      "sha256": "d00d8fc7e62ff3ea1e297c7b792cbb08c570fc99666e8e9a9cc5ac90c599c23b"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_004.png",
+      "sha256": "2d35e03c598e49d384f788968fcdefa663dacbd6874d00c419c10ff89b31d410"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_005.png",
+      "sha256": "3f4ad5bd2f8a8a6df774b749a7ef8877a2a45c438ea9d0f189ff042e3326b435"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_006.png",
+      "sha256": "6fdab972ab39507959d8e251ef5fea38f84b6b52bb86db8c242b59ecbf816298"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_007.png",
+      "sha256": "1d14d9d6668e1d93c18cbceff31f3590f323a83b317fd0cd24abedcf98c10b38"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_008.png",
+      "sha256": "2affe65644d23efbd8278c8fb677b68dfad193f9571367ba1ed7c2ffbba13eb4"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_009.png",
+      "sha256": "84ceff75f4b4cdfc1ea8b761771b3443378529a35e9cb1fff01962a5a4f795ef"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_010.png",
+      "sha256": "fc80b50d0940d060a409eb5cfd6a3a8640b2ffa9dcfe6ae3b956fc52fd9aba47"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_011.png",
+      "sha256": "025e891e73b75908d9415fb430ea70315982d9e0f164d28051d714136df00a69"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_012.png",
+      "sha256": "24a2d815b081e9105f98b26e87b011630b41bf19f99fe4d467bc4d8987936657"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_013.png",
+      "sha256": "1331efa59439068a6e08588ca7f3d43e7a2d2ba5d6c1a6249f93f9ee6ab08998"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_014.png",
+      "sha256": "6a930b8660ac9329fd4e73872a23b7729bf49740ec0e0a913d3c44c54a1f41dc"
+    },
+    {
+      "path": "assets/chapter2/actors/han/frames/frame_015.png",
+      "sha256": "6ecd64e2c29502651423505e63dcca3bc9a606865c9aa0a50d6c8b674ee657a4"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_000.png",
+      "sha256": "6acd5cc61667d0ea2a8ed2eb2ece60152ed3ea245249878dc72903ad48678999"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_001.png",
+      "sha256": "dbb6538f83cac6812087d3b2b994c31b7fb43f58f9b67ea143b503b31300c40a"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_002.png",
+      "sha256": "b05fc6086491a103ca668829d2084abd469f560364ea823726788f15f0eea184"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_003.png",
+      "sha256": "4ce60f689b6de25a589443154fccdc17d9e01257ecd023911ef0527212f90eef"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_004.png",
+      "sha256": "9420c451d96ba272de4492325a7f0de0d84488a05836c78a9bcc664a0d96a10f"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_005.png",
+      "sha256": "9f29c1c61ac37a7c2a1d34becdd436d9e277e4e41cb208102c83a91a80be0a5e"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_006.png",
+      "sha256": "b6861ff23362e8978fae6fce1632c4d876b4ae757e8082ae1d263a54eec122d8"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_007.png",
+      "sha256": "5424c7a1d37cf03f5cd7481c25d578b1f95c2bd0d89107e91325ad5e19d3913c"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_008.png",
+      "sha256": "d7f9d7319ab87f8e64666720538d6854a1beb87a6361a57e19086a46cbd0e0a1"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_009.png",
+      "sha256": "4d0217559ed441a3872e6a92716cfde463ba781b45118cf094ad90ce62c0c074"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_010.png",
+      "sha256": "ebdf01f2142faecb4d77241be6b6b693a33da98945fe529bbad3a7af96dcfef6"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_011.png",
+      "sha256": "da405fda487d9e6d2067044663f9d6e362cb3f6fc46b15f4287c62f53f8d161a"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_012.png",
+      "sha256": "2517796fdb2952e6703c4085e3424965e5fdb7b852232894d974c7d85af86864"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_013.png",
+      "sha256": "c2e786830939638146065d9c5a41d4fe558501b6ce45a96c5885e662dbf6f953"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_014.png",
+      "sha256": "1506756f56897316594275692420a84719a8cbe4dd1c8b95794db236666582a9"
+    },
+    {
+      "path": "assets/chapter2/actors/qin/frames/frame_015.png",
+      "sha256": "aaf98c36828d1c05879c0c8528b87cb0e524379501dfe810499119bae5206853"
+    },
+    {
+      "path": "assets/chapter2/bar_people/frames/frame_000.png",
+      "sha256": "16d5bf4be27164f692cbbc755907750b9397400456e91e973378796073efab57"
+    },
+    {
+      "path": "assets/chapter2/bar_people/frames/frame_001.png",
+      "sha256": "8c067e3bc06dedfe5999a36a3f29351289cff63120ac24d1f99b741572c37a51"
+    },
+    {
+      "path": "assets/chapter2/bar_people/frames/frame_002.png",
+      "sha256": "825b4e00a75cc49ce4ce42e4585934d08bd79fd23653e4ffd882e1d241b8f6cd"
+    },
+    {
+      "path": "assets/chapter2/bar_people/frames/frame_003.png",
+      "sha256": "25384a096983c2c4b96b0c44f9f9dd717b3989d513b7ec2a94ff17d0bb0bfbe3"
+    },
+    {
+      "path": "assets/chapter2/creatures/frames/frame_000.png",
+      "sha256": "b6c95674b1bb1e78d7d925e660abee9480dd24265a4c58b7c6816d5ef7c01ace"
+    },
+    {
+      "path": "assets/chapter2/creatures/frames/frame_001.png",
+      "sha256": "6ab538582f384477fa9a7681703656e8923472784def92785f84dd9a513b8cec"
+    },
+    {
+      "path": "assets/chapter2/creatures/frames/frame_002.png",
+      "sha256": "c9aa38860fd7df358e446938f94af77bff265762c712ff2bab52257a1686b129"
+    },
+    {
+      "path": "assets/chapter2/creatures/frames/frame_003.png",
+      "sha256": "a2bacf38d47643a5d095d48eac00583b52a4700b681e60ec348b6f1e8f780f9c"
+    },
+    {
+      "path": "assets/chapter2/rift_gate/runtime.png",
+      "sha256": "77dac06ff30152b585d85dc4cd0558c223af1e60a4889fb613bb3313caa0cbf7"
+    },
+    {
+      "path": "assets/chapter2/terrain/tile_00.png",
+      "sha256": "338faaa3420e02e214f685b558207b76810af2b36e1a6fb488128dca2b46937a"
+    },
+    {
+      "path": "assets/chapter2/terrain/tile_01.png",
+      "sha256": "6ac5d9a33bcc9516d28899a1d0d84f34986ebdde64395e74d934f4720a8ea0d5"
+    },
+    {
+      "path": "assets/chapter2/terrain/tile_02.png",
+      "sha256": "b76a5837aa35a541a015f9d8c799f7478d4791b7348b3550677ad3d84026a53d"
+    },
+    {
+      "path": "assets/chapter2/terrain/tile_03.png",
+      "sha256": "268b451dc012a4bac6f8b4a4be14bb8635c5dfcceadc1f286238beaee2ea5cef"
+    },
+    {
+      "path": "assets/chapter2/terrain/tile_04.png",
+      "sha256": "429f3c40d2d9710668bfbb9365fab92f99c70d1620c4280834d59e0e2490cde8"
+    },
+    {
+      "path": "assets/chapter2/terrain/tile_05.png",
+      "sha256": "52887315617d58e614d28f81c10f6078ad625206ca3f82eecac9b72acbc98855"
+    },
+    {
+      "path": "assets/chapter2/expedition_props/frames/frame_000.png",
+      "sha256": "7f27db304c24796076a81c5495fbb6da7c94eb712affc98d8e19efe6ea213b37"
+    },
+    {
+      "path": "assets/chapter2/expedition_props/frames/frame_001.png",
+      "sha256": "0fa9671d5a54e08340ad5ab80771a7cc0ada34bfe8bf4d4bbce68b9bada99b40"
+    },
+    {
+      "path": "assets/chapter2/expedition_props/frames/frame_002.png",
+      "sha256": "2ae2446d5ebcb04ef279239280e83e9e5801232750b1a5be33757e5e8baedab6"
+    },
+    {
+      "path": "assets/chapter2/expedition_props/frames/frame_003.png",
+      "sha256": "4a9d07ce31bcb3be85d135912658c2a68d39b40b0da78d46fd950335ff837286"
+    }
+  ],
+  "objects": {
+    "rift_gate": {
+      "asset": "res://assets/chapter2/rift_gate/runtime.png",
+      "size": [
+        144,
+        228
+      ],
+      "anchor": [
+        72.0,
+        228
+      ]
+    }
+  },
+  "passed": true
+}

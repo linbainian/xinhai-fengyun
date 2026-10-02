@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="CombatantDefinition" load_steps=5 format=3]
+[ext_resource type="Script" path="res://scripts/battle/combatant_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/battle/skill_definition.gd" id="2"]
+[ext_resource type="Resource" path="res://data/battle/skills/telekinetic_strike.tres" id="3"]
+[ext_resource type="Resource" path="res://data/battle/skills/telekinetic_sweep.tres" id="4"]
+[resource]
+script = ExtResource("1")
+id = &"tutorial_lin_da"
+display_name = "林大"
+data_version = "m1-d-prototype.1"
+awakening_rank = "D"
+affinity = "念动力"
+body_color = Color(0.34, 0.72, 0.64, 1)
+skills = Array[ExtResource("2")]([ExtResource("3"), ExtResource("4")])
+max_hp = 220
+attack = 24.0
+defense = 12.0
+speed = 16
+perception = 12
+accuracy = 100.0
+evasion = 2.0

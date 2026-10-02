@@ -1,0 +1,11 @@
+Reusable architectural sprite MODULES matching the corrected university design reference. Other reference is only a layout guide: exactly TWO columns by TWO rows, four WIDE cells, each cell 4:3 aspect. No guide boxes, numbers or grid lines in the final image. Pure #FF00FF magenta background with padding on every side.
+
+STRICT CAMERA: front-on ORTHOGRAPHIC JRPG view, front faces upright toward screen-bottom, top surfaces recede ONLY straight upward. ZERO yaw. Absolutely NO isometric angle, no leaning walls, no diagonal horizontal beams, no asymmetrical trapezoid side faces. Every cornice, window sill and base is horizontal; columns vertical. Left/right edges equal height. Crisp pixel blocks, ivory stone / silver trim / teal glass, large quiet flat color clusters, no blur or painterly microtexture.
+
+Exact row-major order:
+1 a PLAIN FRONT WALL BAY, substantial tall wall of native192px width and160px height, flat horizontal upper cornice, simple ivory front and stone base. Wall has depth and HEIGHT; not a short horizontal platform. Vertical straight ends for repetition; no columns attached.
+2 an ARCHED WINDOW WALL BAY, exactly the same native192x160 wall/cornice/base as1, one tall teal-glass arched window centered in the wall, sill above the ground. No attached columns or side walls.
+3 a FREE-STANDING COLUMN, native48px wide160px tall, square pedestal, upright shaft, simple capital; strictly symmetric front elevation, tiny level top surface. No surrounding wall or building.
+4 the CENTRAL ENTRANCE PORTAL, native128px wide160px tall: one dark teal double-door opening in a straight stone arch/frame, small silver handles, simple upright jambs and level threshold. Door faces screen-down. No flanking gate pillars, banner, stairs, props or wider building attached.
+
+Each item fully within its own wide cell; do not stretch the narrow column. Stable material/pixel scale across the four pieces. They assemble into ONE actual facade supporting a dome; never draw full dome, ground, people, labels, cast shadows or decorative scenery.

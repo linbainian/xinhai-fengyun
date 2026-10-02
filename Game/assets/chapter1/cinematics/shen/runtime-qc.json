@@ -1,0 +1,179 @@
+{
+  "sampling": "nearest",
+  "source": "assets/chapter1/cinematics/shen_raw.png",
+  "cell_size": 96,
+  "frames": [
+    {
+      "index": 0,
+      "bbox": [
+        30,
+        14,
+        65,
+        89
+      ],
+      "height": 75
+    },
+    {
+      "index": 1,
+      "bbox": [
+        30,
+        12,
+        66,
+        89
+      ],
+      "height": 77
+    },
+    {
+      "index": 2,
+      "bbox": [
+        30,
+        14,
+        65,
+        89
+      ],
+      "height": 75
+    },
+    {
+      "index": 3,
+      "bbox": [
+        30,
+        13,
+        66,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 4,
+      "bbox": [
+        29,
+        13,
+        66,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 5,
+      "bbox": [
+        29,
+        13,
+        67,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 6,
+      "bbox": [
+        29,
+        13,
+        66,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 7,
+      "bbox": [
+        29,
+        13,
+        66,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 8,
+      "bbox": [
+        28,
+        13,
+        67,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 9,
+      "bbox": [
+        28,
+        13,
+        68,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 10,
+      "bbox": [
+        28,
+        13,
+        67,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 11,
+      "bbox": [
+        28,
+        13,
+        67,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 12,
+      "bbox": [
+        29,
+        12,
+        67,
+        89
+      ],
+      "height": 77
+    },
+    {
+      "index": 13,
+      "bbox": [
+        29,
+        11,
+        66,
+        89
+      ],
+      "height": 78
+    },
+    {
+      "index": 14,
+      "bbox": [
+        29,
+        12,
+        67,
+        89
+      ],
+      "height": 77
+    },
+    {
+      "index": 15,
+      "bbox": [
+        30,
+        11,
+        66,
+        89
+      ],
+      "height": 78
+    }
+  ],
+  "passed": true,
+  "binary_alpha": true,
+  "palette_colors": 48,
+  "world_footprint": [
+    48,
+    48
+  ],
+  "shared_idle_scale": 0.975,
+  "idle_reference": "assets/chapter1/refined/npcs/frames/frame_003.png",
+  "feet_y": 89,
+  "body_height_cv": 0.011079237721923573,
+  "feet_y_std": 0.0
+}

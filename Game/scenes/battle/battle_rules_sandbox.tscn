@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="PackedScene" path="res://scenes/battle/battle_sandbox.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/battle/advanced_battle_hud.gd" id="2"]
+[node name="BattleRulesSandbox" instance=ExtResource("1")]
+encounter_path = "res://data/battle/m1_b_encounter.tres"
+[node name="LogicalUI" parent="UI" index="0"]
+script = ExtResource("2")

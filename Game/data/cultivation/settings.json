@@ -1,0 +1,117 @@
+{
+  "version": "cultivation.1",
+  "base_attributes": {
+    "strength": 10,
+    "agility": 10,
+    "constitution": 10,
+    "spirit": 10,
+    "perception": 12,
+    "willpower": 10
+  },
+  "attribute_cap": 40,
+  "breakthrough_chance": 95,
+  "seed": 220104,
+  "training": {
+    "force": {
+      "name": "实战基本功",
+      "description": "力量+1 · 单体招式熟练+4\n觉醒度+3 · SL+5",
+      "stats": {
+        "strength": 1
+      },
+      "skills": {
+        "strike": 4
+      },
+      "awakening": 3,
+      "sl": 5
+    },
+    "ability": {
+      "name": "灵能运用",
+      "description": "精神+1 · 两招熟练+3\n觉醒度+6 · SL+8",
+      "stats": {
+        "spirit": 1
+      },
+      "skills": {
+        "strike": 3,
+        "sweep": 3
+      },
+      "awakening": 6,
+      "sl": 8
+    },
+    "body": {
+      "name": "体能与步法",
+      "description": "体质+1 · 敏捷+1\n觉醒度+2 · SL+3",
+      "stats": {
+        "constitution": 1,
+        "agility": 1
+      },
+      "awakening": 2,
+      "sl": 3
+    },
+    "focus": {
+      "name": "静心与观察",
+      "description": "意志+1 · 感知+1\n觉醒度+2 · SL-10",
+      "stats": {
+        "willpower": 1,
+        "perception": 1
+      },
+      "awakening": 2,
+      "sl": -10
+    }
+  },
+  "places": {
+    "campus": {
+      "name": "学院闲逛",
+      "room": "c2_clubs",
+      "description": "学院区与图书馆\n1行动 · 新事件随日期开放"
+    },
+    "hill": {
+      "name": "后山闲逛",
+      "room": "hill",
+      "description": "采集、遗落物品\n1行动点 · 可带回草药"
+    },
+    "street": {
+      "name": "商业街闲逛",
+      "room": "cafe",
+      "description": "商业街与回家方向的老街\n1行动 · 留意手头资金"
+    },
+    "training": {
+      "name": "训练场闲逛",
+      "room": "c2_training",
+      "description": "看对练、到休息区转转\n1行动 · 留意不同日期"
+    },
+    "dormitory": {
+      "name": "宿舍楼道闲逛",
+      "room": "corridor",
+      "description": "回寝室路上遇见同学\n1行动 · 可到楼梯口看看"
+    }
+  },
+  "jobs": {
+    "equipment": {
+      "name": "器材整理",
+      "description": "80元 · 贡献1\n1行动点 · 每周一次",
+      "money": 80,
+      "contribution": 1
+    },
+    "files": {
+      "name": "文件核对",
+      "description": "80元 · 贡献1 · 学业+3\n1行动点 · 每周一次",
+      "money": 80,
+      "contribution": 1,
+      "study": 3
+    },
+    "courier": {
+      "name": "管理局送件",
+      "description": "150元 · 贡献2\n接取1行动点 · 到窗口交件",
+      "money": 150,
+      "contribution": 2
+    }
+  },
+  "derived": {
+    "hp_per_constitution": 3,
+    "attack_per_strength": 0.5,
+    "speed_per_agility": 0.5,
+    "defense_per_constitution": 0.25,
+    "power_per_spirit": 0.01,
+    "load_per_willpower": 0.01
+  }
+}

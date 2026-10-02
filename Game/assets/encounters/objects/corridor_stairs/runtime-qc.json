@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "binary_alpha": true,
+  "source": "assets/encounters/corridor_stairs_raw.png",
+  "source_cell": [
+    0,
+    0
+  ],
+  "source_bbox": [
+    322,
+    160,
+    933,
+    1040
+  ],
+  "size": [
+    96,
+    138
+  ],
+  "edge_touch": false
+}

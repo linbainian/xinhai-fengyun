@@ -1,0 +1,20 @@
+[gd_resource type="Resource" script_class="TutorialDefinition" load_steps=6 format=3]
+[ext_resource type="Script" path="res://scripts/battle/tutorial_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/battle/tutorial_lesson.gd" id="2"]
+[ext_resource type="Resource" path="res://data/battle/tutorial/m1_d_lesson_1.tres" id="3"]
+[ext_resource type="Resource" path="res://data/battle/tutorial/m1_d_lesson_2.tres" id="4"]
+[ext_resource type="Resource" path="res://data/battle/tutorial/m1_d_lesson_3.tres" id="5"]
+[resource]
+script = ExtResource("1")
+id = &"back_hill"
+data_version = "m1-d.1"
+title = "后山野兔清剿"
+guide_name = "苏挽颜"
+guide_identity = "B级冰系 · 大二青梅学姐"
+introduction = "苏挽颜晃了晃手里的奶茶。\n“实训灵草圃快被这些兔子啃光了。学姐我还有报告要写，这份新生见面礼就交给你了。”\n“我在入口看着。别急，先看清哪只更好对付。”"
+conclusion = "苏挽颜看了眼终于安静下来的草坡。\n“搞定。往年后山可没这么多兔子……先回去吧，我还得赶报告。”"
+overload_hint = "负荷已经偏高了。\nD回血并降SL15；技能出手前再看一次预览。"
+breakthrough_hint = "临界槽满了，可以突破。\n先看成功率与失败后果，也可以先防御稳住状态。"
+uncontrolled_hint = "失控时会自动行动。\n三次结束后SL回落40，等恢复再选择。"
+weakness_hint = "突破失败，下一次行动虚弱。\n防御也消耗这次行动，可用来稳住状态。"
+lessons = Array[ExtResource("2")]([ExtResource("3"), ExtResource("4"), ExtResource("5")])

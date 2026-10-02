@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "source": "assets/venues/bureau_counter_raw.png",
+  "source_bbox": [
+    61,
+    262,
+    1478,
+    762
+  ],
+  "size": [
+    672,
+    237
+  ],
+  "binary_alpha": true,
+  "palette_colors": 64
+}

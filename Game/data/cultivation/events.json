@@ -1,0 +1,599 @@
+[
+  {
+    "id": "campus_notes",
+    "area": "campus",
+    "name": "值日生 · 遗落的课堂笔记",
+    "asset": "res://assets/venues/academy_people/frames/frame_002.png",
+    "position": [
+      720,
+      540
+    ],
+    "dialogue": "c2_grow_notes",
+    "min_day": 4,
+    "options": [
+      {
+        "label": "按封面班级帮忙归还",
+        "stats": {
+          "perception": 1
+        },
+        "study": 5,
+        "dialogue": "c2_grow_notes_return"
+      },
+      {
+        "label": "帮她核对讲义页码",
+        "skills": {
+          "strike": 5
+        },
+        "study": 3,
+        "dialogue": "c2_grow_notes_check"
+      }
+    ]
+  },
+  {
+    "id": "campus_practice",
+    "area": "campus",
+    "name": "温让 · 练习搭档",
+    "asset": "res://assets/chapter1/cinematics/wen_rang/frames/frame_000.png",
+    "position": [
+      720,
+      540
+    ],
+    "dialogue": "c2_grow_practice",
+    "min_day": 6,
+    "options": [
+      {
+        "label": "陪他练步法",
+        "stats": {
+          "agility": 1
+        },
+        "relations": {
+          "wen_rang": 2
+        },
+        "awakening": 3,
+        "dialogue": "c2_grow_practice_steps"
+      },
+      {
+        "label": "帮他检查护具",
+        "money": 30,
+        "stats": {
+          "perception": 1
+        },
+        "relations": {
+          "wen_rang": 1
+        },
+        "dialogue": "c2_grow_practice_gear"
+      }
+    ]
+  },
+  {
+    "id": "hill_herbs",
+    "area": "hill",
+    "name": "草圃边 · 可采集的灵草",
+    "asset": "res://assets/chapter1/props/frames/frame_000.png",
+    "position": [
+      820,
+      610
+    ],
+    "dialogue": "c2_grow_herbs",
+    "min_day": 4,
+    "options": [
+      {
+        "label": "按委托笔记采集成熟叶片",
+        "items": {
+          "herb": 2
+        },
+        "life": {
+          "gathering": 8
+        },
+        "awakening": 2,
+        "dialogue": "c2_grow_herbs_pick"
+      },
+      {
+        "label": "记录生长位置，留给后续轮采",
+        "stats": {
+          "perception": 1
+        },
+        "life": {
+          "gathering": 4
+        },
+        "dialogue": "c2_grow_herbs_mark"
+      }
+    ]
+  },
+  {
+    "id": "hill_supply",
+    "area": "hill",
+    "name": "入口旁 · 遗落的工具箱",
+    "asset": "res://assets/chapter2/expedition_props/frames/frame_000.png",
+    "position": [
+      820,
+      610
+    ],
+    "dialogue": "c2_grow_supply",
+    "min_day": 7,
+    "options": [
+      {
+        "label": "送回草圃值班处",
+        "money": 70,
+        "contribution": 1,
+        "dialogue": "c2_grow_supply_return"
+      },
+      {
+        "label": "先补好箱扣再送回",
+        "money": 40,
+        "stats": {
+          "strength": 1
+        },
+        "life": {
+          "gathering": 4
+        },
+        "dialogue": "c2_grow_supply_fix"
+      }
+    ]
+  },
+  {
+    "id": "street_books",
+    "area": "street",
+    "name": "旧书店员 · 二手异能笔记",
+    "asset": "res://assets/venues/academy_people/frames/frame_003.png",
+    "position": [
+      850,
+      550
+    ],
+    "dialogue": "c2_grow_books",
+    "min_day": 4,
+    "options": [
+      {
+        "label": "花120元买下并整理笔记",
+        "money": -120,
+        "items": {
+          "notes": 1
+        },
+        "stats": {
+          "spirit": 1
+        },
+        "skills": {
+          "strike": 8
+        },
+        "dialogue": "c2_grow_books_buy"
+      },
+      {
+        "label": "翻一翻目录，下次再来",
+        "study": 3,
+        "dialogue": "c2_grow_books_browse"
+      }
+    ]
+  },
+  {
+    "id": "street_work",
+    "area": "street",
+    "name": "店员 · 临时搬货",
+    "asset": "res://assets/venues/bureau_people/frames/frame_002.png",
+    "position": [
+      850,
+      550
+    ],
+    "dialogue": "c2_grow_work",
+    "min_day": 6,
+    "options": [
+      {
+        "label": "帮忙把货搬进仓库",
+        "money": 100,
+        "stats": {
+          "strength": 1
+        },
+        "sl": 5,
+        "dialogue": "c2_grow_work_carry"
+      },
+      {
+        "label": "帮忙核对货单",
+        "money": 70,
+        "study": 5,
+        "stats": {
+          "perception": 1
+        },
+        "dialogue": "c2_grow_work_check"
+      }
+    ]
+  },
+  {
+    "character_event": true,
+    "interlude_only": true,
+    "max_day": 14,
+    "id": "street_ice",
+    "area": "street",
+    "name": "苏挽颜 · 老街冰品店",
+    "min_day": 6,
+    "room": "cult_ice_shop",
+    "asset": "res://assets/chapter1/cinematics/su_wanyan/frames/frame_000.png",
+    "character": "su_wanyan",
+    "characterFolder": "res://assets/chapter1/cinematics",
+    "position": [
+      685.0,
+      580.0
+    ],
+    "dialogue": "c2_event_ice",
+    "cinematic": "event_ice_arrival",
+    "remove_actors": [
+      "ice_shop_daily"
+    ],
+    "partners": [
+      {
+        "asset": "res://assets/encounters/encounter_people/frames/frame_000.png",
+        "nodeName": "growth_partner_father",
+        "position": [
+          755.0,
+          528.0
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "growth_partner_father",
+        "name": "苏父 · 擦杯子",
+        "interactionPosition": [
+          765.0,
+          565.0
+        ]
+      }
+    ],
+    "props": [
+      {
+        "asset": "res://assets/encounters/objects/ice_bowl/runtime.png",
+        "nodeName": "ice_bowl_event",
+        "position": [
+          595.0,
+          615.0
+        ],
+        "size": [
+          12.0,
+          11.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "event_ice_bowl",
+        "anchor": [
+          12.0,
+          22
+        ]
+      },
+      {
+        "asset": "res://assets/encounters/objects/takeaway/runtime.png",
+        "nodeName": "takeaway",
+        "position": [
+          750.0,
+          522.0
+        ],
+        "size": [
+          13.0,
+          15.5
+        ],
+        "renderLayer": "foreground",
+        "occlusionClass": "low",
+        "id": "event_takeaway",
+        "hidden": true,
+        "anchor": [
+          13.0,
+          31
+        ]
+      }
+    ],
+    "options": [
+      {
+        "label": "用券坐下来吃，多聊两句",
+        "items": {
+          "coupon": -1
+        },
+        "relations": {
+          "su": 2
+        },
+        "awakening": 2,
+        "dialogue": "c2_event_ice_eat",
+        "cinematic": "event_ice_eat"
+      },
+      {
+        "label": "花30元打包一碗给温让",
+        "money": -30,
+        "relations": {
+          "wen_rang": 2
+        },
+        "dialogue": "c2_event_ice_takeaway",
+        "cinematic": "event_ice_takeaway"
+      }
+    ]
+  },
+  {
+    "character_event": true,
+    "interlude_only": true,
+    "max_day": 14,
+    "id": "campus_library",
+    "area": "campus",
+    "name": "白沐瑶 · 抱散的书",
+    "min_day": 5,
+    "room": "cult_library",
+    "asset": "res://assets/encounters/actors/bai_muyao/frames/frame_000.png",
+    "character": "bai_muyao",
+    "characterFolder": "res://assets/encounters/actors",
+    "position": [
+      685.0,
+      585.0
+    ],
+    "dialogue": "c2_event_library",
+    "cinematic": "event_library_arrival",
+    "props": [
+      {
+        "asset": "res://assets/encounters/objects/books/runtime.png",
+        "nodeName": "books",
+        "position": [
+          697.5,
+          595.0
+        ],
+        "size": [
+          17.0,
+          15.5
+        ],
+        "renderLayer": "ground",
+        "occlusionClass": "low",
+        "id": "event_books",
+        "anchor": [
+          17.0,
+          31
+        ]
+      },
+      {
+        "asset": "res://assets/encounters/objects/notebook/runtime.png",
+        "nodeName": "notebook",
+        "position": [
+          670.0,
+          582.5
+        ],
+        "size": [
+          11.0,
+          11.5
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "event_library_notes",
+        "anchor": [
+          11.0,
+          23
+        ]
+      }
+    ],
+    "options": [
+      {
+        "label": "帮忙送到借阅台",
+        "study": 4,
+        "stats": {
+          "perception": 1
+        },
+        "relations": {
+          "bai_muyao": 2
+        },
+        "dialogue": "c2_event_library_carry",
+        "cinematic": "event_library_carry"
+      },
+      {
+        "label": "捡起手边两本递还",
+        "study": 1,
+        "relations": {
+          "bai_muyao": 1
+        },
+        "dialogue": "c2_event_library_return"
+      }
+    ]
+  },
+  {
+    "character_event": true,
+    "interlude_only": true,
+    "max_day": 14,
+    "id": "training_spar",
+    "area": "training",
+    "name": "苏晚棠 · 冰雷对练",
+    "min_day": 10,
+    "room": "c2_training",
+    "asset": "res://assets/encounters/actors/su_wantang/frames/frame_000.png",
+    "character": "su_wantang",
+    "characterFolder": "res://assets/encounters/actors",
+    "position": [
+      880,
+      590
+    ],
+    "dialogue": "c2_event_spar",
+    "cinematic": "event_spar",
+    "face": [
+      -1,
+      0
+    ],
+    "partners": [
+      {
+        "asset": "res://assets/encounters/actors/bai_muyao/frames/frame_000.png",
+        "nodeName": "growth_partner_bai",
+        "position": [
+          650,
+          550
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "growth_partner_bai",
+        "name": "白沐瑶 · 冰墙练习",
+        "face": [
+          1,
+          0
+        ],
+        "character": "bai_muyao",
+        "characterFolder": "res://assets/encounters/actors"
+      }
+    ],
+    "callback": {
+      "requires": "campus_library",
+      "dialogue": "c2_event_spar_known"
+    },
+    "options": [
+      {
+        "label": "实话实说：慢了半拍",
+        "awakening": 3,
+        "relations": {
+          "bai_muyao": 2,
+          "su_wantang": 2
+        },
+        "dialogue": "c2_event_spar_honest"
+      },
+      {
+        "label": "打个圆场：挺好的",
+        "relations": {
+          "bai_muyao": 1,
+          "su_wantang": 1
+        },
+        "dialogue": "c2_event_spar_polite"
+      }
+    ]
+  },
+  {
+    "character_event": true,
+    "interlude_only": true,
+    "max_day": 14,
+    "id": "training_lunch",
+    "area": "training",
+    "name": "苏晚棠 · 午休的加练",
+    "min_day": 12,
+    "room": "c2_training",
+    "asset": "res://assets/encounters/actors/su_wantang/frames/frame_000.png",
+    "character": "su_wantang",
+    "characterFolder": "res://assets/encounters/actors",
+    "position": [
+      875,
+      580
+    ],
+    "dialogue": "c2_event_lunch",
+    "cinematic": "event_lunch",
+    "requires": [
+      "training_spar"
+    ],
+    "props": [
+      {
+        "asset": "res://assets/encounters/objects/phone/runtime.png",
+        "nodeName": "phone",
+        "position": [
+          1100,
+          454
+        ],
+        "size": [
+          18,
+          21
+        ],
+        "renderLayer": "foreground",
+        "occlusionClass": "low",
+        "id": "event_lunch_phone",
+        "anchor": [
+          9.0,
+          21
+        ]
+      },
+      {
+        "asset": "res://assets/encounters/objects/riceball/runtime.png",
+        "nodeName": "riceball",
+        "position": [
+          1070,
+          455
+        ],
+        "size": [
+          18,
+          16
+        ],
+        "renderLayer": "foreground",
+        "occlusionClass": "low",
+        "id": "event_riceball",
+        "anchor": [
+          9.0,
+          16
+        ]
+      }
+    ],
+    "options": [
+      {
+        "label": "留下帮她喊节拍",
+        "stats": {
+          "agility": 1
+        },
+        "awakening": 3,
+        "relations": {
+          "su_wantang": 3
+        },
+        "dialogue": "c2_event_lunch_count",
+        "cinematic": "event_lunch_count"
+      },
+      {
+        "label": "把多带的饭团放下再走",
+        "relations": {
+          "su_wantang": 2
+        },
+        "dialogue": "c2_event_lunch_food"
+      }
+    ]
+  },
+  {
+    "character_event": true,
+    "interlude_only": true,
+    "max_day": 14,
+    "id": "dormitory_flyers",
+    "area": "dormitory",
+    "name": "林初夏 · 楼道传单",
+    "min_day": 9,
+    "room": "corridor",
+    "asset": "res://assets/encounters/actors/chuxia/frames/frame_000.png",
+    "character": "chuxia",
+    "characterFolder": "res://assets/encounters/actors",
+    "position": [
+      880.0,
+      632.5
+    ],
+    "dialogue": "c2_event_flyers",
+    "cinematic": "event_flyers",
+    "props": [
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_010.png",
+        "nodeName": "event_flyer",
+        "position": [
+          855.0,
+          636.5
+        ],
+        "size": [
+          9.0,
+          9.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "event_flyer"
+      }
+    ],
+    "options": [
+      {
+        "label": "帮她送完这两层",
+        "study": 3,
+        "stats": {
+          "perception": 1
+        },
+        "relations": {
+          "chuxia": 2
+        },
+        "dialogue": "c2_event_flyers_help",
+        "cinematic": "event_flyers_help"
+      },
+      {
+        "label": "只还捡到的那张",
+        "relations": {
+          "chuxia": 1
+        },
+        "study": 1,
+        "dialogue": "c2_event_flyers_return"
+      }
+    ]
+  }
+]

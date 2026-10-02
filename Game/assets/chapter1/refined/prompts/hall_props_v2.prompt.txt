@@ -1,0 +1,16 @@
+Production reusable campus prop atlas matching the corrected design reference. Exactly THREE rows by THREE columns, nine equal cells, follow other reference layout guide only; never draw guide boxes/lines/numbers. Pure flat #FF00FF magenta background.
+
+STRICT shared FRONT-ON orthographic JRPG camera: upright vertical poles, horizontal bases, bilateral symmetry of solid furniture. Top faces visible but recede straight UP only. ZERO isometric yaw, no diagonal seat edge, skewed planter, leaning pole or asymmetric height. Crisp clean uniform pixel blocks, ivory/silver/teal game palette, no blur, antialiasing, gradients or painterly detail.
+
+Exact row-major items:
+1 one RED plain flag on vertical silver pole;
+2 one dark GRAY plain flag on identical pole;
+3 one TEAL plain flag on identical pole;
+4 one SILVER/light gray plain flag on identical pole;
+5 a STREETLAMP, upright slim silver post, symmetric warm ivory light head;
+6 a PLANTER, level FRONT-ON rectangular ivory stone planter with compact tidy dark green shrub, left/right wall edges equal height, no isometric diamond rim;
+7 a TRASH BIN, upright silver/teal rectangular bin with level top opening, symmetric front, no turned side;
+8 one red-orange traffic CONE with ivory stripe and symmetric horizontal base;
+9 one ENTRANCE GATE PILLAR, square ivory pier with small symmetric teal glass lantern cap, upright front elevation, native48px wide160px tall. It will be repeated as a matched pair AT the building's entrance.
+
+Four flags identical geometry/height, all blow to the right, no lettering, emblems or patterns. All objects grounded at the same baseline in each cell and fully contained with magenta margin on all four sides. No floor, ground shadow, people, labels, surrounding scene or overlap. Keep solid architectural objects level and straight.

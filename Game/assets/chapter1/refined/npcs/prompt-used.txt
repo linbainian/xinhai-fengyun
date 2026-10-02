@@ -1,0 +1,14 @@
+Production pixel-art NPC sprite sheet for a modern Chinese campus JRPG, exactly THREE rows by THREE columns, nine equal cells. Match the NEW boy sheet's deliberately simple crisp outlines, uniform square pixel blocks and large flat color clusters. The other reference supplies character identity only: remove its microtexture and antialiasing rather than copy the softness. All are full-body frontal/top-down overworld views, same slightly chibi anatomy and fixed camera. Native sprite cells 96x96, grounded body height about 76 pixels, eyes simple pixel clusters. Bold 1-pixel charcoal outline, 3 hair shades, maximum 32 flat colors per figure, no soft gradients, dithering or blurry detail. Feet baseline 88% down each cell. Entire subject inside central 65% width / 82% height; magenta padding on ALL sides. No text, grids, numbers, floor, shadows, detached effects, cropped feet or overlapping cells.
+
+Exact row-major character order:
+1. Wen Rang, 18-year-old plump Chinese boy, broad round happy face, short black hair, teal/ivory campus jacket, navy trousers, snack bag and tiny bag charm; visibly stockier than the protagonist.
+2. Su Wanyan, 19-year-old Chinese girl, BLACK low ponytail, gentle smile, teal/ivory jacket, navy pleated skirt, dark socks and sneakers, holding milk tea.
+3. Liu Wumian, 36-year-old woman, mature relaxed face, black hair tied in chopstick bun, burgundy casual training jacket over black top/trousers, hands in pockets. Do not turn the teacher into a child.
+4. Shen Tinglan, 28-year-old slim male teacher, black hair, gold-rim glasses, charcoal long academic coat, white shirt, book in one hand.
+5. Wen Ruoshui, 40-year-old woman teacher, tidy dark bob, round glasses, beige academic coat, dark trousers, three red/blue/black pens in breast pocket; mature serious face.
+6. Tang Banxia, 48-year-old woman school doctor, warm mature face, dark hair secured by two silver pins, sage medical coat and dark trousers, small brown medical satchel.
+7. Ling Weiyang, 18-year-old girl, PINK long hair, playful grin, pink/white campus jacket, black trousers and dark sneakers.
+8. Lin Chuxia, 18-year-old petite shy girl, shoulder-length black hair, blue cardigan and navy skirt, holding notebook, small blue hair clip.
+9. Generic adult female examiner/receptionist, tied black hair, navy formal uniform, white shirt, ID card and clipboard.
+
+Pure flat #FF00FF magenta background. Crisp game sprites with coherent native 96-pixel scale, not detailed anime illustrations shrunk into pixels. Keep each adult's identifiable face/clothes and all nine figures wholly inside their own equal cell. No extra characters.

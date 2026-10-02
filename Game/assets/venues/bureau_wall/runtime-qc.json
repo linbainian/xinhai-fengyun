@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "source": "assets/venues/bureau_wall_raw.png",
+  "source_bbox": [
+    85,
+    150,
+    1689,
+    731
+  ],
+  "size": [
+    1152,
+    417
+  ],
+  "binary_alpha": true,
+  "palette_colors": 64
+}

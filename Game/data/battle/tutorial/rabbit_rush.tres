@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="SkillDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/battle/skill_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"rabbit_rush"
+display_name = "突跃冲撞"
+multiplier = 1.35
+sl_cost = 8
+cooldown = 2

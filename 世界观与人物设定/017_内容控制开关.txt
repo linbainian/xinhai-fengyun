@@ -1,0 +1,14 @@
+uid: 17
+comment: 内容控制开关
+constant: True
+selective: False
+disable: None
+key: 
+insertion_order: 130
+========================================
+<%- await getwi(null, '世界观总览') -%>
+<%- await getwi(null, '觉醒者等级体系') -%>
+<%- await getwi(null, '觉醒者铁律') -%>
+<%- await getwi(null, '代价法则') -%>
+<%- await getwi(null, '时间设定') -%>
+<%- await getwi(null, 'NPC动态生成规则') -%>

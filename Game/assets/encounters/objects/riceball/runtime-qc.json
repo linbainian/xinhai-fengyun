@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "binary_alpha": true,
+  "source": "assets/encounters/encounter_props_raw.png",
+  "source_cell": [
+    2,
+    1
+  ],
+  "source_bbox": [
+    81,
+    92,
+    417,
+    396
+  ],
+  "size": [
+    18,
+    16
+  ],
+  "edge_touch": false
+}

@@ -1,0 +1,48 @@
+{
+  "sampling": "nearest",
+  "source": "assets/chapter1/rabbits_grid.png",
+  "cell_size": 48,
+  "frames": [
+    {
+      "index": 0,
+      "bbox": [
+        8,
+        5,
+        39,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 1,
+      "bbox": [
+        8,
+        5,
+        39,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 2,
+      "bbox": [
+        7,
+        5,
+        40,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 3,
+      "bbox": [
+        7,
+        5,
+        41,
+        45
+      ],
+      "height": 40
+    }
+  ],
+  "passed": true
+}

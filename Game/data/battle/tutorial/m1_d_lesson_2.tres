@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="TutorialLesson" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/battle/tutorial_lesson.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"lesson_2"
+title = "技能：范围、负荷与冷却"
+encounter_path = "res://data/battle/tutorial/m1_d_encounter_2.tres"
+introduction = "兔群聚到了一起。\n看看单体和全体技能的费用与冷却，再决定是否出手。"
+opening_hint = "移到技能上看预览。\n1是单体，2是全体；注意SL与CD。"
+attack_hint = "普攻不增负荷，也能等冷却。\n技能可用时再比较成本。"
+skill_hint = "技能已经用过。\nCD按你的行动扣减，SL会带入下一段。"
+defense_hint = "防御既回血又降压。\n不必每个回合都用技能。"
+goals = PackedStringArray("skill")

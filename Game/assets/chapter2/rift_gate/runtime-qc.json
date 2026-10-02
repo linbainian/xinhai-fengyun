@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "source": "assets/chapter2/rift_gate_raw.png",
+  "source_bbox": [
+    224,
+    184,
+    867,
+    1201
+  ],
+  "size": [
+    144,
+    228
+  ],
+  "binary_alpha": true,
+  "palette_colors": 64
+}

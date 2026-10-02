@@ -1,0 +1,1018 @@
+{
+  "gate_arrival": [
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              700,
+              720
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        },
+        {
+          "id": "wen_rang",
+          "path": [
+            [
+              752,
+              736
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        }
+      ],
+      "seconds": 1.55,
+      "camera": [
+        724,
+        590
+      ],
+      "caption": "新海异能学院 · 校门"
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.25
+    }
+  ],
+  "enter_auditorium": [
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              700,
+              610
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        },
+        {
+          "id": "wen_rang",
+          "path": [
+            [
+              752,
+              626
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "seconds": 1.15,
+      "camera": [
+        720,
+        620
+      ],
+      "caption": "报到 · 温让同行"
+    },
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.28
+    },
+    {
+      "kind": "scene",
+      "room": "auditorium",
+      "positions": {
+        "player": [
+          720,
+          800
+        ],
+        "wen_rang": [
+          666,
+          816
+        ]
+      },
+      "camera": [
+        720,
+        680
+      ],
+      "caption": "入学检测 · 报到礼堂"
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.28
+    },
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              720,
+              610
+            ],
+            [
+              700,
+              520
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        },
+        {
+          "id": "wen_rang",
+          "path": [
+            [
+              666,
+              610
+            ],
+            [
+              752,
+              536
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "seconds": 2.2,
+      "camera": [
+        720,
+        480
+      ]
+    }
+  ],
+  "test_to_assembly": [
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              720,
+              520
+            ],
+            [
+              720,
+              800
+            ]
+          ],
+          "face": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "wen_rang",
+          "path": [
+            [
+              776,
+              600
+            ],
+            [
+              776,
+              816
+            ]
+          ],
+          "face": [
+            0,
+            1
+          ]
+        }
+      ],
+      "seconds": 2.35,
+      "camera": [
+        744,
+        680
+      ],
+      "caption": "检测结束 · 前往大会场"
+    },
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.28
+    },
+    {
+      "kind": "scene",
+      "room": "assembly_stage",
+      "positions": {
+        "player": [
+          700,
+          760
+        ],
+        "wen_rang": [
+          752,
+          776
+        ]
+      },
+      "camera": [
+        720,
+        640
+      ],
+      "caption": "学院大会场 · 导师见面"
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.28
+    },
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              700,
+              580
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        },
+        {
+          "id": "wen_rang",
+          "path": [
+            [
+              752,
+              594
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "seconds": 1.35,
+      "camera": [
+        720,
+        474
+      ]
+    },
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "liu",
+          "path": [
+            [
+              1010,
+              540
+            ],
+            [
+              720,
+              540
+            ],
+            [
+              720,
+              500
+            ],
+            [
+              720,
+              415
+            ],
+            [
+              516,
+              415
+            ]
+          ],
+          "face": [
+            0,
+            1
+          ]
+        }
+      ],
+      "seconds": 3.2,
+      "camera": [
+        618,
+        440
+      ],
+      "name": "柳无眠",
+      "role": "摸鱼会 · 实战导师",
+      "character": "liu"
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.45,
+      "camera": [
+        720,
+        440
+      ]
+    },
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "shen",
+          "path": [
+            [
+              1010,
+              540
+            ],
+            [
+              720,
+              540
+            ],
+            [
+              720,
+              500
+            ],
+            [
+              720,
+              415
+            ],
+            [
+              648,
+              415
+            ]
+          ],
+          "face": [
+            0,
+            1
+          ]
+        }
+      ],
+      "seconds": 3.2,
+      "camera": [
+        684,
+        440
+      ],
+      "name": "沈听澜",
+      "role": "幻影阁 · 精神系讲师",
+      "character": "shen"
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.45,
+      "camera": [
+        720,
+        440
+      ]
+    },
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "wen",
+          "path": [
+            [
+              1010,
+              540
+            ],
+            [
+              720,
+              540
+            ],
+            [
+              720,
+              500
+            ],
+            [
+              720,
+              415
+            ],
+            [
+              792,
+              415
+            ]
+          ],
+          "face": [
+            0,
+            1
+          ]
+        }
+      ],
+      "seconds": 3.2,
+      "camera": [
+        756,
+        440
+      ],
+      "name": "温若水",
+      "role": "论道斋 · 理论系主任",
+      "character": "wen"
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.45,
+      "camera": [
+        720,
+        440
+      ]
+    },
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "tang",
+          "path": [
+            [
+              1010,
+              540
+            ],
+            [
+              720,
+              540
+            ],
+            [
+              720,
+              500
+            ],
+            [
+              720,
+              415
+            ],
+            [
+              924,
+              415
+            ]
+          ],
+          "face": [
+            0,
+            1
+          ]
+        }
+      ],
+      "seconds": 3.2,
+      "camera": [
+        822,
+        440
+      ],
+      "name": "唐半夏",
+      "role": "百草堂 · 校医",
+      "character": "tang"
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.45,
+      "camera": [
+        720,
+        440
+      ]
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.45,
+      "camera": [
+        720,
+        454
+      ],
+      "caption": "四山头 · 拜山任务开放"
+    }
+  ],
+  "assembly_to_exhibits": [
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              700,
+              790
+            ]
+          ],
+          "face": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "wen_rang",
+          "path": [
+            [
+              752,
+              806
+            ]
+          ],
+          "face": [
+            0,
+            1
+          ]
+        }
+      ],
+      "seconds": 1.65,
+      "camera": [
+        720,
+        684
+      ],
+      "caption": "大会场 · 前往导师展区"
+    },
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.28
+    },
+    {
+      "kind": "scene",
+      "room": "plaza",
+      "positions": {
+        "player": [
+          720,
+          842
+        ],
+        "wen_rang": [
+          666,
+          850
+        ]
+      },
+      "camera": [
+        720,
+        782
+      ],
+      "caption": "大会场 · 导师展区"
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.28
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.4,
+      "camera": [
+        720,
+        770
+      ]
+    }
+  ],
+  "su_arrival": [
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              720,
+              842
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        },
+        {
+          "id": "wen_rang",
+          "path": [
+            [
+              666,
+              850
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        }
+      ],
+      "seconds": 1.6,
+      "camera": [
+        824,
+        806
+      ],
+      "caption": "拜师登记完成"
+    },
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "SuWanyanVisitor",
+          "path": [
+            [
+              880,
+              830
+            ],
+            [
+              768,
+              838
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        }
+      ],
+      "seconds": 2.9,
+      "camera": [
+        748,
+        808
+      ],
+      "name": "苏挽颜",
+      "role": "隔壁家长大的青梅邻居 · 大二学姐",
+      "character": "su_wanyan",
+      "caption": "苏挽颜 · 来访"
+    },
+    {
+      "kind": "face",
+      "actors": {
+        "player": [
+          1,
+          0
+        ],
+        "wen_rang": [
+          1,
+          0
+        ],
+        "SuWanyanVisitor": [
+          -1,
+          0
+        ]
+      }
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.35,
+      "camera": [
+        736,
+        820
+      ]
+    }
+  ],
+  "hill_to_clubs": [
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.35
+    },
+    {
+      "kind": "scene",
+      "room": "clubs",
+      "positions": {
+        "player": [
+          640,
+          790
+        ],
+        "clubs": [
+          705,
+          790
+        ]
+      },
+      "camera": [
+        720,
+        525
+      ]
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.35,
+      "caption": "01-02 · 午后 · 操场招新"
+    },
+    {
+      "kind": "move",
+      "seconds": 1.35,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              640,
+              630
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        },
+        {
+          "id": "clubs",
+          "path": [
+            [
+              705,
+              630
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "camera": [
+        720,
+        510
+      ]
+    }
+  ],
+  "clubs_to_dorm": [
+    {
+      "kind": "move",
+      "seconds": 1,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              640,
+              750
+            ]
+          ],
+          "face": [
+            0,
+            1
+          ]
+        },
+        {
+          "id": "clubs",
+          "path": [
+            [
+              705,
+              750
+            ]
+          ],
+          "face": [
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.35
+    },
+    {
+      "kind": "scene",
+      "room": "dorm",
+      "positions": {
+        "player": [
+          720.0,
+          612.5
+        ],
+        "dorm_wen": [
+          770.0,
+          612.5
+        ]
+      },
+      "camera": [
+        720.0,
+        532.5
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.35,
+      "caption": "01-02 · 晚间 · 同寝宿舍",
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "dorm_to_corridor": [
+    {
+      "kind": "move",
+      "seconds": 1.4,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              900.0,
+              612.5
+            ],
+            [
+              900.0,
+              517.5
+            ],
+            [
+              865.0,
+              517.5
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "camera": [
+        855.0,
+        520.0
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.35,
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "scene",
+      "room": "corridor",
+      "positions": {
+        "player": [
+          720.0,
+          542.5
+        ]
+      },
+      "camera": [
+        785.0,
+        537.5
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.35,
+      "caption": "宿舍外 · 共用走廊",
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "move",
+      "seconds": 0.75,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              760.0,
+              585.0
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        }
+      ],
+      "camera": [
+        790.0,
+        567.5
+      ],
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "corridor_to_dorm": [
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.35,
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "scene",
+      "room": "dorm",
+      "positions": {
+        "player": [
+          865.0,
+          515.0
+        ]
+      },
+      "camera": [
+        785.0,
+        542.5
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.35,
+      "caption": "回到寝室",
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "move",
+      "seconds": 1.35,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              900.0,
+              517.5
+            ],
+            [
+              900.0,
+              612.5
+            ],
+            [
+              730.0,
+              612.5
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        }
+      ],
+      "camera": [
+        755.0,
+        552.5
+      ],
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "chuxia_corridor": [
+    {
+      "kind": "move",
+      "seconds": 1.5,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              760.0,
+              590.0
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        },
+        {
+          "id": "chuxia",
+          "path": [
+            [
+              865.0,
+              627.5
+            ],
+            [
+              795.0,
+              590.0
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        }
+      ],
+      "name": "林初夏",
+      "role": "刚从训练场回来的同届新生",
+      "portrait": "res://assets/encounters/actors/chuxia/frames/frame_000.png",
+      "camera": [
+        782.5,
+        567.5
+      ],
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "chuxia_leave": [
+    {
+      "kind": "move",
+      "seconds": 1.65,
+      "actors": [
+        {
+          "id": "chuxia",
+          "path": [
+            [
+              855.0,
+              635.0
+            ],
+            [
+              927.5,
+              647.5
+            ],
+            [
+              995.0,
+              670.0
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        }
+      ],
+      "camera": [
+        900.0,
+        607.5
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "wait",
+      "camera": [
+        777.5,
+        567.5
+      ],
+      "seconds": 0.4,
+      "coordinates": "compact-interior.1"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Six seamless quiet GROUND TILES for a modern university JRPG. Exactly TWO columns by THREE rows, equal square cells, full bleed, no gaps, labels, grid overlay or border. Each tile is native48x48 logical pixels rendered as large uniform square pixel blocks. Flat straight-down orthographic ground, no perspective, side faces, objects or shadows.
+
+Row1: two ivory warm-gray STONE BRICK pavement variants. Each logical48px tile contains only TWO broad24px-wide brick columns and FOUR12px-high staggered rows, fine1px dark grout, gentle 2-tone stone. Large calm shapes, no dirt, speckled noise, cracks, wear or tiny stones.
+Row2: two muted green GRASS variants, a flat calm green surface with just THREE or FOUR tiny2x3px darker grass clusters. Maximum three greens. No dense texture, random per-pixel noise, bright dots or flowers.
+Row3: two slate-gray STONE PATH variants. Each logical48px tile contains exactly TWO by TWO broad square pavers, subtle1px grout and two flat stone tones, variation in paver colors only. No cracks or microtexture.
+
+Keep edge pattern compatible within each row so repeated tiles join cleanly. Native pixel art, extremely restrained flat palette, crisp square edges, no blur, antialiasing, gradient or painterly texture. Ground must support the clean architectural sprites and make characters readable, not compete with them. NO magenta background: material covers all six tiles edge to edge.

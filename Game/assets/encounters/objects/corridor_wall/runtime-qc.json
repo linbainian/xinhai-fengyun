@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "binary_alpha": true,
+  "source": "assets/encounters/interior_walls_raw.png",
+  "source_cell": [
+    1,
+    0
+  ],
+  "source_bbox": [
+    35,
+    99,
+    848,
+    370
+  ],
+  "size": [
+    1152,
+    384
+  ],
+  "edge_touch": false
+}

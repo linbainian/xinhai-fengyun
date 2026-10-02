@@ -1,0 +1,16 @@
+.godot/
+.dev/
+builds/
+__pycache__/
+*.pyc
+*.pyo
+
+# Local assistant state
+.zcode/
+.workbuddy/
+.zcodeignore
+
+# Local credentials
+.env
+.env.*
+!*.example

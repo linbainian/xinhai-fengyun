@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CombatantDefinition" load_steps=4 format=3]
+[ext_resource type="Script" path="res://scripts/battle/combatant_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/battle/skill_definition.gd" id="2"]
+[ext_resource type="Resource" path="res://data/battle/skills/elemental_strike.tres" id="3"]
+[resource]
+script = ExtResource("1")
+id = &"elemental_dummy"
+display_name = "元素靶"
+data_version = "m1-b.1"
+awakening_rank = "D"
+affinity = "元素"
+body_color = Color(0.72, 0.41, 0.65, 1)
+skills = Array[ExtResource("2")]([ExtResource("3")])
+max_hp = 150
+attack = 19.0
+defense = 9.0
+speed = 12
+accuracy = 94.0

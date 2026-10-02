@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "source": "assets/chapter2/expedition_props_raw.png",
+  "binary_alpha": true,
+  "palette_colors": 48,
+  "frames": [
+    {
+      "index": 0,
+      "bbox": [
+        13,
+        24,
+        82,
+        92
+      ]
+    },
+    {
+      "index": 1,
+      "bbox": [
+        8,
+        24,
+        88,
+        92
+      ]
+    },
+    {
+      "index": 2,
+      "bbox": [
+        8,
+        31,
+        88,
+        92
+      ]
+    },
+    {
+      "index": 3,
+      "bbox": [
+        9,
+        37,
+        87,
+        92
+      ]
+    }
+  ],
+  "shared_scale": 1.0,
+  "body_height_cv": 0.08621254358095409,
+  "feet_y_std": 0.0,
+  "world_footprint": [
+    48,
+    48
+  ]
+}

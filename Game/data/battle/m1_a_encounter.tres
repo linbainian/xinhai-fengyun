@@ -1,0 +1,23 @@
+[gd_resource type="Resource" script_class="EncounterDefinition" load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/battle/encounter_definition.gd" id="1"]
+[ext_resource type="Resource" path="res://data/battle/m1_a_rules.tres" id="2"]
+[ext_resource type="Resource" path="res://data/battle/m1_a_ally.tres" id="3"]
+[ext_resource type="Resource" path="res://data/battle/m1_a_enemy.tres" id="4"]
+
+[resource]
+script = ExtResource("1")
+id = &"m1_a_sandbox"
+title = "战斗沙盒 · M1-A"
+data_version = "m1-a.1"
+rules = ExtResource("2")
+ally = ExtResource("3")
+enemy = ExtResource("4")
+seed_value = 220101
+ally_initial_hp = 90
+ally_initial_sl = 30
+enemy_initial_hp = -1
+enemy_initial_sl = 0
+affinity_modifier = 1.0
+environment_modifier = 1.0
+rank_modifier = 1.0

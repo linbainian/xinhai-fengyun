@@ -1,0 +1,16 @@
+Production reusable INTERIOR assembly-hall structural atlas. The design reference supplies style only; the layout guide supplies exactly THREE columns by THREE rows, NINE WIDE cells, each cell3:2 aspect. No guide boxes, text, numbers or grid lines in final art. Solid #FF00FF magenta key background, generous margin around each object.
+
+STRICT shared camera: FRONT-ON orthographic JRPG projection. Horizontal front edges absolutely horizontal; vertical posts absolutely vertical. Top surfaces recede ONLY straight UP the screen, NEVER diagonally right/left. ZERO yaw, NO isometric perspective. Symmetric fixed camera, ivory/silver/teal materials, crisp large pixel clusters, no blur, antialiasing, fine noise or photorealism.
+
+Row-major items:
+1 PODIUM LEFT END, native192x112, deep flat horizontal stage top with a straight silver/teal front riser, finished left cap and clean repeatable right seam.
+2 PODIUM MIDDLE, native192x112, same top depth and front riser height as1, straight ends for horizontal repetition. Real flat rectangular platform; not a diagonal wedge.
+3 PODIUM RIGHT END, native192x112, mirror-compatible with1, exactly same dimensions and front line, finished right cap.
+4 THREE-STEP UPSTAGE STAIRS, broad front-on stair run, three distinct LEVEL horizontal treads, symmetric left/right ends, no attached podium or railings.
+5 THREE-TIER BLEACHER STAND, long horizontal repeatable seating bank; three level treads/risers ascend toward screen-top, straight ends, no people or attached rails.
+6 STAND RAILING, long straight silver horizontal two-bar railing and vertical posts, evenly spaced, all bases at one horizontal ground line. No diagonal rail, perspective turn or stand attached.
+7 ALLOY TRIAL TABLE, broad silver table with small recessed teal instrument surface, top perfectly level, four equal upright legs, front edge horizontal, no diagonal tabletop. Separate from the podium, no attached operator or effects.
+8 CAMPUS BENCH, long teal slatted seat with silver legs, front-on symmetric horizontal seat/back, no diagonal seat or unequal ends.
+9 PORTABLE ROAD BARRIER, long silver frame, two red/ivory slats, two upright endposts at same height, horizontal ground feet.
+
+Keep all nine independent subjects inside their wide cells with unchanged aspect ratios and consistent scale. No people, floor plane, cast ground shadow, surrounding building, text, emblem, cropped or overlapping subjects. This atlas will build a sensible interior: trial table on podium, stairs at its front, stands to either side of the central aisle.

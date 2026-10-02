@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "source": "assets/venues/academy_wall_raw.png",
+  "source_bbox": [
+    69,
+    273,
+    1468,
+    696
+  ],
+  "size": [
+    1248,
+    377
+  ],
+  "binary_alpha": true,
+  "palette_colors": 64
+}

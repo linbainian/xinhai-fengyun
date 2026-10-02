@@ -1,0 +1,104 @@
+{
+  "sampling": "nearest",
+  "source": "assets/chapter1/refined/npcs_grid.png",
+  "cell_size": 96,
+  "frames": [
+    {
+      "index": 0,
+      "bbox": [
+        26,
+        13,
+        69,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 1,
+      "bbox": [
+        31,
+        13,
+        65,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 2,
+      "bbox": [
+        30,
+        9,
+        65,
+        89
+      ],
+      "height": 80
+    },
+    {
+      "index": 3,
+      "bbox": [
+        30,
+        11,
+        66,
+        89
+      ],
+      "height": 78
+    },
+    {
+      "index": 4,
+      "bbox": [
+        30,
+        15,
+        65,
+        89
+      ],
+      "height": 74
+    },
+    {
+      "index": 5,
+      "bbox": [
+        31,
+        13,
+        64,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 6,
+      "bbox": [
+        22,
+        12,
+        73,
+        89
+      ],
+      "height": 77
+    },
+    {
+      "index": 7,
+      "bbox": [
+        30,
+        12,
+        65,
+        89
+      ],
+      "height": 77
+    },
+    {
+      "index": 8,
+      "bbox": [
+        30,
+        11,
+        65,
+        89
+      ],
+      "height": 78
+    }
+  ],
+  "passed": true,
+  "palette_colors": 48,
+  "binary_alpha": true,
+  "world_footprint": [
+    48,
+    48
+  ]
+}

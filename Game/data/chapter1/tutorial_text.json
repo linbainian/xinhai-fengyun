@@ -1,0 +1,86 @@
+{
+  "m1_d_lesson_1": {
+    "introduction": {
+      "dialogue": "先认一下草坡边上这两只各是哪一系。出手顺序你来挑。",
+      "system": "查看行动顺序与目标预览。普通攻击不增加精神负荷；不同系别的目标，克制倍率可能不同。"
+    },
+    "opening_hint": {
+      "dialogue": "先挑一只，看看这一招打上去合不合适。",
+      "system": "点击敌人或按Tab切换目标，查看克制倍率；A为普通攻击。"
+    },
+    "attack_hint": {
+      "dialogue": "换下一只，再看看它是哪一系。",
+      "system": "比较两种目标的克制倍率，再选择下一次攻击的目标。"
+    },
+    "skill_hint": {
+      "dialogue": "要用技能就看好目标，别放出去才想起来换。",
+      "system": "本段所有合法技能均可使用，观察项目不限制指令选择。"
+    },
+    "defense_hint": {
+      "dialogue": "先稳住，下一下看准了再打。",
+      "system": "防御回复HP并降低SL；本段可自行选择攻击顺序。"
+    }
+  },
+  "m1_d_lesson_2": {
+    "introduction": {
+      "dialogue": "它们挤到一块了。一起打更费劲，你看看怎么打省力。",
+      "system": "比较单体与全体技能的SL增幅、效果和冷却回合，再决定是否使用。"
+    },
+    "opening_hint": {
+      "dialogue": "出手前缓一下。刚才用了多少力，还撑得住几次？",
+      "system": "移到技能上查看预览：1为单体，2为全体；留意精神负荷（SL）与技能冷却（CD）。"
+    },
+    "attack_hint": {
+      "dialogue": "那招还没缓过来就先等一轮，普通的也能打。",
+      "system": "普通攻击不增加SL；技能冷却按自身行动计时。"
+    },
+    "skill_hint": {
+      "dialogue": "这招打完歇一下，别又连着来。",
+      "system": "使用技能后检查SL和CD。当前HP与SL会连续带入下一段。"
+    },
+    "defense_hint": {
+      "dialogue": "站稳。兔子还在这儿，没必要抢这一下。",
+      "system": "防御可回复HP、降低SL，不必每个回合都使用技能。"
+    }
+  },
+  "m1_d_lesson_3": {
+    "introduction": {
+      "dialogue": "这只比刚才的大。先看自己的状态，别它还站着，你先撑不住了。",
+      "system": "防御回复当前HP上限的10%，SL降低15。临界槽满后可尝试突破，先查看成功率与失败后果。"
+    },
+    "opening_hint": {
+      "dialogue": "先缓一下，再看还能打几轮。",
+      "system": "检查HP与SL。D为防御；尝试突破前查看概率。"
+    },
+    "attack_hint": {
+      "dialogue": "它还站着。自己吃不消就先防住。",
+      "system": "持续作战时同时留意剩余HP和SL，别只比较伤害。"
+    },
+    "skill_hint": {
+      "dialogue": "留点力，后面还得接它一下。",
+      "system": "使用技能后留意SL上升与CD，下一次行动也可选择防御。"
+    },
+    "defense_hint": {
+      "dialogue": "稳住了？看清它往哪边动，再出手。",
+      "system": "检查防御后的状态，再决定下一次行动。"
+    }
+  },
+  "m1_d_tutorial": {
+    "overload_hint": {
+      "dialogue": "先缓缓，别接着连放。",
+      "system": "当前SL偏高。D防御可回复HP、SL降低15；使用技能前再看一次预览。"
+    },
+    "breakthrough_hint": {
+      "dialogue": "要试突破，先看看自己还能不能撑住。",
+      "system": "临界槽已满，可以突破；先查看成功率和失败后果，也可以先防御稳定状态。"
+    },
+    "uncontrolled_hint": {
+      "dialogue": "林大，看我这边！",
+      "system": "失控期间自动行动；三次失控行动结束后，SL回落40，再恢复指令选择。"
+    },
+    "weakness_hint": {
+      "dialogue": "先别硬顶，把这口气缓过来。",
+      "system": "突破失败，下一次行动虚弱。防御也会消耗这次行动，可用来调整状态。"
+    }
+  }
+}

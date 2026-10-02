@@ -1,0 +1,82 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/graybox_room.gd" id="1_room"]
+[ext_resource type="PackedScene" path="res://scenes/actors/player.tscn" id="2_player"]
+[ext_resource type="PackedScene" path="res://scenes/world/graybox_obstacle.tscn" id="3_block"]
+[ext_resource type="Script" path="res://scripts/world/graybox_camera.gd" id="4_camera"]
+
+[node name="AcademyGraybox" type="Node2D"]
+script = ExtResource("1_room")
+
+[node name="PlayerSpawn" type="Marker2D" parent="."]
+position = Vector2(288, 768)
+
+[node name="Blockers" type="Node2D" parent="."]
+
+[node name="NorthWall" parent="Blockers" instance=ExtResource("3_block")]
+position = Vector2(960, 24)
+block_size = Vector2(1920, 48)
+fill_color = Color(0.19, 0.24, 0.30, 1)
+
+[node name="SouthWall" parent="Blockers" instance=ExtResource("3_block")]
+position = Vector2(960, 1128)
+block_size = Vector2(1920, 48)
+fill_color = Color(0.19, 0.24, 0.30, 1)
+
+[node name="WestWall" parent="Blockers" instance=ExtResource("3_block")]
+position = Vector2(24, 576)
+block_size = Vector2(48, 1152)
+fill_color = Color(0.19, 0.24, 0.30, 1)
+
+[node name="EastWall" parent="Blockers" instance=ExtResource("3_block")]
+position = Vector2(1896, 576)
+block_size = Vector2(48, 1152)
+fill_color = Color(0.19, 0.24, 0.30, 1)
+
+[node name="RegistrationBlock" parent="Blockers" instance=ExtResource("3_block")]
+position = Vector2(624, 240)
+block_size = Vector2(384, 192)
+
+[node name="TrainingBlock" parent="Blockers" instance=ExtResource("3_block")]
+position = Vector2(1488, 336)
+block_size = Vector2(480, 288)
+
+[node name="BenchWest" parent="Blockers" instance=ExtResource("3_block")]
+position = Vector2(288, 504)
+block_size = Vector2(192, 48)
+
+[node name="BenchNorth" parent="Blockers" instance=ExtResource("3_block")]
+position = Vector2(720, 432)
+block_size = Vector2(288, 48)
+
+[node name="Planter" parent="Blockers" instance=ExtResource("3_block")]
+position = Vector2(720, 696)
+block_size = Vector2(288, 96)
+
+[node name="SmallBlock" parent="Blockers" instance=ExtResource("3_block")]
+position = Vector2(1056, 432)
+block_size = Vector2(96, 96)
+
+[node name="CorridorWest" parent="Blockers" instance=ExtResource("3_block")]
+position = Vector2(1200, 696)
+block_size = Vector2(48, 432)
+
+[node name="CorridorEast" parent="Blockers" instance=ExtResource("3_block")]
+position = Vector2(1344, 720)
+block_size = Vector2(48, 288)
+
+[node name="Actors" type="Node2D" parent="."]
+y_sort_enabled = true
+
+[node name="Player" parent="Actors" instance=ExtResource("2_player")]
+position = Vector2(288, 768)
+
+[node name="FollowCamera" type="Camera2D" parent="."]
+process_physics_priority = 100
+position = Vector2(288, 768)
+limit_left = 0
+limit_top = 0
+limit_right = 1920
+limit_bottom = 1152
+process_callback = 0
+script = ExtResource("4_camera")

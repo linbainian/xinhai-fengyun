@@ -1,0 +1,1684 @@
+{
+	"captures": [
+		"C:\\Users\\l\\Downloads\\新海风云\\Game\\builds\\verification/windows-title.png",
+		"C:\\Users\\l\\Downloads\\新海风云\\Game\\builds\\verification/windows-cultivation.png",
+		"C:\\Users\\l\\Downloads\\新海风云\\Game\\builds\\verification/windows-library-thanks.png",
+		"C:\\Users\\l\\Downloads\\新海风云\\Game\\builds\\verification/windows-cultivation-1080p.png"
+	],
+	"checks": [
+		{
+			"check": "Packed Release data runs as a game",
+			"passed": true
+		},
+		{
+			"check": "Verification reads the exported project.binary rather than loose source",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: chapter1/choices",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: chapter1/choices",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: chapter1/cutscenes",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: chapter1/cutscenes",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/actors/chuxia/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: chapter1/dialogues",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: chapter1/dialogues",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: chapter1/maps",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: chapter1/maps",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/wall.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/banner.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/column.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/column.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/podium_left.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/podium_middle.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/podium_right.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/stairs.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/stand.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/stand.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/stand.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/stand.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trash.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/gate_left.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/gate_right.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_008.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/dome.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/wall.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/portal.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/banner.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/gate_left.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/gate_right.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/flag_red.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/flag_gray.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/flag_teal.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/flag_silver.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trash.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trash.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/streetlamp.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/streetlamp.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/barrier.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/barrier.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/cone.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/cone.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_004.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_005.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/academy/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_006.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_008.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_007.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_009.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_004.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/bed/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_004.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_005.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/counter/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/club_booth/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/club_booth/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/club_booth/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/streetlamp.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/streetlamp.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_010.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/encounter_people/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/encounter_people/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_people/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/encounter_people/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/encounter_people/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/dorm_wall/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/bed/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/bed/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/phone/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/notebook/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_011.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/bed/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_wall/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_counter/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_people/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_people/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_people/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_people/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/bureau_wall/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/bureau_counter/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/barrier.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/barrier.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/bureau_people/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/bureau_people/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/bureau_people/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/bureau_people/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/portal.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/column.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/column.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/gate_left.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/gate_right.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/streetlamp.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/streetlamp.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/wall.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/arch_window.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/banner.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/column.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/column.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/podium_left.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/podium_middle.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/podium_right.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/stairs.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/stand.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/stand.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/stand.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/stand.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/railing.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trash.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/gate_left.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/gate_right.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_004.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_005.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/corridor_wall/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/corridor_stairs/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/actors/chuxia/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_011.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/library_wall/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/library_desk/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/encounter_people/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/ice_shop_wall/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/ice_counter/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/planter.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/encounter_people/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: chapter1/settings",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: chapter1/settings",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: chapter1/tutorial_text",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: chapter1/tutorial_text",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: chapter2/choices",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: chapter2/choices",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: chapter2/cutscenes",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: chapter2/cutscenes",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/actors/han/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/actors/qin/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: chapter2/dialogues",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: chapter2/dialogues",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: chapter2/maps",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: chapter2/maps",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/dorm_wall/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/bed/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/bed/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/phone/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/notebook/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_011.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/actors/jiang/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_011.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_010.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/bed/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_wall/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/bed/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/bed/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_005.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_005.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/actors/jiang/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/actors/chuxia/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_wall/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_people/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_wall/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/cone.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/cone.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/cone.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/cone.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/barrier.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_people/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_wall/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/bench.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_people/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_people/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/actors/jiang/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/actors/chuxia/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/rift_gate/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/barrier.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/barrier.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/cone.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/cone.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/actors/han/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/actors/qin/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/rift_gate/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/creatures/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/creatures/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/creatures/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/actors/han/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/actors/qin/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_wall/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_counter/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/hall_v2/trial_table.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/bar_people/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/bar_people/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/bar_people/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/bar_people/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: chapter2/settings",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: chapter2/settings",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/cinematics/wen_rang/frames/frame_008.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/actors/jiang/frames/frame_008.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/refined/npcs/frames/frame_007.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/creatures/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/creatures/frames/frame_001.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/creatures/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: cultivation/cutscenes",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: cultivation/cutscenes",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/actors/bai_muyao/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/actors/su_wantang/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: cultivation/dialogues",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: cultivation/dialogues",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: cultivation/events",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: cultivation/events",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_people/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/cinematics/wen_rang/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter2/expedition_props/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/academy_people/frames/frame_003.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/venues/bureau_people/frames/frame_002.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/cinematics/su_wanyan/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/encounter_people/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/ice_bowl/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/takeaway/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/actors/bai_muyao/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/books/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/notebook/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/actors/su_wantang/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/actors/bai_muyao/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/actors/su_wantang/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/phone/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/objects/riceball/runtime.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/encounters/actors/chuxia/frames/frame_000.png",
+			"passed": true
+		},
+		{
+			"check": "Packed runtime resource resolves: res://assets/chapter1/props/frames/frame_010.png",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON exists: cultivation/settings",
+			"passed": true
+		},
+		{
+			"check": "Packed JSON parses: cultivation/settings",
+			"passed": true
+		},
+		{
+			"check": "Developer tests are excluded from the runtime pack",
+			"passed": true
+		},
+		{
+			"check": "Python tooling is excluded from the runtime pack",
+			"passed": true
+		},
+		{
+			"check": "Document previews are excluded from the runtime pack",
+			"passed": true
+		},
+		{
+			"check": "Packed encounter data contains all nineteen dialogue blocks",
+			"passed": true
+		},
+		{
+			"check": "Release contains the latest Bai early-acquaintance revision",
+			"passed": true
+		},
+		{
+			"check": "Actual EXE opens the chapter title screen",
+			"passed": true
+		},
+		{
+			"check": "Saved actual EXE screenshot: windows-title",
+			"passed": true
+		},
+		{
+			"check": "Exported game writes an isolated user:// save",
+			"passed": true
+		},
+		{
+			"check": "Exported game reloads the cultivation date and growth profile",
+			"passed": true
+		},
+		{
+			"check": "Native cultivation panel works in the Release EXE",
+			"passed": true
+		},
+		{
+			"check": "Saved actual EXE screenshot: windows-cultivation",
+			"passed": true
+		},
+		{
+			"check": "Actual EXE automatically begins the library encounter",
+			"passed": true
+		},
+		{
+			"check": "Exported scene reaches its selection or world endpoint",
+			"passed": true
+		},
+		{
+			"check": "Exported encounter displays its choices",
+			"passed": true
+		},
+		{
+			"check": "Exported encounter plays the selected outcome",
+			"passed": true
+		},
+		{
+			"check": "Actual Release UI shows the revised brief thanks",
+			"passed": true
+		},
+		{
+			"check": "Saved actual EXE screenshot: windows-library-thanks",
+			"passed": true
+		},
+		{
+			"check": "Exported scene reaches its selection or world endpoint",
+			"passed": true
+		},
+		{
+			"check": "Exported choice settles rewards and returns to cultivation",
+			"passed": true
+		},
+		{
+			"check": "Release UI adapts to a 1920x1080 client area",
+			"passed": true
+		},
+		{
+			"check": "Saved actual EXE screenshot: windows-cultivation-1080p",
+			"passed": true
+		}
+	],
+	"engine": {
+		"build": "official",
+		"hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+		"hex": 263938,
+		"major": 4,
+		"minor": 7,
+		"patch": 2,
+		"status": "stable",
+		"string": "4.7.2-stable (official)",
+		"timestamp": 0
+	},
+	"executable": "C:/Users/l/Downloads/Godot_v4.7.2-stable_win64.exe",
+	"failures": [],
+	"isolated_save": "user://release-verification/chapter.json",
+	"passed": 414,
+	"resource_root": "",
+	"total": 414,
+	"verification_method": "matching Godot engine --main-pack Windows Release EXE; external verification script"
+}

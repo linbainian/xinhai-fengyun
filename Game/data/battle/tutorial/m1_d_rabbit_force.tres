@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="CombatantDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/battle/combatant_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = &"rabbit_force"
+display_name = "灵能野兔·强"
+data_version = "m1-d-prototype.1"
+awakening_rank = "E"
+affinity = "强化"
+body_color = Color(0.72, 0.79, 0.69, 1)
+max_hp = 65
+attack = 7.0
+defense = 4.0
+speed = 8
+perception = 8
+accuracy = 95.0

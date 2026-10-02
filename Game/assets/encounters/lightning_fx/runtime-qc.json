@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "binary_alpha": true,
+  "frames": [
+    [
+      45,
+      39,
+      83,
+      120
+    ],
+    [
+      31,
+      10,
+      96,
+      120
+    ],
+    [
+      17,
+      85,
+      110,
+      120
+    ],
+    [
+      18,
+      93,
+      110,
+      120
+    ]
+  ],
+  "same_root": true,
+  "edge_touch": false,
+  "effect_only": true
+}

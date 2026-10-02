@@ -1,0 +1,98 @@
+{
+  "sampling": "nearest",
+  "source": "assets/chapter1/npcs_grid.png",
+  "cell_size": 48,
+  "frames": [
+    {
+      "index": 0,
+      "bbox": [
+        13,
+        5,
+        34,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 1,
+      "bbox": [
+        15,
+        5,
+        32,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 2,
+      "bbox": [
+        15,
+        5,
+        32,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 3,
+      "bbox": [
+        15,
+        5,
+        33,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 4,
+      "bbox": [
+        15,
+        5,
+        33,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 5,
+      "bbox": [
+        16,
+        5,
+        32,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 6,
+      "bbox": [
+        11,
+        5,
+        37,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 7,
+      "bbox": [
+        15,
+        5,
+        32,
+        45
+      ],
+      "height": 40
+    },
+    {
+      "index": 8,
+      "bbox": [
+        16,
+        5,
+        32,
+        45
+      ],
+      "height": 40
+    }
+  ],
+  "passed": true
+}

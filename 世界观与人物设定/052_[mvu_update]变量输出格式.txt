@@ -1,0 +1,96 @@
+uid: 52
+comment: [mvu_update]变量输出格式
+constant: True
+selective: False
+disable: None
+key: 
+insertion_order: 180
+========================================
+---
+<update_variable_rules>
+rule:
+ - you must output the update analysis and the actual update commands at once in the end of the next reply
+ - 'the update commands must strictly follow the **JSON Patch (RFC 6902)** standard, but can only use the following operations: `replace` (replace the value of existing paths), `add` (only used to insert new items into an object or array), `remove`; that is, the output must be a valid JSON array containing operation objects'
+ - CRITICAL RULE: ALL `path` values MUST start with a leading slash `/`! For example, use `"/世界"` instead of `"世界"`, and `"/主角/姓名"` instead of `"主角/姓名"`. Missing the leading slash will cause fatal system errors!
+ - 变量路径使用中文，与变量结构严格对应
+ - 特殊路径：$系统提示 的 JSON Patch 路径为 "/$系统提示"，前缀 `$` 是变量名的一部分，不可省略！
+ - 数值变量默认范围0~100；带独立range的字段按自身规则。世界.累计分钟/本回合耗时/上次时间更新回合/上次周结算累计分钟/上次NPC结算累计分钟与叙事回合不设100上限，禁止擅自钳制
+ - 旧存档兼容：若新增时间字段尚不存在，用add一次性补齐。累计分钟一律由「世界.当前时间」换算（相对觉醒历22年01月01日08:00）；上次日结算日期/上次周结算累计分钟/上次NPC结算累计分钟三个锚点初始化为旧存档当前值，禁止借迁移重复发放成长、奖励或日历事件
+  - 身份锚定（防串线铁律）：本卡只有一种入学身份——**正常录取生**。主角.阵营立场 固定写入「学院·正常录取」、主角.管理局档案状态 固定写入「在册」；全卡不得漂移，也不得出现主角经由补录/特招/插班/被收容者等其它入学路径（NPC 自身的特招/破格/收容履历属既定事实，不在此列；严重吃书，「合理性审查·时间线与常识」拦截）。具体要求：
+  - 姓名/性别/年龄/容貌/身形/衣着/职业：根据用户设定直接写入
+  - 异能系别：直接写入用户指定的系别
+- 隐藏身份：根据用户设定直接写入（未填则「无」）。表单的「异能描述」「背景」不进变量树——它们是开局叙事设定，AI 须作为长期上下文记住、不得遗忘或擅自改写
+  - 觉醒等级：直接写入（F~SSS）
+  - 觉醒度：经验值制（突破后归零）。所有等级统一初始化觉醒度为0~15（刚进入当前等级，经验值从头积累）——**注意「刚进入当前等级」不等于「刚觉醒」**：觉醒度是"当前等级这条进度条"的起点，主角入学时已经觉醒约12年。
+   原则：觉醒度到达100后触发突破判定，不是到达特定阈值
+  - 灵能值/生命：初始化为100（满状态）
+  - 精神负荷：初始化为0（无负荷）
+  - 阵营立场：固定写入「学院·正常录取」（本卡只有这一条入学路径）
+  - 管理局档案状态：固定写入「在册」（本卡只有正常录取一条入学路径）——详见「主角身份与开局锚点」条目
+  - 状态：默认无异常，除非开局有特殊设定
+  - 资金：根据背景设定合理初始值（学生1000~3000/上班族5万/富二代50万/孤儿1000）
+  - 异能技能：创建初始技能条目（含类型/熟练度/消耗/描述）
+  - 储物栏：根据背景设定初始物品
+  - 既成关系写入：温让/凌未央/苏挽颜三条自动写入「人物」变量（好感初始值见「主角身份与开局锚点」条目：温让≈80/凌未央≈40/苏挽颜≈55——温让好感已达同伴迁移线，首回合直接按「同伴」栏建立（亲密继承好感值），另两人留在「人物」栏，含关系阶段与短期目标/当前压力/对主角态度/下一行动）
+  - 开局第1天日程：按「开场随机化引擎」生成近身事件与NPC主动接触；在「世界.动向」一次性写入两条互不重复的起阶段事件，每条同时写入最后推进时间/最早推进时间/推进条件。首回合保留 2-3 个贴合现场的可选项（含回宿舍/找温让/逛入学日会场的合理映射）及自由输入空间，不替玩家选择
+ - 每回合必查变量（必须在Analysis中逐项写出核对结论：值变化→写变化与计算式；值未变→写一行「无变化」，不产生无意义Patch）:
+  - 主角.心仪山头/主角.导师/主角.山头：主角是**入学日刚到的新生**——「心仪山头」开局保持「未定」，建档表单**不问**这一项，只在玩家于剧情里自己说出倾向（或明确表态想进哪个山头）时由 AI 写入；「导师」「山头」开局保持「未选定」，须在**入学日（觉醒历22年01月01日 09:00）异能测试与拜山**的双向选择里现场落定（按「学院社团一览」mentor_decision 判定口径结算）；主角.社团：入学次日（觉醒历22年01月02日）招新日由玩家在开局对话中选择后写入，开局保持「未加入」；主角.学业：起点前没有任何考核记录，开局保持空（未考核），每年11月中旬年度实战考核后按档写入「觉醒历22年·年度考核」（优/良/合格/待补做）；主角.学院杯成绩：杯赛时写入，平时保持默认（未参赛）
+  - 世界.剧情推进度（0-100，行为驱动非固定递增。日常/对话/休息+5~8，修炼/上课+8，接/推进任务+12~18，探索裂隙/外出冒险+15~20，与势力核心人物深度互动+15，触发战斗/冲突+20~25。到达100时触发主线事件，掷2d6查主线事件表，执行后归零）
+ - 每回合必查变量（必须在Analysis中逐项写出核对结论；正式叙事回合只结算一次）:
+  - 世界.叙事回合（每次正式世界内叙事回复+1，首回合=1；OOC/纠错/重生成不得重复结算世界状态）
+  - 世界.本回合耗时（可选记录；无实际时间流逝写0；不参与时钟推导）
+  - 世界.累计分钟（派生量，由当前时间换算；仅供分钟级计算，不得反向改时间）
+  - 世界.当前时间（**唯一时钟**：有推进就直接写新绝对时间，格式 觉醒历X年MM月DD日 HH:MM，禁止手算分钟/相对表述/现实历法填空/漏写「觉醒历」；无推进则原样保留）
+  - 世界.上次时间更新回合（完成本回合时间核对后写为本回合叙事回合；相同则禁止重复推进时间）
+  - 世界.上次日结算日期/上次周结算累计分钟/上次NPC结算累计分钟/已触发日历节点（达到各自时间门槛才更新）
+  - 世界.当前地点
+  - 世界.危机程度
+  - 世界.遭遇冷却（必须严格执行每回合减1，若触发遭遇则重置为6；首回合初始为0，故第1回合必然触发一次遭遇）
+  - 世界.动向（常态且最多2条；每条含阶段/类型/来源/地点/参与者/当前压力/下一步/最后推进回合/最后推进时间/最早推进时间/推进条件/描述）
+  - 世界.通缉热度
+  - 世界.舆论风向
+    - 世界.势力声望（记录型，键=势力名、值-100~100；只在某势力对主角的态度档位实质变化时写入，无变化不写）
+  - 世界.主线阶段（通常不变；仅满足幕结构推进条件时replace）
+  - 悬赏榜（有实质变动才更新：通缉犯被捕remove/新通缉犯insert/与当前事件相关条目replace；禁止无变动凑数轮换）
+  - 任务（按时间尺度检查：无进行中任务→从当前动向/悬赏榜/遭遇生成新任务线索insert；有→有实质进展才推进进度replace/完成/失败remove；连续3回合以上空栏=失误）
+  - 通讯录（有消息收发时更新对应好友的历史记录）
+  - $系统提示（有新的世界侧信息才替换：节点新闻/事件余波/远端动向露出，一句话即可；无新信息保留上一条；长期计数器写入专属变量，禁用$系统提示）
+ - 回复末尾必须原样输出状态栏占位符（原样复制，不要修改）：<StatusPlaceHolderImpl/>
+format: |-
+ <UpdateVariable>
+ <Analysis>$(no more than 450 words)
+ Efficient checklist — categories 0, 1, 2, 3, 9 are MANDATORY every turn (0=回合计数/2=剧情遭遇/3=双世界动向/9=NPC下一行动): each gets one line — the change with arithmetic, or 「无变化」. Categories 10/11/15 follow the time-scale rule (see below). For other categories: only write them out if something actually changed this turn; silence means unchanged. This keeps Analysis short and accurate.
+
+ 0.TURN: ${世界.叙事回合 current+1；若为1则执行开场随机化与两条起事件初始化；若≤10则核对首十回合节奏。本回合是否至少有一个具体事件或人物接触落到主角眼前？无→必须补，禁止整回合只有环境描写与日常寒暄。}
+ 1.TIME & LOCATION: ${先检查 上次时间更新回合 是否已等于本回合；若相等则禁止重复结算。若本回合有事件推进/休息/旅行/转场/玩家要求快进，**直接写出新的绝对时间**（格式 觉醒历X年MM月DD日 HH:MM）——禁止手算分钟、禁止把「三天后/下周」这类相对表述当变量值；无推进则原样保留。跳时须由玩家要求或场景自然收尾触发，**不得为跨节点/刷榜/推阶段造时**（停滞兜底除外），单次跨度不宜超过约一个月。再检查是否跨日期、满7天的周周期、NPC完整1440分钟或精确日历节点（凡「节点时间 ≤ 当前时间」且尚未触发的节点，本回合全部补齐，按时间先后依次结算，各且仅一次）。若连续3个叙事回合「世界.当前时间」均未推进，本回合必须给出一次自然时间跳跃（修炼收尾/过夜/闭关/任务结束/转场）并朝最近日历节点推进。严禁用现实历法填空（节假日/节气/星期）。New location? 天气/灵能浓度?}
+ 2.PLOT & CRISIS & ENCOUNTER & FORTUNE: ${剧情推进度 current? 根据本回合主角行为加算本轮增量（日常+5~8/修炼+8/任务+12~18/冒险+15~20/深度互动+15/战斗+20~25）。If 100: ROLL 2d6 and consult the「主线事件表」entry (2-12, bell curve centered on 7=裂隙爆发), reset to 0, AND register the event as a chain (阶段=起, 类型=主线事件链) in 世界.动向 per the event_chains hooks! 遭遇冷却 -1? If hits 0: ROLL 1d100 fortune dice (默认区间 1-5大凶/6-20小凶/21-30艳遇/31-55中性/56-80小吉/81-95中吉/96-100大吉；暗流篇起按「机遇与代价机制」条目整体顺移区间执行). Reset 冷却 to 6!} ${大吉事件可为突破提供+10~20%临时加成（记入 主角.突破临时加成）! Reset 冷却 to 6! 首回合若遭遇冷却=0必须立即结算一次遭遇。}
+ 3.WORLD TRENDS: ${MANDATORY CHECK every turn — exactly 2 slots, never 3. Check each slot's 当前时间≥最早推进时间 AND 推进条件是否成立；两者同时满足才允许起→承/承→转/转→合推进一级，并更新最后推进回合/最后推进时间及下一阶段门槛。未满足时可更新压力/下一步或露出新闻，但不得改阶段冒充推进；允许两个槽位都不改阶段，剧情可由NPC/消息/遭遇/现场变化继续。If a slot STARTS at 合, first兑现结果，再remove旧标题并add全新起事件，新事件当回合不得进承。If empty on first turn, add exactly two distinct 起 events. 双槽满时继续执行优先级 主线>大凶>大吉>普通 的抢占/并链/排队算法，禁止第3条。任一槽位同一阶段停留已达3回合→本回合必须推进或按「合」收束换新；两槽均与现场无关时→让其中一条以直接方式接触主角。}
+ 4.PROTAGONIST STATUS: ${生命/灵能/精神负荷 changes? Any damage, recovery, consumption? 精神负荷70+（含70）warning?}
+ 5.AWAKENING & CULTIVATION: ${修炼/突破相关变化? 觉醒度增减与算式、技能熟练度里程碑、突破判定（前兆/临界/成功率修正与 主角.突破成功率 变更/成败结果与失败感悟）。非修炼且无突破的回合写「无变化」。}
+ 6.STATE & INVENTORY: ${状态 change? Items gained/used/lost in 储物栏? 装备 updates? 资金 change?}
+ 7.COMBAT & COST: ${Combat this turn? DC check result (技能熟练度加成DC? 技能消耗灵能值扣减)? 精神负荷 increase? Any 觉醒失控 risk?}
+ 8.COMPANIONS: ${Any 同伴 present? 亲密/状态/心声 updates?}
+ 9.NPCs: ${MANDATORY — at least one relevant NPC must execute or revise a concrete 下一行动 this turn. For every active/new NPC maintain 短期目标/当前压力/对主角态度/下一行动; “观察中/等待主角” is invalid. NPC may主动搭话/邀请/求助/竞争/制造麻烦 but may not choose the protagonist's response. Then check 好感/关系阶段/描述 and whether 好感>=80 requires move to 同伴. 每5回合只检查NPC日成长；仅当 累计分钟-上次NPC结算累计分钟≥1440 才按完整天数结算一次并推进锚点（单次上限30天），禁止按回合数虚构天数或同区间重复结算。NPCs in combat/机缘 get immediate +3~15. 至少一项主动接触必须发生在主角当前场景内或直接联系主角本人，不得只让远方NPC自行活动。}
+ 10.QUESTS: ${Time-scale: check ongoing quests — progress update only when in-game time actually advanced the quest; completed/failed remove. If NO ongoing quest, generate a new quest using the task_generator template (目标×地点×对手×奖励 four columns, see 变量更新规则 task_generator) from current 世界.动向/悬赏榜/遭遇 and insert into 任务. 任务栏连续3回合以上为空=失误；不强制短跨度回合硬造任务。}
+ 11.BOUNTY BOARD: ${Time-scale: update only when there is real change — captured criminals remove, new bounties insert, entries tied to current events replace 排名/悬赏金/危险描述. 禁止为凑数轮换排名。}
+ 12.CONTACTS: ${Any messages sent/received via 通讯录? Update history.}
+ 13.WANTED HEAT: ${通缉热度 change based on protagonist's actions/exposure?}
+ 14.PUBLIC OPINION: ${舆论风向 shift based on events?}
+ 15.SYSTEM PROMPT: ${Time-scale: update $系统提示 only when there is new world-side info (远端动向推进/节点新闻/事件余波). Prefer the REMOTE one of the two world trends via campus broadcast/news/forum/group chat/report. 无新信息保留上一条；长期计数器（世界.真相保底计数/主角.新手红利剩余等）一律写入专属变量，禁止放$系统提示。}
+
+ </Analysis>\n <JSONPatch>
+ [
+  { "op": "replace", "path": "/世界/叙事回合", "value": 1 },
+  { "op": "replace", "path": "/世界/本回合耗时", "value": 0 },
+   { "op": "replace", "path": "/世界/当前时间", "value": "觉醒历22年01月01日 10:00" },
+  { "op": "replace", "path": "/世界/上次时间更新回合", "value": 1 },
+  { "op": "replace", "path": "/世界/遭遇冷却", "value": 6 },
+  ...
+ ]
+ </JSONPatch>
+ </UpdateVariable>
+
+ <StatusPlaceHolderImpl/>
+</update_variable_rules>
+
+通讯录格式约束：`/通讯录/<好友>` 的 value 必须是对象，至少包含`性别`、`觉醒等级`、`关系阶段`、`好感`、`历史记录`。有消息收发时，不得把字符串或数组直接写入好友节点；消息必须逐条写入`/通讯录/<好友>/历史记录/<消息标识>`，value 使用`{"发送者":"<姓名>","时间":"<YYYY年MM月DD日 HH:MM>","内容":"<消息正文>"}`。

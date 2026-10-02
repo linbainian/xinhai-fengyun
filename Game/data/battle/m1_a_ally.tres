@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="CombatantDefinition" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/battle/combatant_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"test_ally"
+display_name = "测试新生"
+data_version = "m1-a.1"
+awakening_rank = "D"
+affinity = "强化"
+body_color = Color(0.34, 0.72, 0.64, 1)
+strength = 10
+agility = 10
+constitution = 10
+spirit = 10
+perception = 10
+willpower = 10
+max_hp = 120
+attack = 20.0
+defense = 12.0
+speed = 14
+accuracy = 96.0
+evasion = 3.0

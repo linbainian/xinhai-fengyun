@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="BattleRules" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/battle/battle_rules.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+data_version = "m1-a.1"
+damage_dice_count = 2
+damage_die_min = 1
+damage_die_max = 10
+attack_multiplier = 1.0
+defense_coefficient = 0.5
+perception_hit_bonus = 2.0
+minimum_hit_damage = 1
+defense_hp_ratio = 0.1
+defense_sl_relief = 15
+sl_min = 0
+sl_max = 100
+initiative_die_sides = 6
+presentation_seconds = 0.48
+enemy_think_seconds = 0.55

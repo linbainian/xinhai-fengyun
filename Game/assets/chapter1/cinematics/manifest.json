@@ -1,0 +1,441 @@
+{
+  "source": "OpenAI built-in ImageGen",
+  "third_party_downloads": [],
+  "sources": [
+    {
+      "character": "wen_rang",
+      "path": "assets/chapter1/cinematics/wen_rang_raw.png",
+      "sha256": "2b8f1c5523947377f6b37138aeb7fd65fea2331f571be08d22c6186c1b52e54a",
+      "prompt": "assets/chapter1/cinematics/prompts/wen_rang.prompt.txt",
+      "prompt_sha256": "308844dbf604f372077ee3f0d0bf8b8bf2e56317c0569afd6ae720e9e56030ae",
+      "qc": "assets/chapter1/cinematics/wen_rang/runtime-qc.json"
+    },
+    {
+      "character": "su_wanyan",
+      "path": "assets/chapter1/cinematics/su_wanyan_raw.png",
+      "sha256": "1da5df36860576ad099e9b2675b1062810e5f36fc74916e06c5dc697704a282e",
+      "prompt": "assets/chapter1/cinematics/prompts/su_wanyan.prompt.txt",
+      "prompt_sha256": "2c41c596435e9c37ee3d641b8fa490d83696ed6098d0be2a559346254eac4886",
+      "qc": "assets/chapter1/cinematics/su_wanyan/runtime-qc.json"
+    },
+    {
+      "character": "liu",
+      "path": "assets/chapter1/cinematics/liu_raw.png",
+      "sha256": "70d2685bb0c7acefa7c8195179bfde83a455126caa1f472ac82be54003f9fc3d",
+      "prompt": "assets/chapter1/cinematics/prompts/liu.prompt.txt",
+      "prompt_sha256": "91df8b7916e2b54a0cf7b6cabb0f5e065d88d3c3a635568a06df7d3d003ebc92",
+      "qc": "assets/chapter1/cinematics/liu/runtime-qc.json"
+    },
+    {
+      "character": "shen",
+      "path": "assets/chapter1/cinematics/shen_raw.png",
+      "sha256": "e264c21df74a621a86bb5743e1974b58377ad2f4b4d4dbb2005a20a4084bec15",
+      "prompt": "assets/chapter1/cinematics/prompts/shen.prompt.txt",
+      "prompt_sha256": "263f1cdf65477e155e877bb9d7028a2767789b918c9acfe3384d36b72ce1ace7",
+      "qc": "assets/chapter1/cinematics/shen/runtime-qc.json"
+    },
+    {
+      "character": "wen",
+      "path": "assets/chapter1/cinematics/wen_raw.png",
+      "sha256": "8fbe0bbb0e729f85236bb4848ac4b92cd27bb81ee0fefc0630a97b9855111e7c",
+      "prompt": "assets/chapter1/cinematics/prompts/wen.prompt.txt",
+      "prompt_sha256": "26bc9c10bce143e6983604a606605741359a3e97f80abbeabe8e52dd977b2e69",
+      "qc": "assets/chapter1/cinematics/wen/runtime-qc.json"
+    },
+    {
+      "character": "tang",
+      "path": "assets/chapter1/cinematics/tang_raw.png",
+      "sha256": "d66d4a259ca285cb9f3dafd7319f3df475bd19d77f68f71d3313d724095667e5",
+      "prompt": "assets/chapter1/cinematics/prompts/tang.prompt.txt",
+      "prompt_sha256": "4e0d757391310d34eae085b5cdab241bf3cd27a187a48a5634d807fb655c8efc",
+      "qc": "assets/chapter1/cinematics/tang/runtime-qc.json"
+    }
+  ],
+  "runtime": [
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_000.png",
+      "sha256": "7658a030c314b718c28a8f6bb0bbea0ac6a1d0dd20eb74ee88a821816f4c93b5"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_001.png",
+      "sha256": "079f7f5f5458a17aae3e6bd03f82029463e2dc088abc480f2b3ff9f8ad79fad5"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_002.png",
+      "sha256": "e4560530389d4419ad63ae3e5a4fdcc518716794b7dbb2bcb235bb8ea44e1bfd"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_003.png",
+      "sha256": "fa3fed05b70802ea6fc497daca4e3c90f33b82a38976488ac1491635f7526752"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_004.png",
+      "sha256": "4117d69d284d58e44d70d52d10d9a1b545fa3305f09a0cf7ad2c84b3b6949f74"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_005.png",
+      "sha256": "55aeaf76c9477a0b0b8fac3cd8bc579040a40c586ea594dc0f428a767396d069"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_006.png",
+      "sha256": "ae0063332c73fc1328efb1980a6166530464537a75afcd15bd41af501930e3ae"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_007.png",
+      "sha256": "a8963146a21cc7617a24db4761f93a823ec06691c0df4e97e5474ae014a292a7"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_008.png",
+      "sha256": "0bae7d23a7916b9bd85bcf54820372723de8fda7edc9c93cc313332397b1c357"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_009.png",
+      "sha256": "ddf596374aa972136f3ce3d911436b40bcaf1d03e7100452c89ce37cd7bf386c"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_010.png",
+      "sha256": "9a02a6af21c9142a67412a89fc0b16c4bbeed312b0b6e9d9b8343d0522254327"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_011.png",
+      "sha256": "d2ab9a6a29b592e642144bef18435c7a60476310382a9da6bff85b2da20ae845"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_012.png",
+      "sha256": "40b88e8b48b4ddbc05867cfcf1b35c13d744bf6c59cf20eba4818dc37f9d0bab"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_013.png",
+      "sha256": "afecca4bbf9e007678d910cb2c596c8dc22d951ccc81ce37e28fb3fa2a305cdf"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_014.png",
+      "sha256": "5461985acd3b91c1b8fbf2d3fd1f39e51036b2e905d9205398577045fa10b783"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen_rang/frames/frame_015.png",
+      "sha256": "191496b4b38223acdd621470c82e90fcdce08bf1348cee2df4c09ea45d4e3419"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_000.png",
+      "sha256": "de595d825c5bc1ae73eea7e4c063c951b6ac4909404866c9898a9a6f1e463b4c"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_001.png",
+      "sha256": "d67ac84585c39b6c9920367336300f979282a30b92c9363dd0e770dab59a6b74"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_002.png",
+      "sha256": "3551f358f98ee2b44d1ec8b429e4490ddd825d7a2adca4305562a7473d1d124f"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_003.png",
+      "sha256": "edc601848460997d61b44e01dfa71d3e6ebb55f0c047d4c6ae04a89d91837129"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_004.png",
+      "sha256": "fa177e5d1b67381707978b081a1f7702ada5833ffcc4f5eda71a2190927c5a89"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_005.png",
+      "sha256": "8e22f4ca2acbba34dedb72e25ce1c46fdbee7a7132ce2e20af6e0e4f764f9fed"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_006.png",
+      "sha256": "31ca1a12e7209022d4c9fc2fef55e79d2a67891fc3bf294e44d16717d1808dd7"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_007.png",
+      "sha256": "0ca60dc28b8a89bcc1dfa987ead1dc75d612506d73627df21eeca92ad05fcc23"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_008.png",
+      "sha256": "e327631db100d2dad960093a70bfaecd217edef8a7dc28cc8438cae535e6c319"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_009.png",
+      "sha256": "25a48245671e26ada7e37dd3ac16e9e4931df1edeb2e824b4572a71be8479c7a"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_010.png",
+      "sha256": "f80c1f436bca5727a2884c9f9ef32683fe82f35004db7747eef693f910b5c219"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_011.png",
+      "sha256": "2f0c96fafc069a93e1af7c8d741ab14c666da176b031ec556d16ad7dee3c0a1d"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_012.png",
+      "sha256": "f5b12883638fccd1c74269c11ec848fa38cfdfaea4f9aa7f822dbba4ec52617c"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_013.png",
+      "sha256": "16a05bcdda1029295afcd5a129b74e614b822991a896cb109c1a5986ac6463cc"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_014.png",
+      "sha256": "f0f5d74a2749a39ffe77e58b631a0f0cf61129bad8289ea82612a2606ad8dfa8"
+    },
+    {
+      "path": "assets/chapter1/cinematics/su_wanyan/frames/frame_015.png",
+      "sha256": "89e72b8d222af8abed05cd97ac4cff1e34acc46e469bf6057572c2e5615b5e08"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_000.png",
+      "sha256": "2d37c597b2c3c85b8ab952974b28f3dee071b6703afe12b75e70e85eab0a5b0f"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_001.png",
+      "sha256": "5d0f277a9c833fa8676eb157a145681d2215f8b9e0d77fcd1063833c007a5606"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_002.png",
+      "sha256": "e61d46198635e4acaa9ac34fd4bc04396810879186ccdff250c76bfd65b90eb9"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_003.png",
+      "sha256": "323a2b6dfe269bf14b470d959ab5f897a73daa2a1e9538eac78c5f751c27eaed"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_004.png",
+      "sha256": "9ac2724cdcd911c11a8b4ba88296fd296bba3942e6724887f9f46ba2dbbb9164"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_005.png",
+      "sha256": "88f9f0b0826d82cb8289ad86439a33d0f69353768d6b5d97eff893d2da4ee3cf"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_006.png",
+      "sha256": "1d5a05b587fdfb49dc0fff8b60233869c061bb59204955d8be0104291da37eca"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_007.png",
+      "sha256": "073c49c22af321eb7d9818de9b0bc81bc58c5c543e56852d3af274101210e9fe"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_008.png",
+      "sha256": "9572f97652e6bf2174b2738005439f26bb77732b6de55cff5bc20cd9f79560ff"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_009.png",
+      "sha256": "3e84b759127d41a2ed09d6d1b1fb1a8441ea4f531e1a09f6022045a5944feb77"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_010.png",
+      "sha256": "d1e3b47caf9af0d0039e7b342dfeaa147bb3f9163e224ed3f68e41c603821f1e"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_011.png",
+      "sha256": "fcb6b5a68f0ad3709eb837eb226a3a7a4746664288015527fc694eb32fd5b882"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_012.png",
+      "sha256": "324a7fc1616f0d0951668af836089a117e73d5fbed97745f1b192717bf7a8980"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_013.png",
+      "sha256": "e520d37299716d838664a79875acd366a7a10ef394930d0028ec594628d449be"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_014.png",
+      "sha256": "da1227db68bd45c1a0c52eadef201800a9b3b28b8bdbcd7bead2abed7245255b"
+    },
+    {
+      "path": "assets/chapter1/cinematics/liu/frames/frame_015.png",
+      "sha256": "58a8a32320fbe4f00c8dab646ea15a553c8a42dec4abd86550d3a3933a5dab93"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_000.png",
+      "sha256": "21f82c9b0c9c4901ea10674f86fefe2b41b2f83c262f39e057295dff1149c599"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_001.png",
+      "sha256": "3d6c689bebdf74f838820d0e31849da4c5783e2c0c1110649a7232b7821abf2a"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_002.png",
+      "sha256": "38178752cca94e72282768764ed5eb38ffbdd914de9f8b25c7e05c448051aa53"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_003.png",
+      "sha256": "241bd350b5f07c95783ffaec5b2ea07257bea2a5afd344ecdd98d980fdea2186"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_004.png",
+      "sha256": "dc48d9bd1d815327a79750689de0ed78263ad3b64ee762002066e6873e1ca628"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_005.png",
+      "sha256": "eee6e57af2486c82ba78b82a05ba47a29f56065f18c9c84bb941578b05a4609c"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_006.png",
+      "sha256": "d2d414b62f7016729728a461fc3c89fd11343e04552d500938c92e097a74678b"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_007.png",
+      "sha256": "145e37f6fc4f48fa30ac79934a18f372843a8d3322251114d681ef17308fe792"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_008.png",
+      "sha256": "a94ffcfce01f8a1655bbff6cadc815e715cb543c5881c5b3e052f7bf95c76ea6"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_009.png",
+      "sha256": "1e746f10b0edd9dc688327635ff47cbe6e1cd58a65cc9c49bcb757d6fe8c413b"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_010.png",
+      "sha256": "47deada70da436c3b3f1a51afdf4d99278793dbeafaef24fca7c8d0479e8c31d"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_011.png",
+      "sha256": "745f9d8a68a4e3dfa5706c6de8437654aeba3bd3dbc7d72ef6db4cfba83383bf"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_012.png",
+      "sha256": "309916f9e50d94cdfe1c20326a4525d14bc431b724fdcc382681f6446a51c7c9"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_013.png",
+      "sha256": "396f867134748491d3286cc467c1334faf1cc686c71bb6b8e2dd746a7cd14b82"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_014.png",
+      "sha256": "113c97cd2029e4e79dff41993f96497b6bddb91108363b0bc1e4042fda74bba6"
+    },
+    {
+      "path": "assets/chapter1/cinematics/shen/frames/frame_015.png",
+      "sha256": "7d4689a8971203ada2f9cb0faf08badbbd78c2aeefbbc494d34821b73c03917e"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_000.png",
+      "sha256": "f021c946476fe22d07539971e4ae3ed0f7e140a5986083172e3fcf20597a0b68"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_001.png",
+      "sha256": "2d11c4161348b7adb431231e1cad8a04bd6701d03fea06db9fd0091ab7d641c7"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_002.png",
+      "sha256": "76b5dac79268b44cd088dc76e1bf90cd3c51602d91c7ec196aaadaf99c3166ca"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_003.png",
+      "sha256": "14ac6b4e9b9e6f87b2215f2f73487c946bac6041c1b74d90749aa6a1ea7c8310"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_004.png",
+      "sha256": "f6f332ea90b9c6b65038d6cc449942d20d0db576d485d55e75172e542a04e839"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_005.png",
+      "sha256": "08b5495553267b33ca3f74c1f72905ecb004ff0dae39853d538826e691d5ef70"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_006.png",
+      "sha256": "19994d099511cf9162f4b4d109515f09b211bc84a52c568edbcc6aee6feb144b"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_007.png",
+      "sha256": "d80b2c70293f2cb51b269e59c90f97d7995e11dfd323f82eb8b5a457bee46d57"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_008.png",
+      "sha256": "b52f7c14cce83eb51f004020c9b187c28806cf8b00ebae2038bff320493dd9b3"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_009.png",
+      "sha256": "6ef8364072ac69dc049ea3344023d03e1c02b9a067fa0e48767f088c42ed3080"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_010.png",
+      "sha256": "a98680563b740f7aa530045d7dc9938b1d81c9dce94e1c7f0ab92e997e3860d5"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_011.png",
+      "sha256": "ab89f03cc250f6607cff2d5b47ddbe5da698e7fceb6e1911e3122fee1d9c6f7b"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_012.png",
+      "sha256": "5a16feb0268cf448e3e49d068cd57a160f274c4946e3f7995e5912055afb555f"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_013.png",
+      "sha256": "e555167e9ef2f0ff479749f412a3aab4523a198a51ca5417dde17833252d20f5"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_014.png",
+      "sha256": "3f0f08783e49867cb29174e81bb1b6e241134ff8eba454078fd7f6121e0191c5"
+    },
+    {
+      "path": "assets/chapter1/cinematics/wen/frames/frame_015.png",
+      "sha256": "9251de8769a62b989640ad41b2b0ddf92f4cc82ebd21232b833d2b626301e93b"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_000.png",
+      "sha256": "d01368e6b3c05be110059c7b54a1dbc72c718f177aca2d7157ce06327776ec08"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_001.png",
+      "sha256": "cf643d5751639524127b4b1668d3435d231904160d9d38c86a62e5c798d30d42"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_002.png",
+      "sha256": "a4f277ff11a549fa76b437cd13091250700fb7d1628b933931ce2e11b1e3bd35"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_003.png",
+      "sha256": "20c699055a1068bbc54579416870c5d5323e9e41faadba7094306d477ba5ef8c"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_004.png",
+      "sha256": "22f4c2eec60955b944c68f32e2e23d7a74732075e0341baabe64532a7d7d4b98"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_005.png",
+      "sha256": "b87cf86c4ff236fa011d36ec0c6bd7e267a8d0eb17fa630ff7968c3b5cea86b5"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_006.png",
+      "sha256": "1e86a56c2d8ea228f66efbfc1f06295a8715e52c9aada53cc2bd5c7badae0ce4"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_007.png",
+      "sha256": "0d87e8f150e7dc5e621c51c548a819394d72ef61c8d45b2236e96ba1552fcc02"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_008.png",
+      "sha256": "f6f50c3e4f90d195197a0c1de23a08e1c7124d3ceba1b4f694c778edb9888a96"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_009.png",
+      "sha256": "5fc328a1094285257667c579c2c6cdb6d8133d5657f7ba52d4c7e4d9e3e58e15"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_010.png",
+      "sha256": "bd7e00661a34f59850236e326e52f69f9da8dd3c47dd6141533716a9261ee29e"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_011.png",
+      "sha256": "5dad2aec22b4236708d1872ec8601032ddedbf15ef0cf130500e6a9a8cad212f"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_012.png",
+      "sha256": "912d6871f6e2ac551f9e135b7feeada0b6f5091f68785c809919c9d0b179cfe3"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_013.png",
+      "sha256": "a8da08f13647e0197f17d00b3eb4647e8d0722540c2a0be42c23256153d5eb13"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_014.png",
+      "sha256": "2baada64393d23e3fd4b361bb80063b315a08aa38872878af8e7de3bc83adf41"
+    },
+    {
+      "path": "assets/chapter1/cinematics/tang/frames/frame_015.png",
+      "sha256": "937d1d8d28264175cd76edff6d4823887d7165cc8eebe5f6004245b24fc80569"
+    }
+  ],
+  "passed": true
+}

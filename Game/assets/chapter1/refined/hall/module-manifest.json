@@ -1,0 +1,998 @@
+{
+  "schema": "chapter1.hall-modules.v2",
+  "source": "OpenAI built-in ImageGen",
+  "passed": true,
+  "design_reference": "assets/chapter1/refined/hall_reference_v2.png",
+  "modules": [
+    {
+      "id": "dome",
+      "path": "assets/chapter1/refined/hall_v2/dome.png",
+      "source": "assets/chapter1/refined/hall_dome_raw.png",
+      "source_box": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "crop_bbox": [
+        157,
+        62,
+        1617,
+        834
+      ],
+      "size": [
+        964,
+        512
+      ],
+      "world_footprint": [
+        964,
+        512
+      ],
+      "anchor": [
+        482,
+        510
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "a7b8e9836743b3e77ab44b89d7795cebbf1d64aba444c336dd7686022dd7568b"
+    },
+    {
+      "id": "wall",
+      "path": "assets/chapter1/refined/hall_v2/wall.png",
+      "source": "assets/chapter1/refined/hall_facade_v2_grid.png",
+      "source_box": [
+        0,
+        0,
+        748,
+        748
+      ],
+      "crop_bbox": [
+        136,
+        148,
+        674,
+        617
+      ],
+      "size": [
+        196,
+        171
+      ],
+      "world_footprint": [
+        196,
+        171
+      ],
+      "anchor": [
+        98,
+        169
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "f7e4b17c8d77119354087d42b75a97a79a8067caf85ab90f55f66910279f2370"
+    },
+    {
+      "id": "arch_window",
+      "path": "assets/chapter1/refined/hall_v2/arch_window.png",
+      "source": "assets/chapter1/refined/hall_facade_v2_grid.png",
+      "source_box": [
+        748,
+        0,
+        1496,
+        748
+      ],
+      "crop_bbox": [
+        74,
+        148,
+        611,
+        617
+      ],
+      "size": [
+        196,
+        172
+      ],
+      "world_footprint": [
+        196,
+        172
+      ],
+      "anchor": [
+        98,
+        170
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "700b38cbe69e6cb6e5e020b1ba2da0620a67fb0b8044cbe55a3496b55cc4dfe1"
+    },
+    {
+      "id": "column",
+      "path": "assets/chapter1/refined/hall_v2/column.png",
+      "source": "assets/chapter1/refined/hall_facade_v2_grid.png",
+      "source_box": [
+        0,
+        748,
+        748,
+        1496
+      ],
+      "crop_bbox": [
+        356,
+        121,
+        454,
+        592
+      ],
+      "size": [
+        39,
+        174
+      ],
+      "world_footprint": [
+        39,
+        174
+      ],
+      "anchor": [
+        20,
+        172
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "a92e7be1270bef30e06348704aff5452a5df72aa929ba84e4e975db9a5448026"
+    },
+    {
+      "id": "portal",
+      "path": "assets/chapter1/refined/hall_v2/portal.png",
+      "source": "assets/chapter1/refined/hall_facade_v2_grid.png",
+      "source_box": [
+        748,
+        748,
+        1496,
+        1496
+      ],
+      "crop_bbox": [
+        131,
+        121,
+        553,
+        591
+      ],
+      "size": [
+        157,
+        174
+      ],
+      "world_footprint": [
+        157,
+        174
+      ],
+      "anchor": [
+        78,
+        172
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "5da917caa9afdb266911b2288c89d21a0debaaeb3e2f56a06f59cc5218f713dd"
+    },
+    {
+      "id": "stairs",
+      "path": "assets/chapter1/refined/hall_v2/stairs.png",
+      "source": "assets/chapter1/refined/hall_interior_v2_grid.png",
+      "source_box": [
+        0,
+        546,
+        546,
+        1092
+      ],
+      "crop_bbox": [
+        48,
+        201,
+        502,
+        372
+      ],
+      "size": [
+        116,
+        46
+      ],
+      "world_footprint": [
+        116,
+        46
+      ],
+      "anchor": [
+        58,
+        44
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "d767baeb455c68cc6cd0cbc95f24ad5e6a08f2585a5ec1f10cb6774ca4ddb9dd"
+    },
+    {
+      "id": "stand",
+      "path": "assets/chapter1/refined/hall_v2/stand.png",
+      "source": "assets/chapter1/refined/hall_interior_v2_grid.png",
+      "source_box": [
+        546,
+        546,
+        1092,
+        1092
+      ],
+      "crop_bbox": [
+        25,
+        184,
+        522,
+        372
+      ],
+      "size": [
+        292,
+        113
+      ],
+      "world_footprint": [
+        292,
+        113
+      ],
+      "anchor": [
+        146,
+        111
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "6091e061b4c11c17ade4470b4a210fc54a24d97836a33d07be07a73344bd69d9"
+    },
+    {
+      "id": "railing",
+      "path": "assets/chapter1/refined/hall_v2/railing.png",
+      "source": "assets/chapter1/refined/hall_interior_v2_grid.png",
+      "source_box": [
+        1092,
+        546,
+        1638,
+        1092
+      ],
+      "crop_bbox": [
+        42,
+        205,
+        489,
+        369
+      ],
+      "size": [
+        100,
+        39
+      ],
+      "world_footprint": [
+        100,
+        39
+      ],
+      "anchor": [
+        50,
+        37
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "c93b6ea1b141aff9aaba696c53a41999fc75df8827b456f6f7ad390d8c259e34"
+    },
+    {
+      "id": "trial_table",
+      "path": "assets/chapter1/refined/hall_v2/trial_table.png",
+      "source": "assets/chapter1/refined/hall_interior_v2_grid.png",
+      "source_box": [
+        0,
+        1092,
+        546,
+        1638
+      ],
+      "crop_bbox": [
+        55,
+        153,
+        510,
+        341
+      ],
+      "size": [
+        100,
+        44
+      ],
+      "world_footprint": [
+        100,
+        44
+      ],
+      "anchor": [
+        50,
+        42
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "bc2571b2fc75294d4b2dbc50bb556b8595a7708ca339921eed9ce9c0727a23c0"
+    },
+    {
+      "id": "bench",
+      "path": "assets/chapter1/refined/hall_v2/bench.png",
+      "source": "assets/chapter1/refined/hall_interior_v2_grid.png",
+      "source_box": [
+        546,
+        1092,
+        1092,
+        1638
+      ],
+      "crop_bbox": [
+        48,
+        161,
+        496,
+        340
+      ],
+      "size": [
+        148,
+        62
+      ],
+      "world_footprint": [
+        148,
+        62
+      ],
+      "anchor": [
+        74,
+        60
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "092f53f52daad0c6593309b3179376cbd023e0be351e3e69ad423838d8ee50e0"
+    },
+    {
+      "id": "barrier",
+      "path": "assets/chapter1/refined/hall_v2/barrier.png",
+      "source": "assets/chapter1/refined/hall_interior_v2_grid.png",
+      "source_box": [
+        1092,
+        1092,
+        1638,
+        1638
+      ],
+      "crop_bbox": [
+        46,
+        183,
+        489,
+        336
+      ],
+      "size": [
+        148,
+        54
+      ],
+      "world_footprint": [
+        148,
+        54
+      ],
+      "anchor": [
+        74,
+        52
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "640f3f3be766b640d8f44740cf553e2efeae9934824a87c4805ecb996ee2f0d1"
+    },
+    {
+      "id": "flag_red",
+      "path": "assets/chapter1/refined/hall_v2/flag_red.png",
+      "source": "assets/chapter1/refined/hall_props_v2_grid.png",
+      "source_box": [
+        0,
+        0,
+        471,
+        471
+      ],
+      "crop_bbox": [
+        129,
+        63,
+        376,
+        413
+      ],
+      "size": [
+        77,
+        108
+      ],
+      "world_footprint": [
+        77,
+        108
+      ],
+      "anchor": [
+        14,
+        106
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "d8178ba1ceb2a913325f67359520aa8e629765bef04494d3fe98da52bea9a7ea"
+    },
+    {
+      "id": "flag_gray",
+      "path": "assets/chapter1/refined/hall_v2/flag_gray.png",
+      "source": "assets/chapter1/refined/hall_props_v2_grid.png",
+      "source_box": [
+        471,
+        0,
+        942,
+        471
+      ],
+      "crop_bbox": [
+        134,
+        62,
+        375,
+        413
+      ],
+      "size": [
+        75,
+        108
+      ],
+      "world_footprint": [
+        75,
+        108
+      ],
+      "anchor": [
+        14,
+        106
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "9865703c191e898f12d3ef363cdbba85b526072dc966d46afa984ba19cef869b"
+    },
+    {
+      "id": "flag_teal",
+      "path": "assets/chapter1/refined/hall_v2/flag_teal.png",
+      "source": "assets/chapter1/refined/hall_props_v2_grid.png",
+      "source_box": [
+        942,
+        0,
+        1413,
+        471
+      ],
+      "crop_bbox": [
+        132,
+        63,
+        376,
+        413
+      ],
+      "size": [
+        77,
+        108
+      ],
+      "world_footprint": [
+        77,
+        108
+      ],
+      "anchor": [
+        14,
+        106
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "81e90f3930658adea670b466be355f537925568a20e15fd21e02a4d298c5a039"
+    },
+    {
+      "id": "flag_silver",
+      "path": "assets/chapter1/refined/hall_v2/flag_silver.png",
+      "source": "assets/chapter1/refined/hall_props_v2_grid.png",
+      "source_box": [
+        0,
+        471,
+        471,
+        942
+      ],
+      "crop_bbox": [
+        125,
+        64,
+        376,
+        415
+      ],
+      "size": [
+        78,
+        108
+      ],
+      "world_footprint": [
+        78,
+        108
+      ],
+      "anchor": [
+        14,
+        106
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "512626a0114eb2539f436a7cefd7cdfa54bb9f1213a1d902b2bbabda4ea0bf0f"
+    },
+    {
+      "id": "streetlamp",
+      "path": "assets/chapter1/refined/hall_v2/streetlamp.png",
+      "source": "assets/chapter1/refined/hall_props_v2_grid.png",
+      "source_box": [
+        471,
+        471,
+        942,
+        942
+      ],
+      "crop_bbox": [
+        192,
+        62,
+        298,
+        415
+      ],
+      "size": [
+        42,
+        132
+      ],
+      "world_footprint": [
+        42,
+        132
+      ],
+      "anchor": [
+        21,
+        130
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "f1be0f5232461c74a2b2e4b187f64c2c17f099080d3155842a5145d36c8a11fc"
+    },
+    {
+      "id": "planter",
+      "path": "assets/chapter1/refined/hall_v2/planter.png",
+      "source": "assets/chapter1/refined/hall_props_v2_grid.png",
+      "source_box": [
+        942,
+        471,
+        1413,
+        942
+      ],
+      "crop_bbox": [
+        63,
+        178,
+        430,
+        411
+      ],
+      "size": [
+        116,
+        75
+      ],
+      "world_footprint": [
+        116,
+        75
+      ],
+      "anchor": [
+        58,
+        73
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "8fa479420302746c8e8d0189fbb33e96a5e5491d66f0d02dbb681f0ec7351b75"
+    },
+    {
+      "id": "trash",
+      "path": "assets/chapter1/refined/hall_v2/trash.png",
+      "source": "assets/chapter1/refined/hall_props_v2_grid.png",
+      "source_box": [
+        0,
+        942,
+        471,
+        1413
+      ],
+      "crop_bbox": [
+        142,
+        123,
+        325,
+        402
+      ],
+      "size": [
+        35,
+        52
+      ],
+      "world_footprint": [
+        35,
+        52
+      ],
+      "anchor": [
+        18,
+        50
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "c13541fbcd84c6aec4321d971bc338ed598b81fa50cef2651e13e9f2248fa94f"
+    },
+    {
+      "id": "cone",
+      "path": "assets/chapter1/refined/hall_v2/cone.png",
+      "source": "assets/chapter1/refined/hall_props_v2_grid.png",
+      "source_box": [
+        471,
+        942,
+        942,
+        1413
+      ],
+      "crop_bbox": [
+        163,
+        185,
+        329,
+        398
+      ],
+      "size": [
+        26,
+        32
+      ],
+      "world_footprint": [
+        26,
+        32
+      ],
+      "anchor": [
+        13,
+        30
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "0d0537e9d1efc0715720d2bdd9faeb3af92913230577569b97456ddf2ec26bc8"
+    },
+    {
+      "id": "gate_left",
+      "path": "assets/chapter1/refined/hall_v2/gate_left.png",
+      "source": "assets/chapter1/refined/hall_props_v2_grid.png",
+      "source_box": [
+        942,
+        942,
+        1413,
+        1413
+      ],
+      "crop_bbox": [
+        185,
+        45,
+        306,
+        404
+      ],
+      "size": [
+        36,
+        100
+      ],
+      "world_footprint": [
+        36,
+        100
+      ],
+      "anchor": [
+        18,
+        98
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "9644356afaa645606d65b13a4385bdb05d07b833e0c9305c8990af2e03026dff"
+    },
+    {
+      "id": "podium_left",
+      "path": "assets/chapter1/refined/hall_v2/podium_left.png",
+      "source": "assets/chapter1/refined/hall_stage_v2_grid.png",
+      "source_box": [
+        0,
+        0,
+        748,
+        748
+      ],
+      "crop_bbox": [
+        41,
+        161,
+        722,
+        570
+      ],
+      "size": [
+        196,
+        119
+      ],
+      "world_footprint": [
+        196,
+        119
+      ],
+      "anchor": [
+        98,
+        117
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "1529d388b3f8ea32964b429b78b6a7c2fb21968a61e3f49830618921cc43b1a9"
+    },
+    {
+      "id": "podium_middle",
+      "path": "assets/chapter1/refined/hall_v2/podium_middle.png",
+      "source": "assets/chapter1/refined/hall_stage_v2_grid.png",
+      "source_box": [
+        748,
+        0,
+        1496,
+        748
+      ],
+      "crop_bbox": [
+        28,
+        179,
+        721,
+        563
+      ],
+      "size": [
+        196,
+        110
+      ],
+      "world_footprint": [
+        196,
+        110
+      ],
+      "anchor": [
+        98,
+        108
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "8aa41dd443f0c5abb889fd0338f1e9157084b059e2b30f616dc298d8f5c33e44"
+    },
+    {
+      "id": "podium_right",
+      "path": "assets/chapter1/refined/hall_v2/podium_right.png",
+      "source": "assets/chapter1/refined/hall_stage_v2_grid.png",
+      "source_box": [
+        1496,
+        0,
+        2244,
+        748
+      ],
+      "crop_bbox": [
+        27,
+        161,
+        707,
+        570
+      ],
+      "size": [
+        196,
+        119
+      ],
+      "world_footprint": [
+        196,
+        119
+      ],
+      "anchor": [
+        98,
+        117
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "566f8ea54d9cfef4774b7e0fa222d9c27f7a1e3904c479ee5e87774b44552c26"
+    },
+    {
+      "id": "gate_right",
+      "path": "assets/chapter1/refined/hall_v2/gate_right.png",
+      "source": "assets/chapter1/refined/hall_props_v2_grid.png",
+      "source_box": [
+        942,
+        942,
+        1413,
+        1413
+      ],
+      "crop_bbox": [
+        185,
+        45,
+        306,
+        404
+      ],
+      "size": [
+        36,
+        100
+      ],
+      "world_footprint": [
+        36,
+        100
+      ],
+      "anchor": [
+        18,
+        98
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "9644356afaa645606d65b13a4385bdb05d07b833e0c9305c8990af2e03026dff"
+    },
+    {
+      "id": "banner",
+      "path": "assets/chapter1/refined/hall_v2/banner.png",
+      "source": "assets/chapter1/refined/hall_furniture_grid.png",
+      "source_box": [
+        0,
+        0,
+        917,
+        917
+      ],
+      "crop_bbox": [
+        90,
+        394,
+        858,
+        578
+      ],
+      "size": [
+        244,
+        62
+      ],
+      "world_footprint": [
+        244,
+        62
+      ],
+      "anchor": [
+        122,
+        60
+      ],
+      "aspect_ratio_preserved": true,
+      "alpha": true,
+      "edge_touch": false,
+      "sampling": "nearest",
+      "view": "front orthographic / zero yaw",
+      "sha256": "4714f1ff5856eb09586e4f4a220f6cb76208d6ff679ed1c86e929670340a92f7"
+    },
+    {
+      "id": "tile_00",
+      "path": "assets/chapter1/refined/hall_v2/tile_00.png",
+      "source": "assets/chapter1/refined/hall_terrain_v2_raw.png",
+      "source_box": [
+        0,
+        0,
+        512,
+        458
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "sampling": "nearest",
+      "full_bleed": true,
+      "palette_colors": 8,
+      "sha256": "82680bd5ad4a579d895ec90fe120e74edf1a7d6b483869d4251e1ef731f4f61c"
+    },
+    {
+      "id": "tile_01",
+      "path": "assets/chapter1/refined/hall_v2/tile_01.png",
+      "source": "assets/chapter1/refined/hall_terrain_v2_raw.png",
+      "source_box": [
+        512,
+        0,
+        1024,
+        458
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "sampling": "nearest",
+      "full_bleed": true,
+      "palette_colors": 8,
+      "sha256": "9b162323f04613aa06b93fc7419a5211209db5e18518e96c5ffb38e7f5f8b19e"
+    },
+    {
+      "id": "tile_02",
+      "path": "assets/chapter1/refined/hall_v2/tile_02.png",
+      "source": "assets/chapter1/refined/hall_terrain_v2_raw.png",
+      "source_box": [
+        0,
+        458,
+        512,
+        952
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "sampling": "nearest",
+      "full_bleed": true,
+      "palette_colors": 4,
+      "sha256": "ffb0b9c02a59fb813cd5817a5f5cc1fc4e181d1a2332190f23faba91e903cc9b"
+    },
+    {
+      "id": "tile_03",
+      "path": "assets/chapter1/refined/hall_v2/tile_03.png",
+      "source": "assets/chapter1/refined/hall_terrain_v2_raw.png",
+      "source_box": [
+        512,
+        458,
+        1024,
+        952
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "sampling": "nearest",
+      "full_bleed": true,
+      "palette_colors": 4,
+      "sha256": "105d6a769b545f319c61fb1e68178647e56d2a7a2762d0b9a3ed68cc1d5a7bc6"
+    },
+    {
+      "id": "tile_04",
+      "path": "assets/chapter1/refined/hall_v2/tile_04.png",
+      "source": "assets/chapter1/refined/hall_terrain_v2_raw.png",
+      "source_box": [
+        0,
+        952,
+        512,
+        1482
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "sampling": "nearest",
+      "full_bleed": true,
+      "palette_colors": 6,
+      "sha256": "e0781a98a8c92b8e37438f2454b9790377ad6283ca985a4fcf624a3a4806d418"
+    },
+    {
+      "id": "tile_05",
+      "path": "assets/chapter1/refined/hall_v2/tile_05.png",
+      "source": "assets/chapter1/refined/hall_terrain_v2_raw.png",
+      "source_box": [
+        512,
+        952,
+        1024,
+        1482
+      ],
+      "size": [
+        48,
+        48
+      ],
+      "sampling": "nearest",
+      "full_bleed": true,
+      "palette_colors": 6,
+      "sha256": "4038fed474c04f961c98068b222db5915ca21715da6c8668b31d011e9a708ecf"
+    }
+  ],
+  "third_party_downloads": []
+}

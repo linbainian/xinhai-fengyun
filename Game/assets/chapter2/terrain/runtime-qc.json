@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "tiles": 6,
+  "dimensions": [
+    48,
+    48
+  ],
+  "source": "assets/chapter2/rift_terrain_raw.png",
+  "opaque": true
+}

@@ -1,0 +1,179 @@
+{
+  "sampling": "nearest",
+  "source": "assets/chapter1/cinematics/wen_rang_raw.png",
+  "cell_size": 96,
+  "frames": [
+    {
+      "index": 0,
+      "bbox": [
+        27,
+        15,
+        69,
+        89
+      ],
+      "height": 74
+    },
+    {
+      "index": 1,
+      "bbox": [
+        27,
+        15,
+        69,
+        89
+      ],
+      "height": 74
+    },
+    {
+      "index": 2,
+      "bbox": [
+        27,
+        15,
+        69,
+        89
+      ],
+      "height": 74
+    },
+    {
+      "index": 3,
+      "bbox": [
+        27,
+        14,
+        68,
+        89
+      ],
+      "height": 75
+    },
+    {
+      "index": 4,
+      "bbox": [
+        27,
+        13,
+        69,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 5,
+      "bbox": [
+        27,
+        13,
+        69,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 6,
+      "bbox": [
+        27,
+        13,
+        69,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 7,
+      "bbox": [
+        27,
+        13,
+        68,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 8,
+      "bbox": [
+        28,
+        14,
+        68,
+        89
+      ],
+      "height": 75
+    },
+    {
+      "index": 9,
+      "bbox": [
+        27,
+        14,
+        68,
+        89
+      ],
+      "height": 75
+    },
+    {
+      "index": 10,
+      "bbox": [
+        27,
+        13,
+        68,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 11,
+      "bbox": [
+        27,
+        14,
+        69,
+        89
+      ],
+      "height": 75
+    },
+    {
+      "index": 12,
+      "bbox": [
+        27,
+        13,
+        69,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 13,
+      "bbox": [
+        27,
+        13,
+        68,
+        89
+      ],
+      "height": 76
+    },
+    {
+      "index": 14,
+      "bbox": [
+        27,
+        14,
+        69,
+        89
+      ],
+      "height": 75
+    },
+    {
+      "index": 15,
+      "bbox": [
+        26,
+        13,
+        69,
+        89
+      ],
+      "height": 76
+    }
+  ],
+  "passed": true,
+  "binary_alpha": true,
+  "palette_colors": 48,
+  "world_footprint": [
+    48,
+    48
+  ],
+  "shared_idle_scale": 0.95,
+  "idle_reference": "assets/chapter1/refined/npcs/frames/frame_000.png",
+  "feet_y": 89,
+  "body_height_cv": 0.0101976811016137,
+  "feet_y_std": 0.0
+}

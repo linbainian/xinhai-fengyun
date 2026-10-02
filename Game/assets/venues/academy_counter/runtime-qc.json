@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "source": "assets/venues/academy_counter_raw.png",
+  "source_bbox": [
+    96,
+    219,
+    1679,
+    637
+  ],
+  "size": [
+    384,
+    101
+  ],
+  "binary_alpha": true,
+  "palette_colors": 64
+}

@@ -1,0 +1,355 @@
+{
+  "recorded_at": "2026-10-02T10:41:46+08:00",
+  "scope": "白沐瑶图书馆初识及关联冰雷对练对白；首章与第二章正文未改",
+  "plot_version": "v0.3.11",
+  "source": "C:\\Users\\l\\Downloads\\新海风云\\策划与剧情\\养成人物奇遇实装台词_v0.1.md",
+  "source_sha256": "416e521ba3de8a8e23ff96260bf27a9e86c3eeb03bade92b5bb8c136f42c701d",
+  "runtime": "C:\\Users\\l\\Downloads\\新海风云\\Game\\data\\cultivation\\dialogues.json",
+  "runtime_sha256": "30d12c44ed2d5e1d2661604596b81b79efc2da87c615f45fbc7a8f748126e2fc",
+  "backup": "C:\\Users\\l\\Downloads\\新海风云\\Game\\.dev\\backups\\before-bai-early-dialogue-20261002-102507-260159",
+  "blocks": 19,
+  "lines": 101,
+  "changed_blocks": [
+    "c2_event_library",
+    "c2_event_library_carry",
+    "c2_event_library_return",
+    "c2_event_spar",
+    "c2_event_spar_honest",
+    "c2_event_spar_known",
+    "c2_event_spar_polite"
+  ],
+  "unchanged_other_blocks": [
+    "c2_event_flyers",
+    "c2_event_flyers_help",
+    "c2_event_flyers_return",
+    "c2_event_ice",
+    "c2_event_ice_eat",
+    "c2_event_ice_takeaway",
+    "c2_event_lunch",
+    "c2_event_lunch_count",
+    "c2_event_lunch_food",
+    "c2_grow_corridor_daily",
+    "c2_grow_ice_daily",
+    "c2_grow_library_daily"
+  ],
+  "unchanged_guards": {
+    "Game/data/cultivation/events.json": {
+      "before": "7c85ab820f67b3f9d910a01690a71dda849a5ae343bffbb26b5bd9302f39466d",
+      "after": "7c85ab820f67b3f9d910a01690a71dda849a5ae343bffbb26b5bd9302f39466d",
+      "unchanged": true
+    },
+    "Game/data/cultivation/cutscenes.json": {
+      "before": "854d4d5bf0cb264d1322d66dcd0822252e532b4eeb6ac2af818db280414bff75",
+      "after": "854d4d5bf0cb264d1322d66dcd0822252e532b4eeb6ac2af818db280414bff75",
+      "unchanged": true
+    },
+    "Game/data/chapter1/dialogues.json": {
+      "before": "51ec9fa37118c9e14fcada2fc4217a846f79dc6419522c76cf65d06ed5339a46",
+      "after": "51ec9fa37118c9e14fcada2fc4217a846f79dc6419522c76cf65d06ed5339a46",
+      "unchanged": true
+    },
+    "Game/data/chapter2/dialogues.json": {
+      "before": "334a628272466211ec46587b9c100d9b7dbffbe1ab2a4a07497707aff80a7594",
+      "after": "334a628272466211ec46587b9c100d9b7dbffbe1ab2a4a07497707aff80a7594",
+      "unchanged": true
+    }
+  },
+  "integrity": {
+    "passed": 22,
+    "total": 22,
+    "checks": [
+      {
+        "check": "作者稿与运行对白一致",
+        "passed": true
+      },
+      {
+        "check": "可读副本与作者稿一致",
+        "passed": true
+      },
+      {
+        "check": "十九个片段ID保持",
+        "passed": true
+      },
+      {
+        "check": "仅修改图书馆与对练七片段",
+        "passed": true
+      },
+      {
+        "check": "当前正文101句",
+        "passed": true
+      },
+      {
+        "check": "图书馆共通段白沐瑶不开口",
+        "passed": true
+      },
+      {
+        "check": "c2_event_library_carry只说谢谢",
+        "passed": true
+      },
+      {
+        "check": "c2_event_library_carry有点头动作",
+        "passed": true
+      },
+      {
+        "check": "c2_event_library_return只说谢谢",
+        "passed": true
+      },
+      {
+        "check": "c2_event_library_return有点头动作",
+        "passed": true
+      },
+      {
+        "check": "已见面分支用点头照面",
+        "passed": true
+      },
+      {
+        "check": "对练没有齐声外行或撞书接梗",
+        "passed": true
+      },
+      {
+        "check": "Game/data/cultivation/events.json保持原内容",
+        "passed": true
+      },
+      {
+        "check": "Game/data/cultivation/cutscenes.json保持原内容",
+        "passed": true
+      },
+      {
+        "check": "Game/data/chapter1/dialogues.json保持原内容",
+        "passed": true
+      },
+      {
+        "check": "Game/data/chapter2/dialogues.json保持原内容",
+        "passed": true
+      },
+      {
+        "check": "十一事件的对白引用全部有效",
+        "passed": true
+      },
+      {
+        "check": "正文无空说话人与空文本",
+        "passed": true
+      },
+      {
+        "check": "既有奇遇回归161/161通过",
+        "passed": true
+      },
+      {
+        "check": "实际窗口检查45/45通过",
+        "passed": true
+      },
+      {
+        "check": "窗口截图已保存",
+        "passed": true
+      },
+      {
+        "check": "剧情卷已同步v0.3.11与话量关系规范",
+        "passed": true
+      }
+    ]
+  },
+  "regression": {
+    "script": "res://tests/encounter_smoke.gd",
+    "passed": 161,
+    "total": 161,
+    "log": ".dev/bai-early-encounter-smoke.log"
+  },
+  "window_verification": {
+    "captures": [
+      "res://docs/previews/bai_initial_20261002/dialogue-event_library_arrival.png",
+      "res://docs/previews/bai_initial_20261002/library-thanks-0.png",
+      "res://docs/previews/bai_initial_20261002/dialogue-event_library_carry.png",
+      "res://docs/previews/bai_initial_20261002/library-thanks-1.png",
+      "res://docs/previews/bai_initial_20261002/dialogue-event_spar.png"
+    ],
+    "checks": [
+      {
+        "message": "Isolated visual fixture saved",
+        "passed": true
+      },
+      {
+        "message": "The visual fixture restores the intended chapter and physical room",
+        "passed": true
+      },
+      {
+        "message": "Timed scene reaches dialogue",
+        "passed": true
+      },
+      {
+        "message": "Actual departure automatically opens the library encounter",
+        "passed": true
+      },
+      {
+        "message": "Event speaker remains visible between header and dialogue: event_library_arrival/growth_event",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 旁白",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 林大",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 旁白",
+        "passed": true
+      },
+      {
+        "message": "Timed scene reaches dialogue",
+        "passed": true
+      },
+      {
+        "message": "Each actual library choice ends with only a brief thanks",
+        "passed": true
+      },
+      {
+        "message": "Event speaker remains visible between header and dialogue: event_library_carry/growth_event",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 白沐瑶",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 成长记录",
+        "passed": true
+      },
+      {
+        "message": "Short dialogue still settles the encounter and returns to cultivation",
+        "passed": true
+      },
+      {
+        "message": "Isolated visual fixture saved",
+        "passed": true
+      },
+      {
+        "message": "The visual fixture restores the intended chapter and physical room",
+        "passed": true
+      },
+      {
+        "message": "Timed scene reaches dialogue",
+        "passed": true
+      },
+      {
+        "message": "Actual departure automatically opens the library encounter",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 旁白",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 林大",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 旁白",
+        "passed": true
+      },
+      {
+        "message": "Timed scene reaches dialogue",
+        "passed": true
+      },
+      {
+        "message": "Each actual library choice ends with only a brief thanks",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 白沐瑶",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 成长记录",
+        "passed": true
+      },
+      {
+        "message": "Short dialogue still settles the encounter and returns to cultivation",
+        "passed": true
+      },
+      {
+        "message": "Isolated visual fixture saved",
+        "passed": true
+      },
+      {
+        "message": "The visual fixture restores the intended chapter and physical room",
+        "passed": true
+      },
+      {
+        "message": "Timed scene reaches dialogue",
+        "passed": true
+      },
+      {
+        "message": "Known spar recognizes the face with a nod",
+        "passed": true
+      },
+      {
+        "message": "Event speaker remains visible between header and dialogue: event_spar/growth_event",
+        "passed": true
+      },
+      {
+        "message": "Event speaker remains visible between header and dialogue: event_spar/growth_partner_bai",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 旁白",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 苏晚棠",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 白沐瑶",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 苏晚棠",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 旁白",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 苏晚棠",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 林大",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 苏晚棠",
+        "passed": true
+      },
+      {
+        "message": "Choice modal available",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 林大",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 苏晚棠",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 旁白",
+        "passed": true
+      },
+      {
+        "message": "Chinese dialogue fits: 成长记录",
+        "passed": true
+      }
+    ],
+    "failures": [],
+    "passed": 45,
+    "total": 45,
+    "script": "res://.dev/bai_early_visual.gd",
+    "save_path": "res://.dev/bai-early-visual-save.json",
+    "isolated_save": true,
+    "log": ".dev/bai-early-visual.log"
+  }
+}

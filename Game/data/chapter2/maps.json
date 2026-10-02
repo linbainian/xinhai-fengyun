@@ -1,0 +1,2356 @@
+{
+  "c2_dorm": {
+    "name": "男生宿舍·寝室与课表",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "spawn": [
+      720.0,
+      612.5
+    ],
+    "cameraOffset": [
+      0,
+      -70
+    ],
+    "dialogueOffset": [
+      0,
+      12
+    ],
+    "art_bundle": "encounter-art.1",
+    "props": [
+      {
+        "asset": "res://assets/encounters/objects/dorm_wall/runtime.png",
+        "nodeName": "dorm_wall",
+        "position": [
+          720.0,
+          492.0
+        ],
+        "size": [
+          480.0,
+          80.0
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "anchor": [
+          480.0,
+          320
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/bed/runtime.png",
+        "nodeName": "Bed480",
+        "position": [
+          600.0,
+          580.0
+        ],
+        "size": [
+          36.0,
+          66.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          584.0,
+          523.0,
+          32.0,
+          57.0
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/bed/runtime.png",
+        "nodeName": "Bed950",
+        "position": [
+          835.0,
+          580.0
+        ],
+        "size": [
+          36.0,
+          66.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          819.0,
+          523.0,
+          32.0,
+          57.0
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "nodeName": "trial_table",
+        "position": [
+          720.0,
+          546.5
+        ],
+        "size": [
+          50.0,
+          22.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          701.0,
+          538.5,
+          38.0,
+          8.0
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "nodeName": "bench",
+        "position": [
+          720.0,
+          671.0
+        ],
+        "size": [
+          74.0,
+          31.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          687.5,
+          663.5,
+          65.0,
+          7.5
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/encounters/objects/phone/runtime.png",
+        "nodeName": "phone",
+        "position": [
+          737.0,
+          538.5
+        ],
+        "size": [
+          9.0,
+          10.5
+        ],
+        "renderLayer": "foreground",
+        "occlusionClass": "low",
+        "anchor": [
+          9.0,
+          21
+        ]
+      },
+      {
+        "asset": "res://assets/encounters/objects/notebook/runtime.png",
+        "nodeName": "notebook",
+        "position": [
+          710.0,
+          538.5
+        ],
+        "size": [
+          11.0,
+          11.5
+        ],
+        "renderLayer": "foreground",
+        "occlusionClass": "low",
+        "anchor": [
+          11.0,
+          23
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_000.png",
+        "nodeName": "c2_wen",
+        "position": [
+          770.0,
+          612.5
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_wen",
+        "name": "温让 · 同寝与夜谈",
+        "character": "wen_rang",
+        "characterFolder": "res://assets/chapter1/cinematics"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_011.png",
+        "nodeName": "dorm_exit",
+        "position": [
+          865.0,
+          491.0
+        ],
+        "size": [
+          10.0,
+          10.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "dorm_exit",
+        "name": "房门 · 去共用走廊",
+        "hidden": true,
+        "interactionPosition": [
+          865.0,
+          508.5
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/actors/jiang/frames/frame_000.png",
+        "nodeName": "c2_jiang",
+        "position": [
+          910.0,
+          615.0
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_jiang",
+        "name": "江北辰 · 夜间来访",
+        "character": "jiang",
+        "characterFolder": "res://assets/chapter2/actors"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_011.png",
+        "nodeName": "c2_notice",
+        "position": [
+          720.0,
+          537.0
+        ],
+        "size": [
+          14.0,
+          14.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_notice",
+        "name": "复筛通知 · 学生证待办",
+        "interactionPosition": [
+          720.0,
+          567.5
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_010.png",
+        "nodeName": "c2_schedule",
+        "position": [
+          705.0,
+          537.0
+        ],
+        "size": [
+          13.0,
+          13.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_schedule",
+        "name": "课表终端 · 日程安排",
+        "interactionPosition": [
+          705.0,
+          567.5
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/bed/runtime.png",
+        "nodeName": "c2_sleep",
+        "position": [
+          600.0,
+          580.0
+        ],
+        "size": [
+          36.0,
+          66.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_sleep",
+        "name": "床铺 · 休息到明天",
+        "hidden": true,
+        "interactionPosition": [
+          600.0,
+          601.0
+        ]
+      }
+    ],
+    "blockers": [
+      [
+        0,
+        0,
+        1440,
+        492.0
+      ],
+      [
+        0,
+        492.0,
+        480.0,
+        372.0
+      ],
+      [
+        960.0,
+        492.0,
+        480.0,
+        372.0
+      ],
+      [
+        480.0,
+        710.0,
+        480.0,
+        154.0
+      ]
+    ],
+    "entrances": [
+      {
+        "id": "room_door",
+        "position": [
+          865.0,
+          512.5
+        ],
+        "destination": "corridor"
+      }
+    ],
+    "walkableZones": [
+      {
+        "id": "interior",
+        "rect": [
+          480.0,
+          492.0,
+          480.0,
+          218.0
+        ]
+      }
+    ],
+    "cinematicZoom": 2,
+    "floorRect": [
+      480.0,
+      492.0,
+      480.0,
+      218.0
+    ],
+    "cameraRegion": [
+      480.0,
+      412.0,
+      480.0,
+      298.0
+    ]
+  },
+  "c2_infirmary": {
+    "name": "医务室 · 异常复筛",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "spawn": [
+      720,
+      680
+    ],
+    "cameraOffset": [
+      0,
+      -44
+    ],
+    "props": [
+      {
+        "asset": "res://assets/venues/academy_wall/runtime.png",
+        "position": [
+          720,
+          400
+        ],
+        "size": [
+          1248,
+          377
+        ],
+        "nodeName": "academy_wall",
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          96,
+          24,
+          1248,
+          372
+        ],
+        "anchor": [
+          624.0,
+          377
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/bed/runtime.png",
+        "position": [
+          240,
+          580
+        ],
+        "size": [
+          72,
+          132
+        ],
+        "nodeName": "Prop",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          208,
+          466,
+          64,
+          114
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/bed/runtime.png",
+        "position": [
+          340,
+          580
+        ],
+        "size": [
+          72,
+          132
+        ],
+        "nodeName": "Prop",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          308,
+          466,
+          64,
+          114
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          720,
+          468
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "nodeName": "trial_table",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          682,
+          452,
+          76,
+          16
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          1070,
+          478
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "nodeName": "trial_table",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1032,
+          462,
+          76,
+          16
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_005.png",
+        "position": [
+          800,
+          460
+        ],
+        "size": [
+          60,
+          72
+        ],
+        "nodeName": "Prop",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          794,
+          448,
+          12,
+          12
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_005.png",
+        "position": [
+          730,
+          535
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_exam",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_exam",
+        "name": "唐半夏 · 异常复筛",
+        "character": "tang"
+      },
+      {
+        "asset": "res://assets/chapter2/actors/jiang/frames/frame_000.png",
+        "position": [
+          850,
+          596
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_jiang",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_jiang",
+        "name": "江北辰 · 等候复筛",
+        "character": "jiang",
+        "characterFolder": "res://assets/chapter2/actors"
+      },
+      {
+        "asset": "res://assets/encounters/actors/chuxia/frames/frame_000.png",
+        "position": [
+          610,
+          596
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_chuxia",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_chuxia",
+        "name": "林初夏 · 复筛名单",
+        "character": "chuxia",
+        "characterFolder": "res://assets/encounters/actors"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_002.png",
+        "position": [
+          480,
+          500
+        ],
+        "size": [
+          120,
+          120
+        ],
+        "nodeName": "c2_list",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          436,
+          480,
+          88,
+          20
+        ],
+        "id": "c2_list",
+        "name": "同批复筛名单"
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_000.png",
+        "position": [
+          1070,
+          451
+        ],
+        "size": [
+          60,
+          60
+        ],
+        "nodeName": "c2_box",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_box",
+        "name": "封存箱 · 学院与管理局双章",
+        "interactionPosition": [
+          1010,
+          488
+        ]
+      }
+    ],
+    "art_bundle": "chapter2-playable.1",
+    "terrain": {
+      "base": [
+        16,
+        17
+      ],
+      "zones": [
+        {
+          "rect": [
+            12,
+            8,
+            6,
+            10
+          ],
+          "tiles": [
+            20,
+            21
+          ]
+        }
+      ]
+    }
+  },
+  "c2_classroom": {
+    "name": "教学楼 · 常规课程",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "spawn": [
+      720,
+      760
+    ],
+    "cameraOffset": [
+      0,
+      -44
+    ],
+    "props": [
+      {
+        "asset": "res://assets/venues/academy_wall/runtime.png",
+        "position": [
+          720,
+          400
+        ],
+        "size": [
+          1248,
+          377
+        ],
+        "nodeName": "academy_wall",
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          96,
+          24,
+          1248,
+          372
+        ],
+        "anchor": [
+          624.0,
+          377
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          400,
+          550
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "nodeName": "trial_table",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          362,
+          534,
+          76,
+          16
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          400,
+          660
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "nodeName": "trial_table",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          362,
+          644,
+          76,
+          16
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          400,
+          770
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "nodeName": "trial_table",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          362,
+          754,
+          76,
+          16
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          1040,
+          550
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "nodeName": "trial_table",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1002,
+          534,
+          76,
+          16
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          1040,
+          660
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "nodeName": "trial_table",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1002,
+          644,
+          76,
+          16
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          1040,
+          770
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "nodeName": "trial_table",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1002,
+          754,
+          76,
+          16
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/venues/academy_people/frames/frame_002.png",
+        "position": [
+          720,
+          510
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_class",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_class",
+        "name": "课程助教 · 上午或下午上课"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_002.png",
+        "position": [
+          890,
+          470
+        ],
+        "size": [
+          96,
+          96
+        ],
+        "nodeName": "c2_schedule",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_schedule",
+        "name": "课程板 · 日程安排"
+      }
+    ],
+    "art_bundle": "chapter2-playable.1",
+    "terrain": {
+      "base": [
+        16,
+        17
+      ],
+      "zones": [
+        {
+          "rect": [
+            12,
+            8,
+            6,
+            10
+          ],
+          "tiles": [
+            4,
+            5
+          ]
+        }
+      ]
+    }
+  },
+  "c2_training": {
+    "name": "学院训练场 · 基础修炼",
+    "width": 30,
+    "height": 18,
+    "floor": 2,
+    "spawn": [
+      720,
+      700
+    ],
+    "cameraOffset": [
+      0,
+      -44
+    ],
+    "props": [
+      {
+        "asset": "res://assets/venues/academy_wall/runtime.png",
+        "position": [
+          720,
+          380
+        ],
+        "size": [
+          1248,
+          377
+        ],
+        "nodeName": "academy_wall",
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          96,
+          24,
+          1248,
+          352
+        ],
+        "anchor": [
+          624.0,
+          377
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/cone.png",
+        "position": [
+          480,
+          520
+        ],
+        "size": [
+          26,
+          32
+        ],
+        "nodeName": "cone",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          472,
+          514,
+          16,
+          6
+        ],
+        "anchor": [
+          13,
+          30
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/cone.png",
+        "position": [
+          960,
+          520
+        ],
+        "size": [
+          26,
+          32
+        ],
+        "nodeName": "cone",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          952,
+          514,
+          16,
+          6
+        ],
+        "anchor": [
+          13,
+          30
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/cone.png",
+        "position": [
+          480,
+          670
+        ],
+        "size": [
+          26,
+          32
+        ],
+        "nodeName": "cone",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          472,
+          664,
+          16,
+          6
+        ],
+        "anchor": [
+          13,
+          30
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/cone.png",
+        "position": [
+          960,
+          670
+        ],
+        "size": [
+          26,
+          32
+        ],
+        "nodeName": "cone",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          952,
+          664,
+          16,
+          6
+        ],
+        "anchor": [
+          13,
+          30
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          300,
+          720
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "nodeName": "bench",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          235,
+          705,
+          130,
+          15
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "nodeName": "bench",
+        "position": [
+          1100,
+          650
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1035,
+          635,
+          130,
+          15
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/barrier.png",
+        "nodeName": "barrier",
+        "position": [
+          1100,
+          470
+        ],
+        "size": [
+          148,
+          54
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1034,
+          456,
+          132,
+          14
+        ],
+        "anchor": [
+          74,
+          52
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/venues/academy_people/frames/frame_001.png",
+        "position": [
+          410,
+          560
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_training",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_training",
+        "name": "场地值日生 · 基础修炼"
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_003.png",
+        "position": [
+          430,
+          660
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_rest",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_rest",
+        "name": "休息点 · 恢复HP与负荷"
+      },
+      {
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_000.png",
+        "position": [
+          1030,
+          730
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_wen",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_wen",
+        "name": "温让 · 同行",
+        "character": "wen_rang"
+      }
+    ],
+    "art_bundle": "chapter2-playable.1",
+    "terrain": {
+      "base": [
+        18,
+        19
+      ],
+      "zones": [
+        {
+          "rect": [
+            4,
+            8,
+            22,
+            9
+          ],
+          "tiles": [
+            16,
+            17
+          ]
+        },
+        {
+          "rect": [
+            12,
+            8,
+            6,
+            9
+          ],
+          "tiles": [
+            20,
+            21
+          ]
+        }
+      ]
+    },
+    "dialogueOffset": [
+      0,
+      18
+    ]
+  },
+  "c2_clubs": {
+    "name": "社团活动室",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "spawn": [
+      720,
+      700
+    ],
+    "cameraOffset": [
+      0,
+      -44
+    ],
+    "props": [
+      {
+        "asset": "res://assets/venues/academy_wall/runtime.png",
+        "position": [
+          720,
+          400
+        ],
+        "size": [
+          1248,
+          377
+        ],
+        "nodeName": "academy_wall",
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          96,
+          24,
+          1248,
+          372
+        ],
+        "anchor": [
+          624.0,
+          377
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          460,
+          540
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "nodeName": "trial_table",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          422,
+          524,
+          76,
+          16
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          990,
+          540
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "nodeName": "trial_table",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          952,
+          524,
+          76,
+          16
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          300,
+          710
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "nodeName": "bench",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          235,
+          695,
+          130,
+          15
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          1140,
+          710
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "nodeName": "bench",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1075,
+          695,
+          130,
+          15
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/venues/academy_people/frames/frame_002.png",
+        "position": [
+          510,
+          580
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_club_signup",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_club_signup",
+        "name": "社团登记员 · 入社选择"
+      },
+      {
+        "asset": "res://assets/venues/academy_people/frames/frame_001.png",
+        "position": [
+          910,
+          580
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_club_activity",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_club_activity",
+        "name": "值日生 · 社团活动"
+      },
+      {
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_000.png",
+        "position": [
+          670,
+          660
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_wen",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_wen",
+        "name": "温让 · 同行",
+        "character": "wen_rang"
+      },
+      {
+        "asset": "res://assets/chapter2/actors/jiang/frames/frame_000.png",
+        "position": [
+          1110,
+          600
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_jiang",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_jiang",
+        "name": "江北辰 · 同行",
+        "character": "jiang",
+        "characterFolder": "res://assets/chapter2/actors"
+      },
+      {
+        "asset": "res://assets/encounters/actors/chuxia/frames/frame_000.png",
+        "position": [
+          330,
+          600
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_chuxia",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_chuxia",
+        "name": "林初夏 · 同行",
+        "character": "chuxia",
+        "characterFolder": "res://assets/encounters/actors"
+      }
+    ],
+    "art_bundle": "chapter2-playable.1"
+  },
+  "c2_port": {
+    "name": "港口 · 小裂隙集合点",
+    "width": 30,
+    "height": 18,
+    "floor": 0,
+    "spawn": [
+      720,
+      730
+    ],
+    "cameraOffset": [
+      0,
+      -44
+    ],
+    "props": [
+      {
+        "asset": "res://assets/chapter2/rift_gate/runtime.png",
+        "position": [
+          720,
+          450
+        ],
+        "size": [
+          144,
+          228
+        ],
+        "nodeName": "rift_gate",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          675,
+          418,
+          90,
+          32
+        ],
+        "anchor": [
+          72.0,
+          228
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_000.png",
+        "position": [
+          270,
+          500
+        ],
+        "size": [
+          96,
+          96
+        ],
+        "nodeName": "expedition_0",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          238,
+          474,
+          64,
+          26
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_000.png",
+        "position": [
+          365,
+          500
+        ],
+        "size": [
+          96,
+          96
+        ],
+        "nodeName": "expedition_0",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          333,
+          474,
+          64,
+          26
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_000.png",
+        "position": [
+          270,
+          605
+        ],
+        "size": [
+          96,
+          96
+        ],
+        "nodeName": "expedition_0",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          238,
+          579,
+          64,
+          26
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_000.png",
+        "position": [
+          1130,
+          500
+        ],
+        "size": [
+          96,
+          96
+        ],
+        "nodeName": "expedition_0",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1098,
+          474,
+          64,
+          26
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_000.png",
+        "position": [
+          1215,
+          500
+        ],
+        "size": [
+          96,
+          96
+        ],
+        "nodeName": "expedition_0",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1183,
+          474,
+          64,
+          26
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_002.png",
+        "position": [
+          140,
+          790
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "nodeName": "expedition_2",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          120,
+          774,
+          40,
+          16
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_002.png",
+        "position": [
+          1290,
+          790
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "nodeName": "expedition_2",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1270,
+          774,
+          40,
+          16
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/barrier.png",
+        "position": [
+          560,
+          585
+        ],
+        "size": [
+          148,
+          54
+        ],
+        "nodeName": "barrier",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          494,
+          571,
+          132,
+          14
+        ],
+        "anchor": [
+          74,
+          52
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/barrier.png",
+        "position": [
+          880,
+          585
+        ],
+        "size": [
+          148,
+          54
+        ],
+        "nodeName": "barrier",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          814,
+          571,
+          132,
+          14
+        ],
+        "anchor": [
+          74,
+          52
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/cone.png",
+        "position": [
+          570,
+          650
+        ],
+        "size": [
+          26,
+          32
+        ],
+        "nodeName": "cone",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          562,
+          644,
+          16,
+          6
+        ],
+        "anchor": [
+          13,
+          30
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/cone.png",
+        "position": [
+          870,
+          650
+        ],
+        "size": [
+          26,
+          32
+        ],
+        "nodeName": "cone",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          862,
+          644,
+          16,
+          6
+        ],
+        "anchor": [
+          13,
+          30
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/chapter2/actors/han/frames/frame_000.png",
+        "position": [
+          690,
+          535
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_contact",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_contact",
+        "name": "韩烛 · 管理局协作登记",
+        "route": "bureau",
+        "character": "han",
+        "characterFolder": "res://assets/chapter2/actors"
+      },
+      {
+        "asset": "res://assets/chapter2/actors/qin/frames/frame_000.png",
+        "position": [
+          690,
+          535
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_contact",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_contact",
+        "name": "秦妖妖 · 互助会协作登记",
+        "route": "mutual",
+        "character": "qin",
+        "characterFolder": "res://assets/chapter2/actors"
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_003.png",
+        "position": [
+          1010,
+          690
+        ],
+        "size": [
+          64,
+          64
+        ],
+        "nodeName": "c2_resupply",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_resupply",
+        "name": "急救箱 · 撤回补给"
+      }
+    ],
+    "art_bundle": "chapter2-playable.1",
+    "terrain": {
+      "base": [
+        25,
+        26,
+        27
+      ],
+      "zones": [
+        {
+          "rect": [
+            0,
+            0,
+            30,
+            4
+          ],
+          "tiles": [
+            22,
+            23
+          ]
+        }
+      ]
+    }
+  },
+  "c2_rift": {
+    "name": "港口小裂隙 · 浅层残骸区",
+    "width": 30,
+    "height": 18,
+    "floor": 0,
+    "spawn": [
+      380,
+      770
+    ],
+    "cameraOffset": [
+      0,
+      -36
+    ],
+    "props": [
+      {
+        "asset": "res://assets/chapter2/rift_gate/runtime.png",
+        "position": [
+          270,
+          770
+        ],
+        "size": [
+          144,
+          228
+        ],
+        "nodeName": "rift_gate",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          225,
+          738,
+          90,
+          32
+        ],
+        "anchor": [
+          72.0,
+          228
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_001.png",
+        "position": [
+          160,
+          330
+        ],
+        "size": [
+          144,
+          144
+        ],
+        "nodeName": "expedition_1",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          113.92,
+          292.56,
+          92.16,
+          37.44
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_001.png",
+        "position": [
+          410,
+          355
+        ],
+        "size": [
+          144,
+          144
+        ],
+        "nodeName": "expedition_1",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          363.92,
+          317.56,
+          92.16,
+          37.44
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_001.png",
+        "position": [
+          675,
+          350
+        ],
+        "size": [
+          192,
+          192
+        ],
+        "nodeName": "expedition_1",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          613.56,
+          300.08,
+          122.88,
+          49.92
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_001.png",
+        "position": [
+          1260,
+          450
+        ],
+        "size": [
+          144,
+          144
+        ],
+        "nodeName": "expedition_1",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1213.92,
+          412.56,
+          92.16,
+          37.44
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_001.png",
+        "position": [
+          210,
+          580
+        ],
+        "size": [
+          144,
+          144
+        ],
+        "nodeName": "expedition_1",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          163.92000000000002,
+          542.56,
+          92.16,
+          37.44
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_001.png",
+        "position": [
+          650,
+          660
+        ],
+        "size": [
+          144,
+          144
+        ],
+        "nodeName": "expedition_1",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          603.92,
+          622.56,
+          92.16,
+          37.44
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_001.png",
+        "position": [
+          900,
+          750
+        ],
+        "size": [
+          144,
+          144
+        ],
+        "nodeName": "expedition_1",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          853.92,
+          712.56,
+          92.16,
+          37.44
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_001.png",
+        "position": [
+          1190,
+          740
+        ],
+        "size": [
+          144,
+          144
+        ],
+        "nodeName": "expedition_1",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1143.92,
+          702.56,
+          92.16,
+          37.44
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_000.png",
+        "position": [
+          1130,
+          350
+        ],
+        "size": [
+          96,
+          96
+        ],
+        "nodeName": "expedition_0",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1100,
+          326,
+          60,
+          24
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/chapter2/creatures/frames/frame_000.png",
+        "position": [
+          485,
+          655
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "nodeName": "c2_entry",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_entry",
+        "name": "入口异兽 · 清理撤离通道",
+        "encounter": "entry"
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_001.png",
+        "position": [
+          745,
+          545
+        ],
+        "size": [
+          120,
+          120
+        ],
+        "nodeName": "c2_storm",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          707,
+          514,
+          76,
+          31
+        ],
+        "id": "c2_storm",
+        "name": "岩壁掩体 · 灵能风暴",
+        "interactionPosition": [
+          690,
+          551
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/creatures/frames/frame_002.png",
+        "position": [
+          1020,
+          475
+        ],
+        "size": [
+          96,
+          96
+        ],
+        "nodeName": "c2_final",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_final",
+        "name": "残骸区异兽 · 清剿",
+        "encounter": "final"
+      },
+      {
+        "asset": "res://assets/chapter2/creatures/frames/frame_003.png",
+        "position": [
+          1030,
+          400
+        ],
+        "size": [
+          96,
+          96
+        ],
+        "nodeName": "c2_corpse",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_corpse",
+        "name": "异兽尸体 · 三道平行切口",
+        "after_final": true
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_001.png",
+        "position": [
+          1230,
+          260
+        ],
+        "size": [
+          96,
+          96
+        ],
+        "nodeName": "c2_deep",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1200,
+          238,
+          60,
+          22
+        ],
+        "id": "c2_deep",
+        "name": "深层方向 · 暂不深入"
+      },
+      {
+        "asset": "res://assets/chapter2/expedition_props/frames/frame_003.png",
+        "position": [
+          395,
+          760
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_retreat",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_retreat",
+        "name": "撤离登记 · 返回港口"
+      },
+      {
+        "asset": "res://assets/chapter2/actors/han/frames/frame_000.png",
+        "position": [
+          1330,
+          580
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_han",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_han",
+        "name": "韩烛 · 驻守协作",
+        "route": "bureau",
+        "after_final": true,
+        "hidden": true,
+        "character": "han",
+        "characterFolder": "res://assets/chapter2/actors"
+      },
+      {
+        "asset": "res://assets/chapter2/actors/qin/frames/frame_000.png",
+        "position": [
+          1330,
+          580
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_qin",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_qin",
+        "name": "秦妖妖 · 驻守协作",
+        "route": "mutual",
+        "after_final": true,
+        "hidden": true,
+        "character": "qin",
+        "characterFolder": "res://assets/chapter2/actors"
+      }
+    ],
+    "art_bundle": "chapter2-playable.1",
+    "terrain": {
+      "base": [
+        22,
+        23,
+        24
+      ],
+      "zones": [
+        {
+          "rect": [
+            6,
+            13,
+            8,
+            5
+          ],
+          "tiles": [
+            23,
+            24
+          ]
+        },
+        {
+          "rect": [
+            13,
+            10,
+            5,
+            5
+          ],
+          "tiles": [
+            23,
+            24
+          ]
+        },
+        {
+          "rect": [
+            18,
+            5,
+            7,
+            7
+          ],
+          "tiles": [
+            23,
+            24
+          ]
+        }
+      ]
+    }
+  },
+  "c2_bar": {
+    "name": "裂隙猎人酒吧",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "spawn": [
+      720,
+      680
+    ],
+    "cameraOffset": [
+      0,
+      -44
+    ],
+    "props": [
+      {
+        "asset": "res://assets/venues/academy_wall/runtime.png",
+        "position": [
+          720,
+          400
+        ],
+        "size": [
+          1248,
+          377
+        ],
+        "nodeName": "academy_wall",
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          96,
+          24,
+          1248,
+          372
+        ],
+        "anchor": [
+          624.0,
+          377
+        ]
+      },
+      {
+        "asset": "res://assets/venues/academy_counter/runtime.png",
+        "position": [
+          560,
+          545
+        ],
+        "size": [
+          192,
+          50.5
+        ],
+        "nodeName": "academy_counter",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          464,
+          525,
+          192,
+          20
+        ],
+        "anchor": [
+          192.0,
+          101
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          1040,
+          530
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "nodeName": "trial_table",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1002,
+          514,
+          76,
+          16
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          1050,
+          700
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "nodeName": "trial_table",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1012,
+          684,
+          76,
+          16
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          380,
+          735
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "nodeName": "trial_table",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          342,
+          719,
+          76,
+          16
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/chapter2/bar_people/frames/frame_000.png",
+        "position": [
+          530,
+          526
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_bar",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_bar",
+        "name": "靳寻 · 吧台",
+        "interactionPosition": [
+          530,
+          535
+        ]
+      },
+      {
+        "asset": "res://assets/chapter2/bar_people/frames/frame_001.png",
+        "position": [
+          1090,
+          570
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_old_hunter",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_old_hunter",
+        "name": "老猎人 · 切口线索"
+      },
+      {
+        "asset": "res://assets/chapter2/bar_people/frames/frame_002.png",
+        "position": [
+          470,
+          665
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_bar_guest_worker",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_bar_guest_worker",
+        "name": "港口工人"
+      },
+      {
+        "asset": "res://assets/chapter2/bar_people/frames/frame_003.png",
+        "position": [
+          1050,
+          735
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "c2_bar_guest_hunter",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "c2_bar_guest_hunter",
+        "name": "等候委托的猎人"
+      }
+    ],
+    "art_bundle": "chapter2-playable.1"
+  }
+}

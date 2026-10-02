@@ -1,0 +1,12 @@
+uid: 53
+comment: 变量列表
+constant: True
+selective: False
+disable: None
+key: 
+insertion_order: 190
+========================================
+---
+<status_current_variable>
+{{format_message_variable::stat_data}}
+</status_current_variable>

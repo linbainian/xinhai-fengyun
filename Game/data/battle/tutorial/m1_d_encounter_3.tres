@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="EncounterDefinition" load_steps=8 format=3]
+[ext_resource type="Script" path="res://scripts/battle/encounter_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/battle/combatant_setup.gd" id="2"]
+[ext_resource type="Resource" path="res://data/battle/tutorial/m1_d_rules.tres" id="3"]
+[ext_resource type="Resource" path="res://data/battle/tutorial/m1_d_hero.tres" id="4"]
+[ext_resource type="Resource" path="res://data/battle/tutorial/m1_d_rabbit_king.tres" id="5"]
+[sub_resource type="Resource" id="Player"]
+script = ExtResource("2")
+instance_id = &"lin_da"
+definition = ExtResource("4")
+initial_sl = 0
+[sub_resource type="Resource" id="Enemy1"]
+script = ExtResource("2")
+instance_id = &"rabbit_king"
+definition = ExtResource("5")
+[resource]
+script = ExtResource("1")
+id = &"back_hill_3"
+title = "野兔王 · 防御与资源规划"
+data_version = "m1-d-prototype.1"
+rules = ExtResource("3")
+seed_value = 220103
+allies = Array[ExtResource("2")]([SubResource("Player")])
+enemies = Array[ExtResource("2")]([SubResource("Enemy1")])
+environment_by_affinity = {"念动力": 1.0, "强化": 1.0, "精神": 1.0, "元素": 1.0, "特殊": 1.0}

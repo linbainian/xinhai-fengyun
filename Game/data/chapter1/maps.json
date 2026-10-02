@@ -1,0 +1,6208 @@
+{
+  "auditorium": {
+    "name": "报到礼堂",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "props": [
+      {
+        "nodeName": "Hall_arch_window_0",
+        "module": "arch_window",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "position": [
+          336,
+          340
+        ],
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          240,
+          24,
+          960,
+          316
+        ]
+      },
+      {
+        "nodeName": "Hall_arch_window_1",
+        "module": "arch_window",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "position": [
+          528,
+          340
+        ],
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_wall_2",
+        "module": "wall",
+        "asset": "res://assets/chapter1/refined/hall_v2/wall.png",
+        "position": [
+          720,
+          340
+        ],
+        "size": [
+          196,
+          171
+        ],
+        "anchor": [
+          98,
+          169
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_arch_window_3",
+        "module": "arch_window",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "position": [
+          912,
+          340
+        ],
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_arch_window_4",
+        "module": "arch_window",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "position": [
+          1104,
+          340
+        ],
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_banner",
+        "module": "banner",
+        "asset": "res://assets/chapter1/refined/hall_v2/banner.png",
+        "position": [
+          720,
+          298
+        ],
+        "size": [
+          244,
+          62
+        ],
+        "anchor": [
+          122,
+          60
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_column_0",
+        "module": "column",
+        "asset": "res://assets/chapter1/refined/hall_v2/column.png",
+        "position": [
+          240,
+          344
+        ],
+        "size": [
+          39,
+          174
+        ],
+        "anchor": [
+          20,
+          172
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          226,
+          330,
+          28,
+          14
+        ],
+        "actorSafeArea": [
+          220,
+          172,
+          39,
+          174
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_column_1",
+        "module": "column",
+        "asset": "res://assets/chapter1/refined/hall_v2/column.png",
+        "position": [
+          1200,
+          344
+        ],
+        "size": [
+          39,
+          174
+        ],
+        "anchor": [
+          20,
+          172
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          1186,
+          330,
+          28,
+          14
+        ],
+        "actorSafeArea": [
+          1180,
+          172,
+          39,
+          174
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_podium_left",
+        "module": "podium_left",
+        "asset": "res://assets/chapter1/refined/hall_v2/podium_left.png",
+        "position": [
+          528,
+          460
+        ],
+        "size": [
+          196,
+          119
+        ],
+        "anchor": [
+          98,
+          117
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          432,
+          448,
+          216,
+          12
+        ]
+      },
+      {
+        "nodeName": "Hall_podium_middle",
+        "module": "podium_middle",
+        "asset": "res://assets/chapter1/refined/hall_v2/podium_middle.png",
+        "position": [
+          720,
+          460
+        ],
+        "size": [
+          196,
+          110
+        ],
+        "anchor": [
+          98,
+          108
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_podium_right",
+        "module": "podium_right",
+        "asset": "res://assets/chapter1/refined/hall_v2/podium_right.png",
+        "position": [
+          912,
+          460
+        ],
+        "size": [
+          196,
+          119
+        ],
+        "anchor": [
+          98,
+          117
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          792,
+          448,
+          216,
+          12
+        ]
+      },
+      {
+        "nodeName": "Hall_stairs",
+        "module": "stairs",
+        "asset": "res://assets/chapter1/refined/hall_v2/stairs.png",
+        "position": [
+          720,
+          500
+        ],
+        "size": [
+          116,
+          46
+        ],
+        "anchor": [
+          58,
+          44
+        ],
+        "renderLayer": "ground",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_stand_0_0",
+        "module": "stand",
+        "asset": "res://assets/chapter1/refined/hall_v2/stand.png",
+        "position": [
+          228,
+          580
+        ],
+        "size": [
+          292,
+          113
+        ],
+        "anchor": [
+          146,
+          111
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          90,
+          566,
+          276,
+          14
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_0_0_0",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          132,
+          588
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          86,
+          578,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_0_0_1",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          228,
+          588
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          182,
+          578,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_0_0_2",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          324,
+          588
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          278,
+          578,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_stand_0_1",
+        "module": "stand",
+        "asset": "res://assets/chapter1/refined/hall_v2/stand.png",
+        "position": [
+          228,
+          736
+        ],
+        "size": [
+          292,
+          113
+        ],
+        "anchor": [
+          146,
+          111
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          90,
+          722,
+          276,
+          14
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_0_1_0",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          132,
+          744
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          86,
+          734,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_0_1_1",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          228,
+          744
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          182,
+          734,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_0_1_2",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          324,
+          744
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          278,
+          734,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_stand_1_0",
+        "module": "stand",
+        "asset": "res://assets/chapter1/refined/hall_v2/stand.png",
+        "position": [
+          1212,
+          580
+        ],
+        "size": [
+          292,
+          113
+        ],
+        "anchor": [
+          146,
+          111
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          1074,
+          566,
+          276,
+          14
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_1_0_0",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          1116,
+          588
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1070,
+          578,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_1_0_1",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          1212,
+          588
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1166,
+          578,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_1_0_2",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          1308,
+          588
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1262,
+          578,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_stand_1_1",
+        "module": "stand",
+        "asset": "res://assets/chapter1/refined/hall_v2/stand.png",
+        "position": [
+          1212,
+          736
+        ],
+        "size": [
+          292,
+          113
+        ],
+        "anchor": [
+          146,
+          111
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          1074,
+          722,
+          276,
+          14
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_1_1_0",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          1116,
+          744
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1070,
+          734,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_1_1_1",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          1212,
+          744
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1166,
+          734,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_1_1_2",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          1308,
+          744
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1262,
+          734,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_bench_0",
+        "module": "bench",
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          480,
+          674
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "anchor": [
+          74,
+          60
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          415,
+          659,
+          130,
+          15
+        ]
+      },
+      {
+        "nodeName": "Hall_bench_1",
+        "module": "bench",
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          960,
+          674
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "anchor": [
+          74,
+          60
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          895,
+          659,
+          130,
+          15
+        ]
+      },
+      {
+        "nodeName": "Hall_planter",
+        "module": "planter",
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "position": [
+          480,
+          790
+        ],
+        "size": [
+          116,
+          75
+        ],
+        "anchor": [
+          58,
+          73
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          430,
+          774,
+          100,
+          16
+        ]
+      },
+      {
+        "nodeName": "Hall_planter_right",
+        "module": "planter",
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "position": [
+          960,
+          790
+        ],
+        "size": [
+          116,
+          75
+        ],
+        "anchor": [
+          58,
+          73
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          910,
+          774,
+          100,
+          16
+        ]
+      },
+      {
+        "nodeName": "Hall_trash",
+        "module": "trash",
+        "asset": "res://assets/chapter1/refined/hall_v2/trash.png",
+        "position": [
+          1080,
+          790
+        ],
+        "size": [
+          35,
+          52
+        ],
+        "anchor": [
+          18,
+          50
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1067,
+          778,
+          26,
+          12
+        ]
+      },
+      {
+        "nodeName": "Hall_gate_left",
+        "module": "gate_left",
+        "asset": "res://assets/chapter1/refined/hall_v2/gate_left.png",
+        "position": [
+          640,
+          828
+        ],
+        "size": [
+          36,
+          100
+        ],
+        "anchor": [
+          18,
+          98
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          627,
+          814,
+          26,
+          14
+        ],
+        "actorSafeArea": [
+          622,
+          730,
+          36,
+          100
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_gate_right",
+        "module": "gate_right",
+        "asset": "res://assets/chapter1/refined/hall_v2/gate_right.png",
+        "position": [
+          800,
+          828
+        ],
+        "size": [
+          36,
+          100
+        ],
+        "anchor": [
+          18,
+          98
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          787,
+          814,
+          26,
+          14
+        ],
+        "actorSafeArea": [
+          782,
+          730,
+          36,
+          100
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      }
+    ],
+    "actors": [
+      {
+        "id": "exam",
+        "name": "入学测试 · 考官",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_008.png",
+        "position": [
+          650,
+          415
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "occlusionClass": "low",
+        "nodeName": "ExamOfficer",
+        "sceneHook": "chapter_story.interact.exam"
+      },
+      {
+        "id": "exam",
+        "name": "测试仪",
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          790,
+          415
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "occlusionClass": "low",
+        "collision": [
+          752,
+          397,
+          76,
+          18
+        ],
+        "nodeName": "TrialInstrument",
+        "sceneHook": "chapter_story.interact.exam",
+        "anchor": [
+          50,
+          42
+        ],
+        "module": "trial_table"
+      },
+      {
+        "id": "wen_rang",
+        "name": "温让",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_000.png",
+        "position": [
+          758,
+          530
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "occlusionClass": "low",
+        "nodeName": "WenRang",
+        "sceneHook": "chapter_story.interact.wen_rang",
+        "character": "wen_rang"
+      }
+    ],
+    "spawn": [
+      700,
+      520
+    ],
+    "cameraOffset": [
+      0,
+      -42
+    ],
+    "art_bundle": "chapter1.hall-modules.v2",
+    "terrain": {
+      "base": [
+        16,
+        17
+      ],
+      "zones": [
+        {
+          "rect": [
+            14,
+            9,
+            2,
+            9
+          ],
+          "tiles": [
+            20,
+            21
+          ],
+          "surface": "central_aisle"
+        },
+        {
+          "rect": [
+            9,
+            10,
+            12,
+            2
+          ],
+          "tiles": [
+            20,
+            21
+          ],
+          "surface": "testing_approach"
+        }
+      ]
+    },
+    "walkableZones": [
+      {
+        "id": "exam_approaches",
+        "rect": [
+          620,
+          463,
+          210,
+          82
+        ]
+      },
+      {
+        "id": "central_aisle",
+        "rect": [
+          672,
+          500,
+          96,
+          328
+        ]
+      },
+      {
+        "id": "stage_stairs",
+        "rect": [
+          662,
+          458,
+          116,
+          48
+        ]
+      }
+    ],
+    "cameraBounds": [
+      0,
+      0,
+      1440,
+      864
+    ],
+    "entrances": [
+      {
+        "id": "south_door",
+        "position": [
+          720,
+          824
+        ],
+        "destinationUI": "chapter_map"
+      }
+    ]
+  },
+  "plaza": {
+    "name": "学院大会场展区",
+    "width": 30,
+    "height": 20,
+    "floor": 0,
+    "props": [
+      {
+        "nodeName": "Hall_dome",
+        "module": "dome",
+        "asset": "res://assets/chapter1/refined/hall_v2/dome.png",
+        "position": [
+          720,
+          535
+        ],
+        "size": [
+          964,
+          512
+        ],
+        "anchor": [
+          482,
+          510
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_arch_window_0",
+        "module": "arch_window",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "position": [
+          336,
+          700
+        ],
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          240,
+          24,
+          960,
+          676
+        ]
+      },
+      {
+        "nodeName": "Hall_arch_window_1",
+        "module": "arch_window",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "position": [
+          528,
+          700
+        ],
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_wall_2",
+        "module": "wall",
+        "asset": "res://assets/chapter1/refined/hall_v2/wall.png",
+        "position": [
+          720,
+          700
+        ],
+        "size": [
+          196,
+          171
+        ],
+        "anchor": [
+          98,
+          169
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_arch_window_3",
+        "module": "arch_window",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "position": [
+          912,
+          700
+        ],
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_arch_window_4",
+        "module": "arch_window",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "position": [
+          1104,
+          700
+        ],
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_portal",
+        "module": "portal",
+        "asset": "res://assets/chapter1/refined/hall_v2/portal.png",
+        "position": [
+          720,
+          700
+        ],
+        "size": [
+          157,
+          174
+        ],
+        "anchor": [
+          78,
+          172
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_banner",
+        "module": "banner",
+        "asset": "res://assets/chapter1/refined/hall_v2/banner.png",
+        "position": [
+          720,
+          590
+        ],
+        "size": [
+          244,
+          62
+        ],
+        "anchor": [
+          122,
+          60
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_gate_left",
+        "module": "gate_left",
+        "asset": "res://assets/chapter1/refined/hall_v2/gate_left.png",
+        "position": [
+          628,
+          712
+        ],
+        "size": [
+          36,
+          100
+        ],
+        "anchor": [
+          18,
+          98
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          615,
+          698,
+          26,
+          14
+        ],
+        "actorSafeArea": [
+          610,
+          614,
+          36,
+          100
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_gate_right",
+        "module": "gate_right",
+        "asset": "res://assets/chapter1/refined/hall_v2/gate_right.png",
+        "position": [
+          812,
+          712
+        ],
+        "size": [
+          36,
+          100
+        ],
+        "anchor": [
+          18,
+          98
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          799,
+          698,
+          26,
+          14
+        ],
+        "actorSafeArea": [
+          794,
+          614,
+          36,
+          100
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_flag_red_0",
+        "module": "flag_red",
+        "asset": "res://assets/chapter1/refined/hall_v2/flag_red.png",
+        "position": [
+          352,
+          792
+        ],
+        "size": [
+          77,
+          108
+        ],
+        "anchor": [
+          14,
+          106
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          345,
+          784,
+          14,
+          8
+        ],
+        "actorSafeArea": [
+          338,
+          686,
+          77,
+          108
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_trial_table_registration_0",
+        "module": "trial_table",
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          432,
+          806
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "anchor": [
+          50,
+          42
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          394,
+          790,
+          76,
+          16
+        ],
+        "purpose": "mentor_registration"
+      },
+      {
+        "nodeName": "Hall_flag_gray_1",
+        "module": "flag_gray",
+        "asset": "res://assets/chapter1/refined/hall_v2/flag_gray.png",
+        "position": [
+          544,
+          792
+        ],
+        "size": [
+          75,
+          108
+        ],
+        "anchor": [
+          14,
+          106
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          537,
+          784,
+          14,
+          8
+        ],
+        "actorSafeArea": [
+          530,
+          686,
+          75,
+          108
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_trial_table_registration_1",
+        "module": "trial_table",
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          624,
+          806
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "anchor": [
+          50,
+          42
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          586,
+          790,
+          76,
+          16
+        ],
+        "purpose": "mentor_registration"
+      },
+      {
+        "nodeName": "Hall_flag_teal_2",
+        "module": "flag_teal",
+        "asset": "res://assets/chapter1/refined/hall_v2/flag_teal.png",
+        "position": [
+          896,
+          792
+        ],
+        "size": [
+          77,
+          108
+        ],
+        "anchor": [
+          14,
+          106
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          889,
+          784,
+          14,
+          8
+        ],
+        "actorSafeArea": [
+          882,
+          686,
+          77,
+          108
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_trial_table_registration_2",
+        "module": "trial_table",
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          816,
+          806
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "anchor": [
+          50,
+          42
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          778,
+          790,
+          76,
+          16
+        ],
+        "purpose": "mentor_registration"
+      },
+      {
+        "nodeName": "Hall_flag_silver_3",
+        "module": "flag_silver",
+        "asset": "res://assets/chapter1/refined/hall_v2/flag_silver.png",
+        "position": [
+          1088,
+          792
+        ],
+        "size": [
+          78,
+          108
+        ],
+        "anchor": [
+          14,
+          106
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          1081,
+          784,
+          14,
+          8
+        ],
+        "actorSafeArea": [
+          1074,
+          686,
+          78,
+          108
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_trial_table_registration_3",
+        "module": "trial_table",
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "position": [
+          1008,
+          806
+        ],
+        "size": [
+          100,
+          44
+        ],
+        "anchor": [
+          50,
+          42
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          970,
+          790,
+          76,
+          16
+        ],
+        "purpose": "mentor_registration"
+      },
+      {
+        "nodeName": "Hall_planter_0",
+        "module": "planter",
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "position": [
+          144,
+          736
+        ],
+        "size": [
+          116,
+          75
+        ],
+        "anchor": [
+          58,
+          73
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          94,
+          720,
+          100,
+          16
+        ]
+      },
+      {
+        "nodeName": "Hall_bench_0",
+        "module": "bench",
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          144,
+          868
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "anchor": [
+          74,
+          60
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          79,
+          853,
+          130,
+          15
+        ]
+      },
+      {
+        "nodeName": "Hall_trash_0",
+        "module": "trash",
+        "asset": "res://assets/chapter1/refined/hall_v2/trash.png",
+        "position": [
+          240,
+          868
+        ],
+        "size": [
+          35,
+          52
+        ],
+        "anchor": [
+          18,
+          50
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          227,
+          856,
+          26,
+          12
+        ]
+      },
+      {
+        "nodeName": "Hall_planter_1",
+        "module": "planter",
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "position": [
+          1296,
+          736
+        ],
+        "size": [
+          116,
+          75
+        ],
+        "anchor": [
+          58,
+          73
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1246,
+          720,
+          100,
+          16
+        ]
+      },
+      {
+        "nodeName": "Hall_bench_1",
+        "module": "bench",
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          1296,
+          868
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "anchor": [
+          74,
+          60
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1231,
+          853,
+          130,
+          15
+        ]
+      },
+      {
+        "nodeName": "Hall_trash_1",
+        "module": "trash",
+        "asset": "res://assets/chapter1/refined/hall_v2/trash.png",
+        "position": [
+          1200,
+          868
+        ],
+        "size": [
+          35,
+          52
+        ],
+        "anchor": [
+          18,
+          50
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1187,
+          856,
+          26,
+          12
+        ]
+      },
+      {
+        "nodeName": "Hall_streetlamp_0",
+        "module": "streetlamp",
+        "asset": "res://assets/chapter1/refined/hall_v2/streetlamp.png",
+        "position": [
+          580,
+          908
+        ],
+        "size": [
+          42,
+          132
+        ],
+        "anchor": [
+          21,
+          130
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          573,
+          898,
+          14,
+          10
+        ],
+        "actorSafeArea": [
+          559,
+          778,
+          42,
+          132
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_streetlamp_1",
+        "module": "streetlamp",
+        "asset": "res://assets/chapter1/refined/hall_v2/streetlamp.png",
+        "position": [
+          860,
+          908
+        ],
+        "size": [
+          42,
+          132
+        ],
+        "anchor": [
+          21,
+          130
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          853,
+          898,
+          14,
+          10
+        ],
+        "actorSafeArea": [
+          839,
+          778,
+          42,
+          132
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_barrier_0",
+        "module": "barrier",
+        "asset": "res://assets/chapter1/refined/hall_v2/barrier.png",
+        "position": [
+          432,
+          922
+        ],
+        "size": [
+          148,
+          54
+        ],
+        "anchor": [
+          74,
+          52
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          366,
+          908,
+          132,
+          14
+        ]
+      },
+      {
+        "nodeName": "Hall_barrier_1",
+        "module": "barrier",
+        "asset": "res://assets/chapter1/refined/hall_v2/barrier.png",
+        "position": [
+          1008,
+          922
+        ],
+        "size": [
+          148,
+          54
+        ],
+        "anchor": [
+          74,
+          52
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          942,
+          908,
+          132,
+          14
+        ]
+      },
+      {
+        "nodeName": "Hall_cone_0",
+        "module": "cone",
+        "asset": "res://assets/chapter1/refined/hall_v2/cone.png",
+        "position": [
+          332,
+          896
+        ],
+        "size": [
+          26,
+          32
+        ],
+        "anchor": [
+          13,
+          30
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          324,
+          890,
+          16,
+          6
+        ]
+      },
+      {
+        "nodeName": "Hall_cone_1",
+        "module": "cone",
+        "asset": "res://assets/chapter1/refined/hall_v2/cone.png",
+        "position": [
+          1108,
+          896
+        ],
+        "size": [
+          26,
+          32
+        ],
+        "anchor": [
+          13,
+          30
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1100,
+          890,
+          16,
+          6
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "id": "liu",
+        "name": "柳无眠 · 摸鱼会",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_002.png",
+        "position": [
+          432,
+          764
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "occlusionClass": "low",
+        "nodeName": "Mentor_liu",
+        "sceneHook": "chapter_story.interact.liu",
+        "character": "liu"
+      },
+      {
+        "id": "shen",
+        "name": "沈听澜 · 幻影阁",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_003.png",
+        "position": [
+          624,
+          764
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "occlusionClass": "low",
+        "nodeName": "Mentor_shen",
+        "sceneHook": "chapter_story.interact.shen",
+        "character": "shen"
+      },
+      {
+        "id": "wen",
+        "name": "温若水 · 论道斋",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_004.png",
+        "position": [
+          816,
+          764
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "occlusionClass": "low",
+        "nodeName": "Mentor_wen",
+        "sceneHook": "chapter_story.interact.wen",
+        "character": "wen"
+      },
+      {
+        "id": "tang",
+        "name": "唐半夏 · 百草堂",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_005.png",
+        "position": [
+          1008,
+          764
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "occlusionClass": "low",
+        "nodeName": "Mentor_tang",
+        "sceneHook": "chapter_story.interact.tang",
+        "character": "tang"
+      }
+    ],
+    "spawn": [
+      720,
+      842
+    ],
+    "cameraOffset": [
+      0,
+      -72
+    ],
+    "art_bundle": "chapter1.hall-modules.v2",
+    "terrain": {
+      "base": [
+        16,
+        17
+      ],
+      "zones": [
+        {
+          "rect": [
+            0,
+            0,
+            5,
+            20
+          ],
+          "tiles": [
+            18,
+            19
+          ],
+          "surface": "grass"
+        },
+        {
+          "rect": [
+            25,
+            0,
+            5,
+            20
+          ],
+          "tiles": [
+            18,
+            19
+          ],
+          "surface": "grass"
+        },
+        {
+          "rect": [
+            5,
+            15,
+            20,
+            2
+          ],
+          "tiles": [
+            20,
+            21
+          ],
+          "surface": "mentor_forecourt"
+        },
+        {
+          "rect": [
+            14,
+            14,
+            2,
+            6
+          ],
+          "tiles": [
+            20,
+            21
+          ],
+          "surface": "door_approach"
+        }
+      ]
+    },
+    "walkableZones": [
+      {
+        "id": "door_approach",
+        "rect": [
+          672,
+          714,
+          96,
+          210
+        ]
+      },
+      {
+        "id": "mentor_approaches",
+        "rect": [
+          400,
+          806,
+          640,
+          46
+        ]
+      }
+    ],
+    "entrances": [
+      {
+        "id": "hall_door",
+        "position": [
+          720,
+          716
+        ],
+        "destinationUI": "chapter_map"
+      },
+      {
+        "id": "south_approach",
+        "position": [
+          720,
+          916
+        ],
+        "destinationUI": "chapter_map"
+      }
+    ],
+    "cameraBounds": [
+      0,
+      0,
+      1440,
+      960
+    ]
+  },
+  "training": {
+    "name": "训练场",
+    "width": 30,
+    "height": 18,
+    "floor": 2,
+    "props": [
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          96,
+          288
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          78,
+          270,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          1344,
+          288
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          1326,
+          270,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/academy/runtime.png",
+        "position": [
+          1000,
+          310
+        ],
+        "size": [
+          480,
+          280
+        ],
+        "collision": [
+          770,
+          245,
+          460,
+          65
+        ],
+        "occlusionClass": "tall"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          192,
+          520
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          174,
+          502,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      }
+    ],
+    "actors": [
+      {
+        "id": "comic",
+        "name": "器材堆 · 限量版漫画",
+        "asset": "res://assets/chapter1/props/frames/frame_006.png",
+        "position": [
+          550,
+          500
+        ],
+        "size": [
+          96,
+          96
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "id": "liu",
+        "name": "柳无眠",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_002.png",
+        "position": [
+          820,
+          500
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "occlusionClass": "low",
+        "character": "liu"
+      }
+    ],
+    "spawn": [
+      720,
+      530
+    ]
+  },
+  "lab": {
+    "name": "试验区",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "props": [
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          96,
+          288
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          78,
+          270,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          1344,
+          288
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          1326,
+          270,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_001.png",
+        "position": [
+          216,
+          350
+        ],
+        "size": [
+          120,
+          144
+        ],
+        "collision": [
+          168,
+          310,
+          96,
+          40
+        ],
+        "occlusionClass": "tall"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_001.png",
+        "position": [
+          1224,
+          350
+        ],
+        "size": [
+          120,
+          144
+        ],
+        "collision": [
+          1176,
+          310,
+          96,
+          40
+        ],
+        "occlusionClass": "tall"
+      }
+    ],
+    "actors": [
+      {
+        "id": "sample_fire",
+        "name": "火样本",
+        "asset": "res://assets/chapter1/props/frames/frame_008.png",
+        "position": [
+          480,
+          480
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "id": "sample_water",
+        "name": "水样本",
+        "asset": "res://assets/chapter1/props/frames/frame_007.png",
+        "position": [
+          720,
+          480
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "id": "sample_earth",
+        "name": "土样本",
+        "asset": "res://assets/chapter1/props/frames/frame_009.png",
+        "position": [
+          960,
+          480
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "id": "wen",
+        "name": "温若水",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_004.png",
+        "position": [
+          1150,
+          620
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "occlusionClass": "low",
+        "character": "wen"
+      }
+    ],
+    "spawn": [
+      720,
+      510
+    ]
+  },
+  "infirmary": {
+    "name": "医务室",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "props": [
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          96,
+          288
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          78,
+          270,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          1344,
+          288
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          1326,
+          270,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/bed/runtime.png",
+        "position": [
+          288,
+          470
+        ],
+        "size": [
+          72,
+          132
+        ],
+        "collision": [
+          260,
+          362,
+          56,
+          108
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_003.png",
+        "position": [
+          1080,
+          380
+        ],
+        "size": [
+          72,
+          144
+        ],
+        "collision": [
+          1068,
+          364,
+          24,
+          16
+        ],
+        "occlusionClass": "tall"
+      }
+    ],
+    "actors": [
+      {
+        "id": "cabinet",
+        "name": "药柜",
+        "asset": "res://assets/chapter1/props/frames/frame_004.png",
+        "position": [
+          580,
+          480
+        ],
+        "size": [
+          120,
+          120
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "id": "tang",
+        "name": "唐半夏",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_005.png",
+        "position": [
+          820,
+          500
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "occlusionClass": "low",
+        "character": "tang"
+      }
+    ],
+    "spawn": [
+      720,
+      530
+    ]
+  },
+  "cafe": {
+    "name": "商业街奶茶店",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "props": [
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          96,
+          288
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          78,
+          270,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          1344,
+          288
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          1326,
+          270,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/counter/runtime.png",
+        "position": [
+          720,
+          360
+        ],
+        "size": [
+          288,
+          116
+        ],
+        "collision": [
+          586,
+          292,
+          268,
+          68
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_003.png",
+        "position": [
+          1200,
+          430
+        ],
+        "size": [
+          72,
+          144
+        ],
+        "collision": [
+          1188,
+          414,
+          24,
+          16
+        ],
+        "occlusionClass": "tall"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          300,
+          430
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          282,
+          412,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      }
+    ],
+    "actors": [
+      {
+        "id": "su_cafe",
+        "name": "苏挽颜",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_001.png",
+        "position": [
+          720,
+          500
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "occlusionClass": "low",
+        "character": "su_wanyan"
+      },
+      {
+        "id": "wen_rang",
+        "name": "温让",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_000.png",
+        "position": [
+          950,
+          620
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "occlusionClass": "low",
+        "character": "wen_rang"
+      }
+    ],
+    "spawn": [
+      720,
+      530
+    ]
+  },
+  "hill": {
+    "name": "后山灵草圃",
+    "width": 30,
+    "height": 18,
+    "floor": 2,
+    "props": [
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          96,
+          288
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          78,
+          270,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          1344,
+          288
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          1326,
+          270,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          288,
+          340
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          270,
+          322,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          1152,
+          350
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          1134,
+          332,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          360,
+          480
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          342,
+          462,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_000.png",
+        "position": [
+          1080,
+          480
+        ],
+        "size": [
+          72,
+          72
+        ],
+        "collision": [
+          1062,
+          462,
+          36,
+          18
+        ],
+        "occlusionClass": "low"
+      }
+    ],
+    "actors": [
+      {
+        "id": "hill",
+        "name": "苏挽颜 · 清剿入口",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_001.png",
+        "position": [
+          720,
+          500
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "occlusionClass": "low",
+        "character": "su_wanyan"
+      },
+      {
+        "id": "hill_wen",
+        "name": "温让 · 入口看守",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_000.png",
+        "position": [
+          960,
+          640
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "occlusionClass": "low",
+        "character": "wen_rang"
+      }
+    ],
+    "spawn": [
+      720,
+      530
+    ]
+  },
+  "clubs": {
+    "name": "操场·社团招新",
+    "width": 30,
+    "height": 18,
+    "floor": 2,
+    "spawn": [
+      640,
+      690
+    ],
+    "cameraOffset": [
+      0,
+      -60
+    ],
+    "dialogueOffset": [
+      0,
+      -50
+    ],
+    "art_bundle": "encounter-art.1",
+    "terrain": {
+      "base": [
+        18,
+        19
+      ],
+      "zones": [
+        {
+          "rect": [
+            3,
+            6,
+            24,
+            10
+          ],
+          "tiles": [
+            16,
+            17
+          ]
+        },
+        {
+          "rect": [
+            3,
+            10,
+            24,
+            2
+          ],
+          "tiles": [
+            20,
+            21
+          ]
+        }
+      ]
+    },
+    "props": [
+      {
+        "asset": "res://assets/encounters/objects/club_booth/runtime.png",
+        "nodeName": "club_booth0",
+        "position": [
+          400,
+          470
+        ],
+        "size": [
+          240,
+          142
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          306,
+          419,
+          188,
+          51
+        ],
+        "anchor": [
+          120.0,
+          142
+        ],
+        "actorSafeArea": [
+          280,
+          328,
+          240,
+          100
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "asset": "res://assets/encounters/objects/club_booth/runtime.png",
+        "nodeName": "club_booth1",
+        "position": [
+          720,
+          470
+        ],
+        "size": [
+          240,
+          142
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          626,
+          419,
+          188,
+          51
+        ],
+        "anchor": [
+          120.0,
+          142
+        ],
+        "actorSafeArea": [
+          600,
+          328,
+          240,
+          100
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "asset": "res://assets/encounters/objects/club_booth/runtime.png",
+        "nodeName": "club_booth2",
+        "position": [
+          1040,
+          470
+        ],
+        "size": [
+          240,
+          142
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          946,
+          419,
+          188,
+          51
+        ],
+        "anchor": [
+          120.0,
+          142
+        ],
+        "actorSafeArea": [
+          920,
+          328,
+          240,
+          100
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "nodeName": "bench350",
+        "position": [
+          350,
+          720
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          285,
+          705,
+          130,
+          15
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "nodeName": "bench1090",
+        "position": [
+          1090,
+          720
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1025,
+          705,
+          130,
+          15
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "nodeName": "planter185",
+        "position": [
+          185,
+          575
+        ],
+        "size": [
+          116,
+          75
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          135,
+          559,
+          100,
+          16
+        ],
+        "anchor": [
+          58,
+          73
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "nodeName": "planter1255",
+        "position": [
+          1255,
+          575
+        ],
+        "size": [
+          116,
+          75
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1205,
+          559,
+          100,
+          16
+        ],
+        "anchor": [
+          58,
+          73
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/streetlamp.png",
+        "nodeName": "streetlamp190",
+        "position": [
+          190,
+          800
+        ],
+        "size": [
+          42,
+          132
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          183,
+          790,
+          14,
+          10
+        ],
+        "anchor": [
+          21,
+          130
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/streetlamp.png",
+        "nodeName": "streetlamp1250",
+        "position": [
+          1250,
+          800
+        ],
+        "size": [
+          42,
+          132
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1243,
+          790,
+          14,
+          10
+        ],
+        "anchor": [
+          21,
+          130
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_010.png",
+        "nodeName": "RecruitLeaflets",
+        "position": [
+          360,
+          704
+        ],
+        "size": [
+          24,
+          24
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low"
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/encounters/encounter_people/frames/frame_002.png",
+        "nodeName": "club_sword",
+        "position": [
+          400,
+          520
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "club_sword",
+        "name": "剑道社学长 · 练习与传单"
+      },
+      {
+        "asset": "res://assets/encounters/encounter_people/frames/frame_003.png",
+        "nodeName": "club_element",
+        "position": [
+          720,
+          520
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "club_element",
+        "name": "元素研究社学姐 · 记录与示范"
+      },
+      {
+        "asset": "res://assets/venues/academy_people/frames/frame_002.png",
+        "nodeName": "club_healing",
+        "position": [
+          1040,
+          520
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "club_healing",
+        "name": "治愈社学姐 · 急救与值班"
+      },
+      {
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_000.png",
+        "nodeName": "clubs",
+        "position": [
+          660,
+          620
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "clubs",
+        "name": "温让 · 拿传单 / 一起回宿舍",
+        "character": "wen_rang",
+        "characterFolder": "res://assets/chapter1/cinematics"
+      },
+      {
+        "asset": "res://assets/encounters/encounter_people/frames/frame_003.png",
+        "nodeName": "recruit_student_a",
+        "position": [
+          470,
+          605
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "recruit_student_a",
+        "name": "看传单的同学"
+      },
+      {
+        "asset": "res://assets/encounters/encounter_people/frames/frame_002.png",
+        "nodeName": "recruit_student_b",
+        "position": [
+          1180,
+          665
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "recruit_student_b",
+        "name": "翻看活动表的同学"
+      }
+    ],
+    "entrances": [
+      {
+        "id": "dorm_path",
+        "position": [
+          720,
+          800
+        ]
+      }
+    ]
+  },
+  "dorm": {
+    "name": "男生宿舍·寝室",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "spawn": [
+      720.0,
+      612.5
+    ],
+    "cameraOffset": [
+      0,
+      -70
+    ],
+    "dialogueOffset": [
+      0,
+      12
+    ],
+    "art_bundle": "encounter-art.1",
+    "props": [
+      {
+        "asset": "res://assets/encounters/objects/dorm_wall/runtime.png",
+        "nodeName": "dorm_wall",
+        "position": [
+          720.0,
+          492.0
+        ],
+        "size": [
+          480.0,
+          80.0
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "anchor": [
+          480.0,
+          320
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/bed/runtime.png",
+        "nodeName": "Bed480",
+        "position": [
+          600.0,
+          580.0
+        ],
+        "size": [
+          36.0,
+          66.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          584.0,
+          523.0,
+          32.0,
+          57.0
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/bed/runtime.png",
+        "nodeName": "Bed950",
+        "position": [
+          835.0,
+          580.0
+        ],
+        "size": [
+          36.0,
+          66.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          819.0,
+          523.0,
+          32.0,
+          57.0
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "nodeName": "trial_table",
+        "position": [
+          720.0,
+          546.5
+        ],
+        "size": [
+          50.0,
+          22.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          701.0,
+          538.5,
+          38.0,
+          8.0
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "nodeName": "bench",
+        "position": [
+          720.0,
+          671.0
+        ],
+        "size": [
+          74.0,
+          31.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          687.5,
+          663.5,
+          65.0,
+          7.5
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/encounters/objects/phone/runtime.png",
+        "nodeName": "phone",
+        "position": [
+          737.0,
+          538.5
+        ],
+        "size": [
+          9.0,
+          10.5
+        ],
+        "renderLayer": "foreground",
+        "occlusionClass": "low",
+        "anchor": [
+          9.0,
+          21
+        ]
+      },
+      {
+        "asset": "res://assets/encounters/objects/notebook/runtime.png",
+        "nodeName": "notebook",
+        "position": [
+          710.0,
+          538.5
+        ],
+        "size": [
+          11.0,
+          11.5
+        ],
+        "renderLayer": "foreground",
+        "occlusionClass": "low",
+        "anchor": [
+          11.0,
+          23
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_000.png",
+        "nodeName": "dorm_wen",
+        "position": [
+          770.0,
+          612.5
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "dorm_wen",
+        "name": "温让 · 同寝与夜谈",
+        "character": "wen_rang",
+        "characterFolder": "res://assets/chapter1/cinematics"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_011.png",
+        "nodeName": "dorm_exit",
+        "position": [
+          865.0,
+          491.0
+        ],
+        "size": [
+          10.0,
+          10.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "dorm_exit",
+        "name": "房门 · 去共用走廊",
+        "hidden": true,
+        "interactionPosition": [
+          865.0,
+          508.5
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/bed/runtime.png",
+        "nodeName": "sleep",
+        "position": [
+          600.0,
+          580.0
+        ],
+        "size": [
+          36.0,
+          66.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "sleep",
+        "name": "床铺 · 休息到明天",
+        "hidden": true,
+        "interactionPosition": [
+          600.0,
+          601.0
+        ]
+      }
+    ],
+    "blockers": [
+      [
+        0,
+        0,
+        1440,
+        492.0
+      ],
+      [
+        0,
+        492.0,
+        480.0,
+        372.0
+      ],
+      [
+        960.0,
+        492.0,
+        480.0,
+        372.0
+      ],
+      [
+        480.0,
+        710.0,
+        480.0,
+        154.0
+      ]
+    ],
+    "entrances": [
+      {
+        "id": "room_door",
+        "position": [
+          865.0,
+          512.5
+        ],
+        "destination": "corridor"
+      }
+    ],
+    "walkableZones": [
+      {
+        "id": "interior",
+        "rect": [
+          480.0,
+          492.0,
+          480.0,
+          218.0
+        ]
+      }
+    ],
+    "cinematicZoom": 2,
+    "floorRect": [
+      480.0,
+      492.0,
+      480.0,
+      218.0
+    ],
+    "cameraRegion": [
+      480.0,
+      412.0,
+      480.0,
+      298.0
+    ]
+  },
+  "hall": {
+    "name": "学院任务大厅",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "spawn": [
+      720,
+      630
+    ],
+    "cameraOffset": [
+      0,
+      -44
+    ],
+    "props": [
+      {
+        "asset": "res://assets/venues/academy_wall/runtime.png",
+        "position": [
+          720,
+          448
+        ],
+        "size": [
+          1248,
+          377
+        ],
+        "nodeName": "academy_wall",
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          96,
+          24,
+          1248,
+          420
+        ],
+        "anchor": [
+          624.0,
+          377
+        ]
+      },
+      {
+        "asset": "res://assets/venues/academy_counter/runtime.png",
+        "position": [
+          720,
+          568
+        ],
+        "size": [
+          192,
+          50.5
+        ],
+        "nodeName": "academy_counter",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          624,
+          548,
+          192,
+          20
+        ],
+        "anchor": [
+          192.0,
+          101
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          280,
+          650
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "nodeName": "bench",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          215,
+          635,
+          130,
+          15
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          280,
+          760
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "nodeName": "bench",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          215,
+          745,
+          130,
+          15
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          1160,
+          650
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "nodeName": "bench",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1095,
+          635,
+          130,
+          15
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          1160,
+          760
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "nodeName": "bench",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1095,
+          745,
+          130,
+          15
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "position": [
+          180,
+          495
+        ],
+        "size": [
+          116,
+          75
+        ],
+        "nodeName": "planter",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          130,
+          479,
+          100,
+          16
+        ],
+        "anchor": [
+          58,
+          73
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "position": [
+          1260,
+          495
+        ],
+        "size": [
+          116,
+          75
+        ],
+        "nodeName": "planter",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1210,
+          479,
+          100,
+          16
+        ],
+        "anchor": [
+          58,
+          73
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/venues/academy_people/frames/frame_000.png",
+        "position": [
+          700,
+          547
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "task",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "task",
+        "name": "学院任务管理员 · 学生证登记",
+        "interactionPosition": [
+          700,
+          550
+        ]
+      },
+      {
+        "asset": "res://assets/venues/academy_people/frames/frame_001.png",
+        "position": [
+          850,
+          648
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "academy_student",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "academy_student",
+        "name": "等候登记的男同学"
+      },
+      {
+        "asset": "res://assets/venues/academy_people/frames/frame_002.png",
+        "position": [
+          1020,
+          640
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "academy_club",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "academy_club",
+        "name": "社团值日生"
+      },
+      {
+        "asset": "res://assets/venues/academy_people/frames/frame_003.png",
+        "position": [
+          350,
+          568
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "academy_worker",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "academy_worker",
+        "name": "校园设施员"
+      }
+    ],
+    "art_bundle": "chapter2-playable.1",
+    "terrain": {
+      "base": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "zones": [
+        {
+          "rect": [
+            12,
+            9,
+            6,
+            9
+          ],
+          "tiles": [
+            16,
+            17
+          ]
+        }
+      ]
+    },
+    "entrances": [
+      {
+        "id": "student_entrance",
+        "position": [
+          720,
+          810
+        ]
+      }
+    ]
+  },
+  "cbd": {
+    "name": "管理局服务大厅",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "spawn": [
+      720,
+      660
+    ],
+    "cameraOffset": [
+      0,
+      -44
+    ],
+    "props": [
+      {
+        "asset": "res://assets/venues/bureau_wall/runtime.png",
+        "position": [
+          720,
+          448
+        ],
+        "size": [
+          1152,
+          417
+        ],
+        "nodeName": "bureau_wall",
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          144,
+          24,
+          1152,
+          420
+        ],
+        "anchor": [
+          576.0,
+          417
+        ]
+      },
+      {
+        "asset": "res://assets/venues/bureau_counter/runtime.png",
+        "position": [
+          720,
+          568
+        ],
+        "size": [
+          336,
+          118.5
+        ],
+        "nodeName": "bureau_counter",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          552,
+          538,
+          336,
+          30
+        ],
+        "anchor": [
+          336.0,
+          237
+        ],
+        "materialShader": "res://assets/venues/bureau_glass.gdshader"
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          240,
+          732
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "nodeName": "bench",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          175,
+          717,
+          130,
+          15
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          1200,
+          732
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "nodeName": "bench",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1135,
+          717,
+          130,
+          15
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/barrier.png",
+        "position": [
+          480,
+          644
+        ],
+        "size": [
+          148,
+          54
+        ],
+        "nodeName": "barrier",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          414,
+          630,
+          132,
+          14
+        ],
+        "anchor": [
+          74,
+          52
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/barrier.png",
+        "position": [
+          960,
+          644
+        ],
+        "size": [
+          148,
+          54
+        ],
+        "nodeName": "barrier",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          894,
+          630,
+          132,
+          14
+        ],
+        "anchor": [
+          74,
+          52
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "position": [
+          180,
+          500
+        ],
+        "size": [
+          116,
+          75
+        ],
+        "nodeName": "planter",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          130,
+          484,
+          100,
+          16
+        ],
+        "anchor": [
+          58,
+          73
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "position": [
+          1260,
+          500
+        ],
+        "size": [
+          116,
+          75
+        ],
+        "nodeName": "planter",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1210,
+          484,
+          100,
+          16
+        ],
+        "anchor": [
+          58,
+          73
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/venues/bureau_people/frames/frame_000.png",
+        "position": [
+          690,
+          508
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "reception",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "reception",
+        "name": "管理局受理员 · 签收窗口",
+        "interactionPosition": [
+          690,
+          550
+        ]
+      },
+      {
+        "asset": "res://assets/venues/bureau_people/frames/frame_001.png",
+        "position": [
+          840,
+          760
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "bureau_guard",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "bureau_guard",
+        "name": "入口执勤员"
+      },
+      {
+        "asset": "res://assets/venues/bureau_people/frames/frame_002.png",
+        "position": [
+          1080,
+          650
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "bureau_civilian",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "bureau_civilian",
+        "name": "等候办事的市民"
+      },
+      {
+        "asset": "res://assets/venues/bureau_people/frames/frame_003.png",
+        "position": [
+          800,
+          508
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "nodeName": "bureau_records",
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "bureau_records",
+        "name": "档案核验员",
+        "interactionPosition": [
+          800,
+          550
+        ]
+      }
+    ],
+    "art_bundle": "chapter2-playable.1",
+    "terrain": {
+      "base": [
+        25,
+        26,
+        27
+      ],
+      "zones": [
+        {
+          "rect": [
+            13,
+            9,
+            4,
+            9
+          ],
+          "tiles": [
+            20,
+            21
+          ]
+        }
+      ]
+    },
+    "entrances": [
+      {
+        "id": "security_entrance",
+        "position": [
+          720,
+          810
+        ]
+      }
+    ]
+  },
+  "gate": {
+    "name": "学院校门",
+    "width": 30,
+    "height": 18,
+    "floor": 2,
+    "spawn": [
+      640,
+      820
+    ],
+    "cameraOffset": [
+      0,
+      -40
+    ],
+    "terrain": {
+      "base": [
+        16,
+        17
+      ],
+      "zones": [
+        {
+          "rect": [
+            0,
+            0,
+            5,
+            18
+          ],
+          "tiles": [
+            18,
+            19
+          ]
+        },
+        {
+          "rect": [
+            25,
+            0,
+            5,
+            18
+          ],
+          "tiles": [
+            18,
+            19
+          ]
+        },
+        {
+          "rect": [
+            13,
+            11,
+            4,
+            7
+          ],
+          "tiles": [
+            20,
+            21
+          ]
+        }
+      ]
+    },
+    "props": [
+      {
+        "nodeName": "Gate_arch_window336",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "position": [
+          336,
+          560
+        ],
+        "module": "arch_window",
+        "renderLayer": "background"
+      },
+      {
+        "nodeName": "Gate_arch_window528",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "position": [
+          528,
+          560
+        ],
+        "module": "arch_window",
+        "renderLayer": "background"
+      },
+      {
+        "nodeName": "Gate_arch_window912",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "position": [
+          912,
+          560
+        ],
+        "module": "arch_window",
+        "renderLayer": "background"
+      },
+      {
+        "nodeName": "Gate_arch_window1104",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "position": [
+          1104,
+          560
+        ],
+        "module": "arch_window",
+        "renderLayer": "background"
+      },
+      {
+        "nodeName": "Gate_portal720",
+        "asset": "res://assets/chapter1/refined/hall_v2/portal.png",
+        "size": [
+          157,
+          174
+        ],
+        "anchor": [
+          78,
+          172
+        ],
+        "position": [
+          720,
+          560
+        ],
+        "module": "portal",
+        "renderLayer": "background"
+      },
+      {
+        "nodeName": "Gate_column240",
+        "asset": "res://assets/chapter1/refined/hall_v2/column.png",
+        "size": [
+          39,
+          174
+        ],
+        "anchor": [
+          20,
+          172
+        ],
+        "position": [
+          240,
+          564
+        ],
+        "module": "column",
+        "renderLayer": "background",
+        "collision": [
+          226,
+          24,
+          432,
+          536
+        ]
+      },
+      {
+        "nodeName": "Gate_column1200",
+        "asset": "res://assets/chapter1/refined/hall_v2/column.png",
+        "size": [
+          39,
+          174
+        ],
+        "anchor": [
+          20,
+          172
+        ],
+        "position": [
+          1200,
+          564
+        ],
+        "module": "column",
+        "renderLayer": "background",
+        "collision": [
+          804,
+          24,
+          410,
+          536
+        ]
+      },
+      {
+        "nodeName": "Gate_gate_left640",
+        "asset": "res://assets/chapter1/refined/hall_v2/gate_left.png",
+        "size": [
+          36,
+          100
+        ],
+        "anchor": [
+          18,
+          98
+        ],
+        "position": [
+          640,
+          596
+        ],
+        "module": "gate_left",
+        "renderLayer": "background"
+      },
+      {
+        "nodeName": "Gate_gate_right800",
+        "asset": "res://assets/chapter1/refined/hall_v2/gate_right.png",
+        "size": [
+          36,
+          100
+        ],
+        "anchor": [
+          18,
+          98
+        ],
+        "position": [
+          800,
+          596
+        ],
+        "module": "gate_right",
+        "renderLayer": "background"
+      },
+      {
+        "nodeName": "Gate_planter380",
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "size": [
+          116,
+          75
+        ],
+        "anchor": [
+          58,
+          73
+        ],
+        "position": [
+          380,
+          668
+        ],
+        "module": "planter",
+        "renderLayer": "background",
+        "collision": [
+          330,
+          652,
+          100,
+          16
+        ]
+      },
+      {
+        "nodeName": "Gate_streetlamp380",
+        "asset": "res://assets/chapter1/refined/hall_v2/streetlamp.png",
+        "size": [
+          42,
+          132
+        ],
+        "anchor": [
+          21,
+          130
+        ],
+        "position": [
+          380,
+          804
+        ],
+        "module": "streetlamp",
+        "renderLayer": "background",
+        "collision": [
+          373,
+          794,
+          14,
+          10
+        ]
+      },
+      {
+        "nodeName": "Gate_planter1060",
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "size": [
+          116,
+          75
+        ],
+        "anchor": [
+          58,
+          73
+        ],
+        "position": [
+          1060,
+          668
+        ],
+        "module": "planter",
+        "renderLayer": "background",
+        "collision": [
+          1010,
+          652,
+          100,
+          16
+        ]
+      },
+      {
+        "nodeName": "Gate_streetlamp1060",
+        "asset": "res://assets/chapter1/refined/hall_v2/streetlamp.png",
+        "size": [
+          42,
+          132
+        ],
+        "anchor": [
+          21,
+          130
+        ],
+        "position": [
+          1060,
+          804
+        ],
+        "module": "streetlamp",
+        "renderLayer": "background",
+        "collision": [
+          1053,
+          794,
+          14,
+          10
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "id": "wen_rang",
+        "name": "温让",
+        "nodeName": "WenRang",
+        "character": "wen_rang",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_000.png",
+        "position": [
+          816,
+          832
+        ],
+        "size": [
+          48,
+          48
+        ]
+      }
+    ],
+    "entrances": [
+      {
+        "id": "academy_gate",
+        "position": [
+          720,
+          610
+        ],
+        "destination": "auditorium"
+      }
+    ],
+    "walkableZones": [
+      {
+        "id": "gate_approach",
+        "rect": [
+          672,
+          570,
+          144,
+          258
+        ]
+      }
+    ]
+  },
+  "assembly_stage": {
+    "name": "学院大会场·主席台",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "props": [
+      {
+        "nodeName": "Hall_arch_window_0",
+        "module": "arch_window",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "position": [
+          336,
+          340
+        ],
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          240,
+          24,
+          960,
+          316
+        ]
+      },
+      {
+        "nodeName": "Hall_arch_window_1",
+        "module": "arch_window",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "position": [
+          528,
+          340
+        ],
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_wall_2",
+        "module": "wall",
+        "asset": "res://assets/chapter1/refined/hall_v2/wall.png",
+        "position": [
+          720,
+          340
+        ],
+        "size": [
+          196,
+          171
+        ],
+        "anchor": [
+          98,
+          169
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_arch_window_3",
+        "module": "arch_window",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "position": [
+          912,
+          340
+        ],
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_arch_window_4",
+        "module": "arch_window",
+        "asset": "res://assets/chapter1/refined/hall_v2/arch_window.png",
+        "position": [
+          1104,
+          340
+        ],
+        "size": [
+          196,
+          172
+        ],
+        "anchor": [
+          98,
+          170
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_banner",
+        "module": "banner",
+        "asset": "res://assets/chapter1/refined/hall_v2/banner.png",
+        "position": [
+          720,
+          298
+        ],
+        "size": [
+          244,
+          62
+        ],
+        "anchor": [
+          122,
+          60
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_column_0",
+        "module": "column",
+        "asset": "res://assets/chapter1/refined/hall_v2/column.png",
+        "position": [
+          240,
+          344
+        ],
+        "size": [
+          39,
+          174
+        ],
+        "anchor": [
+          20,
+          172
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          226,
+          330,
+          28,
+          14
+        ],
+        "actorSafeArea": [
+          220,
+          172,
+          39,
+          174
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_column_1",
+        "module": "column",
+        "asset": "res://assets/chapter1/refined/hall_v2/column.png",
+        "position": [
+          1200,
+          344
+        ],
+        "size": [
+          39,
+          174
+        ],
+        "anchor": [
+          20,
+          172
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          1186,
+          330,
+          28,
+          14
+        ],
+        "actorSafeArea": [
+          1180,
+          172,
+          39,
+          174
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_podium_left",
+        "module": "podium_left",
+        "asset": "res://assets/chapter1/refined/hall_v2/podium_left.png",
+        "position": [
+          528,
+          460
+        ],
+        "size": [
+          196,
+          119
+        ],
+        "anchor": [
+          98,
+          117
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          432,
+          448,
+          216,
+          12
+        ]
+      },
+      {
+        "nodeName": "Hall_podium_middle",
+        "module": "podium_middle",
+        "asset": "res://assets/chapter1/refined/hall_v2/podium_middle.png",
+        "position": [
+          720,
+          460
+        ],
+        "size": [
+          196,
+          110
+        ],
+        "anchor": [
+          98,
+          108
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_podium_right",
+        "module": "podium_right",
+        "asset": "res://assets/chapter1/refined/hall_v2/podium_right.png",
+        "position": [
+          912,
+          460
+        ],
+        "size": [
+          196,
+          119
+        ],
+        "anchor": [
+          98,
+          117
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          792,
+          448,
+          216,
+          12
+        ]
+      },
+      {
+        "nodeName": "Hall_stairs",
+        "module": "stairs",
+        "asset": "res://assets/chapter1/refined/hall_v2/stairs.png",
+        "position": [
+          720,
+          500
+        ],
+        "size": [
+          116,
+          46
+        ],
+        "anchor": [
+          58,
+          44
+        ],
+        "renderLayer": "ground",
+        "occlusionClass": "low"
+      },
+      {
+        "nodeName": "Hall_stand_0_0",
+        "module": "stand",
+        "asset": "res://assets/chapter1/refined/hall_v2/stand.png",
+        "position": [
+          228,
+          580
+        ],
+        "size": [
+          292,
+          113
+        ],
+        "anchor": [
+          146,
+          111
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          90,
+          566,
+          276,
+          14
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_0_0_0",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          132,
+          588
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          86,
+          578,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_0_0_1",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          228,
+          588
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          182,
+          578,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_0_0_2",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          324,
+          588
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          278,
+          578,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_stand_0_1",
+        "module": "stand",
+        "asset": "res://assets/chapter1/refined/hall_v2/stand.png",
+        "position": [
+          228,
+          736
+        ],
+        "size": [
+          292,
+          113
+        ],
+        "anchor": [
+          146,
+          111
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          90,
+          722,
+          276,
+          14
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_0_1_0",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          132,
+          744
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          86,
+          734,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_0_1_1",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          228,
+          744
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          182,
+          734,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_0_1_2",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          324,
+          744
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          278,
+          734,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_stand_1_0",
+        "module": "stand",
+        "asset": "res://assets/chapter1/refined/hall_v2/stand.png",
+        "position": [
+          1212,
+          580
+        ],
+        "size": [
+          292,
+          113
+        ],
+        "anchor": [
+          146,
+          111
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          1074,
+          566,
+          276,
+          14
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_1_0_0",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          1116,
+          588
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1070,
+          578,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_1_0_1",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          1212,
+          588
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1166,
+          578,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_1_0_2",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          1308,
+          588
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1262,
+          578,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_stand_1_1",
+        "module": "stand",
+        "asset": "res://assets/chapter1/refined/hall_v2/stand.png",
+        "position": [
+          1212,
+          736
+        ],
+        "size": [
+          292,
+          113
+        ],
+        "anchor": [
+          146,
+          111
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "collision": [
+          1074,
+          722,
+          276,
+          14
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_1_1_0",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          1116,
+          744
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1070,
+          734,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_1_1_1",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          1212,
+          744
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1166,
+          734,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_railing_1_1_2",
+        "module": "railing",
+        "asset": "res://assets/chapter1/refined/hall_v2/railing.png",
+        "position": [
+          1308,
+          744
+        ],
+        "size": [
+          100,
+          39
+        ],
+        "anchor": [
+          50,
+          37
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1262,
+          734,
+          92,
+          10
+        ]
+      },
+      {
+        "nodeName": "Hall_bench_0",
+        "module": "bench",
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          480,
+          674
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "anchor": [
+          74,
+          60
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          415,
+          659,
+          130,
+          15
+        ]
+      },
+      {
+        "nodeName": "Hall_bench_1",
+        "module": "bench",
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "position": [
+          960,
+          674
+        ],
+        "size": [
+          148,
+          62
+        ],
+        "anchor": [
+          74,
+          60
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          895,
+          659,
+          130,
+          15
+        ]
+      },
+      {
+        "nodeName": "Hall_planter",
+        "module": "planter",
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "position": [
+          480,
+          790
+        ],
+        "size": [
+          116,
+          75
+        ],
+        "anchor": [
+          58,
+          73
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          430,
+          774,
+          100,
+          16
+        ]
+      },
+      {
+        "nodeName": "Hall_planter_right",
+        "module": "planter",
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "position": [
+          960,
+          790
+        ],
+        "size": [
+          116,
+          75
+        ],
+        "anchor": [
+          58,
+          73
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          910,
+          774,
+          100,
+          16
+        ]
+      },
+      {
+        "nodeName": "Hall_trash",
+        "module": "trash",
+        "asset": "res://assets/chapter1/refined/hall_v2/trash.png",
+        "position": [
+          1080,
+          790
+        ],
+        "size": [
+          35,
+          52
+        ],
+        "anchor": [
+          18,
+          50
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          1067,
+          778,
+          26,
+          12
+        ]
+      },
+      {
+        "nodeName": "Hall_gate_left",
+        "module": "gate_left",
+        "asset": "res://assets/chapter1/refined/hall_v2/gate_left.png",
+        "position": [
+          640,
+          828
+        ],
+        "size": [
+          36,
+          100
+        ],
+        "anchor": [
+          18,
+          98
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          627,
+          814,
+          26,
+          14
+        ],
+        "actorSafeArea": [
+          622,
+          730,
+          36,
+          100
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      },
+      {
+        "nodeName": "Hall_gate_right",
+        "module": "gate_right",
+        "asset": "res://assets/chapter1/refined/hall_v2/gate_right.png",
+        "position": [
+          800,
+          828
+        ],
+        "size": [
+          36,
+          100
+        ],
+        "anchor": [
+          18,
+          98
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "tall",
+        "collision": [
+          787,
+          814,
+          26,
+          14
+        ],
+        "actorSafeArea": [
+          782,
+          730,
+          36,
+          100
+        ],
+        "occupantPolicy": {
+          "mode": "fade",
+          "alpha": 0.3
+        }
+      }
+    ],
+    "actors": [
+      {
+        "id": "liu",
+        "name": "柳无眠",
+        "nodeName": "Ceremony_liu",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_002.png",
+        "character": "liu",
+        "position": [
+          1300,
+          540
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "hidden": true
+      },
+      {
+        "id": "shen",
+        "name": "沈听澜",
+        "nodeName": "Ceremony_shen",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_003.png",
+        "character": "shen",
+        "position": [
+          1300,
+          540
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "hidden": true
+      },
+      {
+        "id": "wen",
+        "name": "温若水",
+        "nodeName": "Ceremony_wen",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_004.png",
+        "character": "wen",
+        "position": [
+          1300,
+          540
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "hidden": true
+      },
+      {
+        "id": "tang",
+        "name": "唐半夏",
+        "nodeName": "Ceremony_tang",
+        "asset": "res://assets/chapter1/refined/npcs/frames/frame_005.png",
+        "character": "tang",
+        "position": [
+          1300,
+          540
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "hidden": true
+      }
+    ],
+    "spawn": [
+      700,
+      760
+    ],
+    "cameraOffset": [
+      0,
+      -42
+    ],
+    "art_bundle": "chapter1.hall-modules.v2",
+    "terrain": {
+      "base": [
+        16,
+        17
+      ],
+      "zones": [
+        {
+          "rect": [
+            14,
+            9,
+            2,
+            9
+          ],
+          "tiles": [
+            20,
+            21
+          ],
+          "surface": "central_aisle"
+        },
+        {
+          "rect": [
+            9,
+            10,
+            12,
+            2
+          ],
+          "tiles": [
+            20,
+            21
+          ],
+          "surface": "testing_approach"
+        }
+      ]
+    },
+    "walkableZones": [
+      {
+        "id": "exam_approaches",
+        "rect": [
+          620,
+          463,
+          210,
+          82
+        ]
+      },
+      {
+        "id": "central_aisle",
+        "rect": [
+          672,
+          500,
+          96,
+          328
+        ]
+      },
+      {
+        "id": "stage_stairs",
+        "rect": [
+          662,
+          458,
+          116,
+          48
+        ]
+      }
+    ],
+    "cameraBounds": [
+      0,
+      0,
+      1440,
+      864
+    ],
+    "entrances": [
+      {
+        "id": "south_door",
+        "position": [
+          720,
+          824
+        ],
+        "destinationUI": "chapter_map"
+      }
+    ]
+  },
+  "corridor": {
+    "name": "宿舍楼·共用走廊",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "spawn": [
+      720.0,
+      552.5
+    ],
+    "cameraOffset": [
+      0,
+      -70
+    ],
+    "dialogueOffset": [
+      0,
+      12
+    ],
+    "art_bundle": "encounter-art.1",
+    "props": [
+      {
+        "asset": "res://assets/encounters/objects/corridor_wall/runtime.png",
+        "nodeName": "corridor_wall",
+        "position": [
+          720.0,
+          516.0
+        ],
+        "size": [
+          576.0,
+          96.0
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "anchor": [
+          576.0,
+          384
+        ]
+      },
+      {
+        "asset": "res://assets/encounters/objects/corridor_stairs/runtime.png",
+        "nodeName": "corridor_stairs",
+        "position": [
+          965.0,
+          631.0
+        ],
+        "size": [
+          48.0,
+          69.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          942.5,
+          567.0,
+          45.0,
+          64.0
+        ],
+        "anchor": [
+          48.0,
+          138
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "nodeName": "bench",
+        "position": [
+          552.5,
+          645.0
+        ],
+        "size": [
+          74.0,
+          31.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          520.0,
+          637.5,
+          65.0,
+          7.5
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "nodeName": "planter",
+        "position": [
+          467.5,
+          572.5
+        ],
+        "size": [
+          58.0,
+          37.5
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          442.5,
+          564.5,
+          50.0,
+          8.0
+        ],
+        "anchor": [
+          58,
+          73
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "nodeName": "planter",
+        "position": [
+          920.0,
+          544.0
+        ],
+        "size": [
+          58.0,
+          37.5
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          895.0,
+          536.0,
+          50.0,
+          8.0
+        ],
+        "anchor": [
+          58,
+          73
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/encounters/actors/chuxia/frames/frame_000.png",
+        "nodeName": "chuxia",
+        "position": [
+          900.0,
+          637.5
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "chuxia",
+        "name": "林初夏 · 楼梯口",
+        "character": "chuxia",
+        "characterFolder": "res://assets/encounters/actors"
+      },
+      {
+        "asset": "res://assets/chapter1/props/frames/frame_011.png",
+        "nodeName": "dorm_enter",
+        "position": [
+          720.0,
+          516.0
+        ],
+        "size": [
+          10.0,
+          10.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "dorm_enter",
+        "name": "寝室房门 · 回屋",
+        "hidden": true,
+        "interactionPosition": [
+          720.0,
+          533.5
+        ]
+      }
+    ],
+    "blockers": [
+      [
+        0,
+        0,
+        1440,
+        516.0
+      ],
+      [
+        0,
+        516.0,
+        432.0,
+        348.0
+      ],
+      [
+        1008.0,
+        516.0,
+        432.0,
+        348.0
+      ],
+      [
+        432.0,
+        710.0,
+        576.0,
+        154.0
+      ]
+    ],
+    "entrances": [
+      {
+        "id": "room_door",
+        "position": [
+          720.0,
+          535.0
+        ],
+        "destination": "dorm"
+      },
+      {
+        "id": "stair_landing",
+        "position": [
+          930.0,
+          646.0
+        ]
+      }
+    ],
+    "walkableZones": [
+      {
+        "id": "interior",
+        "rect": [
+          432.0,
+          516.0,
+          576.0,
+          194.0
+        ]
+      }
+    ],
+    "terrain": {
+      "base": [
+        16,
+        17
+      ],
+      "zones": [
+        {
+          "rect": [
+            9,
+            11,
+            12,
+            2
+          ],
+          "tiles": [
+            20,
+            21
+          ]
+        }
+      ]
+    },
+    "cinematicZoom": 2,
+    "floorRect": [
+      432.0,
+      516.0,
+      576.0,
+      194.0
+    ],
+    "cameraRegion": [
+      432.0,
+      420.0,
+      576.0,
+      290.0
+    ]
+  },
+  "cult_library": {
+    "name": "学院图书馆",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "spawn": [
+      720.0,
+      625.0
+    ],
+    "cameraOffset": [
+      0,
+      -70
+    ],
+    "dialogueOffset": [
+      0,
+      12
+    ],
+    "art_bundle": "encounter-art.1",
+    "props": [
+      {
+        "asset": "res://assets/encounters/objects/library_wall/runtime.png",
+        "nodeName": "library_wall",
+        "position": [
+          720.0,
+          521.0
+        ],
+        "size": [
+          576.0,
+          104.0
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "anchor": [
+          576.0,
+          416
+        ]
+      },
+      {
+        "asset": "res://assets/encounters/objects/library_desk/runtime.png",
+        "nodeName": "library_desk",
+        "position": [
+          860.0,
+          571.0
+        ],
+        "size": [
+          120.0,
+          30
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          800.0,
+          561.0,
+          120.0,
+          10.0
+        ],
+        "anchor": [
+          120.0,
+          92
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "nodeName": "trial_table400",
+        "position": [
+          560.0,
+          652.5
+        ],
+        "size": [
+          50.0,
+          22.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          541.0,
+          644.5,
+          38.0,
+          8.0
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "nodeName": "trial_table620",
+        "position": [
+          670.0,
+          652.5
+        ],
+        "size": [
+          50.0,
+          22.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          651.0,
+          644.5,
+          38.0,
+          8.0
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "nodeName": "bench400",
+        "position": [
+          560.0,
+          677.5
+        ],
+        "size": [
+          74.0,
+          31.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          527.5,
+          670.0,
+          65.0,
+          7.5
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "nodeName": "bench620",
+        "position": [
+          670.0,
+          677.5
+        ],
+        "size": [
+          74.0,
+          31.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          637.5,
+          670.0,
+          65.0,
+          7.5
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "nodeName": "planter225",
+        "position": [
+          472.5,
+          545.0
+        ],
+        "size": [
+          58.0,
+          37.5
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          447.5,
+          537.0,
+          50.0,
+          8.0
+        ],
+        "anchor": [
+          58,
+          73
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "nodeName": "planter1210",
+        "position": [
+          965.0,
+          545.0
+        ],
+        "size": [
+          58.0,
+          37.5
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          940.0,
+          537.0,
+          50.0,
+          8.0
+        ],
+        "anchor": [
+          58,
+          73
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/encounters/encounter_people/frames/frame_001.png",
+        "nodeName": "library_daily",
+        "position": [
+          860.0,
+          559.0
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "library_daily",
+        "name": "图书管理员 · 借阅台",
+        "interactionPosition": [
+          860.0,
+          582.5
+        ]
+      }
+    ],
+    "blockers": [
+      [
+        0,
+        0,
+        1440,
+        521.0
+      ],
+      [
+        0,
+        521.0,
+        432.0,
+        343.0
+      ],
+      [
+        1008.0,
+        521.0,
+        432.0,
+        343.0
+      ],
+      [
+        432.0,
+        710.0,
+        576.0,
+        154.0
+      ]
+    ],
+    "entrances": [],
+    "walkableZones": [
+      {
+        "id": "interior",
+        "rect": [
+          432.0,
+          521.0,
+          576.0,
+          189.0
+        ]
+      }
+    ],
+    "cinematicZoom": 2,
+    "floorRect": [
+      432.0,
+      521.0,
+      576.0,
+      189.0
+    ],
+    "cameraRegion": [
+      432.0,
+      417.0,
+      576.0,
+      293.0
+    ]
+  },
+  "cult_ice_shop": {
+    "name": "老街·苏家冰品店",
+    "width": 30,
+    "height": 18,
+    "floor": 1,
+    "spawn": [
+      720.0,
+      612.5
+    ],
+    "cameraOffset": [
+      0,
+      -70
+    ],
+    "dialogueOffset": [
+      0,
+      12
+    ],
+    "art_bundle": "encounter-art.1",
+    "props": [
+      {
+        "asset": "res://assets/encounters/objects/ice_shop_wall/runtime.png",
+        "nodeName": "ice_shop_wall",
+        "position": [
+          720.0,
+          483.0
+        ],
+        "size": [
+          432.0,
+          78.25
+        ],
+        "renderLayer": "background",
+        "occlusionClass": "low",
+        "anchor": [
+          432.0,
+          313
+        ]
+      },
+      {
+        "asset": "res://assets/encounters/objects/ice_counter/runtime.png",
+        "nodeName": "ice_counter",
+        "position": [
+          720.0,
+          545.0
+        ],
+        "size": [
+          144.0,
+          30
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          648.0,
+          535.5,
+          144.0,
+          9.5
+        ],
+        "anchor": [
+          144.0,
+          114
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "nodeName": "trial_table470",
+        "position": [
+          595.0,
+          625.0
+        ],
+        "size": [
+          50.0,
+          22.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          576.0,
+          617.0,
+          38.0,
+          8.0
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/trial_table.png",
+        "nodeName": "trial_table990",
+        "position": [
+          855.0,
+          625.0
+        ],
+        "size": [
+          50.0,
+          22.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          836.0,
+          617.0,
+          38.0,
+          8.0
+        ],
+        "anchor": [
+          50,
+          42
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "nodeName": "bench470",
+        "position": [
+          595.0,
+          654.5
+        ],
+        "size": [
+          74.0,
+          31.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          562.5,
+          647.0,
+          65.0,
+          7.5
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/bench.png",
+        "nodeName": "bench990",
+        "position": [
+          855.0,
+          654.5
+        ],
+        "size": [
+          74.0,
+          31.0
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          822.5,
+          647.0,
+          65.0,
+          7.5
+        ],
+        "anchor": [
+          74,
+          60
+        ]
+      },
+      {
+        "asset": "res://assets/chapter1/refined/hall_v2/planter.png",
+        "nodeName": "planter",
+        "position": [
+          907.5,
+          536.0
+        ],
+        "size": [
+          58.0,
+          37.5
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "collision": [
+          882.5,
+          528.0,
+          50.0,
+          8.0
+        ],
+        "anchor": [
+          58,
+          73
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "asset": "res://assets/encounters/encounter_people/frames/frame_000.png",
+        "nodeName": "ice_shop_daily",
+        "position": [
+          755.0,
+          528.0
+        ],
+        "size": [
+          48,
+          48
+        ],
+        "renderLayer": "actors",
+        "occlusionClass": "low",
+        "id": "ice_shop_daily",
+        "name": "苏父 · 店里帮忙",
+        "interactionPosition": [
+          760.0,
+          561.5
+        ]
+      }
+    ],
+    "blockers": [
+      [
+        0,
+        0,
+        1440,
+        483.0
+      ],
+      [
+        0,
+        483.0,
+        504.0,
+        381.0
+      ],
+      [
+        936.0,
+        483.0,
+        504.0,
+        381.0
+      ],
+      [
+        504.0,
+        710.0,
+        432.0,
+        154.0
+      ]
+    ],
+    "entrances": [],
+    "walkableZones": [
+      {
+        "id": "interior",
+        "rect": [
+          504.0,
+          483.0,
+          432.0,
+          227.0
+        ]
+      }
+    ],
+    "cinematicZoom": 2,
+    "floorRect": [
+      504.0,
+      483.0,
+      432.0,
+      227.0
+    ],
+    "cameraRegion": [
+      504.0,
+      404.75,
+      432.0,
+      305.25
+    ]
+  }
+}

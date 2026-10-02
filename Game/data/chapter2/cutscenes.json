@@ -1,0 +1,576 @@
+{
+  "c2_notice": [
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              735.0,
+              607.5
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        },
+        {
+          "id": "c2_wen",
+          "path": [
+            [
+              770.0,
+              607.5
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        }
+      ],
+      "seconds": 1.1,
+      "camera": [
+        750.0,
+        577.5
+      ],
+      "caption": "觉醒历22年 · 01-15 · 复筛通知",
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.4,
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "c2_rescreen": [
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              710,
+              640
+            ],
+            [
+              710,
+              575
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        },
+        {
+          "id": "c2_jiang",
+          "path": [
+            [
+              825,
+              560
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        },
+        {
+          "id": "c2_chuxia",
+          "path": [
+            [
+              605,
+              560
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        }
+      ],
+      "seconds": 1.8,
+      "camera": [
+        720,
+        495
+      ],
+      "caption": "医务室 · 同批异常复筛"
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.6,
+      "name": "唐半夏",
+      "role": "复筛记录归档",
+      "character": "tang"
+    }
+  ],
+  "c2_seal": [
+    {
+      "kind": "wait",
+      "seconds": 1.15,
+      "camera": [
+        1040,
+        470
+      ],
+      "caption": "复筛档案 · 学院与管理局双章封存"
+    }
+  ],
+  "c2_sleep": [
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.28
+    },
+    {
+      "kind": "scene",
+      "room": "c2_dorm",
+      "positions": {},
+      "camera": [
+        720.0,
+        595.0
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.35,
+      "caption": "翌日 · 宿舍",
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.28,
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "c2_rift_entry": [
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.28
+    },
+    {
+      "kind": "scene",
+      "room": "c2_rift",
+      "positions": {
+        "player": [
+          375,
+          805
+        ]
+      },
+      "camera": [
+        510,
+        640
+      ]
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.28
+    },
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              395,
+              748
+            ],
+            [
+              430,
+              735
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "seconds": 1.2,
+      "camera": [
+        565,
+        610
+      ],
+      "caption": "港口小裂隙 · 浅层"
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.4
+    }
+  ],
+  "c2_storm_shelter": [
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              690,
+              615
+            ],
+            [
+              725,
+              600
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "seconds": 1.1,
+      "camera": [
+        740,
+        510
+      ],
+      "caption": "灵能风暴 · 退入岩壁掩体"
+    },
+    {
+      "kind": "fade",
+      "alpha": 0.5,
+      "seconds": 0.28
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.8
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.28
+    }
+  ],
+  "c2_storm_push": [
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              790,
+              610
+            ],
+            [
+              875,
+              560
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        }
+      ],
+      "seconds": 1.4,
+      "camera": [
+        855,
+        490
+      ],
+      "caption": "灵能风暴 · 负荷持续升高"
+    },
+    {
+      "kind": "fade",
+      "alpha": 0.32,
+      "seconds": 0.28
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.6
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.28
+    }
+  ],
+  "c2_leave_rift": [
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.28
+    },
+    {
+      "kind": "scene",
+      "room": "c2_port",
+      "positions": {
+        "player": [
+          730,
+          640
+        ]
+      },
+      "camera": [
+        720,
+        520
+      ]
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.28
+    },
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              730,
+              710
+            ]
+          ],
+          "face": [
+            0,
+            1
+          ]
+        }
+      ],
+      "seconds": 0.8,
+      "camera": [
+        720,
+        590
+      ],
+      "caption": "撤出裂隙 · 港口登记点"
+    }
+  ],
+  "c2_hunter_bureau": [
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "c2_han",
+          "path": [
+            [
+              1200,
+              580
+            ],
+            [
+              1130,
+              565
+            ],
+            [
+              1080,
+              550
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        }
+      ],
+      "seconds": 1.8,
+      "camera": [
+        1040,
+        450
+      ],
+      "caption": "清剿结束 · 协作人员抵达",
+      "name": "韩烛",
+      "role": "管理局驻守队员",
+      "portrait": "res://assets/chapter2/actors/han/frames/frame_000.png"
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.4
+    }
+  ],
+  "c2_hunter_mutual": [
+    {
+      "kind": "move",
+      "actors": [
+        {
+          "id": "c2_qin",
+          "path": [
+            [
+              1200,
+              580
+            ],
+            [
+              1130,
+              565
+            ],
+            [
+              1080,
+              550
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        }
+      ],
+      "seconds": 1.8,
+      "camera": [
+        1040,
+        450
+      ],
+      "caption": "清剿结束 · 协作人员抵达",
+      "name": "秦妖妖",
+      "role": "互助会裂隙猎人",
+      "portrait": "res://assets/chapter2/actors/qin/frames/frame_000.png"
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.4
+    }
+  ],
+  "c2_dorm_to_corridor": [
+    {
+      "kind": "move",
+      "seconds": 1.4,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              900.0,
+              612.5
+            ],
+            [
+              900.0,
+              517.5
+            ],
+            [
+              865.0,
+              517.5
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "camera": [
+        855.0,
+        520.0
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.35,
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "scene",
+      "room": "corridor",
+      "positions": {
+        "player": [
+          720.0,
+          542.5
+        ]
+      },
+      "camera": [
+        785.0,
+        537.5
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.35,
+      "caption": "宿舍外 · 共用走廊",
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "move",
+      "seconds": 0.75,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              760.0,
+              585.0
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        }
+      ],
+      "camera": [
+        790.0,
+        567.5
+      ],
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "c2_corridor_to_dorm": [
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.35,
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "scene",
+      "room": "c2_dorm",
+      "positions": {
+        "player": [
+          865.0,
+          515.0
+        ]
+      },
+      "camera": [
+        785.0,
+        542.5
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.35,
+      "caption": "回到寝室",
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "move",
+      "seconds": 1.35,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              900.0,
+              517.5
+            ],
+            [
+              900.0,
+              612.5
+            ],
+            [
+              730.0,
+              612.5
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        }
+      ],
+      "camera": [
+        755.0,
+        552.5
+      ],
+      "coordinates": "compact-interior.1"
+    }
+  ]
+}

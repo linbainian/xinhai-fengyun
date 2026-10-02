@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "source": "assets/chapter2/bar_people_raw.png",
+  "binary_alpha": true,
+  "palette_colors": 48,
+  "frames": [
+    {
+      "index": 0,
+      "bbox": [
+        30,
+        15,
+        65,
+        89
+      ]
+    },
+    {
+      "index": 1,
+      "bbox": [
+        30,
+        17,
+        66,
+        89
+      ]
+    },
+    {
+      "index": 2,
+      "bbox": [
+        28,
+        13,
+        67,
+        89
+      ]
+    },
+    {
+      "index": 3,
+      "bbox": [
+        33,
+        16,
+        63,
+        89
+      ]
+    }
+  ],
+  "shared_scale": 0.95,
+  "body_height_cv": 0.020054507739320732,
+  "feet_y_std": 0.0,
+  "world_footprint": [
+    48,
+    48
+  ]
+}

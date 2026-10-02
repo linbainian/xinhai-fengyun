@@ -1,0 +1,11 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="PackedScene" path="res://scenes/battle/battle_rules_sandbox.tscn" id="1"]
+[ext_resource type="Script" path="res://scripts/battle/tutorial_sandbox.gd" id="2"]
+[ext_resource type="Script" path="res://scripts/battle/tutorial_hud.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/battle/tutorial_arena.gd" id="4"]
+[node name="BackHillTutorial" instance=ExtResource("1")]
+script = ExtResource("2")
+[node name="Arena" parent="WorldContainer/WorldViewport" index="0"]
+script = ExtResource("4")
+[node name="LogicalUI" parent="UI" index="0"]
+script = ExtResource("3")

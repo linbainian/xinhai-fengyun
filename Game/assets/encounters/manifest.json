@@ -1,0 +1,565 @@
+{
+  "version": "encounter-art.1",
+  "source": "OpenAI built-in ImageGen",
+  "sampling": "nearest",
+  "model": "layered_tilemap_mode",
+  "third_party_downloads": [],
+  "sources": [
+    {
+      "id": "bai_muyao",
+      "path": "assets/encounters/bai_muyao_raw.png",
+      "sha256": "e61042340c085061704d9051b8ece688b57c315a859e0064781b711aa1f2ef1e",
+      "prompt": "assets/encounters/prompts/bai_muyao.prompt.txt",
+      "prompt_sha256": "4b3f1542b80a4b494f0085b21874ee767e8c3892018564a2f0b55666b18846ae"
+    },
+    {
+      "id": "su_wantang",
+      "path": "assets/encounters/su_wantang_raw.png",
+      "sha256": "eb5e8498b2615de5e46a5b4744f751d520ec8970964243b1b25600e263748eb4",
+      "prompt": "assets/encounters/prompts/su_wantang.prompt.txt",
+      "prompt_sha256": "2f86884844aeb0e15c1060260fb097671c351158524a26e2c15e1b40f90fdb65"
+    },
+    {
+      "id": "chuxia",
+      "path": "assets/encounters/chuxia_raw.png",
+      "sha256": "96efef2ec04a5687327415d02146edc69d270cd0c97f98362f4528df229b76f1",
+      "prompt": "assets/encounters/prompts/chuxia.prompt.txt",
+      "prompt_sha256": "8965e99f9ea44ab33ba609bdf75b5f37012211172a01aad3dc8f632857e76394"
+    },
+    {
+      "id": "encounter_people",
+      "path": "assets/encounters/encounter_people_raw.png",
+      "sha256": "11f1815b19bde39badf62fb2fd718b3e46628f074ed058846928823cf78210d5",
+      "prompt": "assets/encounters/prompts/encounter_people.prompt.txt",
+      "prompt_sha256": "0433fd6ce41448d6fe55ebd5b898d0d7258822d24cf151c5afa6560ffb4ef62a"
+    },
+    {
+      "id": "interior_walls",
+      "path": "assets/encounters/interior_walls_raw.png",
+      "sha256": "44c8faaf81030e9231dae0268ec204643d59b51b97b18a9cec84bf5823203c27",
+      "prompt": "assets/encounters/prompts/interior_walls.prompt.txt",
+      "prompt_sha256": "ba9937eb72d8aa804d78b854c27ab62573cea465b983070b57c7949a3f605fbe"
+    },
+    {
+      "id": "counters",
+      "path": "assets/encounters/counters_raw.png",
+      "sha256": "5ef801114dc3b06876d2a19a22354b36d031f3ae1495fac02ce281177350fe85",
+      "prompt": "assets/encounters/prompts/counters.prompt.txt",
+      "prompt_sha256": "2aa8f099d6edb8d9cfa76676fa406ec49939ed982ffe32f64dc566e360d78eb9"
+    },
+    {
+      "id": "club_booth",
+      "path": "assets/encounters/club_booth_raw.png",
+      "sha256": "a3a514daa735ce26f2a60386f61e3a3a2c5a1e6b7708387c765d4d2f1472d992",
+      "prompt": "assets/encounters/prompts/club_booth.prompt.txt",
+      "prompt_sha256": "78afec35d1f36ecb0129b2965ffda4515eaaffe62426254448a858dcbc0a315f"
+    },
+    {
+      "id": "corridor_stairs",
+      "path": "assets/encounters/corridor_stairs_raw.png",
+      "sha256": "fdd0e3c3ccaea19526f8c1b5ed67ea7cc45b85c38adb2880a347984e97f5f5c5",
+      "prompt": "assets/encounters/prompts/corridor_stairs.prompt.txt",
+      "prompt_sha256": "48a41ad07ea0e15f6c367fb4e9767025c42ffe012a83d3bb0606215465f3c16f"
+    },
+    {
+      "id": "encounter_props",
+      "path": "assets/encounters/encounter_props_raw.png",
+      "sha256": "86e64eac7fb09df76d35a320011e39d5746fbdd6fff60407d3a192f23eac53e2",
+      "prompt": "assets/encounters/prompts/encounter_props.prompt.txt",
+      "prompt_sha256": "4882282f6d790704f7e881bbef9b5591aae3dcccf367c11d52de0df817f99d18"
+    },
+    {
+      "id": "ice_wall_fx",
+      "path": "assets/encounters/ice_wall_fx_raw.png",
+      "sha256": "c7373e7194540125559e48682d339006c60d571f75753db793f99df4c5a7cca5",
+      "prompt": "assets/encounters/prompts/ice_wall_fx.prompt.txt",
+      "prompt_sha256": "2bb33b396f28d4d45fd7f21899578d2522eec74885aefe98dcfeb158cfc61ccd"
+    },
+    {
+      "id": "lightning_fx",
+      "path": "assets/encounters/lightning_fx_raw.png",
+      "sha256": "2bb5a42c310b94419a461c18d85d6f9521527fafe4dc23a0cd83ff716de8fe3e",
+      "prompt": "assets/encounters/prompts/lightning_fx.prompt.txt",
+      "prompt_sha256": "e83a29027f3dfecf6a570f6ef6b66c0d56703fd8cb997d0839978adcd8678875"
+    }
+  ],
+  "runtime": [
+    {
+      "path": "assets/encounters/actors/bai_muyao/runtime-sheet.png",
+      "sha256": "c2f188e1d65196efc6879aa4159e87c087dcf5ff6cd37ba7c216bbcd8eeb6ed1"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_000.png",
+      "sha256": "b3573518cdb14b58bd41c98980a11153abda46ce0e8a2b87f4c35317447cedc6"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_001.png",
+      "sha256": "ba4057a0be18aea12b3a88b408f40b1504a851830e378dc1ff2867bacb671ace"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_002.png",
+      "sha256": "c1053370f447b5efe02261ca662b6c579ec6ecddd7a0077f6b26279a69f99b55"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_003.png",
+      "sha256": "0e9c11fbfc9453c4cf13f50967669940025cb7ea46a43a256ad212259aa7006a"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_004.png",
+      "sha256": "d42726b50978bd36b8d2a8ee3fc1ef45f373339ae08e54e3b3b88a005674c5cf"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_005.png",
+      "sha256": "2fdf27570f64e273d2a99f9bcd6a291fe0273bc20c9174b02419b96cb38818f4"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_006.png",
+      "sha256": "93f4aa16e8e92d1600869f0168c7dfeec37d9c8f9ce8424b598432070f433e13"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_007.png",
+      "sha256": "433e7932b601aa0886e8bba0a99ba1e15c30acdf0bec3bb24cecf70fa37acfba"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_008.png",
+      "sha256": "568f9b6e84c51b437c53c52ef7442fb1d06e811f5d30a140b4611da9218b975a"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_009.png",
+      "sha256": "e0cf005dc5623fc1f097b6ff2c5e0192688298a29f356bc5097e7638b31e9d92"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_010.png",
+      "sha256": "302162b677a075d05cc285aed97c0f102af86b8c71f6a2015bffa8ec20f17692"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_011.png",
+      "sha256": "ba07c54a9b61d65db0fa8484abd65ae0ab01b13cfbf43b2536abffe07284d88e"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_012.png",
+      "sha256": "46274084987382e07514edd75dee5ebe5190884f4deb286dfda22b1bddaf11dd"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_013.png",
+      "sha256": "8a7782676b66aafd667594a48535c20affe82a79096e399ea83287283f1e041f"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_014.png",
+      "sha256": "4cc9d62a137f17534d370216f371045f17c18dcaf892499ea0e5b03d7577aa4b"
+    },
+    {
+      "path": "assets/encounters/actors/bai_muyao/frames/frame_015.png",
+      "sha256": "75c4b7bbb13bead4691fd93266ed698da69120153c199c6872ef76805eaf2da2"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/runtime-sheet.png",
+      "sha256": "531f4dcecee1fd474a854b1ef4c1a21356e7feb7d3d11c1156a885400b6396c8"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_000.png",
+      "sha256": "e32220f820bbfc73259ba9243dee1539f75e5b7df36562fe8e70938704e2c544"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_001.png",
+      "sha256": "cc0090123af56de0a012ce2d09a83b6fa3c99d3c38350faa370b050781b7ed73"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_002.png",
+      "sha256": "5e60501426edd4204b529043abe2bd5525f09d0a98aa3a3197038c2bf68da825"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_003.png",
+      "sha256": "41bbb047452da74530aa75292b83d4919550bf24814641fafe7668432568c41d"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_004.png",
+      "sha256": "a6f04cac42473bcff623d32feb0065406fea9374570f248e027bb56402b731f5"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_005.png",
+      "sha256": "ed67f7e497ecbc77b3f50ae4ae5b5cb85342c14352dc7fa972e9917ef8c1dfa0"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_006.png",
+      "sha256": "52c7181a51abdad9674f206ace9db6fa1a1aeaf59573d2ef82ec0dd78a12c61e"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_007.png",
+      "sha256": "eb663a4def4cd59f801c74784256e949d2f9f5da725041fcb13941ff798c9d45"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_008.png",
+      "sha256": "f69cf01ec4e0ae0c7207350eaabd1039abe788f7857ac1f2a62a8366b3ff912f"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_009.png",
+      "sha256": "cbc558e8e90ee84685a840d911e70774293a5a3be785fa408788a3ee0755e199"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_010.png",
+      "sha256": "3521979e2e65f7616d3eae2b994696e5c4e887f05c67855fc370d7dbbc68afc0"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_011.png",
+      "sha256": "5af162a86b73e6f00f14cb95e196e6522849a030c76932a2290706afdb321baf"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_012.png",
+      "sha256": "9d7af166623267570ea5122481ae27aa187c634736d1496717b3c6f6ff540d1f"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_013.png",
+      "sha256": "32158550c913e3ab7d7536d0e2e3575dd5a069eab20c77fe713f4f7e28ae6796"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_014.png",
+      "sha256": "807ddc05e459d13df2ac9178d3e9e0c670c1c6d9cb157ea6fe2d8ea9e1cd3d8b"
+    },
+    {
+      "path": "assets/encounters/actors/su_wantang/frames/frame_015.png",
+      "sha256": "86feb2b2304a031425260809861a034850625cb682898f0b36da682055f9e749"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/runtime-sheet.png",
+      "sha256": "916d1f8d7c9497852f674530159acacf31e37db622ac89d81520751be9a5e3d8"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_000.png",
+      "sha256": "0ac360a3879d3b94fc740251b43f645909775ff00b71c2c178c9ed34e6ff4f1d"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_001.png",
+      "sha256": "0aa0fe4304f6be77295e46a1f0a3a4712988df27deea8e75c3eef6dd6a57f7c3"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_002.png",
+      "sha256": "a7c008a64a80e2c288e2a74ca6b958d02c169b98f3017c42cdb0f5eb670c6a98"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_003.png",
+      "sha256": "77efd3b8228171c2c03f2082918d4d2c15e99c1effc186016fa1a301949f3130"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_004.png",
+      "sha256": "a26b5f18e12c97f1529a517455d24863745d552b46f889d2cb7e7607fa2689cc"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_005.png",
+      "sha256": "b09ac8e0bd0dd1c24fd64bf1c7f571f1fee33ffa4bbe630c674ec6f3d655b90a"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_006.png",
+      "sha256": "feaaefdd3db17c2f55626a399b65b474df266dd1cd7de3213c0454e2c493249b"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_007.png",
+      "sha256": "27b4bb3be4d945f5d859a9ad3fa692388b0a929dc5b6d29a6f7a4317babe975c"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_008.png",
+      "sha256": "e33e3e667d4afd710cd5862bb339f15af78023f85503564428d036015e3d4777"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_009.png",
+      "sha256": "86f34258620621fee35842916a51b7f1f961b3e2138c0db5c623b1acd19eccad"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_010.png",
+      "sha256": "582895e54db2c9373736334a6913371634f1738a264572b12ef9ec62f3c63190"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_011.png",
+      "sha256": "d459d9f76443d46f3f16aba253005e4b2443573dd4a7b8845ae52c29cab84268"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_012.png",
+      "sha256": "0baa3ff25cfc1d8f680ef4305288db681be02fac6fbc324025ddfee713775840"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_013.png",
+      "sha256": "c8b005bde5b073fef829c9ad42be096c22adc0e8df420a5be694392511f54804"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_014.png",
+      "sha256": "1a7b4864074e85c841f45b554398aff9dd189303bf9fd0f493095f40187a3902"
+    },
+    {
+      "path": "assets/encounters/actors/chuxia/frames/frame_015.png",
+      "sha256": "8265a57e37020a1e7e77be1f9522df8d49c5af745327988f91aa311ca9c1cf41"
+    },
+    {
+      "path": "assets/encounters/encounter_people/runtime-sheet.png",
+      "sha256": "63301860b24aa6df78396a1ae1a3ce17c7533d8e58baa110c602f126e02203bf"
+    },
+    {
+      "path": "assets/encounters/encounter_people/frames/frame_000.png",
+      "sha256": "05c4beb6cb2c3a9b23c99142e7c875898bdd043a5eed3351e001b5859f644289"
+    },
+    {
+      "path": "assets/encounters/encounter_people/frames/frame_001.png",
+      "sha256": "7003cc9ac28204741b4284653f5f023b5c3e2b787f3492ae758dc06af9f4131e"
+    },
+    {
+      "path": "assets/encounters/encounter_people/frames/frame_002.png",
+      "sha256": "92540ef5506a757583d0da9321ea93dc8cb3d360f5422ed79228ea5afacd06c1"
+    },
+    {
+      "path": "assets/encounters/encounter_people/frames/frame_003.png",
+      "sha256": "1bcb362b03d0b07edc5d5b21b35b39d556b1aa7d12de59f53cf38e5040953cb2"
+    },
+    {
+      "path": "assets/encounters/objects/dorm_wall/runtime.png",
+      "sha256": "a2377294f9590053441ab5553fbc9de6f47ea366eedcf9b753121a7e22f815b8"
+    },
+    {
+      "path": "assets/encounters/objects/corridor_wall/runtime.png",
+      "sha256": "9a8d0436924343410ebfc29e7b5da0103e7791939a34b3d44f4359696e2c6546"
+    },
+    {
+      "path": "assets/encounters/objects/library_wall/runtime.png",
+      "sha256": "d9aee2653ef6125f85ad425af1ce6a800c716011770ae1e952c78c0e58ea08d2"
+    },
+    {
+      "path": "assets/encounters/objects/ice_shop_wall/runtime.png",
+      "sha256": "7fa0961c6e3966c70e72ed71d78da511c33c9f79c39d8bdedf87ec6d276bc3a5"
+    },
+    {
+      "path": "assets/encounters/objects/library_desk/runtime.png",
+      "sha256": "ff863bd92a6c5962c132d6dc0d93df8e39e4c169fea6c78e6021db6a92061aa9"
+    },
+    {
+      "path": "assets/encounters/objects/ice_counter/runtime.png",
+      "sha256": "579c72c8a1b4eaa9e421cd5257a0720b461f319c43427085efb64f8b70fbc5a1"
+    },
+    {
+      "path": "assets/encounters/objects/club_booth/runtime.png",
+      "sha256": "049db3e8b7427be950bb988e061c525aa3fe8849867bd8805400f6e54496e888"
+    },
+    {
+      "path": "assets/encounters/objects/corridor_stairs/runtime.png",
+      "sha256": "01b4607214765f15077e69d1afda5323029a54a8f99db5194283eaf95fabc830"
+    },
+    {
+      "path": "assets/encounters/objects/books/runtime.png",
+      "sha256": "e5409478fdfad70ba481299f12d5d41229458d7abb777769879d41c82009b87b"
+    },
+    {
+      "path": "assets/encounters/objects/notebook/runtime.png",
+      "sha256": "f4e4c3d2a7c72c56795b4d56a1cdcb2c31bf6610a426d455f93979d9457d101c"
+    },
+    {
+      "path": "assets/encounters/objects/ice_bowl/runtime.png",
+      "sha256": "9d8510c1e25b632f9c3ae6fa4cd091b55c0dee5f3eedb55afbd7087de6a3b39f"
+    },
+    {
+      "path": "assets/encounters/objects/takeaway/runtime.png",
+      "sha256": "5f247ee1c12dfb0b02f279ce66c67917f699bd9ce204a6bae618fff3eaa3a739"
+    },
+    {
+      "path": "assets/encounters/objects/phone/runtime.png",
+      "sha256": "44aefac67adeb9cf8243905cb3b0a2f8db73ff1cd528f7736f724a60ed71fe9f"
+    },
+    {
+      "path": "assets/encounters/objects/riceball/runtime.png",
+      "sha256": "29b8fe159b0821f4882fc1a6e61b5c581c4d14b22d1521fec6c66430004a2735"
+    },
+    {
+      "path": "assets/encounters/ice_wall_fx/runtime-sheet.png",
+      "sha256": "b768082867d4631e3aeffffe693248f8039c6d47611624304fe05fcad6678608"
+    },
+    {
+      "path": "assets/encounters/ice_wall_fx/frames/frame_000.png",
+      "sha256": "c4b100548bf413f98543ddda10d11194679f4c6b4201043fde3c87d900badc42"
+    },
+    {
+      "path": "assets/encounters/ice_wall_fx/frames/frame_001.png",
+      "sha256": "47453c725b2733380416ebed963893df0a73cf35d9b40a727414e8c83ed14c66"
+    },
+    {
+      "path": "assets/encounters/ice_wall_fx/frames/frame_002.png",
+      "sha256": "d825d4a89957a6a403d0ec53d73c9e6acf379f12b086137c11a92445576c1a08"
+    },
+    {
+      "path": "assets/encounters/ice_wall_fx/frames/frame_003.png",
+      "sha256": "7d1693fc4fce511502464f6c0555058ca29e48211f82f2b5ca4ce963c1202825"
+    },
+    {
+      "path": "assets/encounters/lightning_fx/runtime-sheet.png",
+      "sha256": "71b3447e0643ab6f70d519681f34f08b550abeaa5cc4c30910ce09789c1f3b73"
+    },
+    {
+      "path": "assets/encounters/lightning_fx/frames/frame_000.png",
+      "sha256": "5d81b939f1607635d1825f10ab8915b802728a24c62ed06857f1e76ef800f8da"
+    },
+    {
+      "path": "assets/encounters/lightning_fx/frames/frame_001.png",
+      "sha256": "2602a6acf90c7992b50b0f81f311020b73315e1cb30c54c4dc2e59de54d428c6"
+    },
+    {
+      "path": "assets/encounters/lightning_fx/frames/frame_002.png",
+      "sha256": "437e6328b4d8ab8f48d7681a32249bef39842a601a1c6bb316ae7082ec668e7d"
+    },
+    {
+      "path": "assets/encounters/lightning_fx/frames/frame_003.png",
+      "sha256": "9190ecbab51f90ae6284b456eb3e6364ccf98b46629feca332d9d81785febd7c"
+    }
+  ],
+  "objects": {
+    "dorm_wall": {
+      "asset": "res://assets/encounters/objects/dorm_wall/runtime.png",
+      "size": [
+        960,
+        320
+      ],
+      "anchor": [
+        480.0,
+        320
+      ]
+    },
+    "corridor_wall": {
+      "asset": "res://assets/encounters/objects/corridor_wall/runtime.png",
+      "size": [
+        1152,
+        384
+      ],
+      "anchor": [
+        576.0,
+        384
+      ]
+    },
+    "library_wall": {
+      "asset": "res://assets/encounters/objects/library_wall/runtime.png",
+      "size": [
+        1152,
+        416
+      ],
+      "anchor": [
+        576.0,
+        416
+      ]
+    },
+    "ice_shop_wall": {
+      "asset": "res://assets/encounters/objects/ice_shop_wall/runtime.png",
+      "size": [
+        864,
+        313
+      ],
+      "anchor": [
+        432.0,
+        313
+      ]
+    },
+    "library_desk": {
+      "asset": "res://assets/encounters/objects/library_desk/runtime.png",
+      "size": [
+        240,
+        92
+      ],
+      "anchor": [
+        120.0,
+        92
+      ]
+    },
+    "ice_counter": {
+      "asset": "res://assets/encounters/objects/ice_counter/runtime.png",
+      "size": [
+        288,
+        114
+      ],
+      "anchor": [
+        144.0,
+        114
+      ]
+    },
+    "club_booth": {
+      "asset": "res://assets/encounters/objects/club_booth/runtime.png",
+      "size": [
+        240,
+        142
+      ],
+      "anchor": [
+        120.0,
+        142
+      ]
+    },
+    "corridor_stairs": {
+      "asset": "res://assets/encounters/objects/corridor_stairs/runtime.png",
+      "size": [
+        96,
+        138
+      ],
+      "anchor": [
+        48.0,
+        138
+      ]
+    },
+    "books": {
+      "asset": "res://assets/encounters/objects/books/runtime.png",
+      "size": [
+        34,
+        31
+      ],
+      "anchor": [
+        17.0,
+        31
+      ]
+    },
+    "notebook": {
+      "asset": "res://assets/encounters/objects/notebook/runtime.png",
+      "size": [
+        22,
+        23
+      ],
+      "anchor": [
+        11.0,
+        23
+      ]
+    },
+    "ice_bowl": {
+      "asset": "res://assets/encounters/objects/ice_bowl/runtime.png",
+      "size": [
+        24,
+        22
+      ],
+      "anchor": [
+        12.0,
+        22
+      ]
+    },
+    "takeaway": {
+      "asset": "res://assets/encounters/objects/takeaway/runtime.png",
+      "size": [
+        26,
+        31
+      ],
+      "anchor": [
+        13.0,
+        31
+      ]
+    },
+    "phone": {
+      "asset": "res://assets/encounters/objects/phone/runtime.png",
+      "size": [
+        18,
+        21
+      ],
+      "anchor": [
+        9.0,
+        21
+      ]
+    },
+    "riceball": {
+      "asset": "res://assets/encounters/objects/riceball/runtime.png",
+      "size": [
+        18,
+        16
+      ],
+      "anchor": [
+        9.0,
+        16
+      ]
+    }
+  },
+  "passed": true
+}

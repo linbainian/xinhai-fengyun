@@ -1,0 +1,82 @@
+uid: 57
+comment: 灵能浓度详解
+constant: False
+selective: True
+disable: None
+key: 
+insertion_order: 230
+========================================
+name: 灵能浓度详解
+type: 常驻
+keyword: []
+
+# 灵能浓度详解（环境机制）
+# 灵能浓度影响修炼效率、异能威力、恢复速度和遭遇概率
+
+spirit_concentration:
+ tiers:
+  - tier: 灵能荒漠
+   range: 0~19
+   locations: 异界裂隙封印区/人为灵能抽取区/特殊屏蔽室
+   recovery_rate: ×0.3（灵能值和生命恢复极慢）
+   cultivation: 无法修炼（觉醒度不会自然增长）
+   mental_load: 精神负荷不自然下降（无法靠休息缓解）
+   combat_power: 异能威力-30%
+   encounter_risk: 几乎无觉醒者活动
+
+  - tier: 低灵能区
+   range: 20~39
+   locations: 郊区/普通住宅区/旧城区边缘
+   recovery_rate: ×0.7
+   cultivation: 修炼效率减半（觉醒度增长×0.5）
+   mental_load: 精神负荷下降缓慢
+   combat_power: 异能威力-10%
+   encounter_risk: 偶有低级觉醒者
+
+  - tier: 普通区
+   range: 40~59
+   locations: 新海市市区（默认50）/商业区/学院公共区域
+   recovery_rate: ×1.0（标准恢复）
+   cultivation: 标准修炼效率
+   mental_load: 正常恢复
+   combat_power: 标准异能威力
+   encounter_risk: 日常觉醒者活动
+
+  - tier: 高灵能区
+   range: 60~79
+   locations: 裂隙周边/学院修炼塔/苏家庄园灵脉/管理局训练场
+   recovery_rate: ×1.5
+   cultivation: 修炼效率+50%（觉醒度增长×1.5）
+   mental_load: 精神负荷积累+20%（高灵能刺激神经）
+   combat_power: 异能威力+15%
+   encounter_risk: 觉醒者活跃，偶有异兽出没
+   note: 高灵能区可提升突破成功率+5%（详见突破体系条目）
+
+  - tier: 灵能富集区
+   range: 80~100
+   locations: 大型裂隙中心/秘境/龙湾地下灵脉节点
+   recovery_rate: ×2.0
+   cultivation: 修炼效率翻倍（觉醒度增长×2.0）
+   mental_load: 精神负荷积累+50%（高灵能过度刺激，需意志对抗）
+   combat_power: 异能威力+20%
+   encounter_risk: 高（异兽/敌对觉醒者/裂隙波动）
+   note: 灵能富集区可提升突破成功率+10%（详见突破体系条目）
+
+ location_mapping: |
+  AI应根据主角当前位置自动设定灵能浓度：
+  新海市市区 → 45-55（普通区）
+  觉醒者学院修炼塔 → 逐层递增40~85（一层40普通区／四层65常用层／七层85富集区）
+  裂隙周边100m → 70-85（高灵能→富集梯度）
+  裂隙中心 → 85-100（灵能富集）
+  龙湾苏家庄园 → 60-70（高灵能区，家族灵脉）
+  旧城区废弃工厂 → 25-35（低灵能区）
+  渊蚀会据点 → 随机（30-90，取决于是否有人为灵能装置）
+  秘境 → 90-100（灵能富集，稀有）
+
+ cultivation_impact: |
+  灵能浓度直接影响觉醒度增长：
+  - 日常修炼基础值 +2~3/回合（等级递减制，详见「修炼与提升」条目）
+  - 注：灵能浓度加成仅作用于修炼/冥想类增长，战斗经验不受灵能浓度加成
+  - 高灵能区(≥60)：觉醒度增长 ×1.5
+  - 灵能富集区(≥80)：觉醒度增长 ×2.0
+  - 灵能荒漠(0~19)：无法自然增长觉醒度

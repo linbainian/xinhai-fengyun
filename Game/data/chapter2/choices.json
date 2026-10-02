@@ -1,0 +1,13 @@
+{
+  "clubs": [{"label":"登记剑道社","action":"c2_join_club","value":"sword"},{"label":"登记元素研究社","action":"c2_join_club","value":"element"},{"label":"登记治愈社","action":"c2_join_club","value":"healing"},{"label":"暂不参加社团","action":"c2_join_club","value":"none"}],
+  "campus": [{"label":"安排一时段课业","action":"c2_class"},{"label":"安排一时段修炼","action":"c2_training"},{"label":"休息一时段","action":"c2_rest"},{"label":"先收起课表","action":"close"}],
+  "sleep": [{"label":"结束今天，休息到明天","action":"c2_sleep_now"},{"label":"沿用课程表推进七天","action":"c2_repeat_week"},{"label":"今天还有事，先不睡","action":"close"}],
+  "social": [{"label":"夜间一起坐坐","action":"c2_social"},{"label":"邀请同行","action":"c2_invite"},{"label":"请对方回去处理自己的事","action":"c2_dismiss"},{"label":"回头再聊","action":"close"}],
+  "help": [{"label":"★器材整理 · 80元 / 贡献1 / 1行动点","action":"c2_help","value":"campus"},{"label":"★文件核对 · 80元 / 贡献1 / 1行动点","action":"c2_help","value":"files"},{"label":"先看看别的安排","action":"close"}],
+  "routes": [{"label":"★★港口浅层清剿 · 管理局协作（韩烛）","action":"c2_accept_route","value":"bureau"},{"label":"★★港口浅层清剿 · 互助会协作（秦妖妖）","action":"c2_accept_route","value":"mutual"},{"label":"先整备队伍","action":"close"}],
+  "port": [{"label":"登记队伍，进入裂隙浅层","action":"c2_enter_rift"},{"label":"到急救点整备","action":"c2_resupply"},{"label":"先准备一下","action":"close"}],
+  "storm": [{"label":"进入岩壁掩体，等待风暴过去","action":"c2_storm_choice","value":"shelter"},{"label":"强行通过（队伍HP-25 / SL+18）","action":"c2_storm_choice","value":"push"}],
+  "photo": [{"label":"摆好标尺，拍摄切口与坐标","action":"c2_photo"},{"label":"先确认撤离通道","action":"close"}],
+  "clues": [{"label":"上报管理局，取得正式回执","action":"c2_clue_choice","value":"bureau"},{"label":"去猎人酒吧，询问老猎人","action":"c2_clue_choice","value":"bar"},{"label":"先保留原图，自己留意","action":"c2_clue_choice","value":"keep"}],
+  "hunter": [{"label":"邀请同行","action":"c2_invite"},{"label":"回头见","action":"close"}]
+}

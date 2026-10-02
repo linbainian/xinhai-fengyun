@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="EncounterDefinition" load_steps=11 format=3]
+[ext_resource type="Script" path="res://scripts/battle/encounter_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/battle/combatant_setup.gd" id="2"]
+[ext_resource type="Resource" path="res://data/battle/m1_b_rules.tres" id="3"]
+[ext_resource type="Resource" path="res://data/battle/m1_b_hero.tres" id="4"]
+[ext_resource type="Resource" path="res://data/battle/m1_b_partner.tres" id="5"]
+[ext_resource type="Resource" path="res://data/battle/m1_b_reinforced_enemy.tres" id="6"]
+[ext_resource type="Resource" path="res://data/battle/m1_b_elemental_enemy.tres" id="7"]
+[sub_resource type="Resource" id="Ally1"]
+script = ExtResource("2")
+instance_id = &"hero"
+definition = ExtResource("4")
+initial_hp = 160
+initial_sl = 48
+[sub_resource type="Resource" id="Ally2"]
+script = ExtResource("2")
+instance_id = &"partner"
+definition = ExtResource("5")
+[sub_resource type="Resource" id="Enemy1"]
+script = ExtResource("2")
+instance_id = &"reinforced"
+definition = ExtResource("6")
+[sub_resource type="Resource" id="Enemy2"]
+script = ExtResource("2")
+instance_id = &"elemental"
+definition = ExtResource("7")
+[resource]
+script = ExtResource("1")
+id = &"m1_b_rules"
+title = "技能与负荷 · M1-B"
+data_version = "m1-b.1"
+rules = ExtResource("3")
+seed_value = 220101
+allies = Array[ExtResource("2")]([SubResource("Ally1"), SubResource("Ally2")])
+enemies = Array[ExtResource("2")]([SubResource("Enemy1"), SubResource("Enemy2")])
+environment_by_affinity = {"念动力": 1.0, "强化": 1.0, "精神": 1.0, "元素": 1.0, "特殊": 1.0}

@@ -1,0 +1,1000 @@
+{
+  "event_ice_arrival": [
+    {
+      "kind": "move",
+      "seconds": 1,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              735.0,
+              577.5
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        },
+        {
+          "id": "growth_event",
+          "path": [
+            [
+              705.0,
+              560.0
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        }
+      ],
+      "caption": "回家方向的老街 · 苏家冰品店",
+      "camera": [
+        720.0,
+        535.0
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "wait",
+      "camera": [
+        630.0,
+        552.5
+      ],
+      "seconds": 0.6,
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "event_ice_eat": [
+    {
+      "kind": "move",
+      "seconds": 1.25,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              635.0,
+              600.0
+            ],
+            [
+              635.0,
+              641.5
+            ],
+            [
+              610.0,
+              641.5
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        },
+        {
+          "id": "growth_event",
+          "path": [
+            [
+              560.0,
+              600.0
+            ],
+            [
+              560.0,
+              641.5
+            ],
+            [
+              582.5,
+              641.5
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "camera": [
+        600.0,
+        585.0
+      ],
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "event_ice_takeaway": [
+    {
+      "kind": "prop",
+      "id": "event_takeaway",
+      "visible": true,
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "move",
+      "seconds": 0.8,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              760.0,
+              580.0
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "camera": [
+        745.0,
+        545.0
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.4,
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "event_library_arrival": [
+    {
+      "kind": "move",
+      "seconds": 1,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              710.0,
+              617.5
+            ],
+            [
+              710.0,
+              605.0
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        },
+        {
+          "id": "growth_event",
+          "path": [
+            [
+              685.0,
+              595.0
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        }
+      ],
+      "caption": "学院图书馆 · 书从拐角散开",
+      "camera": [
+        697.5,
+        565.0
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "wait",
+      "camera": [
+        690.0,
+        582.5
+      ],
+      "seconds": 0.55,
+      "name": "白沐瑶",
+      "role": "同届新生 · 正抱着借来的书",
+      "portrait": "res://assets/encounters/actors/bai_muyao/frames/frame_000.png",
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "event_library_carry": [
+    {
+      "kind": "prop",
+      "id": "event_books",
+      "visible": false,
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "move",
+      "seconds": 1.6,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              760.0,
+              607.5
+            ],
+            [
+              840.0,
+              597.5
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        },
+        {
+          "id": "growth_event",
+          "path": [
+            [
+              745.0,
+              595.0
+            ],
+            [
+              810.0,
+              592.5
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "camera": [
+        840.0,
+        560.0
+      ],
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "event_spar": [
+    {
+      "kind": "move",
+      "seconds": 0.45,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              770,
+              650
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "caption": "训练场 · 冰雷对练",
+      "camera": [
+        775,
+        530
+      ]
+    },
+    {
+      "kind": "effect",
+      "id": "spar_ice",
+      "folder": "res://assets/encounters/ice_wall_fx/frames",
+      "frames": [
+        0,
+        1
+      ],
+      "position": [
+        760,
+        540
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "seconds": 0.75
+    },
+    {
+      "kind": "effect",
+      "id": "spar_bolt",
+      "folder": "res://assets/encounters/lightning_fx/frames",
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "position": [
+        760,
+        540
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "seconds": 0.65
+    },
+    {
+      "kind": "effect",
+      "id": "spar_ice",
+      "folder": "res://assets/encounters/ice_wall_fx/frames",
+      "frames": [
+        2,
+        3
+      ],
+      "position": [
+        760,
+        540
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "seconds": 0.55
+    },
+    {
+      "kind": "move",
+      "seconds": 1.1,
+      "actors": [
+        {
+          "id": "growth_event",
+          "path": [
+            [
+              870,
+              615
+            ],
+            [
+              820,
+              630
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        },
+        {
+          "id": "growth_partner_bai",
+          "path": [
+            [
+              680,
+              625
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        }
+      ],
+      "name": "苏晚棠",
+      "role": "同届新生 · 雷霆血脉",
+      "portrait": "res://assets/encounters/actors/su_wantang/frames/frame_000.png",
+      "camera": [
+        775,
+        565
+      ]
+    }
+  ],
+  "event_lunch": [
+    {
+      "kind": "move",
+      "seconds": 0.8,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              805,
+              660
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        },
+        {
+          "id": "growth_event",
+          "path": [
+            [
+              875,
+              585
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        }
+      ],
+      "caption": "午休 · 训练场还留着一个人",
+      "camera": [
+        930,
+        540
+      ]
+    },
+    {
+      "kind": "wait",
+      "seconds": 1.1,
+      "camera": [
+        1060,
+        440
+      ],
+      "caption": "手机亮着 · 哥：本周心得发我"
+    },
+    {
+      "kind": "move",
+      "seconds": 0.65,
+      "actors": [
+        {
+          "id": "growth_event",
+          "path": [
+            [
+              870,
+              635
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        }
+      ],
+      "camera": [
+        860,
+        555
+      ]
+    }
+  ],
+  "event_lunch_count": [
+    {
+      "kind": "move",
+      "seconds": 1.6,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              770,
+              625
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        },
+        {
+          "id": "growth_event",
+          "path": [
+            [
+              865,
+              605
+            ],
+            [
+              940,
+              605
+            ],
+            [
+              865,
+              605
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        }
+      ],
+      "camera": [
+        870,
+        525
+      ]
+    },
+    {
+      "kind": "effect",
+      "id": "lunch_bolt",
+      "folder": "res://assets/encounters/lightning_fx/frames",
+      "frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "position": [
+        970,
+        590
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "seconds": 0.5
+    }
+  ],
+  "event_flyers": [
+    {
+      "kind": "move",
+      "seconds": 1,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              815.0,
+              630.0
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        },
+        {
+          "id": "growth_event",
+          "path": [
+            [
+              852.5,
+              630.0
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        }
+      ],
+      "caption": "宿舍楼道 · 楼梯口的传单",
+      "camera": [
+        875.0,
+        582.5
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.5,
+      "camera": [
+        885.0,
+        602.5
+      ],
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "event_flyers_help": [
+    {
+      "kind": "prop",
+      "id": "event_flyer",
+      "visible": false,
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "move",
+      "seconds": 1.8,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              770.0,
+              595.0
+            ],
+            [
+              720.0,
+              550.0
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        },
+        {
+          "id": "growth_event",
+          "path": [
+            [
+              785.0,
+              615.0
+            ],
+            [
+              585.0,
+              595.0
+            ],
+            [
+              522.5,
+              550.0
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "camera": [
+        685.0,
+        540.0
+      ],
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.35,
+      "caption": "送完本层，再沿楼梯去上一层",
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.35,
+      "coordinates": "compact-interior.1"
+    },
+    {
+      "kind": "move",
+      "seconds": 0.8,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              770.0,
+              640.0
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        },
+        {
+          "id": "growth_event",
+          "path": [
+            [
+              790.0,
+              640.0
+            ]
+          ],
+          "face": [
+            -1,
+            0
+          ]
+        }
+      ],
+      "camera": [
+        782.5,
+        577.5
+      ],
+      "coordinates": "compact-interior.1"
+    }
+  ],
+  "event_campus_notes": [
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.15,
+      "caption": "值日生 · 遗落的课堂笔记"
+    },
+    {
+      "kind": "scene",
+      "room": "c2_clubs",
+      "positions": {
+        "player": [
+          672,
+          624
+        ]
+      },
+      "camera": [
+        720,
+        492
+      ],
+      "seconds": 0
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.25
+    },
+    {
+      "kind": "move",
+      "seconds": 0.45,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              672,
+              588
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "camera": [
+        720,
+        492
+      ]
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.25
+    }
+  ],
+  "event_campus_practice": [
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.15,
+      "caption": "温让 · 练习搭档"
+    },
+    {
+      "kind": "scene",
+      "room": "c2_clubs",
+      "positions": {
+        "player": [
+          672,
+          624
+        ]
+      },
+      "camera": [
+        720,
+        492
+      ],
+      "seconds": 0
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.25
+    },
+    {
+      "kind": "move",
+      "seconds": 0.45,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              672,
+              588
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "camera": [
+        720,
+        492
+      ]
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.25
+    }
+  ],
+  "event_hill_herbs": [
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.15,
+      "caption": "草圃边 · 可采集的灵草"
+    },
+    {
+      "kind": "scene",
+      "room": "hill",
+      "positions": {
+        "player": [
+          768,
+          696
+        ]
+      },
+      "camera": [
+        820,
+        562
+      ],
+      "seconds": 0
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.25
+    },
+    {
+      "kind": "move",
+      "seconds": 0.45,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              768,
+              660
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        }
+      ],
+      "camera": [
+        820,
+        562
+      ]
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.25
+    }
+  ],
+  "event_hill_supply": [
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.15,
+      "caption": "入口旁 · 遗落的工具箱"
+    },
+    {
+      "kind": "scene",
+      "room": "hill",
+      "positions": {
+        "player": [
+          768,
+          696
+        ]
+      },
+      "camera": [
+        820,
+        562
+      ],
+      "seconds": 0
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.25
+    },
+    {
+      "kind": "move",
+      "seconds": 0.45,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              768,
+              660
+            ]
+          ],
+          "face": [
+            1,
+            0
+          ]
+        }
+      ],
+      "camera": [
+        820,
+        562
+      ]
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.25
+    }
+  ],
+  "event_street_books": [
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.15,
+      "caption": "旧书店员 · 二手异能笔记"
+    },
+    {
+      "kind": "scene",
+      "room": "cafe",
+      "positions": {
+        "player": [
+          804,
+          636
+        ]
+      },
+      "camera": [
+        850,
+        502
+      ],
+      "seconds": 0
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.25
+    },
+    {
+      "kind": "move",
+      "seconds": 0.45,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              804,
+              600
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "camera": [
+        850,
+        502
+      ]
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.25
+    }
+  ],
+  "event_street_work": [
+    {
+      "kind": "fade",
+      "alpha": 1,
+      "seconds": 0.15,
+      "caption": "店员 · 临时搬货"
+    },
+    {
+      "kind": "scene",
+      "room": "cafe",
+      "positions": {
+        "player": [
+          804,
+          636
+        ]
+      },
+      "camera": [
+        850,
+        502
+      ],
+      "seconds": 0
+    },
+    {
+      "kind": "fade",
+      "alpha": 0,
+      "seconds": 0.25
+    },
+    {
+      "kind": "move",
+      "seconds": 0.45,
+      "actors": [
+        {
+          "id": "player",
+          "path": [
+            [
+              804,
+              600
+            ]
+          ],
+          "face": [
+            0,
+            -1
+          ]
+        }
+      ],
+      "camera": [
+        850,
+        502
+      ]
+    },
+    {
+      "kind": "wait",
+      "seconds": 0.25
+    }
+  ]
+}

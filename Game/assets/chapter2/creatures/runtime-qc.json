@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "source": "assets/chapter2/creatures_raw.png",
+  "binary_alpha": true,
+  "palette_colors": 48,
+  "frames": [
+    {
+      "index": 0,
+      "bbox": [
+        18,
+        57,
+        77,
+        92
+      ]
+    },
+    {
+      "index": 1,
+      "bbox": [
+        19,
+        51,
+        77,
+        92
+      ]
+    },
+    {
+      "index": 2,
+      "bbox": [
+        8,
+        45,
+        88,
+        92
+      ]
+    },
+    {
+      "index": 3,
+      "bbox": [
+        14,
+        59,
+        81,
+        92
+      ]
+    }
+  ],
+  "shared_scale": 1.0,
+  "body_height_cv": 0.14044168141158106,
+  "feet_y_std": 0.0,
+  "world_footprint": [
+    48,
+    48
+  ]
+}

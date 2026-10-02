@@ -1,0 +1,17 @@
+{
+  "source": "Actual Godot GPU framebuffer captures; no generated preview backgrounds",
+  "report": ".dev/chapter1-cinematics-report.json",
+  "frames": 235,
+  "order": [
+    "gate_arrival",
+    "enter_auditorium",
+    "test_to_assembly",
+    "assembly_to_exhibits",
+    "su_arrival"
+  ],
+  "seconds": 32.494,
+  "size": [
+    960,
+    500
+  ]
+}

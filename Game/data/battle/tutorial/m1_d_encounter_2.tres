@@ -1,0 +1,33 @@
+[gd_resource type="Resource" script_class="EncounterDefinition" load_steps=10 format=3]
+[ext_resource type="Script" path="res://scripts/battle/encounter_definition.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/battle/combatant_setup.gd" id="2"]
+[ext_resource type="Resource" path="res://data/battle/tutorial/m1_d_rules.tres" id="3"]
+[ext_resource type="Resource" path="res://data/battle/tutorial/m1_d_hero.tres" id="4"]
+[ext_resource type="Resource" path="res://data/battle/tutorial/m1_d_group_rabbit.tres" id="5"]
+[sub_resource type="Resource" id="Player"]
+script = ExtResource("2")
+instance_id = &"lin_da"
+definition = ExtResource("4")
+initial_sl = 0
+[sub_resource type="Resource" id="Enemy1"]
+script = ExtResource("2")
+instance_id = &"rabbit_1"
+definition = ExtResource("5")
+[sub_resource type="Resource" id="Enemy2"]
+script = ExtResource("2")
+instance_id = &"rabbit_2"
+definition = ExtResource("5")
+[sub_resource type="Resource" id="Enemy3"]
+script = ExtResource("2")
+instance_id = &"rabbit_3"
+definition = ExtResource("5")
+[resource]
+script = ExtResource("1")
+id = &"back_hill_2"
+title = "兔群聚集 · 技能与负荷"
+data_version = "m1-d-prototype.1"
+rules = ExtResource("3")
+seed_value = 220102
+allies = Array[ExtResource("2")]([SubResource("Player")])
+enemies = Array[ExtResource("2")]([SubResource("Enemy1"), SubResource("Enemy2"), SubResource("Enemy3")])
+environment_by_affinity = {"念动力": 1.0, "强化": 1.0, "精神": 1.0, "元素": 1.0, "特殊": 1.0}

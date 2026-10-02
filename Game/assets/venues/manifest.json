@@ -1,0 +1,146 @@
+{
+  "source": "OpenAI built-in ImageGen",
+  "sampling": "nearest",
+  "third_party_downloads": [],
+  "sources": [
+    {
+      "id": "academy_wall",
+      "path": "assets/venues/academy_wall_raw.png",
+      "sha256": "e1e1340a6195e112feef6329395afd42080bee26a197b1f19f363f20b75e9e72",
+      "prompt": "assets/venues/prompts/academy_wall.prompt.txt",
+      "prompt_sha256": "6ec50fc484eda9a505f62554a5c7b45eec072cf1b75330ed9307f8f0ca08af18"
+    },
+    {
+      "id": "bureau_wall",
+      "path": "assets/venues/bureau_wall_raw.png",
+      "sha256": "c3c39a4561252b7110468d0ca3dd1c68abf537c7777018e50e96e619234ff079",
+      "prompt": "assets/venues/prompts/bureau_wall.prompt.txt",
+      "prompt_sha256": "fd1410bdc0aa11bceaab1d819fea78f58e913a73b39cce12cb2f18815932b831"
+    },
+    {
+      "id": "academy_counter",
+      "path": "assets/venues/academy_counter_raw.png",
+      "sha256": "482371553fd9a741101e5a355017c8efe97ae62d5f1a7c290ef324fc9226e350",
+      "prompt": "assets/venues/prompts/academy_counter.prompt.txt",
+      "prompt_sha256": "b91e2f80d58de75738225059dbe36778ed27d88f5f662ef77becf2ba123ce5c4"
+    },
+    {
+      "id": "bureau_counter",
+      "path": "assets/venues/bureau_counter_raw.png",
+      "sha256": "6e2ffa86165563bb169e274f020914c260f84e079fc4f68b7f3129066ac5a7db",
+      "prompt": "assets/venues/prompts/bureau_counter.prompt.txt",
+      "prompt_sha256": "e2bd800df4b32dc30b4a0e92b8d0694d82fa3ee4096e0aa80a8ac7663e14ca7d"
+    },
+    {
+      "id": "academy_people",
+      "path": "assets/venues/academy_people_raw.png",
+      "sha256": "78ae160cc8f4ab469bd8d208ea18e06cb75a9a39bb36fe7787e0d69f52f7fd15",
+      "prompt": "assets/venues/prompts/academy_people.prompt.txt",
+      "prompt_sha256": "74c3caa8c239a8fdefe7a523be3cd1c730d5ff9da9b7b98eded3994e9a88c5ac"
+    },
+    {
+      "id": "bureau_people",
+      "path": "assets/venues/bureau_people_raw.png",
+      "sha256": "1141ebfc70197b2c243daf215c6282c5b7c17e19c78f4dcb7256a82b05861c12",
+      "prompt": "assets/venues/prompts/bureau_people.prompt.txt",
+      "prompt_sha256": "f78311a1b14fb967f5f1231dbcc7a3673669588db521e68ba1c3b6e6cc0cfb5f"
+    }
+  ],
+  "runtime": [
+    {
+      "path": "assets/venues/academy_wall/runtime.png",
+      "sha256": "3d02e72ba28be72a1146816acdf2923a8d7bf4f78751cf6f99573fcfa524229a"
+    },
+    {
+      "path": "assets/venues/bureau_wall/runtime.png",
+      "sha256": "85d556abe6c187071efafbf8702309bc8cae819c266b12807d69631abdb45e0a"
+    },
+    {
+      "path": "assets/venues/academy_counter/runtime.png",
+      "sha256": "383c171fc0ed188368aea9278ece71b54f5714eb4c15445496af734b577ea0d5"
+    },
+    {
+      "path": "assets/venues/bureau_counter/runtime.png",
+      "sha256": "559a108bfd3a74ce5a16b374df1dfe1e59b99b2881cf33aafcb3540885696cfb"
+    },
+    {
+      "path": "assets/venues/academy_people/frames/frame_000.png",
+      "sha256": "362b9f3feff79c1c15bfad280a50bcf0b597bc4d89c04765cd7d62b17d992271"
+    },
+    {
+      "path": "assets/venues/academy_people/frames/frame_001.png",
+      "sha256": "d692cda14947f0f72a67f61857c10b671eb74b5efe211cf5824c64a9953c89e4"
+    },
+    {
+      "path": "assets/venues/academy_people/frames/frame_002.png",
+      "sha256": "4aa11003295fefbd47d85df4d12e6dbd1504cf0c0a06710ce4afb6c96d624d4a"
+    },
+    {
+      "path": "assets/venues/academy_people/frames/frame_003.png",
+      "sha256": "0bb69e05ec8c8edec952853d053f4b5a1d68bc6f9092ad44445106f83c46d10e"
+    },
+    {
+      "path": "assets/venues/bureau_people/frames/frame_000.png",
+      "sha256": "9e585622b3ffcac18bbc3af08c98aa251a3db68e24eeb586490bf51acfa4af60"
+    },
+    {
+      "path": "assets/venues/bureau_people/frames/frame_001.png",
+      "sha256": "724445fed35f9e6a7d5d2bb4acf120b0a3b2cec62100f07de0ba9573af65a327"
+    },
+    {
+      "path": "assets/venues/bureau_people/frames/frame_002.png",
+      "sha256": "5911d5acd1175af7e93024c0bc4f07b2ed12ec2931402935bd7244e48ce9e643"
+    },
+    {
+      "path": "assets/venues/bureau_people/frames/frame_003.png",
+      "sha256": "73cd8352e2bba0c14048e43d95fc4dc63b35b99a40eb7e188fc74e6e492d0593"
+    }
+  ],
+  "objects": {
+    "academy_wall": {
+      "asset": "res://assets/venues/academy_wall/runtime.png",
+      "size": [
+        1248,
+        377
+      ],
+      "anchor": [
+        624.0,
+        377
+      ]
+    },
+    "bureau_wall": {
+      "asset": "res://assets/venues/bureau_wall/runtime.png",
+      "size": [
+        1152,
+        417
+      ],
+      "anchor": [
+        576.0,
+        417
+      ]
+    },
+    "academy_counter": {
+      "asset": "res://assets/venues/academy_counter/runtime.png",
+      "size": [
+        384,
+        101
+      ],
+      "anchor": [
+        192.0,
+        101
+      ]
+    },
+    "bureau_counter": {
+      "asset": "res://assets/venues/bureau_counter/runtime.png",
+      "size": [
+        672,
+        237
+      ],
+      "anchor": [
+        336.0,
+        237
+      ]
+    }
+  },
+  "passed": true
+}

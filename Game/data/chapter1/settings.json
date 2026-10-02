@@ -1,0 +1,87 @@
+{
+  "version": "chapter1-prototype.1",
+  "hero": {
+    "max_hp": 220,
+    "attack": 24,
+    "defense": 12,
+    "speed": 16,
+    "perception": 12,
+    "accuracy": 100,
+    "evasion": 2
+  },
+  "skills": {
+    "念动力": [
+      "念力刺",
+      "念力扫"
+    ],
+    "元素": [
+      "元素矢",
+      "元素波"
+    ],
+    "强化": [
+      "集中打击",
+      "冲击扫"
+    ],
+    "精神": [
+      "精神刺",
+      "精神波"
+    ],
+    "特殊": [
+      "空间刺",
+      "空间震"
+    ]
+  },
+  "skill_values": [
+    {
+      "id": "strike",
+      "multiplier": 1.4,
+      "sl_cost": 5,
+      "cooldown": 1,
+      "target_mode": "single_enemy"
+    },
+    {
+      "id": "sweep",
+      "multiplier": 1.05,
+      "sl_cost": 10,
+      "cooldown": 2,
+      "target_mode": "all_enemies"
+    }
+  ],
+  "mentor": {
+    "liu": {
+      "attribute": "agility",
+      "attribute_bonus": 3,
+      "link_damage_bonus": 0.05
+    },
+    "shen": {
+      "attribute": "willpower",
+      "attribute_bonus": 3,
+      "skill_sl_multiplier": 0.95
+    },
+    "wen": {
+      "attribute": "spirit",
+      "attribute_bonus": 3,
+      "cooldown_reduction": 1
+    },
+    "tang": {
+      "attribute": "constitution",
+      "attribute_bonus": 3,
+      "max_hp_multiplier": 1.1
+    }
+  },
+  "initial_relations": {
+    "wen_rang": 80,
+    "ling": 40,
+    "su": 40
+  },
+  "sleep": {
+    "restore_hp": true,
+    "sl": 0
+  },
+  "delivery_reward": {
+    "money": 300,
+    "contribution": 5
+  },
+  "initial_money": 3000,
+  "test_sl": 5
+}
