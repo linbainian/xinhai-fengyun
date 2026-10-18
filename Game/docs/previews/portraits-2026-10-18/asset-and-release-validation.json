@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-18",
+  "characters": 33,
+  "runtime_images": 33,
+  "originals_including_two_age_drafts": 35,
+  "world_assets_checked": 1035,
+  "world_asset_changes": [],
+  "catalog_sha256": "9bc6e4c061c8240e35bfcc80a580b4cdb2e80a359f841b70c9c4ace0f077ea7f",
+  "standalone_exe_launch": [
+    {
+      "mode": "headless",
+      "exit_code": 0,
+      "ready": true,
+      "script_error": false
+    },
+    {
+      "mode": "gpu",
+      "exit_code": 0,
+      "ready": true,
+      "script_error": false
+    }
+  ],
+  "regressions": {
+    "chapter1": 210,
+    "chapter2": 625,
+    "cultivation": 81,
+    "encounters": 161
+  }
+}

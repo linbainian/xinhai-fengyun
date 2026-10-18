@@ -1,0 +1,22 @@
+{
+	"captures": [
+		"user://portrait-qa-export/dialogue-su-1280x720.png",
+		"user://portrait-qa-export/dialogue-su-1920x1080.png",
+		"user://portrait-qa-export/dialogue-wen-rang.png",
+		"user://portrait-qa-export/dialogue-tang-ban-xia.png",
+		"user://portrait-qa-export/dialogue-bai-mu-yao.png",
+		"user://portrait-qa-export/dialogue-su-father.png",
+		"user://portrait-qa-export/pixel-world-movement.png",
+		"user://portrait-qa-export/tutorial-su-portrait.png",
+		"user://portrait-qa-export/dialogue-maximized.png",
+		"user://portrait-qa-export/dialogue-fullscreen.png"
+	],
+	"checks": 677,
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"gpu": "NVIDIA GeForce GTX 1650",
+	"passed": true,
+	"renderer": "Windows",
+	"seconds": 7.21,
+	"speakers": 33
+}

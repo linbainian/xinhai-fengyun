@@ -1,0 +1,11 @@
+{
+	"captures": [],
+	"checks": 647,
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"gpu": "",
+	"passed": true,
+	"renderer": "headless",
+	"seconds": 2.76,
+	"speakers": 33
+}

@@ -135,9 +135,7 @@ func apply_display_layout() -> void:
 	toast_panel.position.x = (size.x - toast_panel.size.x) / 2.0
 	dialog_panel.position.y = size.y - 350.0
 	dialog_panel.size.x = size.x - 68.0
-	body_label.size.x = dialog_panel.size.x - 340.0
-	speaker_label.size.x = dialog_panel.size.x - 552.0
-	advance_button.position.x = dialog_panel.size.x - 472.0
+	_layout_dialogue()
 	for overlay: ColorRect in [title_layer, choice_layer, menu_layer, ending_layer]:
 		overlay.size = size
 	_title_content.position = (size - Vector2(1920, 1080)) / 2.0
@@ -234,18 +232,34 @@ func _build_title() -> void:
 func _build_dialog() -> void:
 	dialog_panel = _panel(self, Rect2(34, 730, 1852, 326))
 	portrait = TextureRect.new()
-	portrait.position = Vector2(36, 42)
-	portrait.size = Vector2(200, 200)
+	portrait.name = "DialoguePortrait"
 	portrait.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
-	portrait.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+	portrait.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	portrait.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
+	portrait.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	portrait.hide()
 	dialog_panel.add_child(portrait)
-	speaker_label = _label(dialog_panel, "", Rect2(272, 18, 1300, 54), 34)
+	speaker_label = _label(dialog_panel, "", Rect2(48, 18, 1300, 54), 34)
 	speaker_label.add_theme_color_override("font_color", GOLD)
-	body_label = _label(dialog_panel, "", Rect2(272, 90, 1512, 158), 31)
+	body_label = _label(dialog_panel, "", Rect2(48, 90, 1512, 158), 31)
 	body_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	advance_button = _button(dialog_panel, "继续 [Enter / 空格]", Rect2(1380, 256, 420, 48), 24)
 	advance_button.pressed.connect(func() -> void: advance_requested.emit())
+	_layout_dialogue()
 	dialog_panel.hide()
+
+
+func _layout_dialogue() -> void:
+	# Portraits belong to the UI layer; world sprites retain nearest integer scaling.
+	var portrait_height: float = minf(720.0, maxf(360.0, size.y - 300.0))
+	portrait.size = Vector2(portrait_height * 2.0 / 3.0, portrait_height)
+	portrait.position = Vector2(dialog_panel.size.x - portrait.size.x - 18.0,
+		dialog_panel.size.y - portrait.size.y)
+	var portrait_space: float = portrait.size.x + 52.0 if portrait.visible else 0.0
+	var text_width: float = dialog_panel.size.x - 96.0 - portrait_space
+	speaker_label.size.x = text_width
+	body_label.size.x = text_width
+	advance_button.position.x = body_label.position.x + text_width - advance_button.size.x
 
 
 func show_title(save_path: String = "user://saves/chapter1.json") -> void:
@@ -327,6 +341,7 @@ func show_line(line: Dictionary, texture: Texture2D) -> void:
 	body_label.text = String(line.get("text", ""))
 	portrait.texture = texture
 	portrait.visible = texture != null
+	_layout_dialogue()
 	advance_button.disabled = false
 
 

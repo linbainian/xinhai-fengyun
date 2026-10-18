@@ -1,0 +1,1270 @@
+{
+  "schema": "xinhai.dialogue_portraits.1",
+  "date": "2026-10-18",
+  "generator": "OpenAI built-in image_gen",
+  "style_seed": "su_wan_yan",
+  "canvas": [
+    768,
+    1152
+  ],
+  "characters": {
+    "su_wan_yan": {
+      "name": "苏挽颜",
+      "speakers": [
+        "苏挽颜"
+      ],
+      "world_source": "059_苏挽颜.txt",
+      "design": "19-year-old adult Chinese woman; black LOW ponytail, warm brown eyes, gentle composed expression and subtle dimples. White/turquoise blouse, fine ivory cardigan, navy pleated skirt, aqua ribbon; closed slim navy notebook held at waist. Ice-element academy student.",
+      "pixel_identity": "res://assets/chapter1/cinematics/su_wanyan/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/su_wan_yan.png",
+      "source": "res://assets/portraits/source/su_wan_yan_raw.png",
+      "prompt": "res://assets/portraits/prompts/su_wan_yan.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "da6a8773df56de00e52e3dbf156a7c78edb68623baa5d8d2695ffc1fe598deaa",
+        "runtime_sha256": "283cfb83952df57002aa920f26bdc45be3019fbd2b887d63aaea43f5572cd3b2",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.51774,
+        "subject_bbox_alpha_128": [
+          104,
+          6,
+          719,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "lin_da": {
+      "name": "林大",
+      "speakers": [
+        "林大"
+      ],
+      "world_source": "094_主角身份与开局锚点.txt",
+      "design": "18-year-old adult Chinese male university freshman. Ordinary approachable athletic build, slightly tousled SHORT BLACK hair, clear dark brown eyes, relaxed honest expression. Modern teal blue zip campus jacket over ivory T-shirt, navy trousers, diagonal charcoal practical school-bag strap. One hand lightly holding the bag strap, other hand relaxed. A distinctly male young-adult face; no weapon or magical effects.",
+      "pixel_identity": "res://assets/chapter1/refined/lin_da/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/lin_da.png",
+      "source": "res://assets/portraits/source/lin_da_raw.png",
+      "prompt": "res://assets/portraits/prompts/lin_da.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "28308966e6123cec2a7c47ecca78fe68595d7bd33780df80837e733bf9a5a7b8",
+        "runtime_sha256": "5d85f17c88b5745fe3f399344efb54fe2482e76d3f6620b20ddc40447a6804a4",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.47243,
+        "subject_bbox_alpha_128": [
+          79,
+          5,
+          699,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "wen_rang": {
+      "name": "温让",
+      "speakers": [
+        "温让"
+      ],
+      "world_source": "033_温让.txt",
+      "design": "18-year-old adult Chinese male student, visibly CHUBBY stocky body, broad round friendly face, soft cheeks, short black hair, cheerful half-smile, sturdy thick arms. Teal/ivory modern campus jacket, navy trousers, school bag with tiny colorful anime charms, small plain unlettered snack packet held in one hand. He must remain visibly fat and round-faced, NOT a slim pretty boy.",
+      "pixel_identity": "res://assets/chapter1/cinematics/wen_rang/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/wen_rang.png",
+      "source": "res://assets/portraits/source/wen_rang_raw.png",
+      "prompt": "res://assets/portraits/prompts/wen_rang.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "5eb307b2a387fa8057faad1d17cb87f4f63bb65fa2f780a311965c1059acdbcc",
+        "runtime_sha256": "1e2e98c0b18fb64939612589bb02261073bcbffde71dcc63ae5d61d6ef1fba18",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.39805,
+        "subject_bbox_alpha_128": [
+          10,
+          5,
+          737,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "liu_wu_mian": {
+      "name": "柳无眠",
+      "speakers": [
+        "柳无眠"
+      ],
+      "world_source": "080_柳无眠.txt",
+      "design": "36-year-old adult Chinese FEMALE practical combat instructor. Mature adult face, relaxed slightly sleepy dark eyes, faint mischievous smile; long black hair in a loose bun secured by a wooden CHOPSTICK, a few loose strands. Burgundy-red modern training jacket over black practical top, charcoal trousers, hands casually in jacket pockets. Athletic mature woman, confident relaxed shoulders; no ancient robe, no teen face.",
+      "pixel_identity": "res://assets/chapter1/cinematics/liu/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/liu_wu_mian.png",
+      "source": "res://assets/portraits/source/liu_wu_mian_raw.png",
+      "prompt": "res://assets/portraits/prompts/liu_wu_mian.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "bb54fd15834066e7ffac07fd681c26411160f184fe17abb79b4391325a3cdd93",
+        "runtime_sha256": "1c3e66c530b6baa513baef0e3872da6ce64edeb2d75bf0e44ac80e0c989f0bf8",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.51638,
+        "subject_bbox_alpha_128": [
+          145,
+          4,
+          661,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "shen_ting_lan": {
+      "name": "沈听澜",
+      "speakers": [
+        "沈听澜"
+      ],
+      "world_source": "030_沈听澜.txt",
+      "design": "28-year-old adult Chinese MALE lecturer. Slender adult man with refined long face, short neat black hair, fine GOLD-RIM glasses, calm gentle but perceptive dark eyes. Charcoal long contemporary academic coat over white collared shirt, dark tailored trousers, one hand holding a small closed book. Clearly male scholarly features, composed restrained smile, modern not ancient costume.",
+      "pixel_identity": "res://assets/chapter1/cinematics/shen/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/shen_ting_lan.png",
+      "source": "res://assets/portraits/source/shen_ting_lan_raw.png",
+      "prompt": "res://assets/portraits/prompts/shen_ting_lan.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "b90659ebf5efeb6e412c46cd37bf18afedf5f38ab8def45e64e826b7df5f6b27",
+        "runtime_sha256": "a9a37e560d192a2a2811191519c9b0dfc22bf3b71971f62ed46edd4109bc93f3",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.43797,
+        "subject_bbox_alpha_128": [
+          77,
+          5,
+          711,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "wen_ruo_shui": {
+      "name": "温若水",
+      "speakers": [
+        "温若水"
+      ],
+      "world_source": "079_温若水.txt",
+      "design": "40-year-old adult Chinese FEMALE theory department head. Mature serious intelligent face, faint age lines, tidy DARK BOB haircut, ROUND spectacles. Beige contemporary academic coat over dark blouse and charcoal trousers; EXACTLY three slim pens, red blue black, in breast pocket. Holding a plain practical paper folder, composed analytical posture. Adult middle-aged woman, not young schoolgirl.",
+      "pixel_identity": "res://assets/chapter1/cinematics/wen/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/wen_ruo_shui.png",
+      "source": "res://assets/portraits/source/wen_ruo_shui_raw.png",
+      "prompt": "res://assets/portraits/prompts/wen_ruo_shui.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "4c05b6e023400bbad82780ad8df1e06e4fb783ccc5453bfa7e3152a462c52af0",
+        "runtime_sha256": "b8a0162184b88c4350d0ee5b1389701927413b932d4f957d6b93369641dfc1ab",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.53797,
+        "subject_bbox_alpha_128": [
+          152,
+          7,
+          679,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      },
+      "initial_source": "res://assets/portraits/source/wen_ruo_shui_initial_raw.png",
+      "refinement": "Face age corrected with built-in image_gen; same pose, clothes and alpha retained."
+    },
+    "tang_ban_xia": {
+      "name": "唐半夏",
+      "speakers": [
+        "唐半夏"
+      ],
+      "world_source": "084_唐半夏.txt",
+      "design": "48-year-old adult Chinese FEMALE school doctor. Visibly mature graceful face with fine eye lines, kind but sharp dark eyes, black hair in a neat low bun secured by TWO slender SILVER hairpins. Muted sage/jade contemporary medical coat over a modest dark Chinese-collar blouse, dark trousers, small brown medical satchel. Warm assured posture, holding satchel strap lightly. Preserve late-forties age, no teen face, no nurse fetish costume.",
+      "pixel_identity": "res://assets/chapter1/cinematics/tang/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/tang_ban_xia.png",
+      "source": "res://assets/portraits/source/tang_ban_xia_raw.png",
+      "prompt": "res://assets/portraits/prompts/tang_ban_xia.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "2a22a979d6983e04fec919f62354d173b0932f49670d3610a777b469c6e325e3",
+        "runtime_sha256": "4acb5f8adabd8a7e6edc6303376357f55de8c89aa4d52c2c5fe042f20275fc32",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.47302,
+        "subject_bbox_alpha_128": [
+          96,
+          8,
+          742,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      },
+      "initial_source": "res://assets/portraits/source/tang_ban_xia_initial_raw.png",
+      "refinement": "Face age corrected with built-in image_gen; same pose, clothes and alpha retained."
+    },
+    "ling_wei_yang": {
+      "name": "凌未央",
+      "speakers": [
+        "凌未央"
+      ],
+      "world_source": "035_凌未央.txt",
+      "design": "18-year-old adult Chinese female academy student and small-time pop idol. Long dyed PINK hair to waist, lively sweet eyes, friendly bright slightly playful smile, contemporary PINK AND WHITE campus jacket over simple white top and BLACK trousers, dark sneakers outside crop. One hand loosely holding a plain smartphone, relaxed casual stance. Fully clothed everyday campus outfit, no stage costume, no glitter backdrop.",
+      "pixel_identity": "res://assets/chapter1/refined/npcs/frames/frame_006.png",
+      "texture": "res://assets/portraits/runtime/ling_wei_yang.png",
+      "source": "res://assets/portraits/source/ling_wei_yang_raw.png",
+      "prompt": "res://assets/portraits/prompts/ling_wei_yang.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "636eab5279956678a4601a40509f5c1e2f7b01550e002b127cfffa58978f9333",
+        "runtime_sha256": "7eaf196e1203674b57a3c33ed59f6142df4602b7a6b4aba9e20580576853b8e9",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.47433,
+        "subject_bbox_alpha_128": [
+          128,
+          4,
+          754,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "lin_chu_xia": {
+      "name": "林初夏",
+      "speakers": [
+        "林初夏"
+      ],
+      "world_source": "060_林初夏.txt",
+      "design": "18-year-old adult Chinese female university freshman, petite natural adult proportions, shoulder-length BLACK hair, tiny plain blue hairclip, gentle serious face, dark eyes with subtle dimples. Soft BLUE cardigan over ivory blouse, NAVY skirt. Hugging a well-used small blue notebook to torso. Kind quiet slightly hesitant expression, no supernatural eye glow or visible predictions.",
+      "pixel_identity": "res://assets/encounters/actors/chuxia/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/lin_chu_xia.png",
+      "source": "res://assets/portraits/source/lin_chu_xia_raw.png",
+      "prompt": "res://assets/portraits/prompts/lin_chu_xia.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "50e52374cf5ffc258f4924f0075bb2c840be433fdb4ce9d604e0b64ca99ecc90",
+        "runtime_sha256": "cba4f2bc76563b2223b557da2a6813248f3475ac3d343120c71c2f891afdd3f9",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.53032,
+        "subject_bbox_alpha_128": [
+          104,
+          10,
+          681,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "jiang_bei_chen": {
+      "name": "江北辰",
+      "speakers": [
+        "江北辰"
+      ],
+      "world_source": "032_江北辰.txt",
+      "design": "19-year-old adult Chinese MALE student, very slender and pale, tired restrained dark eyes, short slightly unkempt DARK BLUE-BLACK hair. CHARCOAL HIGH-COLLAR long-sleeved modern sweater/jacket, dark trousers; BOTH wrists fully covered by sleeves. Hands relaxed, one holding a small plain archive folder. Quiet guarded face, keep body frail and narrow-shouldered; no visible experiment number, chains, scars or magic effects.",
+      "pixel_identity": "res://assets/chapter2/actors/jiang/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/jiang_bei_chen.png",
+      "source": "res://assets/portraits/source/jiang_bei_chen_raw.png",
+      "prompt": "res://assets/portraits/prompts/jiang_bei_chen.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "a5b8d78cf038c678196798f636c3a59b4662d50191cd5e5f115972393ab3af87",
+        "runtime_sha256": "56d9d98f8266e2b5bac38a4ea01bde90800614c04a1ab5cee8e0afb2f79c8536",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.52178,
+        "subject_bbox_alpha_128": [
+          120,
+          10,
+          706,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "han_zhu": {
+      "name": "韩烛",
+      "speakers": [
+        "韩烛"
+      ],
+      "world_source": "026_韩烛.txt",
+      "design": "20-year-old adult Chinese MALE junior bureau field officer. SHORT SPIKY BLACK hair, sharp observant dark eyes with a slightly sleepy look, lean confident athletic build. Navy modern field uniform jacket over gray inner shirt, dark utility trousers, small generic ID holder without legible lettering. One hand in pocket, a faint dry amused expression. No flames, no police brand logo, no ancient costume.",
+      "pixel_identity": "res://assets/chapter2/actors/han/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/han_zhu.png",
+      "source": "res://assets/portraits/source/han_zhu_raw.png",
+      "prompt": "res://assets/portraits/prompts/han_zhu.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "db9d0281fa07a07ddde75114328550e969b0b0b1d149ba399c41807b5083dc05",
+        "runtime_sha256": "c457c1c79efb93fb0c479c02f798f50b92579f2893b728a5998f6c103a11395e",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.49548,
+        "subject_bbox_alpha_128": [
+          103,
+          9,
+          705,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "qin_yao_yao": {
+      "name": "秦妖妖",
+      "speakers": [
+        "秦妖妖"
+      ],
+      "world_source": "061_秦妖妖.txt",
+      "design": "22-year-old adult Chinese FEMALE independent hunter. Long fiery RED hair in a single FISHTAIL BRAID reaching waist, exactly three small SILVER STUDS on LEFT ear, warm dark eyes, direct energetic slightly challenging expression. Modern cropped dark-red and charcoal practical jacket OVER a modest dark fitted tank, dark utility trousers, slim utility belt. Strong healthy athletic build, fully clothed. Hands resting at belt or relaxed. No fire effects or fantasy armor.",
+      "pixel_identity": "res://assets/chapter2/actors/qin/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/qin_yao_yao.png",
+      "source": "res://assets/portraits/source/qin_yao_yao_raw.png",
+      "prompt": "res://assets/portraits/prompts/qin_yao_yao.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "c4896e4b7b398d5c68db64a3a73271cfe43f24d8557ce07d34584e7c296bf387",
+        "runtime_sha256": "cbe1ee2221ff7866e6513ce085cf898dc64a80a18b62771ec18f7ce5816b98cf",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.49565,
+        "subject_bbox_alpha_128": [
+          114,
+          4,
+          748,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "bai_mu_yao": {
+      "name": "白沐瑶",
+      "speakers": [
+        "白沐瑶"
+      ],
+      "world_source": "029_白沐瑶.txt",
+      "design": "18-year-old adult Chinese female academy student. Long pure WHITE hair, snow-pale skin; HETEROCHROMIA, her anatomical LEFT eye BLUE (viewer's RIGHT), her anatomical RIGHT eye PURPLE (viewer's LEFT). Cool reserved dignified face, lips relaxed, no smile or scowl. White and pale icy-blue modern academy coat over navy modest school blouse and pleated skirt, elegant restrained silver accents. Holding a closed book lightly at waist. Slender adult proportions, no ice VFX, no crown, no fantasy robe.",
+      "pixel_identity": "res://assets/encounters/actors/bai_muyao/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/bai_mu_yao.png",
+      "source": "res://assets/portraits/source/bai_mu_yao_raw.png",
+      "prompt": "res://assets/portraits/prompts/bai_mu_yao.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "c9d1f9c6e85f5c297c49f552ec69870d18823c6030b002b8318480faaa2997b8",
+        "runtime_sha256": "2395702b832e56c3aab95e500ebcdd0a7271098da489d80a0bca5f37b0b9d1cd",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.46442,
+        "subject_bbox_alpha_128": [
+          95,
+          2,
+          766,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "su_wan_tang": {
+      "name": "苏晚棠",
+      "speakers": [
+        "苏晚棠"
+      ],
+      "world_source": "031_苏晚棠.txt",
+      "design": "18-year-old adult Chinese FEMALE athlete, dark brown/black hair in HIGH LONG PONYTAIL, warm lightly tanned skin, bright confident eyes, sporty forthright smile with a hint of one small canine tooth. BLUE-GRAY cropped athletic jacket OVER a MUSTARD-YELLOW T-shirt, CHARCOAL SPORTS TROUSERS with narrow gold stripe. Hands loosely on waist, athletic practical stance. NO SKIRT, no ancient outfit, no lightning VFX, keep sporty modern design.",
+      "pixel_identity": "res://assets/encounters/actors/su_wantang/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/su_wan_tang.png",
+      "source": "res://assets/portraits/source/su_wan_tang_raw.png",
+      "prompt": "res://assets/portraits/prompts/su_wan_tang.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "cbbb32573bc0c3dbf6df2e7450b41137376b66040f476949eb60e26b62d1fc88",
+        "runtime_sha256": "9e7ce1eac2e6b0ef679f26fc794cce24ba74d2e96b757905eecf0cd9f3e7075f",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.47102,
+        "subject_bbox_alpha_128": [
+          51,
+          1,
+          745,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "jin_xun": {
+      "name": "靳寻",
+      "speakers": [
+        "靳寻"
+      ],
+      "world_source": "185_靳寻.txt",
+      "design": "34-year-old adult Chinese MALE hunter-bar proprietor, weathered easygoing face, dark brown wavy SHORT hair, brown stubble, slightly drowsy but shrewd dark eyes. Worn BROWN LEATHER JACKET over dark olive shirt, charcoal trousers. LEFT hand little finger visibly missing ONLY the distal segment, healed and non-graphic; keep that hand partly tucked in jacket pocket. Other hand holding an ordinary clean glass low at waist. Relaxed grounded middle-aged adult, no weapon or drunken caricature.",
+      "pixel_identity": "res://assets/chapter2/bar_people/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/jin_xun.png",
+      "source": "res://assets/portraits/source/jin_xun_raw.png",
+      "prompt": "res://assets/portraits/prompts/jin_xun.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "ea7e5191c790cb82f803efebb189b7197d90a92e3636aa4898ddad71f47b8eaf",
+        "runtime_sha256": "09d76699d5cb703b0486b39eac424ce0f1059c49d31c28116aea2e733270f27e",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.46781,
+        "subject_bbox_alpha_128": [
+          93,
+          7,
+          742,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "su_fu": {
+      "name": "苏父",
+      "speakers": [
+        "苏父"
+      ],
+      "world_source": "视觉设计：苏挽颜父亲，沿用现有冰品店像素形象",
+      "design": "Middle-aged Chinese MALE ice-cream shop owner, approximately late forties, father of Su Wanyan. Short dark hair touched with gray at temples, broad kindly mature face, warm dark eyes. MUTED TEAL shop apron over TAN short-sleeved casual shirt, dark trousers. Holding a folded clean cloth at waist, patient friendly demeanor. Everyday family shopkeeper, no ice-cream brand or readable text.",
+      "pixel_identity": "res://assets/encounters/encounter_people/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/su_fu.png",
+      "source": "res://assets/portraits/source/su_fu_raw.png",
+      "prompt": "res://assets/portraits/prompts/su_fu.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "8446fefc1ef975d0a2895e065fe45737eef2a4fe0cfc5569caa096b848b21bc5",
+        "runtime_sha256": "792a91d448cae936dc5cc57c00c03dee6ccea67f9f93a9997c91351cadea0c1a",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.51767,
+        "subject_bbox_alpha_128": [
+          144,
+          10,
+          693,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "old_hunter": {
+      "name": "老猎人",
+      "speakers": [
+        "老猎人"
+      ],
+      "world_source": "视觉设计：港口猎人酒吧现有老人",
+      "design": "Elderly Chinese MALE retired field hunter, about mid-sixties, bald crown with SHORT GRAY hair at sides, weathered wrinkled face, thick gray eyebrows and short graying stubble, attentive narrowed eyes. Worn olive-brown outdoor field coat over dark wool shirt, dark rugged trousers, plain weathered canvas strap. One hand resting at waist holding a plain cup. Respectful realistic older adult, no comic dwarf features or weapons.",
+      "pixel_identity": "res://assets/chapter2/bar_people/frames/frame_001.png",
+      "texture": "res://assets/portraits/runtime/old_hunter.png",
+      "source": "res://assets/portraits/source/old_hunter_raw.png",
+      "prompt": "res://assets/portraits/prompts/old_hunter.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "735f3a86af0fae461939b7a9df3cfe547922d1b3445d044ccc7084fb07b81bb6",
+        "runtime_sha256": "313464cd8423996dd357ac7d6b1fae315acbf1ef5597dc0260565db70d1fa752",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.43544,
+        "subject_bbox_alpha_128": [
+          58,
+          21,
+          706,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "old_bookseller": {
+      "name": "旧书摊主",
+      "speakers": [
+        "旧书摊主"
+      ],
+      "world_source": "视觉设计：市井旧书摊角色",
+      "design": "Older Chinese MALE secondhand bookseller, about late fifties. Salt-and-pepper short hair, rectangular reading glasses, lean weathered kind-but-businesslike face, faint smile. Brown corduroy jacket over muted ivory shirt and dark sweater vest, charcoal trousers. Holding two visibly worn CLOSED books at waist with blank plain covers, no readable text. Grounded modern street vendor, no ancient costume.",
+      "pixel_identity": "",
+      "texture": "res://assets/portraits/runtime/old_bookseller.png",
+      "source": "res://assets/portraits/source/old_bookseller_raw.png",
+      "prompt": "res://assets/portraits/prompts/old_bookseller.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "c0230704d2b94daca2752a4dcd016294bb65719873d654a701ceaca980b84df6",
+        "runtime_sha256": "7ba680471f2de9c12afee9ac8a613579d147a0d4c48b52970a0c05959bba1e1c",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.49716,
+        "subject_bbox_alpha_128": [
+          122,
+          13,
+          723,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "examiner": {
+      "name": "考官",
+      "speakers": [
+        "考官"
+      ],
+      "world_source": "视觉设计：沿用入学考官像素形象",
+      "design": "Adult Chinese FEMALE academy examiner in her mid-thirties, black hair tied in a neat low bun, composed clear-eyed mature face. NAVY formal uniform jacket and matching straight trousers, WHITE collared shirt, plain unlettered ID holder. Holding a slim gray clipboard at waist, professional neutral expression. Distinct from young students, no military cap or weapon.",
+      "pixel_identity": "res://assets/chapter1/refined/npcs/frames/frame_008.png",
+      "texture": "res://assets/portraits/runtime/examiner.png",
+      "source": "res://assets/portraits/source/examiner_raw.png",
+      "prompt": "res://assets/portraits/prompts/examiner.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "feffa474c76fbc57965405c9f0f4672462d101b0d676afc3f874b7398b2d52c5",
+        "runtime_sha256": "c673d9e2d8e1612d4db2ae0dd7df9137addae1ec57ca554a990ace81ba578e99",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.546,
+        "subject_bbox_alpha_128": [
+          160,
+          9,
+          708,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "task_administrator": {
+      "name": "任务管理员",
+      "speakers": [
+        "任务管理员"
+      ],
+      "world_source": "视觉设计：沿用学院前台像素形象",
+      "design": "Adult Chinese FEMALE academy task-desk administrator, late twenties to early thirties. SHORT WARM BROWN BOB, approachable alert eyes, mild professional smile. TEAL-blue modern office blazer over white shirt, NAVY straight trousers, plain unlettered identity badge, holding a simple unlettered white file folder. Campus office worker, no student ribbon or school skirt.",
+      "pixel_identity": "res://assets/venues/academy_people/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/task_administrator.png",
+      "source": "res://assets/portraits/source/task_administrator_raw.png",
+      "prompt": "res://assets/portraits/prompts/task_administrator.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "329e310d2ca05e61878f8078095b769e0ec152cf20f906ca2239bbcf908f9cae",
+        "runtime_sha256": "6274e3e0c694a85b2f0fde95112b9c83e491ed0f62c77add2f0ed2a0b5e40463",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.56853,
+        "subject_bbox_alpha_128": [
+          179,
+          4,
+          686,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "bureau_clerk": {
+      "name": "管理局职员",
+      "speakers": [
+        "管理局职员"
+      ],
+      "world_source": "视觉设计：沿用管理局受理员像素形象",
+      "design": "Adult Chinese FEMALE government bureau reception clerk, early thirties. Neatly tied BLACK hair with side fringe, calm serious professional face, dark eyes. Dark NAVY official modern jacket with subtle silver piping and matching trousers, light blue-gray collared shirt, plain ID badge with no text. Holding a small closed office ledger, poised matter-of-fact stance. No gun or named insignia.",
+      "pixel_identity": "res://assets/venues/bureau_people/frames/frame_000.png",
+      "texture": "res://assets/portraits/runtime/bureau_clerk.png",
+      "source": "res://assets/portraits/source/bureau_clerk_raw.png",
+      "prompt": "res://assets/portraits/prompts/bureau_clerk.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "f964b9f5bb67ffd770732aa53f66c4e4af375cf2a76bce8c9b3b4716ebc534af",
+        "runtime_sha256": "b0733967b6b44b57869b085f748bb53970b6b08a031dcd56c6df7749671ff954",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.55921,
+        "subject_bbox_alpha_128": [
+          171,
+          10,
+          668,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "club_sword_student": {
+      "name": "剑道社学长",
+      "speakers": [
+        "剑道社学长"
+      ],
+      "world_source": "视觉设计：沿用剑道社像素形象",
+      "design": "20-year-old adult Chinese MALE academy sword-club senior. Short BLACK hair, lean upright athletic build, confident friendly dark eyes. Dark BLUE modern campus track jacket over WHITE T-shirt, navy trousers, carrying a plain wooden PRACTICE SWORD in a simple cloth cover held vertically down at side so entire prop stays inside portrait. Everyday university club member, no ancient robes or actual sharpened blade.",
+      "pixel_identity": "res://assets/encounters/encounter_people/frames/frame_002.png",
+      "texture": "res://assets/portraits/runtime/club_sword_student.png",
+      "source": "res://assets/portraits/source/club_sword_student_raw.png",
+      "prompt": "res://assets/portraits/prompts/club_sword_student.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "7e0844f2ca522cb2d7a890434a0dad8870911e72a31a33b696363f9a0d370c07",
+        "runtime_sha256": "be433286a3ca7405ffd5e535be01ac5b674834569c175b3f071fad2587718886",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.49341,
+        "subject_bbox_alpha_128": [
+          102,
+          8,
+          681,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "club_element_student": {
+      "name": "元素研究社学姐",
+      "speakers": [
+        "元素研究社学姐"
+      ],
+      "world_source": "视觉设计：沿用元素社像素形象",
+      "design": "20-year-old adult Chinese FEMALE academy element-research club senior, shoulder-length WARM BROWN hair tied half-back, friendly attentive eyes. PALE BLUE contemporary laboratory cardigan/jacket over ivory blouse and navy skirt, simple safe-campus clothing. Holding a small plain blue experiment notebook at waist. Clear academic young-adult look, no floating elements or glowing effects.",
+      "pixel_identity": "res://assets/encounters/encounter_people/frames/frame_003.png",
+      "texture": "res://assets/portraits/runtime/club_element_student.png",
+      "source": "res://assets/portraits/source/club_element_student_raw.png",
+      "prompt": "res://assets/portraits/prompts/club_element_student.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "961e1032e73537987661392ee4c5d236fb2d55ddaa5bfb5858e895368483a8d1",
+        "runtime_sha256": "6be43015756d0a1fc8399b8b460c01debca6e4ebc966c5739601dfa9f0e61d03",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.52035,
+        "subject_bbox_alpha_128": [
+          112,
+          4,
+          681,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "club_healing_student": {
+      "name": "治愈社学姐",
+      "speakers": [
+        "治愈社学姐"
+      ],
+      "world_source": "视觉设计：沿用治愈社像素形象",
+      "design": "20-year-old adult Chinese FEMALE academy healing-club senior, chin-length BROWN bob with loose side fringe, gentle attentive expression. PALE SAGE-white medical cardigan over BLUE-GRAY campus blouse, NAVY skirt, simple flat cloth shoulder satchel. Holding a modest closed first-aid pouch with a small plain green plus motif, no text. Student helper, fully clothed practical uniform, no nurse fetish outfit.",
+      "pixel_identity": "res://assets/venues/academy_people/frames/frame_002.png",
+      "texture": "res://assets/portraits/runtime/club_healing_student.png",
+      "source": "res://assets/portraits/source/club_healing_student_raw.png",
+      "prompt": "res://assets/portraits/prompts/club_healing_student.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "392c006c56f69089e8f0ac5c8b0472b949d0a730495b451e4f922f27cb9cc2ee",
+        "runtime_sha256": "83a3a42c11255a3060bee45c3b41e29775a3682a1c557c1cccd7e74516550e25",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.51566,
+        "subject_bbox_alpha_128": [
+          111,
+          8,
+          680,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "club_recruit_student": {
+      "name": "社团学生",
+      "speakers": [
+        "社团学生"
+      ],
+      "world_source": "视觉设计：社团招新通用学生",
+      "design": "19-year-old adult Chinese MALE university club recruiter, friendly open face, cropped dark brown hair, cheerful conversational expression. Contemporary TEAL short jacket over pale ivory T-shirt, navy trousers, small plain lanyard. Holding a tidy stack of blank light-cream recruitment leaflets, hands fully visible. Everyday student, no ancient costume or text.",
+      "pixel_identity": "",
+      "texture": "res://assets/portraits/runtime/club_recruit_student.png",
+      "source": "res://assets/portraits/source/club_recruit_student_raw.png",
+      "prompt": "res://assets/portraits/prompts/club_recruit_student.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "cd52c5d1187a004a3968201ce4bc0604dd31e944a2a92434385cd8902776f84d",
+        "runtime_sha256": "636003a2166c8ec1baad7cb4e7b290baaa1133849e98c807530bfc569cbf0654",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.50025,
+        "subject_bbox_alpha_128": [
+          109,
+          8,
+          711,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "recruitment_student": {
+      "name": "招新同学",
+      "speakers": [
+        "招新同学"
+      ],
+      "world_source": "视觉设计：招新现场看活动表的学生",
+      "design": "18-year-old adult Chinese FEMALE university freshman, shoulder-length DARK hair with short straight bangs, curious easygoing expression, round dark eyes. Muted CORNFLOWER-BLUE casual cardigan over ivory T-shirt, gray-blue pleated skirt, plain small canvas shoulder bag. Holding one plain folded campus leaflet. Natural young-adult proportions, no lettering.",
+      "pixel_identity": "res://assets/encounters/encounter_people/frames/frame_003.png",
+      "texture": "res://assets/portraits/runtime/recruitment_student.png",
+      "source": "res://assets/portraits/source/recruitment_student_raw.png",
+      "prompt": "res://assets/portraits/prompts/recruitment_student.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "c58c4cc8e7a31fff0c5e91bc524bce5dcad1dba5778b895cc224ffb8dc7573d2",
+        "runtime_sha256": "fd693fafb6bb42edd7e82382057c46b05fa2ebecfdf7965d23119f440666beac",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.53744,
+        "subject_bbox_alpha_128": [
+          131,
+          8,
+          668,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "club_duty_student": {
+      "name": "社团值班生",
+      "speakers": [
+        "社团值班生"
+      ],
+      "world_source": "视觉设计：沿用社团登记员像素形象",
+      "design": "19-year-old adult Chinese FEMALE university club-registration desk student, brown bob haircut, practical composed friendly face. Pale BLUE-GRAY campus blazer over ivory collared blouse, NAVY skirt, narrow unlettered club lanyard. Holding a tidy plain attendance clipboard and a pen, poised organized posture. Distinct outfit from all teachers, no readable text.",
+      "pixel_identity": "res://assets/venues/academy_people/frames/frame_002.png",
+      "texture": "res://assets/portraits/runtime/club_duty_student.png",
+      "source": "res://assets/portraits/source/club_duty_student_raw.png",
+      "prompt": "res://assets/portraits/prompts/club_duty_student.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "fa92dc4cd76fbffb8803ec41626aed91e53551217e01ab8dd528b2c4a7e8befd",
+        "runtime_sha256": "97eea78f0d0e457a163aa8d9af7bf6c220e5107a5f5a1290d0e12fa2aa17e17e",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.53796,
+        "subject_bbox_alpha_128": [
+          120,
+          8,
+          729,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "duty_student": {
+      "name": "值日生",
+      "speakers": [
+        "值日生"
+      ],
+      "world_source": "视觉设计：日常奇遇找讲义的值日生",
+      "design": "18-year-old adult Chinese MALE university student, SHORT BLACK hair with an unruly forelock, earnest slightly hurried expression. MUSTARD campus hoodie under an unzipped NAVY sport jacket, dark trousers. Carrying a CLOSED BLUE exercise notebook with three cream paper sheets tucked inside, blank cover. Ordinary helpful student, no weapons or magical effects.",
+      "pixel_identity": "res://assets/venues/academy_people/frames/frame_001.png",
+      "texture": "res://assets/portraits/runtime/duty_student.png",
+      "source": "res://assets/portraits/source/duty_student_raw.png",
+      "prompt": "res://assets/portraits/prompts/duty_student.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "e6f269a4cb17a8d2ab3dcfbdf3f55905dfcd34598003910ee314ce3971fe9c51",
+        "runtime_sha256": "91996106f4d6a2d79bd3aadf43d54a3624a03d109351b6865f88334f22df3d1c",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.48776,
+        "subject_bbox_alpha_128": [
+          104,
+          8,
+          729,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "field_attendant": {
+      "name": "值班员",
+      "speakers": [
+        "值班员"
+      ],
+      "world_source": "视觉设计：日常奇遇物资值班角色",
+      "design": "Adult Chinese MALE campus equipment attendant in his forties, dark hair beneath a plain NAVY work cap, weathered kind square face, dark eyes, faint stubble. OLIVE utility work jacket over TAN shirt and matching khaki work trousers, practical belt, plain light-gray work gloves tucked at belt. Holding a simple inventory clipboard low at waist. Contemporary maintenance worker, no brand names.",
+      "pixel_identity": "res://assets/venues/academy_people/frames/frame_003.png",
+      "texture": "res://assets/portraits/runtime/field_attendant.png",
+      "source": "res://assets/portraits/source/field_attendant_raw.png",
+      "prompt": "res://assets/portraits/prompts/field_attendant.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "cab5be71972f064ae05831c43206a3697eb994dbaf31390f2329d4b793ddfa53",
+        "runtime_sha256": "62f08ab74ce1cd3fd3e0a881cb4317a7dff27a411f4d60ab0c3f698d70a9c2e3",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.47236,
+        "subject_bbox_alpha_128": [
+          84,
+          6,
+          708,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "student": {
+      "name": "学生",
+      "speakers": [
+        "学生"
+      ],
+      "world_source": "视觉设计：沿用任务大厅等候男同学像素形象",
+      "design": "18-year-old adult Chinese MALE university freshman waiting at an academy desk, SHORT BLACK hair, attentive neutral expression, slightly lanky ordinary build. MUSTARD YELLOW casual jacket over ivory shirt, NAVY trousers, blue campus backpack worn on one shoulder. Holding a small plain white receipt in one hand. Everyday modern campus clothing, no readable text.",
+      "pixel_identity": "res://assets/venues/academy_people/frames/frame_001.png",
+      "texture": "res://assets/portraits/runtime/student.png",
+      "source": "res://assets/portraits/source/student_raw.png",
+      "prompt": "res://assets/portraits/prompts/student.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "79289564fe77cf1c31aba42ef29935b1173482f38ba757d717402e93ff141718",
+        "runtime_sha256": "11123b714f715e7da01e45af29948e041ae839853fa8d4bf71c5e9451474d609",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.50181,
+        "subject_bbox_alpha_128": [
+          104,
+          9,
+          738,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "civic_visitor": {
+      "name": "办事人员",
+      "speakers": [
+        "办事人员"
+      ],
+      "world_source": "视觉设计：沿用管理局大厅市民像素形象",
+      "design": "Chinese FEMALE civilian visitor in her late fifties, SHORT GRAY hair softly waved, clearly mature kindly lined face, observant dark eyes. Muted DUSTY ROSE contemporary cardigan over ivory blouse, CHARCOAL trousers, small practical taupe shoulder handbag. Holding a plain paper document envelope. Everyday city resident, no official uniform or fantasy costume.",
+      "pixel_identity": "res://assets/venues/bureau_people/frames/frame_002.png",
+      "texture": "res://assets/portraits/runtime/civic_visitor.png",
+      "source": "res://assets/portraits/source/civic_visitor_raw.png",
+      "prompt": "res://assets/portraits/prompts/civic_visitor.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "162c163e07d0f4c97ff0c92e1e1e95149dfbc0136618228e46366dc5b6f4e770",
+        "runtime_sha256": "65e3b32521035f45c7c80b7ad432462ac2af343e546c45515379581ce2ce1f92",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.54686,
+        "subject_bbox_alpha_128": [
+          98,
+          4,
+          676,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "shop_clerk": {
+      "name": "店员",
+      "speakers": [
+        "店员"
+      ],
+      "world_source": "视觉设计：日常奇遇搬货店员",
+      "design": "Adult Chinese MALE neighborhood supply-shop employee in early thirties, SHORT DARK hair, rolled-sleeve muted RUST shirt under a dark SAGE work apron, charcoal trousers. Solid practical build, friendly slightly tired square face, holding a simple unlettered delivery clipboard at waist. Modern small shop worker, no actual boxes blocking body silhouette, no logos.",
+      "pixel_identity": "",
+      "texture": "res://assets/portraits/runtime/shop_clerk.png",
+      "source": "res://assets/portraits/source/shop_clerk_raw.png",
+      "prompt": "res://assets/portraits/prompts/shop_clerk.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "492d4057465d091dece576fee93c1abac52ed14601e1c419650f92011e765288",
+        "runtime_sha256": "2c131bff8feba2c6683608767a00ae47e3bd609284e6eb0e9af9801d614e3b36",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.50403,
+        "subject_bbox_alpha_128": [
+          101,
+          5,
+          691,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    },
+    "librarian": {
+      "name": "图书管理员",
+      "speakers": [
+        "图书管理员"
+      ],
+      "world_source": "视觉设计：沿用图书馆像素形象",
+      "design": "Middle-aged Chinese MALE librarian in his early fifties, SHORT BLACK-and-GRAY hair, OVAL reading glasses, composed gentle mature face, subtle wrinkles. BROWN checked sweater vest over IVORY long-sleeved shirt, charcoal trousers, plain small librarian badge. Holding a single closed dark green book against the waist, readable face and both hands. Modern university library staff, no lettering.",
+      "pixel_identity": "res://assets/encounters/encounter_people/frames/frame_001.png",
+      "texture": "res://assets/portraits/runtime/librarian.png",
+      "source": "res://assets/portraits/source/librarian_raw.png",
+      "prompt": "res://assets/portraits/prompts/librarian.txt",
+      "status": "generated",
+      "provenance": {
+        "tool": "OpenAI built-in image_gen",
+        "source_sha256": "44e55db87d7eb03eb04db306ac47f47c9d883cae38059eeb3eeefa99341c21e3",
+        "runtime_sha256": "af29b84cae84e3b148262fe90df90a36b6f0f0dc274fc9e07683356b868426eb",
+        "source_size": [
+          1024,
+          1536
+        ],
+        "runtime_size": [
+          768,
+          1152
+        ],
+        "alpha_range": [
+          0,
+          255
+        ],
+        "transparent_fraction": 0.53434,
+        "subject_bbox_alpha_128": [
+          113,
+          14,
+          696,
+          1152
+        ],
+        "processing": "native RGBA retained; proportional Lanczos fit; bottom-center anchor"
+      }
+    }
+  }
+}

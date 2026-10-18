@@ -4,9 +4,9 @@
 
 ## 下载与启动
 
-Windows 64 位试玩包在 [GitHub Releases](https://github.com/linbainian/xinhai-fengyun/releases)。下载 `XinhaiFengyun-preview-2026-10-02-windows-x64.zip`，完整解压后双击 `XinhaiFengyun.exe`。试玩包无需安装 Godot。
+Windows 64 位试玩包在 [GitHub Releases](https://github.com/linbainian/xinhai-fengyun/releases)。当前立绘版本为 `preview-2026-10-18-portraits`，下载 `XinhaiFengyun-preview-2026-10-18-portraits-windows-x64.zip`，完整解压后双击 `XinhaiFengyun.exe`。试玩包无需安装 Godot。
 
-源码可克隆此仓库，或下载 Release 中的 `XinhaiFengyun-preview-2026-10-02-source.zip`。使用 **Godot 4.7.2 标准版**导入 `Game/project.godot`，按 **F5** 进入游戏；本项目不需要 .NET。
+源码可克隆此仓库，或下载 Release 中的 `XinhaiFengyun-preview-2026-10-18-portraits-source.zip`。使用 **Godot 4.7.2 标准版**导入 `Game/project.godot`，按 **F5** 进入游戏；本项目不需要 .NET。
 
 ## 当前可玩内容
 
@@ -17,6 +17,10 @@ Windows 64 位试玩包在 [GitHub Releases](https://github.com/linbainian/xinha
 **1月15日**触发第二章复筛，可继续参加正式社团、安排周日程、邀请三位开放同伴，并完成港口浅层裂隙两战与线索分流。当前可玩至港口 A/S 结算；M2的一小时连续试玩、完整技能树和最终平衡尚未验收。
 
 战斗使用 **HP 与精神负荷 SL**，技能受到负荷、冷却、属性克制与临界突破影响。自由养成已接入五系选择、六维成长、技能熟练及安全 D→C 突破。
+
+当前33个发言角色均配置精细2D立绘，对话时显示在右下角；场景移动和战斗仍使用像素小人。画风采用现代服装的国风RPG人物插画，人物原图、逐人提示词和处理记录保留在 [立绘目录](Game/assets/portraits/README.md)。
+
+![右下角人物立绘与像素世界](Game/docs/previews/portraits-2026-10-18/su-wanyan-dialogue-1280.png)
 
 ![自由养成面板](Game/docs/previews/cultivation-panel.png)
 
@@ -56,7 +60,7 @@ xinhai-fengyun/
 │   ├── scenes/                # 章节与战斗场景
 │   ├── scripts/               # GDScript 逻辑
 │   ├── data/                  # 章节、养成与战斗配表
-│   ├── assets/                # 像素美术、来源记录与处理结果
+│   ├── assets/                # 像素美术、对话立绘、来源记录与处理结果
 │   ├── tests/                 # 规则、资源与窗口验收
 │   ├── tools/                 # 台词导入、地图生成及打包工具
 │   └── docs/                  # 验收、维护与预览
@@ -70,6 +74,7 @@ xinhai-fengyun/
 
 ## 维护记录
 
+- [人物立绘接入与验收](Game/docs/人物立绘接入与验收.md)
 - [首章验收](Game/docs/第1章验收记录.md) / [第二章验收](Game/docs/第2章验收记录.md)
 - [自由养成验收](Game/docs/自由养成验收记录.md)
 - [奇遇自动触发与台词](Game/docs/奇遇自动触发与台词修订.md)
@@ -79,6 +84,6 @@ xinhai-fengyun/
 
 ## 美术与引擎
 
-像素资源由项目生成并加工，来源、提示词与处理记录保留在各资源目录。详见 [首章资源说明](Game/assets/chapter1/README.md)、[场馆资源说明](Game/assets/venues/README.md)和[第二章资源说明](Game/assets/chapter2/README.md)。
+像素资源与对话立绘由项目生成并加工，来源、提示词与处理记录保留在各资源目录。详见 [首章资源说明](Game/assets/chapter1/README.md)、[场馆资源说明](Game/assets/venues/README.md)、[第二章资源说明](Game/assets/chapter2/README.md)和[人物立绘说明](Game/assets/portraits/README.md)。
 
 Godot 引擎的 MIT 许可随试玩包提供。项目目前未指定统一的开源许可证。

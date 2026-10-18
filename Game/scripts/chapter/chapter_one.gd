@@ -5,7 +5,7 @@ const BATTLE_SCENE: PackedScene = preload("res://scenes/chapter/chapter_tutorial
 const DISPLAY_SCRIPT: Script = preload("res://scripts/chapter/chapter_display.gd")
 const CINEMATICS_SCRIPT: Script = preload("res://scripts/chapter/chapter_cinematics.gd")
 const RIFT_SCENE: PackedScene = preload("res://scenes/chapter/chapter_rift_battle.tscn")
-const PORTRAITS: Dictionary = {"林大": -1, "温让": 0, "苏挽颜": 1, "柳无眠": 2, "沈听澜": 3, "温若水": 4, "唐半夏": 5, "凌未央": 6, "林初夏": 7, "考官": 8, "任务管理员": 8, "管理局职员": 8}
+const PORTRAIT_LIBRARY: Script = preload("res://scripts/chapter/chapter_portraits.gd")
 var state: ChapterSession
 var story: ChapterStory
 var maps: Dictionary = {}
@@ -225,12 +225,7 @@ func _show_line() -> void:
 	if state.room == "assembly_stage":
 		world.cinematic_camera = true
 		world.cinematic_focus = Vector2(720, 590 if speaker in ["温让", "林大"] else 410)
-	var portrait_texture: Texture2D
-	var new_portraits: Dictionary = {"任务管理员":"res://assets/venues/academy_people/frames/frame_000.png", "管理局职员":"res://assets/venues/bureau_people/frames/frame_000.png", "江北辰":"res://assets/chapter2/actors/jiang/frames/frame_000.png", "韩烛":"res://assets/chapter2/actors/han/frames/frame_000.png", "秦妖妖":"res://assets/chapter2/actors/qin/frames/frame_000.png", "林初夏":"res://assets/encounters/actors/chuxia/frames/frame_000.png", "白沐瑶":"res://assets/encounters/actors/bai_muyao/frames/frame_000.png", "苏晚棠":"res://assets/encounters/actors/su_wantang/frames/frame_000.png", "苏父":"res://assets/encounters/encounter_people/frames/frame_000.png", "图书管理员":"res://assets/encounters/encounter_people/frames/frame_001.png", "剑道社学长":"res://assets/encounters/encounter_people/frames/frame_002.png", "元素研究社学姐":"res://assets/encounters/encounter_people/frames/frame_003.png", "治愈社学姐":"res://assets/venues/academy_people/frames/frame_002.png"}
-	if new_portraits.has(speaker): portrait_texture = load(String(new_portraits[speaker])) as Texture2D
-	elif PORTRAITS.has(speaker):
-		var index: int = int(PORTRAITS[speaker])
-		portrait_texture = load("res://assets/chapter1/refined/lin_da/frames/frame_000.png" if index < 0 else "res://assets/chapter1/refined/npcs/frames/frame_%03d.png" % index) as Texture2D
+	var portrait_texture: Texture2D = PORTRAIT_LIBRARY.texture_for(speaker)
 	hud.refresh(state, story, world.closest_interaction())
 	hud.show_line(line, portrait_texture)
 	if line.get("event", "") == "reading_delay":

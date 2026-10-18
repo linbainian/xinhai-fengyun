@@ -4,6 +4,7 @@ extends TutorialHUD
 # Rectangles use a 1920×1080 reference; extra space follows the window aspect.
 const FIELD_TOP: float = 168.0
 const FIELD_BOTTOM: float = 848.0
+const PORTRAIT_LIBRARY: Script = preload("res://scripts/chapter/chapter_portraits.gd")
 var log_drawer: Panel
 var log_button: Button
 var _hero_hp: ProgressBar
@@ -13,6 +14,7 @@ var _enemy_hit_buttons: Array[Button] = []
 var _status_bar: Panel
 var _command_bar: Panel
 var _lesson_card: Panel
+var _guide_portrait: TextureRect
 
 
 func _ready() -> void:
@@ -95,6 +97,7 @@ func apply_display_layout() -> void:
 	log_drawer.position.x = size.x - 740.0
 	_overlay.size = size
 	_lesson_card.position = (size - _lesson_card.size) / 2.0
+	_guide_portrait.position = size - _guide_portrait.size - Vector2(24, 24)
 	if _controller != null:
 		refresh(_controller)
 
@@ -142,6 +145,16 @@ func _build_lesson_modal() -> void:
 	primary_button.pressed.connect(func() -> void: primary_requested.emit())
 	secondary_button.pressed.connect(func() -> void: secondary_requested.emit())
 	modal_back_button.pressed.connect(_on_back_pressed)
+	_guide_portrait = TextureRect.new()
+	_guide_portrait.name = "GuidePortrait"
+	_guide_portrait.size = Vector2(400, 600)
+	_guide_portrait.position = Vector2(1496, 456)
+	_guide_portrait.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	_guide_portrait.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	_guide_portrait.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
+	_guide_portrait.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_guide_portrait.hide()
+	_overlay.add_child(_guide_portrait)
 
 
 func refresh(controller: BattleController) -> void:
@@ -190,6 +203,8 @@ func present_lesson(definition: TutorialDefinition, index: int, flow: StringName
 		hints: bool, hint_text: String, goal_text: String, modal_body: String,
 		checkpoint_text: String) -> void:
 	super.present_lesson(definition, index, flow, hints, hint_text, goal_text, modal_body, checkpoint_text)
+	_guide_portrait.texture = PORTRAIT_LIBRARY.texture_for(definition.guide_name)
+	_guide_portrait.visible = _guide_portrait.texture != null
 	_coach_text.text = (hint_text if hint_text.begins_with(definition.guide_name + "：") else "%s：%s" % [definition.guide_name, hint_text]) if hints else "提示已隐藏，按 H 恢复。"
 	_coach_text.tooltip_text = goal_text + "\n" + definition.guide_identity
 	hints_button.text = "隐藏提示 [H]" if hints else "显示提示 [H]"

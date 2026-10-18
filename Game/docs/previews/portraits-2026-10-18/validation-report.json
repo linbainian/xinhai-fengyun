@@ -1,0 +1,22 @@
+{
+	"captures": [
+		"res://docs/previews/portraits-2026-10-18/dialogue-su-1280x720.png",
+		"res://docs/previews/portraits-2026-10-18/dialogue-su-1920x1080.png",
+		"res://docs/previews/portraits-2026-10-18/dialogue-wen-rang.png",
+		"res://docs/previews/portraits-2026-10-18/dialogue-tang-ban-xia.png",
+		"res://docs/previews/portraits-2026-10-18/dialogue-bai-mu-yao.png",
+		"res://docs/previews/portraits-2026-10-18/dialogue-su-father.png",
+		"res://docs/previews/portraits-2026-10-18/pixel-world-movement.png",
+		"res://docs/previews/portraits-2026-10-18/tutorial-su-portrait.png",
+		"res://docs/previews/portraits-2026-10-18/dialogue-maximized.png",
+		"res://docs/previews/portraits-2026-10-18/dialogue-fullscreen.png"
+	],
+	"checks": 673,
+	"engine": "4.7.2-stable (official)",
+	"failures": [],
+	"gpu": "NVIDIA GeForce GTX 1650",
+	"passed": true,
+	"renderer": "Windows",
+	"seconds": 7.511,
+	"speakers": 33
+}
