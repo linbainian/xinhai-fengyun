@@ -9,7 +9,6 @@ insertion_order: 1310
 name: 异能医学与治疗体系
 type: selective
 keyword: [治疗, 医疗, 医院, 医务室, 受伤, 医生, 侵蚀, 后遗症, 治愈]
-
 # 异能医学与治疗体系（治愈生态图——唐半夏/裴玉衡/凌未央/凌家的共同执业土壤）
 
 damage_types:

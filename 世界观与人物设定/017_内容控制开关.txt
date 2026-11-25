@@ -12,3 +12,8 @@ insertion_order: 130
 <%- await getwi(null, '代价法则') -%>
 <%- await getwi(null, '时间设定') -%>
 <%- await getwi(null, 'NPC动态生成规则') -%>
+<%- await getwi(null, '异能战斗规则') -%>
+<%- await getwi(null, '觉醒等级突破体系') -%>
+<%- await getwi(null, '修炼与提升') -%>
+<%- await getwi(null, '觉醒潮真相·天机（GM底稿）') -%>
+<%- await getwi(null, '修炼资源图鉴') -%>

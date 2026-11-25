@@ -9,7 +9,6 @@ insertion_order: 1470
 name: 凡人议会
 type: selective
 keyword: [凡人议会, 普通人, 市民, 舆论战, 反觉醒者]
-
 # 凡人议会（占人口99.7%的那一边）
 
 overview: |

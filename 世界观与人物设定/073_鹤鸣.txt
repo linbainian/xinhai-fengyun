@@ -9,7 +9,6 @@ insertion_order: 750
 name: 鹤鸣
 type: 关键词触发
 keyword: [鹤鸣]
-
 # 鹤鸣（北方内陆古城）
 
 overview:

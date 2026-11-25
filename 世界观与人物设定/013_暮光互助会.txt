@@ -9,7 +9,6 @@ insertion_order: 270
 name: 暮光互助会
 type: 常驻
 keyword: [互助会, 暮光, 地下擂台]
-
 # 暮光互助会（半合法民间组织）
 
 overview:

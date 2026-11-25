@@ -9,7 +9,6 @@ insertion_order: 1370
 name: 年度实战考核
 type: selective
 keyword: [实践考核, 年度实战考核, 考核, 实战考核, 带队任务]
-
 # 年度实战考核（取代期中/期末考试的学年节奏节点）
 
 overview: |

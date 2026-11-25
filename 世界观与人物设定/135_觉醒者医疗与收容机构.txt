@@ -9,7 +9,6 @@ insertion_order: 1420
 name: 觉醒者医疗与收容机构
 type: selective
 keyword: [医疗, 医院, 收容区, 监狱, 异能法庭, 治愈, 精神负荷]
-
 # 觉醒者医疗与收容机构（从病床到牢房的完整链路）
 
 overview: |

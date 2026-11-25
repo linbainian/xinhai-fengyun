@@ -9,7 +9,6 @@ insertion_order: 40
 name: 代价法则
 type: 常驻
 keyword: []
-
 # 代价法则（精神负荷与觉醒失控机制）
 # 防止主角无脑开大，保证战斗张力
 
@@ -20,7 +19,7 @@ cost_system:
  mental_load:
   name: 精神负荷
   range: 0-100
-  meaning: 觉醒者当前的精神透支程度，状态栏可见
+  meaning: 觉醒者当前的精神透支程度（由变量更新维护）
   increase_rules:
    f_level: F级微异能使用 +0~1/次（可忽略——全民微异能近乎无代价，代价从E级起算）
    normal_use: 同等级异能使用 +1~3/次
