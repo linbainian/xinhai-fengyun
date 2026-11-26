@@ -35,7 +35,7 @@ func objective() -> String:
 			if not data.cleared.has("entry"): return "清理入口异兽，确保撤离通道"
 			if String(data.storm).is_empty(): return "灵能风暴将至，找到掩体应对"
 			return "前往残骸区，清理剩余异兽"
-		"clue": return "检查异兽尸体的切口，拍照并决定线索去向"
+		"clue": return "检查异兽尸体的切口与灼痕，拍照并决定线索去向"
 		"report":
 			if String(data.clue_destination) == "bureau" and not state.flags.get("c2_clue_delivered", false): return "到管理局服务大厅，上交切口照片"
 			if String(data.clue_destination) == "bar" and not state.flags.get("c2_clue_delivered", false): return "去裂隙猎人酒吧，向老猎人问切口的事"
@@ -246,11 +246,11 @@ func perform(action: String, value: String = "") -> Dictionary:
 		"c2_deep": return _reply("deep")
 		"c2_corpse":
 			if not data.cleared.has("final"): return _reply("rift_locked")
-			state.mark("c2_cuts_seen", "异兽尸体上有三道等间距的平行采集切口。")
+			state.mark("c2_cuts_seen", "异兽尸体上有三道等间距的平行切口，灵能腺体被掏空，创缘留着淡褐色灼痕。")
 			return _reply("cuts", "photo") if not state.flags.get("c2_photo", false) else _reply("photo_done", "clues")
 		"c2_photo":
 			if not state.flags.get("c2_cuts_seen", false): return _reply("not_ready")
-			state.mark("c2_photo", "拍下切口、标尺与周围残骸，保存原始照片。")
+			state.mark("c2_photo", "拍下切口、灼痕、标尺与周围残骸，保存原始照片。")
 			return _reply("photo", "clues")
 		"c2_clue_choice":
 			if String(data.stage) != "clue" or not state.flags.get("c2_photo", false) or not value in ["bureau", "bar", "keep"]: return _reply("not_ready")

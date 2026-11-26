@@ -28,7 +28,7 @@ python tools/import_chapter_two_script.py --apply
 python tools/import_encounter_script.py --apply
 ```
 
-当前正文为首章61片段/296句、第二章113片段/394句、独立人物奇遇19片段/101句。白沐瑶图书馆初识只点头道谢，后续对练按熟悉程度回应；最新剧情卷为v0.3.11。不要用旧运行数据覆盖作者稿。
+当前正文为首章61片段/291句、第二章113片段/404句、独立人物奇遇19片段/103句。白沐瑶图书馆初识只点头道谢，后续对练按熟悉程度回应；最新剧情卷为v0.4.1。不要用旧运行数据覆盖作者稿。
 
 `data/chapter1/`、`data/chapter2/`、`data/cultivation/`保存地图、对白、选项、演出和成长配表，`data/battle/`保存战斗Resource。美术管线重跑说明在各assets目录的README；维护任务大厅地图时运行 `tools/build_chapter_two_maps.py`。
 

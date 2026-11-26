@@ -49,11 +49,11 @@ def main():
         for file in [SOURCE] + ([DEST] if DEST.exists() else []):
             (backup/file.name).write_bytes(file.read_bytes())
         temp = DEST.with_suffix('.json.tmp')
-        temp.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
+        temp.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8', newline='\n')
         temp.replace(DEST)
     export = ROOT/'docs/第2章台词脚本.md'
     if args.apply:
-        export.write_text(SOURCE.read_text(encoding='utf-8'), encoding='utf-8')
+        export.write_text(SOURCE.read_text(encoding='utf-8').replace('\r\n', '\n'), encoding='utf-8', newline='\n')
     print(json.dumps({'applied': args.apply, 'changed': changed, 'blocks': len(data),
                       'lines': sum(map(len, data.values())), 'source_sha256': hashlib.sha256(SOURCE.read_bytes()).hexdigest()}, ensure_ascii=False))
 

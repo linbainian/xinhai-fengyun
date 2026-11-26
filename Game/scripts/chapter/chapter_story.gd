@@ -108,7 +108,7 @@ func perform(action: String, value: String = "") -> Dictionary:
 			if state.phase != "mentors": return _line("mentor_locked")
 			if state.flags.get(action + "_done", false): return _offer(action)
 			if action == "liu" and state.flags.get("comic_found", false):
-				state.mark("liu_done", "找回限量版漫画。")
+				state.mark("liu_done", "找回红封面旧漫画，折页没丢。")
 				return _offer("liu")
 			if action == "wen" and state.flags.get("sample_fire", false) and state.flags.get("sample_water", false) and state.flags.get("sample_earth", false):
 				state.mark("wen_done", "交齐火、水、土三份样本。")

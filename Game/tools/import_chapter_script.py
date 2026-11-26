@@ -182,7 +182,7 @@ def main():
         for name, content in outputs:
             path = DATA / name
             temporary = path.with_suffix('.json.tmp')
-            temporary.write_text(json.dumps(content, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+            temporary.write_text(json.dumps(content, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
             temporary.replace(path)
     print(json.dumps(report, ensure_ascii=False, indent=2))
 

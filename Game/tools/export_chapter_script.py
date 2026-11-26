@@ -27,11 +27,12 @@ def render_script():
         'task': '01-03 · 送件任务与章节结束',
         'item_wait': '重复互动与流程保护台词',
     }
+    line_count = sum(len(block) for block in dialogue.values())
     lines = ['# 第1章 · 入学日 · 实装台词脚本 v0.1', '',
-             '日期：2026-10-01，对白重写 2026-11-25。依据剧情卷 v0.3.12 第1章与对应人物条目。', '',
-             '2026-11-25 文风重写：按《文风规范_我即浪潮》重写全稿旁白与台词（61个片段/296句）；片段ID、演出注、系统提示与选择未改。', '',
-             '本文可作为台词编辑源。修改后在Game目录运行 tools/import_chapter_script.py 检查，确认无误后加 --apply 导入运行JSON。'
-             'tools/export_chapter_script.py 为JSON→Markdown导出，默认只更新Game/docs，不覆盖本稿；指定外部输出须显式 --force 并自动备份。'
+             '日期：2026-11-26。依据剧情卷 v0.4.1 第1章与对应人物条目。', '',
+             f'2026-11-26 文风精修：按《大王饶命》×《逸剑风云决》重写全稿旁白与台词（{len(dialogue)}个片段/{line_count}句）；片段ID、演出注、系统提示与选择未改。', '',
+             '本文为运行JSON的可读副本；台词编辑源为 `策划与剧情/第1章实装台词脚本_v0.1.md`。修改作者稿后在Game目录运行 tools/import_chapter_script.py 检查，确认无误后加 --apply 导入运行JSON。'
+             'tools/export_chapter_script.py 为JSON→Markdown导出，默认只更新Game/docs，不覆盖作者稿；指定外部输出须显式 --force 并自动备份。'
              '拜山可体验多个任务，正式拜师四选一。沈听澜按三次回答的多数倾向给评语，三项各一时取最后一次，所有答案均可通过。', '',
              '读数延迟只阻挡输入0.5秒；不解释异常、牧遥、兔子增多或初夏的预知。'
              '温让和凌未央的关系不变；邀温让同行只增加入口演出。正式入社留到第2章。', '']
@@ -94,7 +95,7 @@ def main():
             parser.error('输出已存在；为防覆盖用户修改，须先导入，再显式 --force 导出（会备份）。')
         print(f'Backup: {backup_files([path])}')
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(text, encoding='utf-8')
+    path.write_text(text, encoding='utf-8', newline='\n')
     print(f'JSON -> Markdown: {path}')
 
 

@@ -2095,7 +2095,7 @@
     "actors": [
       {
         "id": "comic",
-        "name": "器材堆 · 限量版漫画",
+        "name": "器材堆 · 红封面旧漫画",
         "asset": "res://assets/chapter1/props/frames/frame_006.png",
         "position": [
           550,

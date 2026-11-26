@@ -23,9 +23,9 @@ def main():
         for file in [SOURCE] + ([DEST] if DEST.exists() else []):
             (backup / file.name).write_bytes(file.read_bytes())
         temporary = DEST.with_suffix('.json.tmp')
-        temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
         temporary.replace(DEST)
-        (ROOT / 'docs/养成人物奇遇台词脚本.md').write_text(SOURCE.read_text(encoding='utf-8'), encoding='utf-8')
+        (ROOT / 'docs/养成人物奇遇台词脚本.md').write_text(SOURCE.read_text(encoding='utf-8').replace('\r\n', '\n'), encoding='utf-8', newline='\n')
     print(json.dumps({'applied': args.apply, 'changed': data != original, 'blocks': len(data),
                       'lines': sum(map(len, data.values())), 'source_sha256': hashlib.sha256(SOURCE.read_bytes()).hexdigest()}, ensure_ascii=False))
 
